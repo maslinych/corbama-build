@@ -1,0 +1,60 @@
+PATH "/var/lib/manatee/data/corbama-net-non-tonal"
+VERTICAL "/var/lib/manatee/vert/corbama-net-non-tonal.vert"
+ENCODING "utf-8"
+LOCALE "bm_ML"
+INFO "Bamana Manually disambiguated Corpus\nRelease 0.1, 2012.05.15\nmore info at http://www......"
+
+ATTRIBUTE word
+ATTRIBUTE lemma {
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+ATTRIBUTE tag {
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+ATTRIBUTE gloss {
+    MULTIVALUE yes
+    MULTISEP "|"
+    LOCALE "fr_FR"
+}
+ATTRIBUTE parts {
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+ATTRIBUTE original
+ATTRIBUTE tonal {
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+ATTRIBUTE polysemy {
+    MULTIVALUE yes
+    MULTISEP "|"
+    LOCALE "fr_FR"
+}
+
+STRUCTURE doc {
+    ATTRIBUTE id
+	ATTRIBUTE text_genre {
+        MULTIVALUE yes
+        MULTISEP ";"
+        HIERARCHICAL " : "
+        DEFAULTVALUE "UNDEF"
+    }
+    ATTRIBUTE source_type
+    ATTRIBUTE source_year
+    ATTRIBUTE text_translation
+    ATTRIBUTE text_medium
+    ATTRIBUTE author_name {
+        MULTIVALUE yes
+        MULTISEP ";"
+    }
+    ATTRIBUTE text_title
+}
+
+STRUCTURE p
+STRUCTURE s 
+SHORTREF "=doc.id"
+MAXCONTEXT 100
+MAXDETAIL 200
+
