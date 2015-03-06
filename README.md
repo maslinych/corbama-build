@@ -41,7 +41,8 @@ Short notes on the semantics of the fields:
   normalized)
 * **tonal** : for non-tonal variants : form with automatically added
   tones
-* **polysemy** : for polysemous words — alternative glosses
+* **polisemy** : for polysemous words — alternative glosses
+* **tagstring**: structure of ps tags on source Gloss object
 
 
 

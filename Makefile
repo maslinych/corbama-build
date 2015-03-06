@@ -41,16 +41,16 @@ test:
 	@echo $(parsefiles) | tr ' ' '\n'
 
 %.pars.tonal.vert: %.pars.html
-	$(daba2vert) "$<" -t -u -c > "$@"
+	$(daba2vert) "$<" --tonel --unique --convert --polisemy > "$@"
 	
 %.pars.non-tonal.vert: %.pars.html
-	$(daba2vert) "$<" -u -c > "$@"
+	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
 
 %.dis.tonal.vert: %.dis.html %.dis.dbs
-	$(daba2vert) "$<" -t -u -c > "$@"
+	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
 	
 %.dis.non-tonal.vert: %.dis.html %.dis.dbs
-	$(daba2vert) "$<" -u -c > "$@"
+	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
 %.nul.vert: %.html
 	$(daba2vert) "$<" -u -n -c > "$@"

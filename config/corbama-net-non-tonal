@@ -1,6 +1,7 @@
 PATH "/var/lib/manatee/data/corbama-net-non-tonal"
 VERTICAL "/var/lib/manatee/vert/corbama-net-non-tonal.vert"
 ENCODING "utf-8"
+LANGUAGE "Bambara"
 LOCALE "bm_ML"
 INFO "Bamana Manually disambiguated Corpus\nRelease 0.1, 2012.05.15\nmore info at http://www......"
 
@@ -12,29 +13,38 @@ ATTRIBUTE lemma {
 ATTRIBUTE tag {
     MULTIVALUE yes
     MULTISEP "|"
+    DEFAULTVALUE "NONE"
 }
 ATTRIBUTE gloss {
     MULTIVALUE yes
     MULTISEP "|"
     LOCALE "fr_FR"
+    DEFAULTVALUE "NONE"
 }
 ATTRIBUTE parts {
     MULTIVALUE yes
     MULTISEP "|"
+    DEFAULTVALUE ""
 }
 ATTRIBUTE original
 ATTRIBUTE tonal {
     MULTIVALUE yes
     MULTISEP "|"
 }
-ATTRIBUTE polysemy {
+ATTRIBUTE polisemy {
     MULTIVALUE yes
     MULTISEP "|"
     LOCALE "fr_FR"
 }
 
+ATTRIBUTE tagstring {
+    MULTIVALUE yes
+    MULTISEP "|"
+}
+
 STRUCTURE doc {
     ATTRIBUTE id
+    ATTRIBUTE wordcount
 	ATTRIBUTE text_genre {
         MULTIVALUE yes
         MULTISEP ";"
@@ -54,7 +64,7 @@ STRUCTURE doc {
 
 STRUCTURE p
 STRUCTURE s 
-SHORTREF "=doc.id"
+SHORTREF "=doc.id,doc.wordcount,#"
 MAXCONTEXT 100
 MAXDETAIL 200
 

@@ -23,7 +23,7 @@ ATTRIBUTE parts {
     MULTISEP "|"
 }
 ATTRIBUTE original
-ATTRIBUTE polysemy {
+ATTRIBUTE polisemy {
     MULTIVALUE yes
     MULTISEP "|"
     LOCALE "fr_FR"

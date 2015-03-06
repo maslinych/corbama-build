@@ -27,7 +27,7 @@ ATTRIBUTE tonal {
     MULTIVALUE yes
     MULTISEP "|"
 }
-ATTRIBUTE polysemy {
+ATTRIBUTE polisemy {
     MULTIVALUE yes
     MULTISEP "|"
     LOCALE "fr_FR"
