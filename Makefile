@@ -27,7 +27,7 @@ srctxtfiles := $(filter-out $(htmlfiles:.html=.txt) $(dishtmlfiles:.dis.html=.tx
 srchtmlfiles := $(filter-out $(dishtmlfiles:.dis.html=.html) $(dishtmlfiles:.dis.html=.old.html),$(htmlfiles))
 parsefiles := $(filter-out %.old.html,$(srchtmlfiles)) $(filter-out %.old.txt,$(srctxtfiles))
 parseoldfiles := $(filter %.old.html,$(srchtmlfiles)) $(filter %.old.txt,$(srctxtfiles))
-dabasedfiles := $(wildcard $(SRC)/releases/*/*.dabased)
+dabasedfiles := $(wildcard releases/*/*.dabased)
 parshtmlfiles := $(addsuffix .pars.html,$(basename $(parsefiles) $(parseoldfiles)))
 netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(parshtmlfiles))
@@ -71,7 +71,7 @@ test:
 %.pars.html: %.txt
 	$(PARSER) -i "$<" -o "$@"
 
-%.dis.dbs: %.dis.html
+%.dis.dbs: %.dis.html $(dabasedfiles)
 	for f in $(dabasedfiles); do $(dabased) -s $$f $< ; done && touch $@
 
 all: compile
