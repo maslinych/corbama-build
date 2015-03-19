@@ -2,7 +2,13 @@ PATH "/var/lib/manatee/data/corbama-nul"
 VERTICAL "/var/lib/manatee/vert/corbama-nul.vert"
 ENCODING "utf-8"
 LOCALE "bm_ML"
-INFO "Bamana Automatically Parsed corpus (non-disambiguated)\nRelease 0.1, 2015.05.12\nmore info at http://www......"
+LANGUAGE "Bambara"
+MAINTAINER "Kirill Maslinsky"
+INFO "Corpus Bambara de Reference (non-disambiguated subcorpus)"
+INFOHREF "http://cormand.huma-num.fr/"
+TAGSETDOC "http://cormand.huma-num.fr/gloses.html"
+WPOSLIST ",adj,adjectif,adv,adverbe,adv.p,adverbe préverbal,conj,conjonction,cop,copule,dtm,déterminatif,intj,interjection,n,nom,num,numératif,onomat,onomatopée,pers,pronom personnel,pm,marque prédicative,pp,postposition,prep,préposition,prn,pronom (non-personnel),prt,particule,ptcp,participe,v,verbe,vq,verbe,qualitatif"
+
 
 ATTRIBUTE word
 ATTRIBUTE lemma {
@@ -35,6 +41,7 @@ ATTRIBUTE polysemy {
 
 STRUCTURE doc {
     ATTRIBUTE id
+    ATTRIBUTE wordcount
 	ATTRIBUTE text_genre {
         MULTIVALUE yes
         MULTISEP ";"
