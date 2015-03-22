@@ -38,7 +38,8 @@ corpora-vert := $(addsuffix .vert, $(corpora))
 .PRECIOUS: $(parshtmlfiles)
 
 test:
-	@echo $(parsefiles) | tr ' ' '\n'
+	#@echo $(brutfiles) | tr ' ' '\n'
+	@echo $(srctxtfiles) | tr ' ' '\n'
 
 %.pars.tonal.vert: %.pars.html
 	$(daba2vert) "$<" --tonel --unique --convert --polisemy > "$@"
@@ -65,10 +66,10 @@ test:
 %.old.pars.html: %.old.txt
 	$(PARSER) -s bamlatinold -i "$<" -o "$@"
 
-%.pars.html: %.html
+%.pars.html: %.html $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
 
-%.pars.html: %.txt
+%.pars.html: %.txt $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
@@ -76,22 +77,8 @@ test:
 
 all: compile
 
-run/.resources: $(dictionaries) $(grammar) $(dabafiles) 
+resources: $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -n -g $(grammar) $(addprefix -d ,$(dictionaries))
-	echo $(parsefiles) | tr ' ' '\n' > run/parse.filelist
-	echo $(parseoldfiles) | tr ' ' '\n' > run/parseold.filelist
-
-run/parse.filelist: $(parsefiles)
-	echo $? | tr ' ' '\n' > $@
-
-run/parseold.filelist: $(parseoldfiles)
-	echo $? | tr ' ' '\n' > $@
-	
-run/.parse: run/parse.filelist run/.resources
-	$(PARSER) -l $< && touch $@
-
-run/.parseold: run/parseold.filelist run/.resources
-	$(PARSER) -s bamlatinold -l $< && touch $@
 
 corbama-nul.vert: $(addsuffix .nul.vert,$(brutfiles))
 	rm -f $@
@@ -131,6 +118,9 @@ dist-zip: corbama-dist.zip
 dist: $(foreach corpus,$(corpora),export/data/$(corpus)/word.lex)
 	echo $@	
 
+dist-print:
+	echo $(foreach corpus,$(corpora),export/data/$(corpus)/word.lex)
+
 export/corbama.tar.xz: dist
 	pushd export ; tar cJvf corbama.tar.xz * ; popd
 
@@ -140,7 +130,7 @@ install: export/corbama.tar.xz
 	ssh root@maslinsky "cd /var/lib/manatee && tar xJvf corbama.tar.xz"
 
 install-local: export/corbama.tar.xz
-	rm -rf $(addprefix /var/lib/manatee/{data,registry,vert}/, $(corpora))
+	rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
 	cd /var/lib/manatee && tar xJvf $<
 
 
