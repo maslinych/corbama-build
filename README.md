@@ -1,6 +1,64 @@
-## Bambara Reference Corpus Sources
+## Bambara Reference Corpus Build Infrastructure
 
-### Files included
+This repository binds together all procedures required to build corpus
+indexes for the
+[Bambara Reference Corpus](http://cormand.huma-num.fr/).
+
+### Build process overview
+
+1. Clone this repository
+2. Install tools
+3. Clone repositories with corpus resources
+4. `cd corbama-build`
+5. run `make`
+
+#### Get tools
+
+A list of tools build process depends on:
+
+* GNU Make and UNIX command line environment (bash, coreutils, sed, awk etc.)
+* [NoSketchEngine](http://nlp.fi.muni.cz/trac/noske/wiki/Downloads) —
+  you'll need `manatee-open` package.
+* [Daba](https://github.com/maslinych/daba). Clone this repo into the
+  same directory where `corbama-build` resides.
+
+#### Get corpus resources
+
+Corpus resources are corpus source files and dictionaries. 
+By default all resources are expected to reside at the parent
+directory of the corbama-build copy. 
+
+* `corbama` — a corpus repository (private, not shown)
+* `bamadaba` — a lexical database, clone from
+  [github](https://github.com/maslinych/bamadaba).
+  
+
+#### Run build procedure
+
+Provided that you have directory structure as shown,
+
+```
+./
+	bamadaba/
+	corbama/
+	corbama-build/
+	daba/
+```
+
+simply run:
+
+```bash
+$ cd corbama-build
+$ make makedirs
+$ make compile
+```
+
+The process is time-consuming and may be sped up by using `make -jN`
+option with the number of processors/cores available for parallel
+build.
+
+
+### Corpus files that are built
 
 Corbama (BRC corpus short name) is subdivided into two subcorpora:
 
