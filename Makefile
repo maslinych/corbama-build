@@ -6,12 +6,17 @@ vpath %.txt $(SRC)
 vpath %.html $(SRC)
 vpath %.dabased $(SRC)
 #
+# SETUP CREDENTIALS
+HOST=maslinsky.spb.ru
+USER=corpora
+PORT=222
 # UTILS
 BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
 PARSER=$(PYTHON) $(DABA)/mparser.py -s apostrophe 
 daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
 dabased=$(PYTHON) $(DABA)/dabased.py
+RSYNC=rsync -avP --stats -e "ssh -p $(PORT)"
 # 
 # EXTERNAL RESOURCES
 grammar=$(DABA)/doc/samples/bamana.gram.txt
@@ -38,8 +43,7 @@ corpora-vert := $(addsuffix .vert, $(corpora))
 .PRECIOUS: $(parshtmlfiles)
 
 test:
-	#@echo $(brutfiles) | tr ' ' '\n'
-	@echo $(srctxtfiles) | tr ' ' '\n'
+	@echo $(brutfiles) | tr ' ' '\n'
 
 %.pars.tonal.vert: %.pars.html
 	$(daba2vert) "$<" --tonel --unique --convert --polisemy > "$@"
@@ -79,6 +83,7 @@ all: compile
 
 resources: $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -n -g $(grammar) $(addprefix -d ,$(dictionaries))
+	touch $@
 
 corbama-nul.vert: $(addsuffix .nul.vert,$(brutfiles))
 	rm -f $@
@@ -125,9 +130,9 @@ export/corbama.tar.xz: dist
 	pushd export ; tar cJvf corbama.tar.xz * ; popd
 
 install: export/corbama.tar.xz
-	rsync -avP --stats $< root@maslinsky:/var/lib/manatee/
-	ssh root@maslinsky rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
-	ssh root@maslinsky "cd /var/lib/manatee && tar xJvf corbama.tar.xz"
+	$(RSYNC) $< $(USER)@$(HOST):/var/lib/manatee/
+	ssh $(USER)@$(HOST) -p $(PORT) rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
+	ssh $(USER)@$(HOST) -p $(PORT) "cd /var/lib/manatee && tar xJvf corbama.tar.xz"
 
 install-local: export/corbama.tar.xz
 	rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
