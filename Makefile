@@ -43,7 +43,7 @@ corpora-vert := $(addsuffix .vert, $(corpora))
 .PRECIOUS: $(parshtmlfiles)
 
 test:
-	@echo $(brutfiles) | tr ' ' '\n'
+	@echo $(netfiles) | tr ' ' '\n'
 
 %.pars.tonal.vert: %.pars.html
 	$(daba2vert) "$<" --tonel --unique --convert --polisemy > "$@"
@@ -165,3 +165,11 @@ clean-pars:
 
 makedirs:
 	find $(SRC) -type d | sed 's,$(SRC)/,,' | fgrep -v .git | xargs -n1 mkdir -p
+
+net-subparts:
+	for type in text_medium source_type ; do \
+	for suffix in non-tonal tonal ; do \
+	rm -vf corbama-net-$$suffix-$$type-*.vert ; \
+	for file in $(addsuffix .$$suffix.vert,$(netfiles)) ; do \
+	cat $$file >> "corbama-net-$$suffix-$$type-$$(sed -n 's/.*'$$type'="\([^"]\+\)".*/\L\1/p' $$file | sed 's/ /_/g' | grep . || echo "undef").vert" ; \
+	done ; done ; done
