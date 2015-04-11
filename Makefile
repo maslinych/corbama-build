@@ -15,8 +15,9 @@ BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
 PARSER=$(PYTHON) $(DABA)/mparser.py -s apostrophe 
 daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
-dabased=$(PYTHON) $(DABA)/dabased.py
+dabased=$(PYTHON) $(DABA)/dabased.py -v
 RSYNC=rsync -avP --stats -e "ssh -p $(PORT)"
+gitsrc=git --git-dir=$(SRC)/.git/
 # 
 # EXTERNAL RESOURCES
 grammar=$(DABA)/doc/samples/bamana.gram.txt
@@ -32,7 +33,7 @@ srctxtfiles := $(filter-out $(htmlfiles:.html=.txt) $(dishtmlfiles:.dis.html=.tx
 srchtmlfiles := $(filter-out $(dishtmlfiles:.dis.html=.html) $(dishtmlfiles:.dis.html=.old.html),$(htmlfiles))
 parsefiles := $(filter-out %.old.html,$(srchtmlfiles)) $(filter-out %.old.txt,$(srctxtfiles))
 parseoldfiles := $(filter %.old.html,$(srchtmlfiles)) $(filter %.old.txt,$(srctxtfiles))
-dabasedfiles := $(wildcard releases/*/*.dabased)
+dabasedfiles := $(sort $(wildcard releases/*/*.dabased))
 parshtmlfiles := $(addsuffix .pars.html,$(basename $(parsefiles) $(parseoldfiles)))
 netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(parshtmlfiles))
@@ -77,7 +78,22 @@ test:
 	$(PARSER) -i "$<" -o "$@"
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
-	for f in $(dabasedfiles); do $(dabased) -s $$f $< ; done && touch $@
+	touch $@
+	export lastcommit=$$($(gitsrc) log -n1 --pretty="%H" -- "$(<:$(SRC)/%=%)") ; \
+	for f in $(dabasedfiles); do \
+		export dabasedsha=$$(sha1sum $$f | cut -f1 -d" ") ; \
+		export applyed=$$(cat $@ | while read script scriptsha commitsha ; do \
+			if [ $$dabasedsha = $$scriptsha ] ; then \
+				if $$($(gitsrc) merge-base --is-ancestor $$commitsha $$lastcommit) ; then \
+					echo -n "yes" ; break ;\
+				else \
+					echo -n "" ; break ;\
+				fi ;\
+			fi ;\
+			done );\
+		echo "Already applyed:" $< $$f ;\
+		test -z "$$applyed" && $(dabased) -s $$f $< && echo $$f $$dabasedsha $$lastcommit >> $@ ;\
+		done ; exit 0 
 
 all: compile
 
