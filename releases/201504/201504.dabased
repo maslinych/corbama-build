@@ -33,9 +33,23 @@ míni:prn:où >> míni:adv:où
 dòn:prt:quant.à >> dòn:prt:TOP.CNTR
 dùn:prt:quant.à >> dùn:prt:TOP.CNTR
 :n.top/n.prop: >> :n.prop:TOP
-:pm:PROG.AFF >> bɛ́:cop:BE ++ kà:pm:INF
-:pm:PROG.NEG >> tɛ́:cop:COP.NEG ++ kà:pm:INF
-:pm:RCNT >> yé:cop:EQU ++ kà:pm:INF
+"bɛ́ kà":pm:PROG.AFF >> bɛ́:cop:BE ++ kà:pm:INF
+bɛ́kà:pm:PROG.AFF >> bɛ́:cop:BE ++ kà:pm:INF
+"bɛ́k’":pm:PROG.AFF >> bɛ́:cop:BE ++ k':pm:INF
+"bɛ́k'":pm:PROG.AFF >> bɛ́:cop:BE ++ k':pm:INF
+"bɛ́ k’":pm:PROG.AFF >> bɛ́:cop:BE ++ k':pm:INF
+"bɛ́ k'":pm:PROG.AFF >> bɛ́:cop:BE ++ k':pm:INF
+"bɛ́kà":pm:PROG.AFF >> bɛ́:cop:BE ++ kà:pm:INF
+"bɛ́_kà":pm:PROG.AFF >> bɛ́:cop:BE ++ kà:pm:INF
+"tɛ́ kà":pm:PROG.NEG >> tɛ́:cop:COP.NEG ++ kà:pm:INF
+tɛ́kà:pm:PROG.NEG >> tɛ́:cop:COP.NEG ++ kà:pm:INF
+"tɛ́ k’":pm:PROG.NEG >> tɛ́:cop:COP.NEG ++ k':pm:INF
+yékà:pm:RCNT >> yé:cop:EQU ++ kà:pm:INF
+"yék'":pm:RCNT >> yé:cop:EQU ++ k':pm:INF
+"yék’":pm:RCNT >> yé:cop:EQU ++ k':pm:INF
+"yé k'":pm:RCNT >> yé:cop:EQU ++ k':pm:INF
+"yé k’":pm:RCNT >> yé:cop:EQU ++ k':pm:INF
+"yé kà":pm:RCNT >> yé:cop:EQU ++ kà:pm:INF
 ::ETRG.FR >> ::ETRG.FRA
 ::ETRG.AR >> ::ETRG.ARB
 :vq/ɑdj: >> :vq/adj:
