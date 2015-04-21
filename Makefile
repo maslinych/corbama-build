@@ -128,7 +128,7 @@ corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles))
 compile: $(corpora-vert)
 
 freqlist.txt: corbama-net-tonal.vert
-	python $(SRC)/freqlist.py $< > $@
+	python freqlist.py $< > $@
 
 export/data/%/word.lex: config/% %.vert
 	mkdir -p $(@D)
@@ -158,7 +158,7 @@ export/corbama.tar.xz: dist
 install: export/corbama.tar.xz
 	$(RSYNC) $< $(USER)@$(HOST):/var/lib/manatee/
 	ssh $(USER)@$(HOST) -p $(PORT) rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
-	ssh $(USER)@$(HOST) -p $(PORT) "cd /var/lib/manatee && tar xJvf corbama.tar.xz"
+	ssh $(USER)@$(HOST) -p $(PORT) "cd /var/lib/manatee && tar --no-same-permissions --no-same-owner -xJvf corbama.tar.xz"
 
 install-local: export/corbama.tar.xz
 	rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
