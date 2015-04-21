@@ -44,7 +44,7 @@ corpora-vert := $(addsuffix .vert, $(corpora))
 .PRECIOUS: $(parshtmlfiles)
 
 test:
-	@echo $(netfiles) | tr ' ' '\n'
+	@echo $(parshtmlfiles) | tr ' ' '\n'
 
 %.pars.tonal.vert: %.pars.html
 	$(daba2vert) "$<" --tonel --unique --convert --polisemy > "$@"
@@ -52,14 +52,17 @@ test:
 %.pars.non-tonal.vert: %.pars.html
 	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
 
+%.pars.nul.vert: %.pars.html
+	$(daba2vert) "$<" --unique --null --convert > "$@"
+
 %.dis.tonal.vert: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
 	
 %.dis.non-tonal.vert: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
-%.nul.vert: %.html
-	$(daba2vert) "$<" -u -n -c > "$@"
+%.dis.nul.vert: %.dis.html %.dis.dbs
+	$(daba2vert) "$<" -unique --null --convert > "$@"
 
 %.vert: config/%
 	mkdir -p export/$*/data
@@ -97,9 +100,16 @@ test:
 
 all: compile
 
+parse: $(parshtmlfiles)
+
 resources: $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -n -g $(grammar) $(addprefix -d ,$(dictionaries))
 	touch $@
+
+makedirs:
+	find $(SRC) -type d | sed 's,$(SRC)/,,' | fgrep -v .git | xargs -n1 mkdir -p
+
+run.dabased: $(addsuffix .dbs,$(netfiles))
 
 corbama-nul.vert: $(addsuffix .nul.vert,$(brutfiles))
 	rm -f $@
@@ -109,10 +119,10 @@ corbama-brut.vert: $(addsuffix .non-tonal.vert,$(brutfiles))
 	rm -f $@
 	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
 	
-corbama-net-tonal.vert: $(addsuffix .tonal.vert,$(netfiles)) $(addsuffix .dbs,$(netfiles))
+corbama-net-tonal.vert: $(addsuffix .tonal.vert,$(netfiles)) 
 	cat $(sort $^) > $@
 	
-corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles)) $(addsuffix .dbs,$(netfiles))
+corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles)) 
 	cat $(sort $^) > $@
 
 compile: $(corpora-vert)
@@ -179,8 +189,6 @@ clean-duplicates:
 clean-pars:
 	find -name \*.pars.html -exec rm -f {} \;
 
-makedirs:
-	find $(SRC) -type d | sed 's,$(SRC)/,,' | fgrep -v .git | xargs -n1 mkdir -p
 
 net-subparts:
 	for type in text_medium source_type ; do \
