@@ -44,7 +44,7 @@ corpora-vert := $(addsuffix .vert, $(corpora))
 .PRECIOUS: $(parshtmlfiles)
 
 test:
-	@echo $(parshtmlfiles) | tr ' ' '\n'
+	@echo $(netfiles) | tr ' ' '\n'
 
 %.pars.tonal.vert: %.pars.html
 	$(daba2vert) "$<" --tonel --unique --convert --polisemy > "$@"
@@ -78,6 +78,9 @@ test:
 	$(PARSER) -i "$<" -o "$@"
 
 %.pars.html: %.txt $(dictionaries) $(grammar) $(dabafiles) 
+	$(PARSER) -i "$<" -o "$@"
+
+%.dis.pars.html: %.dis.html $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
@@ -126,6 +129,8 @@ corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles))
 	cat $(sort $^) > $@
 
 compile: $(corpora-vert)
+
+reparse-net: $(addsuffix .pars.html,$(netfiles))
 
 freqlist.txt: corbama-net-tonal.vert
 	python freqlist.py $< > $@
