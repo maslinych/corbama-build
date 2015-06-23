@@ -83,6 +83,12 @@ test:
 %.dis.pars.html: %.dis.html $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
 
+%.dis.pars.non-tonal.vert: %.dis.pars.html
+	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
+
+%.dis.pars.tonal.vert: %.dis.pars.html 
+	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
+
 %.dis.dbs: %.dis.html $(dabasedfiles)
 	touch $@
 	export lastcommit=$$($(gitsrc) log -n1 --pretty="%H" -- "$(<:$(SRC)/%=%)") ; \
@@ -131,6 +137,8 @@ corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles))
 compile: $(corpora-vert)
 
 reparse-net: $(addsuffix .pars.html,$(netfiles))
+
+reparse-net-vert: $(addsuffix .pars.non-tonal.vert,$(netfiles)) $(addsuffix .pars.tonal.vert,$(netfiles))
 
 freqlist.txt: corbama-net-tonal.vert
 	python freqlist.py $< > $@
