@@ -37,6 +37,7 @@ dabasedfiles := $(sort $(wildcard releases/*/*.dabased))
 parshtmlfiles := $(addsuffix .pars.html,$(basename $(parsefiles) $(parseoldfiles)))
 netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(parshtmlfiles))
+compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
 
 corpora := corbama-nul corbama-brut corbama-net-tonal corbama-net-non-tonal
 corpora-vert := $(addsuffix .vert, $(corpora))
@@ -62,7 +63,7 @@ test:
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
 %.dis.nul.vert: %.dis.html %.dis.dbs
-	$(daba2vert) "$<" -unique --null --convert > "$@"
+	$(daba2vert) "$<" --unique --null --convert > "$@"
 
 %.vert: config/%
 	mkdir -p export/$*/data
@@ -159,13 +160,13 @@ corbama-dist.tar.xz:
 
 dist-zip: corbama-dist.zip
 
-dist: $(foreach corpus,$(corpora),export/data/$(corpus)/word.lex)
+dist: $(compiled)
 	echo $@	
 
 dist-print:
 	echo $(foreach corpus,$(corpora),export/data/$(corpus)/word.lex)
 
-export/corbama.tar.xz: dist
+export/corbama.tar.xz: $(compiled)
 	pushd export ; tar cJvf corbama.tar.xz * ; popd
 
 install: export/corbama.tar.xz
@@ -174,8 +175,8 @@ install: export/corbama.tar.xz
 	ssh $(USER)@$(HOST) -p $(PORT) "cd /var/lib/manatee && tar --no-same-permissions --no-same-owner -xJvf corbama.tar.xz"
 
 install-local: export/corbama.tar.xz
-	rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
-	cd /var/lib/manatee && tar xJvf $<
+	sudo rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
+	sudo tar -xJvf $< --directory /var/lib/manatee --no-same-permissions --no-same-owner
 
 
 corpsize:
