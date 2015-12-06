@@ -10,6 +10,9 @@ vpath %.dabased $(SRC)
 HOST=maslinsky.spb.ru
 USER=corpora
 PORT=222
+# CHROOTS
+TESTING=testing
+TESTPORT=8098
 # UTILS
 BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
@@ -38,7 +41,7 @@ parshtmlfiles := $(addsuffix .pars.html,$(basename $(parsefiles) $(parseoldfiles
 netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(parshtmlfiles))
 
-corpora := corbama-nul corbama-brut corbama-net-tonal corbama-net-non-tonal
+corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut corbama-nul 
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
 
@@ -168,6 +171,16 @@ dist-print:
 
 export/corbama.tar.xz: $(compiled)
 	pushd export ; tar cJvf corbama.tar.xz * ; popd
+
+create-testing:
+	$(RSYNC) remote/*.sh $(USER)@$(HOST):
+	ssh $(USER)@$(HOST) -p $(PORT) create-hsh.sh $(TESTING) $(TESTPORT)
+	ssh $(USER)@$(HOST) -p $(PORT) hsh-run --rooter $(TESTING) -- 'sh setup-bonito.sh corbama $(corpora)' 
+
+install-testing: export/corbama.tar.xz
+	$(RSYNC) $< $(USER)@$(HOST):$(TESTING)/chroot/.in/
+	ssh $(USER)@$(HOST) -p $(PORT) hsh-run --rooter $(TESTING) -- 'rm -rf /var/lib/manatee/{data,registry,vert}/corbama*'
+	ssh $(USER)@$(HOST) -p $(PORT) hsh-run --rooter $(TESTING) -- 'tar --no-same-permissions --no-same-owner -xJvf corbama.tar.xz --directory /var/lib/manatee'
 
 install: export/corbama.tar.xz
 	$(RSYNC) $< $(USER)@$(HOST):
