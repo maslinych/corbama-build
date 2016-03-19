@@ -48,7 +48,10 @@ compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
 .PRECIOUS: $(parshtmlfiles)
 
 test:
-	@echo $(netfiles) | tr ' ' '\n'
+	@echo $(brutfiles) | tr ' ' '\n'
+
+print-%:
+	$(info $*=$($*))
 
 %.pars.tonal.vert: %.pars.html
 	$(daba2vert) "$<" --tonel --unique --convert --polisemy > "$@"
@@ -195,8 +198,10 @@ install-local: export/corbama.tar.xz
 corpsize:
 	@echo "net:" `awk 'NF>1 && $$1 !~ /^</ && $$3 != "c" {print}' corbama-net-non-tonal.vert | wc -l`
 	@echo "brut:" `awk 'NF>1 && $$1 !~ /^</ && $$3 != "c" {print}' corbama-brut.vert | wc -l`
-#	find -name \*.dis.html -print0 | xargs -0 -n 1 python ../daba/metaprint.py -w | awk '{c+=$$2}END{print "net:" c}'
-#	find -name \*.pars.html -print0 | xargs -0 -n 1 python ../daba/metaprint.py -w | awk '{c+=$$2}END{print "brut:" c}'
+
+corpsize-daba:
+	@echo $(brutfiles) | tr ' ' '\n' | fgrep -v .dis | sed 's/.pars/.pars.html/' | xargs -n1 python ../daba/metaprint.py -w | awk '{c+=$$2}END{print "brut:" c}'
+	#find -name \*.pars.html -print0 | xargs -0 -n 1 python ../daba/metaprint.py -w | awk '{c+=$$2}END{print "brut:" c}'
 
 clean: clean-vert clean-parse clean-pars
 
