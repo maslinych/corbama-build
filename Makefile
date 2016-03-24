@@ -173,7 +173,7 @@ dist-print:
 	echo $(foreach corpus,$(corpora),export/data/$(corpus)/word.lex)
 
 export/corbama.tar.xz: $(compiled)
-	pushd export ; tar cJvf corbama.tar.xz * ; popd
+	bash -c "pushd export ; tar cJvf corbama.tar.xz * ; popd"
 
 create-testing:
 	$(RSYNC) remote/*.sh $(USER)@$(HOST):
