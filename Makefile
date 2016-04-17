@@ -7,19 +7,20 @@ vpath %.html $(SRC)
 vpath %.dabased $(SRC)
 #
 # SETUP CREDENTIALS
-HOST=maslinsky.spb.ru
-USER=corpora
-PORT=222
+HOST=corpora
 # CHROOTS
 TESTING=testing
+PRODUCTION=production
+ROLLBACK=rollback
 TESTPORT=8098
+PRODPORT=8099
 # UTILS
 BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
 PARSER=$(PYTHON) $(DABA)/mparser.py -s apostrophe 
 daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
 dabased=$(PYTHON) $(DABA)/dabased.py -v
-RSYNC=rsync -avP --stats -e "ssh -p $(PORT)"
+RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
 # 
 # EXTERNAL RESOURCES
@@ -176,23 +177,27 @@ export/corbama.tar.xz: $(compiled)
 	bash -c "pushd export ; tar cJvf corbama.tar.xz * ; popd"
 
 create-testing:
-	$(RSYNC) remote/*.sh $(USER)@$(HOST):
-	ssh $(USER)@$(HOST) -p $(PORT) create-hsh.sh $(TESTING) $(TESTPORT)
-	ssh $(USER)@$(HOST) -p $(PORT) hsh-run --rooter $(TESTING) -- 'sh setup-bonito.sh corbama $(corpora)' 
+	ssh $(HOST) sh -c 'test -d $(TESTING) || mkdir $(TESTING)'
+	$(RSYNC) remote/*.sh $(HOST):
+	ssh $(HOST) sh create-hsh.sh $(TESTING) $(TESTPORT)
+
+setup-bonito:
+	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'sh setup-bonito.sh corbama $(corpora)' 
 
 install-testing: export/corbama.tar.xz
-	$(RSYNC) $< $(USER)@$(HOST):$(TESTING)/chroot/.in/
-	ssh $(USER)@$(HOST) -p $(PORT) hsh-run --rooter $(TESTING) -- 'rm -rf /var/lib/manatee/{data,registry,vert}/corbama*'
-	ssh $(USER)@$(HOST) -p $(PORT) hsh-run --rooter $(TESTING) -- 'tar --no-same-permissions --no-same-owner -xJvf corbama.tar.xz --directory /var/lib/manatee'
-
-install: export/corbama.tar.xz
-	$(RSYNC) $< $(USER)@$(HOST):
-	ssh $(USER)@$(HOST) -p $(PORT) rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
-	ssh $(USER)@$(HOST) -p $(PORT) "umask 0022 && tar --no-same-permissions --no-same-owner -xJvf corbama.tar.xz --directory /var/lib/manatee"
+	$(RSYNC) $< $(HOST):$(TESTING)/chroot/.in/
+	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'rm -rf /var/lib/manatee/{data,registry,vert}/corbama*'
+	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'tar --no-same-permissions --no-same-owner -xJvf corbama.tar.xz --directory /var/lib/manatee'
 
 install-local: export/corbama.tar.xz
 	sudo rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
 	sudo tar -xJvf $< --directory /var/lib/manatee --no-same-permissions --no-same-owner
+
+production:
+	$(RSYNC) remote/testing2production.sh $(HOST):$(TESTING)/chroot/.in/
+	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'sh testing2production.sh $(TESTPORT) $(PRODPORT)'
+	ssh $(HOST) mv $(PRODUCTION) $(ROLLBACK)
+	ssh $(HOST) mv $(TESTING) $(PRODUCTION)
 
 
 corpsize:
