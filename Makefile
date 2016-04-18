@@ -193,12 +193,6 @@ install-local: export/corbama.tar.xz
 	sudo rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
 	sudo tar -xJvf $< --directory /var/lib/manatee --no-same-permissions --no-same-owner
 
-production:
-	$(RSYNC) remote/testing2production.sh $(HOST):$(TESTING)/chroot/.in/
-	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'sh testing2production.sh $(TESTPORT) $(PRODPORT)'
-	ssh $(HOST) mv $(PRODUCTION) $(ROLLBACK)
-	ssh $(HOST) mv $(TESTING) $(PRODUCTION)
-
 start-%:
 	ssh $(HOST) screen -d -m -S $* -- bash -c \"export share_network=1 \; hsh-shell --root $*\"
 	ssh $(HOST) screen -S $* -p 0 -X stuff \"service httpd2 start$$(printf \\r)\"
@@ -206,6 +200,23 @@ start-%:
 stop-%:
 	ssh $(HOST) screen -S $* -p 0 -X stuff \"service httpd2 stop$$(printf \\r)\"
 	ssh $(HOST) screen -S $* -p 0 -X quit
+
+production: stop-production
+	$(RSYNC) remote/testing2production.sh $(HOST):$(TESTING)/chroot/.in/
+	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'sh testing2production.sh $(TESTPORT) $(PRODPORT)'
+	ssh $(HOST) sh -c 'test -d $(ROLLBACK)/chroot && hsh --clean $(ROLLBACK)'
+	ssh $(HOST) rm -rf $(ROLLBACK)
+	ssh $(HOST) mv $(PRODUCTION) $(ROLLBACK)
+	ssh $(HOST) mv $(TESTING) $(PRODUCTION)
+
+rollback: stop-production
+	$(RSYNC) remote/testing2production.sh $(HOST):$(PRODUCTION)/chroot/.in/
+	ssh $(HOST) hsh-run --rooter $(PRODUCTION) -- 'sh testing2production.sh $(PRODPORT) $(TESTPORT)'
+	ssh $(HOST) sh -c 'test -d $(TESTING)/chroot && hsh --clean $(TESTING)'
+	ssh $(HOST) rm -rf $(TESTING)
+	ssh $(HOST) mv $(PRODUCTION) $(TESTING)
+	ssh $(HOST) mv $(ROLLBACK) $(PRODUCTION)
+
 
 corpsize:
 	@echo "net:" `awk 'NF>1 && $$1 !~ /^</ && $$3 != "c" {print}' corbama-net-non-tonal.vert | wc -l`
