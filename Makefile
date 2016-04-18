@@ -199,6 +199,13 @@ production:
 	ssh $(HOST) mv $(PRODUCTION) $(ROLLBACK)
 	ssh $(HOST) mv $(TESTING) $(PRODUCTION)
 
+start-%:
+	ssh $(HOST) screen -d -m -S $* -- bash -c \"export share_network=1 \; hsh-shell --root $*\"
+	ssh $(HOST) screen -S $* -p 0 -X stuff \"service httpd2 start$$(printf \\r)\"
+
+stop-%:
+	ssh $(HOST) screen -S $* -p 0 -X stuff \"service httpd2 stop$$(printf \\r)\"
+	ssh $(HOST) screen -S $* -p 0 -X quit
 
 corpsize:
 	@echo "net:" `awk 'NF>1 && $$1 !~ /^</ && $$3 != "c" {print}' corbama-net-non-tonal.vert | wc -l`
