@@ -177,7 +177,7 @@ export/corbama.tar.xz: $(compiled)
 	bash -c "pushd export ; tar cJvf corbama.tar.xz * ; popd"
 
 create-testing:
-	ssh $(HOST) sh -c 'test -d $(TESTING) || mkdir $(TESTING)'
+	ssh $(HOST) 'test -d $(TESTING) || mkdir $(TESTING)'
 	$(RSYNC) remote/*.sh $(HOST):
 	ssh $(HOST) sh create-hsh.sh $(TESTING) $(TESTPORT)
 
