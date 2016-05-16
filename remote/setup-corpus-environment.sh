@@ -9,3 +9,4 @@ cp ports-available/http-localhost-8088.conf ports-available/"$port".conf
 sed -i "s/8088/$port/g" ports-available/"$port".conf
 sed -i "/^Listen/s/localhost/127.0.0.1/" ports-available/"$port".conf
 a2enport "$port"
+a2enmod cgi

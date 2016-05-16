@@ -194,7 +194,7 @@ install-local: export/corbama.tar.xz
 	sudo tar -xJvf $< --directory /var/lib/manatee --no-same-permissions --no-same-owner
 
 start-%:
-	ssh $(HOST) screen -d -m -S $* -- bash -c \"export share_network=1 \; hsh-shell --root $*\"
+	ssh $(HOST) screen -d -m -S $* -- bash -c \"export share_network=1 \; hsh-shell --root --mount=/proc $*\"
 	ssh $(HOST) screen -S $* -p 0 -X stuff \"service httpd2 start$$(printf \\r)\"
 
 stop-%:
