@@ -17,16 +17,16 @@ kɛ́nɛ:vq:frais >> kɛ́nɛ:vq:sain
 kɛ́nɛ:adj:en.bonne.santé >> kɛ́nɛ:adj:sain
 kɛ́nɛ:adj:frais >> kɛ́nɛ:adj:sain
 sùmu:n:abcès >> sùmu:n:carie
-yàn:n:ici >> yàn:adv/n:ici
-yèn:n:là-bas >> yèn:adv/n:là-bas
+#yàn:n:ici >> yàn:adv/n:ici
+#yèn:n:là-bas >> yèn:adv/n:là-bas
 bì:n/adv:aujourd'hui >> bì:adv/n:aujourd'hui
 kúnu:n/adv:hier >> kúnu:adv/n:hier
 kúnun:n/adv:hier >> kúnun:adv/n:hier
-síni:n:demain >> síni:adv/n:demain
-sínin:n:demain >> sínin:adv/n:demain
+#síni:n:demain >> síni:adv/n:demain
+#sínin:n:demain >> sínin:adv/n:demain
 yàn.ni:conj:avant.que [yàn:n:ici] >> yàn.ni:conj:avant.que [yàn:n:ici ní:prep/conj:et]
 ɲɛ́.ɲini:v:jeter.un.sort >> ɲɛ́.ɲini:v:résoudre
-dɔ́rɔn:adv:seulement >> dɔ́rɔn:dtm:seulement
+#dɔ́rɔn:adv:seulement >> dɔ́rɔn:dtm:seulement
 dàlilu:n:manière.de.faire >> dàlilu:n:cause
 dèli.na:n:habitude [dèli:n:habitude na:mrph:PFV.INTR] >> dèli.na:n:habitude [dèli:n:habitude na:mrph:MNT1]
 jà.ta.la:n:photographe [jà:n:ombre tà:n:action.de.prendre la:mrph:AG.PRM] >> jà.ta.la:n:photographe [jà:n:ombre tà:v:prendre la:mrph:AG.PRM]
