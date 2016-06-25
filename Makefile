@@ -194,17 +194,18 @@ install-local: export/corbama.tar.xz
 	sudo tar -xJvf $< --directory /var/lib/manatee --no-same-permissions --no-same-owner
 
 start-%:
-	ssh $(HOST) screen -d -m -S $* -- bash -c \"export share_network=1 \; hsh-shell --root --mount=/proc $*\"
-	ssh $(HOST) screen -S $* -p 0 -X stuff \"service httpd2 start$$(printf \\r)\"
+	ssh $(HOST) tmux new-session -d -s $* \"export share_network=1 \; hsh-shell --root --mount=/proc $*\"
+	sleep 5
+	ssh $(HOST) tmux send-keys -t $*:0 \"service httpd2 start\" Enter
 
 stop-%:
-	ssh $(HOST) screen -S $* -p 0 -X stuff \"service httpd2 stop$$(printf \\r)\"
-	ssh $(HOST) screen -S $* -p 0 -X quit
+	ssh $(HOST) tmux send-keys -t $*:0 \"service httpd2 stop\" Enter
+	ssh $(HOST) tmux kill-session -t $*
 
 production: stop-production
 	$(RSYNC) remote/testing2production.sh $(HOST):$(TESTING)/chroot/.in/
 	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'sh testing2production.sh $(TESTPORT) $(PRODPORT)'
-	ssh $(HOST) sh -c 'test -d $(ROLLBACK)/chroot && hsh --clean $(ROLLBACK)'
+	ssh $(HOST) sh -c 'test -d $(ROLLBACK)/chroot && hsh --clean $(ROLLBACK) || echo empty rollback'
 	ssh $(HOST) rm -rf $(ROLLBACK)
 	ssh $(HOST) mv $(PRODUCTION) $(ROLLBACK)
 	ssh $(HOST) mv $(TESTING) $(PRODUCTION)
