@@ -179,7 +179,7 @@ export/corbama.tar.xz: $(compiled)
 create-testing:
 	ssh $(HOST) 'test -d $(TESTING) || mkdir $(TESTING)'
 	$(RSYNC) remote/*.sh $(HOST):
-	ssh $(HOST) sh create-hsh.sh $(TESTING) $(TESTPORT)
+	ssh $(HOST) sh -x create-hsh.sh $(TESTING) $(TESTPORT)
 
 setup-bonito:
 	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'sh setup-bonito.sh corbama $(corpora)' 
@@ -202,7 +202,7 @@ stop-%:
 	ssh $(HOST) tmux send-keys -t $*:0 \"service httpd2 stop\" Enter
 	ssh $(HOST) tmux kill-session -t $*
 
-production: stop-production
+production: stop-production stop-testing
 	$(RSYNC) remote/testing2production.sh $(HOST):$(TESTING)/chroot/.in/
 	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'sh testing2production.sh $(TESTPORT) $(PRODPORT)'
 	ssh $(HOST) sh -c 'test -d $(ROLLBACK)/chroot && hsh --clean $(ROLLBACK) || echo empty rollback'

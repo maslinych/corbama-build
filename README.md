@@ -157,7 +157,7 @@ Short notes on the semantics of the fields:
 To run an online corpus search engine you'll need:
 
 * A [Sisyphus](http://sisyphus.ru/en/)-based GNU/Linux operation system on a server.
-* Packages `hasher hasher-priv screen` installed on a server.
+* Packages `hasher hasher-priv tmux` installed on a server.
 * A regular user on a sever with ssh access and setup for running two parallel hasher processes. To provide for the latter, you'll need to run as root: 
 
 ```bash
