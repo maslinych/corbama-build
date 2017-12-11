@@ -19,6 +19,7 @@ BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
 PARSER=$(PYTHON) $(DABA)/mparser.py -s apostrophe 
 daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
+daba2align=$(PYTHON) $(DABA)/ad-hoc/daba2align.py
 dabased=$(PYTHON) $(DABA)/dabased.py -v
 RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
@@ -42,6 +43,10 @@ parshtmlfiles := $(addsuffix .pars.html,$(basename $(parsefiles) $(parseoldfiles
 netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(parshtmlfiles))
 
+alignedfiles := $(wildcard *.align.txt */*.align.txt */*/*.align.txt)
+bamaligned = $(patsubst %.align.txt,%.non-tonal.vert,$(alignedfiles))
+
+
 corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut corbama-nul 
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
@@ -56,7 +61,7 @@ print-%:
 
 %.pars.tonal.vert: %.pars.html
 	$(daba2vert) "$<" --tonel --unique --convert --polisemy > "$@"
-	
+
 %.pars.non-tonal.vert: %.pars.html
 	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
 
@@ -65,21 +70,27 @@ print-%:
 
 %.dis.tonal.vert: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
-	
+
 %.dis.non-tonal.vert: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
 %.dis.nul.vert: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --unique --null --convert > "$@"
 
+%.dis.align.txt: %.dis.html
+	$(daba2align) "$<" "$@"
+
+%.pars.align.txt: %.pars.html
+	$(daba2align) "$<" "$@"
+
 %.vert: config/%
 	mkdir -p export/$*/data
 	encodevert -c ./$< -p export/$*/data $@ 
 
-%.old.pars.html: %.old.html
+%.old.pars.html: %.old.html $(dictionaries) $(grammar) $(dabafiles)
 	$(PARSER) -s bamlatinold -i "$<" -o "$@"
 
-%.old.pars.html: %.old.txt
+%.old.pars.html: %.old.txt $(dictionaries) $(grammar) $(dabafiles)
 	$(PARSER) -s bamlatinold -i "$<" -o "$@"
 
 %.pars.html: %.html $(dictionaries) $(grammar) $(dabafiles) 
@@ -135,10 +146,10 @@ corbama-nul.vert: $(addsuffix .nul.vert,$(brutfiles))
 corbama-brut.vert: $(addsuffix .non-tonal.vert,$(brutfiles))
 	rm -f $@
 	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
-	
+
 corbama-net-tonal.vert: $(addsuffix .tonal.vert,$(netfiles)) 
 	cat $(sort $^) > $@
-	
+
 corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles)) 
 	cat $(sort $^) > $@
 
@@ -225,7 +236,7 @@ corpsize:
 
 corpsize-daba:
 	@echo $(brutfiles) | tr ' ' '\n' | fgrep -v .dis | sed 's/.pars/.pars.html/' | xargs -n1 python ../daba/metaprint.py -w | awk '{c+=$$2}END{print "brut:" c}'
-	#find -name \*.pars.html -print0 | xargs -0 -n 1 python ../daba/metaprint.py -w | awk '{c+=$$2}END{print "brut:" c}'
+#find -name \*.pars.html -print0 | xargs -0 -n 1 python ../daba/metaprint.py -w | awk '{c+=$$2}END{print "brut:" c}'
 
 clean: clean-vert clean-parse clean-pars
 
