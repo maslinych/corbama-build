@@ -1,0 +1,25 @@
+pé:adv:seulement >> pé:dtm:seulement
+mín:prn:REL >> mîn:prn:REL
+mín:dtm:REL >> mîn:dtm:REL
+
+# is it the right syntax or should it something like: bɛ́ɛ:dtm:*	>> bɛ́ɛ:dtm:tout
+bɛ́ɛ:dtm:	>> bɛ́ɛ:dtm:tout
+
+mànkutu:v:dire.du.bien >> mànkutu:v:glorifier
+ɲànkara:n:chasseur.audacieux >> ɲànkara:n:air.des.braves
+
+dɔ́rɔn:adv:aussitôt >> dɔ́rɔn:adv:aussitôt
+
+# oubliés ?!
+bólo:pp:POSS >> bólo:pp:CNTRL
+kɔ́kàn:pp:à_l'extérieur >> kɔ́kàn:pp:à.l'extérieur
+bólokɔrɔ:pp:sous_la_main  >> bólokɔrɔ:pp:sous.la.main
+sènfɛ̀:pp:au_cours_de >> sènfɛ̀:pp:au.cours.de
+
+
+# il en reste ???
+ká:pm:OPT >> ká:pm:SBJV
+k':pm:OPT >> k':pm:SBJV
+# k'|ká:pm:OPT >> k'|ká:pm:SBJV
+
+í:pers:2.SG >> í:pers:2SG
