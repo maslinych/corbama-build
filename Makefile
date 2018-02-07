@@ -21,6 +21,7 @@ PARSER=mparser -s apostrophe
 daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
 daba2align=$(PYTHON) $(DABA)/ad-hoc/daba2align.py
 dabased=$(PYTHON) $(DABA)/dabased.py -v
+REPL=python ../repl/repl.py
 RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
 # 
@@ -42,12 +43,13 @@ dabasedfiles := $(sort $(wildcard releases/*/*.dabased))
 parshtmlfiles := $(addsuffix .pars.html,$(basename $(parsefiles) $(parseoldfiles)))
 netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(parshtmlfiles))
+replfiles := $(patsubst %.pars.html,%.repl.html,$(parshtmlfiles))
 
 alignedfiles := $(wildcard *.align.txt */*.align.txt */*/*.align.txt)
 bamaligned = $(patsubst %.align.txt,%.non-tonal.vert,$(alignedfiles))
 
 
-corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut corbama-nul 
+corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
 
@@ -82,6 +84,9 @@ print-%:
 
 %.pars.align.txt: %.pars.html
 	$(daba2align) "$<" "$@"
+
+%.repl.html: %.pars.html
+	$(REPL) $* -fast
 
 %.vert: config/%
 	mkdir -p export/$*/data
@@ -158,6 +163,8 @@ compile: $(corpora-vert)
 reparse-net: $(addsuffix .pars.html,$(netfiles))
 
 reparse-net-vert: $(addsuffix .pars.non-tonal.vert,$(netfiles)) $(addsuffix .pars.tonal.vert,$(netfiles))
+
+repl: $(replfiles)
 
 freqlist.txt: corbama-net-tonal.vert
 	python freqlist.py $< > $@
