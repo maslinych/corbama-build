@@ -1,6 +1,6 @@
 # SETUP PATHS
 ROOT=..
-DABA=$(ROOT)/daba/
+DABA=$(ROOT)/daba/daba/
 SRC=$(ROOT)/corbama
 vpath %.txt $(SRC)
 vpath %.html $(SRC)
@@ -17,7 +17,7 @@ PRODPORT=8099
 # UTILS
 BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
-PARSER=$(PYTHON) $(DABA)/mparser.py -s apostrophe 
+PARSER=mparser -s apostrophe
 daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
 daba2align=$(PYTHON) $(DABA)/ad-hoc/daba2align.py
 dabased=$(PYTHON) $(DABA)/dabased.py -v
