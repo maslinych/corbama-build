@@ -25,7 +25,7 @@ RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
 # 
 # EXTERNAL RESOURCES
-grammar=$(DABA)/doc/samples/bamana.gram.txt
+grammar=$(BAMADABA)/bamana.gram.txt
 dictionaries := $(addprefix $(BAMADABA)/,bamadaba.txt jamuw.txt togow.txt yorow.txt enciclop.txt)
 dabafiles := $(addrefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
 # 
