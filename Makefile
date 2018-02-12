@@ -53,7 +53,7 @@ corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
 
-.PRECIOUS: $(parshtmlfiles)
+.PRECIOUS: $(parshtmlfiles) %.repl.html
 
 test:
 	@echo $(brutfiles) | tr ' ' '\n'
@@ -62,7 +62,7 @@ print-%:
 	$(info $*=$($*))
 
 %.pars.tonal.vert: %.pars.html
-	$(daba2vert) "$<" --tonel --unique --convert --polisemy > "$@"
+	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
 
 %.pars.non-tonal.vert: %.pars.html
 	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
@@ -84,9 +84,6 @@ print-%:
 
 %.pars.align.txt: %.pars.html
 	$(daba2align) "$<" "$@"
-
-%.repl.html: %.pars.html
-	$(REPL) $* -fast
 
 %.vert: config/%
 	mkdir -p export/$*/data
@@ -112,6 +109,20 @@ print-%:
 
 %.dis.pars.tonal.vert: %.dis.pars.html 
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
+
+%.repl.html: %.pars.html
+	$(REPL) "$*" -fast
+
+%.repl.tonal.vert: %.dis.repl.html
+	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
+
+%.repl.non-tonal.vert: %.repl.html
+	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
+
+%.repl.diff: %.repl.non-tonal.vert %.dis.non-tonal.vert
+	diff -u $^ | python scripts/repldiff.py > "$@"
+
+
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
 	touch $@
@@ -165,6 +176,8 @@ reparse-net: $(addsuffix .pars.html,$(netfiles))
 reparse-net-vert: $(addsuffix .pars.non-tonal.vert,$(netfiles)) $(addsuffix .pars.tonal.vert,$(netfiles))
 
 repl: $(replfiles)
+
+repldiff: $(patsubst %.dis.html,%.repl.diff,$(dishtmlfiles))
 
 freqlist.txt: corbama-net-tonal.vert
 	python freqlist.py $< > $@
