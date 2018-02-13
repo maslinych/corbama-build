@@ -10,6 +10,8 @@ newhunk = True
 
 def compare_hunk(hunkleft, hunkright):
     out = []
+    if not len(hunkleft) == len(hunkright):
+        return out
     for left, right in zip(hunkleft, hunkright):
         try:
             if left[0].startswith('-<') and right[0].startswith('+<'):
@@ -46,9 +48,13 @@ for line in sys.stdin:
             discrepancies = compare_hunk(hunkleft, hunkright)
             if discrepancies:
                 print_hunk(discrepancies)
+            hunkleft = []
+            hunkright = []
+            newhunk = False
         fields = li.split("\t")
         hunkleft.append(fields)
     elif li.startswith('+'):
+        newhunk = True
         fields = li.split("\t")
         hunkright.append(fields)
             
