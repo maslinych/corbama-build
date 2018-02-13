@@ -113,8 +113,14 @@ print-%:
 %.repl.html: %.pars.html
 	$(REPL) "$*" -fast
 
+%.old.repl.html: %.old.pars.html
+	$(REPL) "$*.old" -fast
+
 %.repl.tonal.vert: %.dis.repl.html
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
+
+%.repl.non-tonal.vert: %.old.repl.html
+	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
 %.repl.non-tonal.vert: %.repl.html
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
