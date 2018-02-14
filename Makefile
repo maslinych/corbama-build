@@ -197,7 +197,6 @@ export/data/%/word.lex: config/% %.vert
 	mkdir -p export/vert
 	encodevert -c ./$< -p $(@D) $*.vert
 	cp $< export/registry
-	cp $*.vert export/vert
 
 corbama-dist.zip:
 	git archive -o corbama-dist.zip --format=zip HEAD
