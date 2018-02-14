@@ -125,6 +125,9 @@ print-%:
 %.repl.non-tonal.vert: %.repl.html
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
+%.repl.non-tonal.vert: %.dis.pars.html
+	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
+
 %.repl.diff: %.repl.non-tonal.vert %.dis.non-tonal.vert
 	diff -u $^ | python scripts/repldiff.py > "$@"
 
