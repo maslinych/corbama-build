@@ -192,6 +192,7 @@ freqlist.txt: corbama-net-tonal.vert
 	python freqlist.py $< > $@
 
 export/data/%/word.lex: config/% %.vert
+	rm -rf export/*
 	mkdir -p $(@D)
 	mkdir -p export/registry
 	mkdir -p export/vert
