@@ -168,7 +168,7 @@ corbama-nul.vert: $(addsuffix .nul.vert,$(brutfiles))
 	rm -f $@
 	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
 
-corbama-brut.vert: $(addsuffix .non-tonal.vert,$(brutfiles))
+corbama-brut.vert: $(addsuffix repl.non-tonal.vert,$(brutfiles))
 	rm -f $@
 	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
 
