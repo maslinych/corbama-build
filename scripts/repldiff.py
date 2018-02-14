@@ -18,7 +18,7 @@ def compare_hunk(hunkleft, hunkright):
                 continue
             elif left[0].startswith('---') and right[0].startswith('+++'):
                 continue
-            elif '|' in left[1] or '|' in left[2]:
+            elif '|' in left[1] or '|' in left[2] or '|' in left[3]:
                 continue
             elif '|' in right[1]:
                 continue
