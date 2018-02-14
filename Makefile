@@ -41,9 +41,9 @@ parsefiles := $(filter-out %.old.html,$(srchtmlfiles)) $(filter-out %.old.txt,$(
 parseoldfiles := $(filter %.old.html,$(srchtmlfiles)) $(filter %.old.txt,$(srctxtfiles))
 dabasedfiles := $(sort $(wildcard releases/*/*.dabased))
 parshtmlfiles := $(addsuffix .pars.html,$(basename $(parsefiles) $(parseoldfiles)))
-netfiles := $(patsubst %.html,%,$(dishtmlfiles))
-brutfiles := $(netfiles) $(patsubst %.html,%,$(parshtmlfiles))
 replfiles := $(patsubst %.pars.html,%.repl.html,$(parshtmlfiles))
+netfiles := $(patsubst %.html,%,$(dishtmlfiles))
+brutfiles := $(netfiles) $(patsubst %.html,%,$(replfiles))
 
 alignedfiles := $(wildcard *.align.txt */*.align.txt */*/*.align.txt)
 bamaligned = $(patsubst %.align.txt,%.non-tonal.vert,$(alignedfiles))
@@ -168,7 +168,7 @@ corbama-nul.vert: $(addsuffix .nul.vert,$(brutfiles))
 	rm -f $@
 	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
 
-corbama-brut.vert: $(addsuffix repl.non-tonal.vert,$(brutfiles))
+corbama-brut.vert: $(addsuffix .non-tonal.vert,$(brutfiles))
 	rm -f $@
 	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
 
