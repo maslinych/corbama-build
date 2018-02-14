@@ -192,7 +192,8 @@ freqlist.txt: corbama-net-tonal.vert
 	python freqlist.py $< > $@
 
 export/data/%/word.lex: config/% %.vert
-	rm -rf export/*
+	rm -rf export/data/$*
+	rm -f export/registry/$*
 	mkdir -p $(@D)
 	mkdir -p export/registry
 	mkdir -p export/vert
@@ -214,7 +215,7 @@ dist-print:
 	echo $(foreach corpus,$(corpora),export/data/$(corpus)/word.lex)
 
 export/corbama.tar.xz: $(compiled)
-	bash -c "pushd export ; tar cJvf corbama.tar.xz * ; popd"
+	bash -c "pushd export ; tar cJvf corbama.tar.xz --mode='a+r' * ; popd"
 
 create-testing:
 	ssh $(HOST) 'test -d $(TESTING) || mkdir $(TESTING)'
