@@ -5,6 +5,7 @@ SRC=$(ROOT)/corbama
 vpath %.txt $(SRC)
 vpath %.html $(SRC)
 vpath %.dabased $(SRC)
+vpath %.prl $(SRC)
 #
 # SETUP CREDENTIALS
 HOST=corpora
@@ -45,11 +46,11 @@ replfiles := $(patsubst %.pars.html,%.repl.html,$(parshtmlfiles))
 netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(replfiles))
 
-alignedfiles := $(wildcard *.align.txt */*.align.txt */*/*.align.txt)
-bamaligned = $(patsubst %.align.txt,%.non-tonal.vert,$(alignedfiles))
+prlfiles := $(wildcard $(SRC)/*.fra.prl $(SRC)/*/*.fra.prl $(SRC)/*/*/*.fra.prl)
+alignedbam = $(patsubst $(SRC)/%.fra.prl,%.non-tonal.vert,$(prlfiles))
+alignedfra = $(patsubst %.fra.prl,%.fra.vert,$(prlfiles))
 
-
-corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut
+corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut corbama-prl-bam
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
 
@@ -177,6 +178,13 @@ corbama-net-tonal.vert: $(addsuffix .tonal.vert,$(netfiles))
 
 corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles)) 
 	cat $(sort $^) > $@
+
+corbama-prl-bam.vert: $(alignedbam)
+	rm -f $@
+	cat $(sort $^) > $@
+
+corbama-bam-fra.prl: $(prlfiles)
+	python scripts/catprl.py $(sort $(prlfiles)) > $@
 
 compile: $(corpora-vert)
 
