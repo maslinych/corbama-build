@@ -15,6 +15,7 @@ PRODUCTION=production
 ROLLBACK=rollback
 TESTPORT=8098
 PRODPORT=8099
+BUILT=built
 # UTILS
 BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
@@ -225,31 +226,41 @@ dist-print:
 export/corbama.tar.xz: $(compiled)
 	bash -c "pushd export ; tar cJvf corbama.tar.xz --mode='a+r' * ; popd"
 
-create-testing:
-	ssh $(HOST) 'test -d $(TESTING) || mkdir $(TESTING)'
-	$(RSYNC) remote/*.sh $(HOST):
-	ssh $(HOST) sh -x create-hsh.sh $(TESTING) $(TESTPORT)
+install-remote-scripts:
+	$(RSYNC) remote/*.sh $(HOST):bin
 
-setup-bonito:
-	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'sh setup-bonito.sh corbama $(corpora)' 
+create-testing: install-remote-scripts
+	ssh $(HOST) "bin/create-hsh.sh"
+	ssh $(HOST) "bin/install-all-corpora.sh"
+	ssh $(HOST) "bin/setup-all-corpora.sh"
+
+setup-bonito: install-remote-scripts
+	ssh $(HOST) "bin/setup-corpus.sh corbama $(corpora)"
 
 install-testing: export/corbama.tar.xz
-	$(RSYNC) $< $(HOST):$(TESTING)/chroot/.in/
-	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'rm -rf /var/lib/manatee/{data,registry,vert}/corbama*'
-	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'tar --no-same-permissions --no-same-owner -xJvf corbama.tar.xz --directory /var/lib/manatee'
+	$(RSYNC) $< $(HOST):$(BUILT)/
+	ssh $(HOST) "echo corbama $(corpora) > $(BUILT)/corbama.setup.txt"
+	ssh $(HOST) "bin/install-corpus.sh corbama"
+
+uninstall-testing:
+	ssh $(HOST) "rm -f $(BUILT)/corbama.tar.xz"
+	ssh $(HOST) "rm -f $(BUILT)/corbama.setup.txt"
+
+update-corpus:
+	make compile
+	make stop-testing
+	make install-testing
+	make start-testing
 
 install-local: export/corbama.tar.xz
 	sudo rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
 	sudo tar -xJvf $< --directory /var/lib/manatee --no-same-permissions --no-same-owner
 
 start-%:
-	ssh $(HOST) tmux new-session -d -s $* \"export share_network=1 \; hsh-shell --root --mount=/proc $*\"
-	sleep 5
-	ssh $(HOST) tmux send-keys -t $*:0 \"service httpd2 start\" Enter
+	ssh $(HOST) "bin/start-env.sh $*"
 
 stop-%:
-	ssh $(HOST) tmux send-keys -t $*:0 \"service httpd2 stop\" Enter
-	ssh $(HOST) tmux kill-session -t $*
+	ssh $(HOST) "bin/stop-env.sh $*"
 
 production: stop-production stop-testing
 	$(RSYNC) remote/testing2production.sh $(HOST):$(TESTING)/chroot/.in/
