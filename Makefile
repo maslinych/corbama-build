@@ -51,9 +51,14 @@ prlfiles := $(wildcard $(SRC)/*.fra.prl $(SRC)/*/*.fra.prl $(SRC)/*/*/*.fra.prl)
 alignedbam = $(patsubst $(SRC)/%.fra.prl,%.non-tonal.vert,$(prlfiles))
 alignedfra = $(patsubst %.fra.prl,%.fra.vert,$(prlfiles))
 
+
+corpbasename := corbama
+corpsite := corbama
 corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut corbama-prl-bam
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
+include remote.mk
+
 
 .PRECIOUS: $(parshtmlfiles) %.repl.html
 
@@ -226,58 +231,9 @@ dist-print:
 export/corbama.tar.xz: $(compiled)
 	bash -c "pushd export ; tar cJvf corbama.tar.xz --mode='a+r' * ; popd"
 
-install-remote-scripts:
-	$(RSYNC) remote/*.sh $(HOST):bin
-
-create-testing: install-remote-scripts
-	ssh $(HOST) "bin/create-hsh.sh"
-	ssh $(HOST) "bin/install-all-corpora.sh"
-	ssh $(HOST) "bin/setup-all-corpora.sh"
-
-setup-bonito: install-remote-scripts
-	ssh $(HOST) "bin/setup-corpus.sh corbama $(corpora)"
-
-install-testing: export/corbama.tar.xz
-	$(RSYNC) $< $(HOST):$(BUILT)/
-	ssh $(HOST) "echo corbama $(corpora) > $(BUILT)/corbama.setup.txt"
-	ssh $(HOST) "bin/install-corpus.sh corbama"
-
-uninstall-testing:
-	ssh $(HOST) "rm -f $(BUILT)/corbama.tar.xz"
-	ssh $(HOST) "rm -f $(BUILT)/corbama.setup.txt"
-
-update-corpus:
-	make compile
-	make stop-testing
-	make install-testing
-	make start-testing
-
 install-local: export/corbama.tar.xz
 	sudo rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
 	sudo tar -xJvf $< --directory /var/lib/manatee --no-same-permissions --no-same-owner
-
-start-%:
-	ssh $(HOST) "bin/start-env.sh $*"
-
-stop-%:
-	ssh $(HOST) "bin/stop-env.sh $*"
-
-production: stop-production stop-testing
-	$(RSYNC) remote/testing2production.sh $(HOST):$(TESTING)/chroot/.in/
-	ssh $(HOST) hsh-run --rooter $(TESTING) -- 'sh testing2production.sh $(TESTPORT) $(PRODPORT)'
-	ssh $(HOST) sh -c 'test -d $(ROLLBACK)/chroot && hsh --clean $(ROLLBACK) || echo empty rollback'
-	ssh $(HOST) rm -rf $(ROLLBACK)
-	ssh $(HOST) mv $(PRODUCTION) $(ROLLBACK)
-	ssh $(HOST) mv $(TESTING) $(PRODUCTION)
-
-rollback: stop-production
-	$(RSYNC) remote/testing2production.sh $(HOST):$(PRODUCTION)/chroot/.in/
-	ssh $(HOST) hsh-run --rooter $(PRODUCTION) -- 'sh testing2production.sh $(PRODPORT) $(TESTPORT)'
-	ssh $(HOST) sh -c 'test -d $(TESTING)/chroot && hsh --clean $(TESTING)'
-	ssh $(HOST) rm -rf $(TESTING)
-	ssh $(HOST) mv $(PRODUCTION) $(TESTING)
-	ssh $(HOST) mv $(ROLLBACK) $(PRODUCTION)
-
 
 corpsize:
 	@echo "net:" `awk 'NF>1 && $$1 !~ /^</ && $$3 != "c" {print}' corbama-net-non-tonal.vert | wc -l`
