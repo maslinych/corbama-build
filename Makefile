@@ -33,12 +33,13 @@ dictionaries := $(addprefix $(BAMADABA)/,bamadaba.txt jamuw.txt togow.txt yorow.
 dabafiles := $(addrefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
 # 
 # SOURCE FILELISTS
+gitfiles := $(shell $(gitsrc) ls-files)
 auxtxtfiles := freqlist.txt
-dishtmlfiles := $(patsubst $(SRC)/%,%,$(wildcard $(SRC)/*.dis.html $(SRC)/*/*.dis.html $(SRC)/*/*/*.dis.html))
-htmlfiles := $(filter-out %.pars.html %.dis.html,$(patsubst $(SRC)/%,%,$(wildcard $(SRC)/*.html $(SRC)/*/*.html $(SRC)/*/*/*.html)))
-txtfiles := $(patsubst $(SRC)/%,%,$(wildcard $(SRC)/*.txt $(SRC)/*/*.txt $(SRC)/*/*/*.txt))
-srctxtfiles := $(filter-out $(htmlfiles:.html=.txt) $(dishtmlfiles:.dis.html=.txt) $(dishtmlfiles:.dis.html=.old.txt) $(auxtxtfiles) %_fra.txt,$(txtfiles))
+txtfiles := $(filter-out $(auxtxtfiles),$(filter %.txt,$(gitfiles)))
+htmlfiles := $(filter-out %.pars.html %.dis.html,$(filter %.html,$(gitfiles)))
+dishtmlfiles := $(filter %.dis.html,$(gitfiles))
 srchtmlfiles := $(filter-out $(dishtmlfiles:.dis.html=.html) $(dishtmlfiles:.dis.html=.old.html),$(htmlfiles))
+srctxtfiles := $(filter-out $(htmlfiles:.html=.txt) $(dishtmlfiles:.dis.html=.txt) $(dishtmlfiles:.dis.html=.old.txt) %_fra.txt,$(txtfiles))
 parsefiles := $(filter-out %.old.html,$(srchtmlfiles)) $(filter-out %.old.txt,$(srctxtfiles))
 parseoldfiles := $(filter %.old.html,$(srchtmlfiles)) $(filter %.old.txt,$(srctxtfiles))
 dabasedfiles := $(sort $(wildcard releases/*/*.dabased))
@@ -46,7 +47,7 @@ parshtmlfiles := $(addsuffix .pars.html,$(basename $(parsefiles) $(parseoldfiles
 replfiles := $(patsubst %.pars.html,%.repl.html,$(parshtmlfiles))
 netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(replfiles))
-
+# Parallel corpus
 prlfiles := $(wildcard $(SRC)/*.fra.prl $(SRC)/*/*.fra.prl $(SRC)/*/*/*.fra.prl)
 alignedbam = $(patsubst $(SRC)/%.fra.prl,%.non-tonal.vert,$(prlfiles))
 alignedfra = $(patsubst %.fra.prl,%.fra.vert,$(prlfiles))
