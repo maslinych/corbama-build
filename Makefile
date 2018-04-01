@@ -21,7 +21,7 @@ BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
 PARSER=mparser -s apostrophe
 daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
-daba2align=$(PYTHON) $(DABA)/ad-hoc/daba2align.py
+daba2align=mparser -N -s sentlist
 dabased=$(PYTHON) $(DABA)/dabased.py -v
 REPL=python ../repl/repl.py
 RSYNC=rsync -avP --stats -e ssh
@@ -35,7 +35,8 @@ dabafiles := $(addrefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
 # SOURCE FILELISTS
 gitfiles := $(shell $(gitsrc) ls-files)
 auxtxtfiles := freqlist.txt
-txtfiles := $(filter-out $(auxtxtfiles),$(filter %.txt,$(gitfiles)))
+frafiles := $(filter %.fra.txt, $(gitfiles))
+txtfiles := $(filter-out $(auxtxtfiles) $(frafiles),$(filter %.txt,$(gitfiles)))
 htmlfiles := $(filter-out %.pars.html %.dis.html,$(filter %.html,$(gitfiles)))
 dishtmlfiles := $(filter %.dis.html,$(gitfiles))
 srchtmlfiles := $(filter-out $(dishtmlfiles:.dis.html=.html) $(dishtmlfiles:.dis.html=.old.html),$(htmlfiles))
@@ -48,14 +49,14 @@ replfiles := $(patsubst %.pars.html,%.repl.html,$(parshtmlfiles))
 netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(replfiles))
 # Parallel corpus
-prlfiles := $(wildcard $(SRC)/*.fra.prl $(SRC)/*/*.fra.prl $(SRC)/*/*/*.fra.prl)
-alignedbam = $(patsubst $(SRC)/%.fra.prl,%.non-tonal.vert,$(prlfiles))
-alignedfra = $(patsubst %.fra.prl,%.fra.vert,$(prlfiles))
+prlfiles := $(filter %.bam-fra.prl,$(gitfiles))
+alignedbam = $(patsubst %.bam-fra.prl,%.non-tonal.vert,$(prlfiles))
+alignedfra = $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
 
 
 corpbasename := corbama
 corpsite := corbama
-corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut corbama-prl-bam
+corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut corbama-prl-bam corbama-prl-fra
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
 include remote.mk
@@ -87,11 +88,11 @@ print-%:
 %.dis.nul.vert: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --unique --null --convert > "$@"
 
-%.dis.align.txt: %.dis.html
-	$(daba2align) "$<" "$@"
+%.dis.bam.txt: %.dis.html
+	$(daba2align) -i "$<" -o "$@"
 
-%.pars.align.txt: %.pars.html
-	$(daba2align) "$<" "$@"
+%.pars.bam.txt: %.pars.html
+	$(daba2align) -i "$<" -o "$@"
 
 %.vert: config/%
 	mkdir -p export/$*/data
@@ -139,7 +140,8 @@ print-%:
 %.repl.diff: %.repl.non-tonal.vert %.dis.non-tonal.vert
 	diff -u $^ | python scripts/repldiff.py > "$@"
 
-
+%.fra.vert: %.fra.txt
+	cat $< | scripts/melt_it.sh > $@
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
 	touch $@
@@ -187,8 +189,11 @@ corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles))
 	cat $(sort $^) > $@
 
 corbama-prl-bam.vert: $(alignedbam)
-	rm -f $@
 	cat $(sort $^) > $@
+
+corbama-prl-fra.vert: $(alignedfra)
+	rm -f $@
+	$(foreach f,$^,echo '<doc id="$(notdir $(f))">' >> $@ ; cat $(f) >> $@ ; echo "</doc>" >> $@ ;) 
 
 corbama-bam-fra.prl: $(prlfiles)
 	python scripts/catprl.py $(sort $(prlfiles)) > $@
@@ -231,6 +236,10 @@ dist-print:
 
 export/corbama.tar.xz: $(compiled)
 	bash -c "pushd export ; tar cJvf corbama.tar.xz --mode='a+r' * ; popd"
+
+export/corbama-prl.tar.xz: export/data/corbama-prl-bam/word.lex export/data/corbama-prl-fra/word.lex
+	mkalign corbama-bam-fra.prl export/data/corbama-prl-bam/align.corbama-prl-fra
+	bash -c "pushd export ; tar cJvf corbama-prl.tar.xz --mode='a+r' ./{data,registry}/{corbama-prl-bam,corbama-prl-fra}/ ; popd"
 
 install-local: export/corbama.tar.xz
 	sudo rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
