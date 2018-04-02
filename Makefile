@@ -65,7 +65,7 @@ corpsite-corbama := corbama
 corpora-corbama := corbama-net-non-tonal corbama-net-tonal corbama-brut
 ## Parallel subcorpus
 corpsite-corbama-prl := corbama
-corpora-corbama-prl := corbama-prl-bam corbama-prl-fra
+corpora-corbama-prl := corbamafara corfarabama
 
 
 include remote.mk
@@ -197,17 +197,22 @@ corbama-net-tonal.vert: $(addsuffix .tonal.vert,$(netfiles))
 corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles)) 
 	cat $(sort $^) > $@
 
-corbama-prl-bam.vert: $(alignedbam)
+corbamafara.vert: $(alignedbam)
 	cat $(sort $^) > $@
 
-corbama-prl-fra.vert: $(alignedfra)
+corfarabama.vert: $(alignedfra)
 	rm -f $@
 	$(foreach f,$^,echo '<doc id="$(notdir $(f))">' >> $@ ; cat $(f) >> $@ ; echo "</doc>" >> $@ ;) 
 
 corbama-bam-fra.prl: $(prlfiles)
 	python scripts/catprl.py $(sort $(prlfiles:%=$(SRC)/%)) > $@
 
+corbama-fra-bam.prl: corbama-bam-fra.prl
+	awk 'BEGIN{FS="\t";OFS="\t"}{print $$2, $$1}' corbama-bam-fra.prl > $@
+
 compile: $(corpora-vert)
+
+compile-prl: $(corpora-corbama-prl:%=export/data/%/word.lex)
 
 reparse-net: $(addsuffix .pars.html,$(netfiles))
 
@@ -246,10 +251,10 @@ dist-print:
 export/corbama.tar.xz: $(compiled)
 	bash -c "pushd export ; tar cJvf corbama.tar.xz --mode='a+r' * ; popd"
 
-export/corbama-prl.tar.xz: $(corbama-prl-corpora:%=export/data/%/word.lex) corbama-bam-fra.prl
-	mkalign corbama-bam-fra.prl export/data/corbama-prl-bam/align.corbama-prl-fra
-	mkalign corbama-bam-fra.prl export/data/corbama-prl-bam/align.corbama-prl-fra
-	bash -c "pushd export ; tar cJvf corbama-prl.tar.xz --mode='a+r' ./{data,registry}/{corbama-prl-bam,corbama-prl-fra}/ ; popd"
+export/corbama-prl.tar.xz: $(corbama-prl-corpora:%=export/data/%/word.lex) corbama-bam-fra.prl corbama-fra-bam.prl
+	mkalign corbama-bam-fra.prl export/data/corbamafara/align.corfarabama
+	mkalign corbama-fra-bam.prl export/data/corfarabama/align.corbamafara
+	bash -c "pushd export ; tar cJvf corbama-prl.tar.xz --mode='a+r' ./{data,registry}/{corbamafara,corfarabama}/ ; popd"
 
 install-testing: install-corpus-corbama
 

@@ -1,10 +1,10 @@
-PATH "/var/lib/manatee/data/corbama-prl-fra"
-VERTICAL "/var/lib/manatee/vert/corbama-prl-fra.vert"
+PATH "/var/lib/manatee/data/corfarabama"
+VERTICAL "/var/lib/manatee/vert/corfarabama.vert"
 ENCODING "utf-8"
 LANGUAGE "French"
 LOCALE "fr_FR"
 MAINTAINER "Kirill Maslinsky"
-INFO "Corpus Bambara de Reference (French parallel subcorpus)"
+INFO "Corpus Bambara de Reference (Bambara-French parallel subcorpus, French part)"
 INFOHREF "http://cormand.huma-num.fr/"
 TAGSETDOC "http://cormand.huma-num.fr/gloses.html"
 WPOSLIST ",adjectif,adj,adverbe,adv,adverbe préverbal,adv.p,conjonction,conj,copule,cop,déterminatif,dtm,interjection,intj,nom,n,numératif,num,onomatopée,onomat,pronom personnel,pers,marque prédicative,pm,postposition,pp,préposition,prep,pronom (non-personnel),prn,particule,prt,participe,ptcp,verbe,v,verbe qualitatif,vq"
@@ -24,5 +24,5 @@ MAXCONTEXT 100
 MAXDETAIL 200
 
 ALIGNSTRUCT "s"
-ALIGNED "corbama-prl-bam"
-ALIGNDEF "/home/kirill/lab/mande/corbama-build/corbama-bam-fra.prl"
+ALIGNED "corbamafara"
+ALIGNDEF "../corbama-fra-bam.prl"
