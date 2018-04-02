@@ -3,18 +3,19 @@
 
 from __future__ import print_function
 import argparse
+import sys
 
 
 def read_prls(filelist):
     ainc, binc = (-1, -1)
     amax, bmax = (0, 0)
     for f in filelist:
-        with open(f, 'r') as prl:
+        with open(f, 'r+') as prl:
             ainc = ainc + amax + 1
             binc = binc + bmax + 1
             amax, bmax = (0, 0)
             for line in prl:
-                pair = line.decode('utf-8').strip().split('\t')
+                pair = line.decode('utf-8-sig').strip().split('\t')
                 a, b = map(parse_align, pair)
                 amax, bmax = map(max, zip((amax, bmax), map(get_last, (a, b))))
                 astr = increment_align(a, ainc)
@@ -31,7 +32,7 @@ def parse_align(afield):
             numrange = [int(i) for i in afield.split(':')]
             return ('range', numrange)
         except ValueError:
-            print("Malformed line: '{}', I'll skip it".format(afield))
+            sys.stderr.write(u"Malformed line: '{}', I'll skip it\n".format(afield).encode('utf-8'))
             return ('strange', afield)
 
 
