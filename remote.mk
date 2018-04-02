@@ -15,10 +15,12 @@ create-testing: install-remote-scripts
 setup-bonito: install-remote-scripts
 	ssh $(HOST) "bin/setup-corpus.sh $(corpsite) $(corpora)"
 
-install-testing: export/$(corpbasename).tar.xz
+install-corpus-%: export/%.tar.xz
 	$(RSYNC) $< $(HOST):$(BUILT)/
-	ssh $(HOST) "echo $(corpsite) $(corpora) > $(BUILT)/$(corpbasename).setup.txt"
-	ssh $(HOST) "bin/install-corpus.sh $(corpbasename)"
+	ssh $(HOST) "echo $(corpsite-$*) $(corpora-$*) > $(BUILT)/$*.setup.txt"
+	ssh $(HOST) "bin/stop-env.sh testing"
+	ssh $(HOST) "bin/install-corpus.sh $*"
+	ssh $(HOST) "bin/start-env.sh testing"
 
 uninstall-testing:
 	ssh $(HOST) "rm -f $(BUILT)/$(corpbasename).tar.xz"

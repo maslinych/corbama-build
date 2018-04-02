@@ -21,7 +21,8 @@ BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
 PARSER=mparser -s apostrophe
 daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
-daba2align=mparser -N -s sentlist
+#daba2align=mparser -N -f sentlist
+daba2align=$(PYTHON) $(DABA)/ad-hoc/daba2align.py
 dabased=$(PYTHON) $(DABA)/dabased.py -v
 REPL=python ../repl/repl.py
 RSYNC=rsync -avP --stats -e ssh
@@ -53,12 +54,20 @@ prlfiles := $(filter %.bam-fra.prl,$(gitfiles))
 alignedbam = $(patsubst %.bam-fra.prl,%.non-tonal.vert,$(prlfiles))
 alignedfra = $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
 
-
+## Corpora — main part
 corpbasename := corbama
 corpsite := corbama
-corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut corbama-prl-bam corbama-prl-fra
+corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut 
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
+## Remote corpus installation data
+corpsite-corbama := corbama
+corpora-corbama := corbama-net-non-tonal corbama-net-tonal corbama-brut
+## Parallel subcorpus
+corpsite-corbama-prl := corbama
+corpora-corbama-prl := corbama-prl-bam corbama-prl-fra
+
+
 include remote.mk
 
 
@@ -89,10 +98,10 @@ print-%:
 	$(daba2vert) "$<" --unique --null --convert > "$@"
 
 %.dis.bam.txt: %.dis.html
-	$(daba2align) -i "$<" -o "$@"
+	$(daba2align) "$<" "$@"
 
 %.pars.bam.txt: %.pars.html
-	$(daba2align) -i "$<" -o "$@"
+	$(daba2align) "$<" "$@"
 
 %.vert: config/%
 	mkdir -p export/$*/data
@@ -196,7 +205,7 @@ corbama-prl-fra.vert: $(alignedfra)
 	$(foreach f,$^,echo '<doc id="$(notdir $(f))">' >> $@ ; cat $(f) >> $@ ; echo "</doc>" >> $@ ;) 
 
 corbama-bam-fra.prl: $(prlfiles)
-	python scripts/catprl.py $(sort $(prlfiles)) > $@
+	python scripts/catprl.py $(sort $(prlfiles:%=$(SRC)/%)) > $@
 
 compile: $(corpora-vert)
 
@@ -237,9 +246,12 @@ dist-print:
 export/corbama.tar.xz: $(compiled)
 	bash -c "pushd export ; tar cJvf corbama.tar.xz --mode='a+r' * ; popd"
 
-export/corbama-prl.tar.xz: export/data/corbama-prl-bam/word.lex export/data/corbama-prl-fra/word.lex
+export/corbama-prl.tar.xz: $(corbama-prl-corpora:%=export/data/%/word.lex) corbama-bam-fra.prl
+	mkalign corbama-bam-fra.prl export/data/corbama-prl-bam/align.corbama-prl-fra
 	mkalign corbama-bam-fra.prl export/data/corbama-prl-bam/align.corbama-prl-fra
 	bash -c "pushd export ; tar cJvf corbama-prl.tar.xz --mode='a+r' ./{data,registry}/{corbama-prl-bam,corbama-prl-fra}/ ; popd"
+
+install-testing: install-corpus-corbama
 
 install-local: export/corbama.tar.xz
 	sudo rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
