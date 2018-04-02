@@ -251,9 +251,11 @@ dist-print:
 export/corbama.tar.xz: $(compiled)
 	bash -c "pushd export ; tar cJvf corbama.tar.xz --mode='a+r' * ; popd"
 
-export/corbama-prl.tar.xz: $(corbama-prl-corpora:%=export/data/%/word.lex) corbama-bam-fra.prl corbama-fra-bam.prl
+mkalign: corbama-bam-fra.prl corbama-fra-bam.prl
 	mkalign corbama-bam-fra.prl export/data/corbamafara/align.corfarabama
 	mkalign corbama-fra-bam.prl export/data/corfarabama/align.corbamafara
+
+export/corbama-prl.tar.xz: $(corbama-prl-corpora:%=export/data/%/word.lex) mkalign
 	bash -c "pushd export ; tar cJvf corbama-prl.tar.xz --mode='a+r' ./{data,registry}/{corbamafara,corfarabama}/ ; popd"
 
 install-testing: install-corpus-corbama
