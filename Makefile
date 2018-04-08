@@ -212,7 +212,7 @@ corbama-fra-bam.prl: corbama-bam-fra.prl
 
 compile: $(corpora-vert)
 
-compile-prl: $(corpora-corbama-prl:%=export/data/%/word.lex)
+compile-prl: corbamafara.vert corfarabama.vert corbama-bam-fra.prl corbama-fra-bam.prl $(corpora-corbama-prl:%=export/data/%/word.lex) mkalign
 
 reparse-net: $(addsuffix .pars.html,$(netfiles))
 
