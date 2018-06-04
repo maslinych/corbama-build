@@ -264,6 +264,10 @@ install-local: export/corbama.tar.xz
 	sudo rm -rf /var/lib/manatee/{data,registry,vert}/corbama*
 	sudo tar -xJvf $< --directory /var/lib/manatee --no-same-permissions --no-same-owner
 
+install-local-prl: export/corbama-prl.tar.xz
+	sudo rm -rf /var/lib/manatee/{data,registry,vert}/{corbamafara,corfarabama}*
+	sudo tar -xJvf $< --directory /var/lib/manatee --no-same-permissions --no-same-owner
+
 corpsize:
 	@echo "net:" `awk 'NF>1 && $$1 !~ /^</ && $$3 != "c" {print}' corbama-net-non-tonal.vert | wc -l`
 	@echo "brut:" `awk 'NF>1 && $$1 !~ /^</ && $$3 != "c" {print}' corbama-brut.vert | wc -l`
