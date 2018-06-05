@@ -1,0 +1,162 @@
+﻿kùnna:pp:au.dessus >> kùnná:pp:au.dessus
+náamu:n:règle >> náamu:n:consécration
+námu:n:règle >> námu:n:consécration
+nkɔ̀yɔ:n:tomate.amère >> nkɔ̀yɔ:n:aubergine.africaine
+fàrida:n:pratique.religieuse.surérogatoire >> fàrida:n:obligation.religieuse
+dɔ̀kɔtɔrɔfura:n:médicament [dɔ̀kɔtɔrɔ:n:infirmier fúra:n:feuille] >> dɔ̀kɔtɔrɔfura:n:médicament [dɔ̀kɔtɔrɔ:n:docteur fúra:n:feuille]
+dɔ̀kɔtɔrɔmobili:n:ambulance [dɔ̀kɔtɔrɔ:n:infirmier móbili:n:automobile] >> dɔ̀kɔtɔrɔmobili:n:ambulance [dɔ̀kɔtɔrɔ:n:docteur móbili:n:automobile]
+dɔ̀kɔtɔrɔmuso:n:doctoresse [dɔ̀kɔtɔrɔ:n:infirmier mùso:adj:femme] >> dɔ̀kɔtɔrɔmuso:n:doctoresse [dɔ̀kɔtɔrɔ:n:docteur mùso:adj:femme]
+dɔ̀kɔtɔrɔso:n:hôpital [dɔ̀kɔtɔrɔ:n:infirmier só:n:maison] >> dɔ̀kɔtɔrɔso:n:hôpital [dɔ̀kɔtɔrɔ:n:docteur só:n:maison]
+dɔ̀kɔtɔrɔya:n:médecine [dɔ̀kɔtɔrɔ:n:infirmier ya:mrph:ABSTR] >> dɔ̀kɔtɔrɔya:n:médecine [dɔ̀kɔtɔrɔ:n:docteur ya:mrph:ABSTR]
+jùkɔrɔ:pp:dessous >> jùkɔ́rɔ:pp:dessous
+jùla:pp:à.l'endroit.de [jù:n:derrière la:mrph:LOC] >> jùlá:pp:à.l'endroit.de [jù:n:derrière lá:pp:à]
+kùnda:pp:parmi [kùn:n:tête dá:v:poser] >> kùndá:pp:du.côté.de [kùn:n:tête dá:n:bouche]
+kùnkɔrɔ:pp:pour [kùn:n:tête kɔ́rɔ:pp:sous] >> kùnkɔ́rɔ:pp:pour [kùn:n:tête kɔ́rɔ:pp:sous]
+nàgakɔrɔ:pp:à.proximité [nàga:n:ventre kɔ́rɔ:n:dessous] >> nàgakɔ́rɔ:pp:à.proximité [nàga:n:ventre kɔ́rɔ:n:dessous]
+sènkɔrɔ:pp:parmi [sèn:n:jambe kɔ́rɔ:pp:sous] >> sènkɔ́rɔ:pp:parmi [sèn:n:jambe kɔ́rɔ:pp:sous]
+jàteminɛ:n:calcul >> jàtemìnɛ:n:calcul
+jàtiminɛ:n:calcul >> jàtimìnɛ:n:calcul
+jírikɔrɔta:v:donner.la.nausée >> jírikɔrɔtà:v:donner.la.nausée
+yírikɔrɔta:v:donner.la.nausée >> yírikɔrɔtà:v:donner.la.nausée
+jùbɔ:v:commencer >> jùbɔ́:v:commencer
+jùlatigɛ:v:commencer >> jùlatìgɛ:v:commencer
+kàlalafili:v:feindre.d'ignorer >> kàlalafìli:v:feindre.d'ignorer [kàla:n:tige láfìli:v:abandonner [lá:mrph:CAUS fìli:v:jeter]
+kàlalafili:n:ignorance.feinte >> kàlalafili:n:ignorance.feinte [kàla:n:tige láfìli:v:abandonner [lá:mrph:CAUS fìli:v:jeter]
+kánmɛ́n:v:obéir >> kánmɛn:v:obéir
+kántigɛ:v:égorger >> kántìgɛ:v:égorger
+kómɛ́n:v:entendre.parler >> kómɛn:v:entendre.parler
+kɔ́bɔ́:v:castrer >> kɔ́bɔ:v:castrer
+kɔ́dí:v:aller.en.tournant.le.dos >> kɔ́di:v:aller.en.tournant.le.dos
+kɔ́gɛ́n:v:pourchasser >> kɔ́gɛn:v:pourchasser
+kɔ́gwɛ́n:v:pourchasser >> kɔ́gwɛn:v:pourchasser
+kɔ́kɔrɔmadon:v:soutenir >> kɔ́kɔrɔmadòn:v:soutenir
+kɔ́kuru:v:retourner >> kɔ́kùru:v:retourner
+kɔ́màsègin:v:retourner >> kɔ́masègin:v:retourner
+kɔ̀nɔgɛn:v:protéger >> kɔ̀nɔgɛ́n:v:protéger
+kɔ̀nɔgwɛn:v:protéger >> kɔ̀nɔgwɛ́n:v:protéger
+kɔ́nɔnafìli:v:inquiéter [kɔ́nɔ:n:ventre ná:mrph:CAUS fìli:v:jeter] >> kɔ́nɔnafìli:v:embarrasser [kɔ́nɔ:n:ventre ná:mrph:CAUS fìli:v:jeter]
+kɔ́nɔnaflì:v:inquiéter [kɔ́nɔ:n:ventre ná:mrph:CAUS flì:v:jeter] >> kɔ́nɔnaflì:v:embarrasser [kɔ́nɔ:n:ventre ná:mrph:CAUS flì:v:jeter]
+kɔ́nɔrɔfìli:v:inquiéter [kɔ́nɔ:n:ventre rɔ́:pp:IN fìli:v:jeter] >> kɔ́nɔrɔfìli:v:embarrasser [kɔ́nɔ:n:ventre rɔ́:pp:IN fìli:v:jeter]
+kɔ́nɔsúma:v:s'apaiser >> kɔ́nɔsuma:v:s'apaiser
+kɔ́nɔsúruku:v:pousser >> kɔ́nɔsuruku:v:pousser
+kɔ́ɲɔbɔ́:v:faire.le.mariage >> kɔ́ɲɔbɔ:v:faire.le.mariage
+kɔ́rɔjɛ́:v:nettoyer >> kɔ́rɔjɛ:v:nettoyer
+kɔ́rɔɲɔ́:v:se.reposer >> kɔ́rɔɲɔ:v:se.reposer
+kúbɔ́:v:pousser >> kúbɔ:v:pousser
+kùnbɔ:v:dévier >> kùnbɔ́:v:dévier
+kùnda:v:se.diriger >> kùndá:v:se.diriger
+kùndigi:v:coiffer >> kùndìgi:v:coiffer
+kùnfa:v:arrêter [kùn:n:tête fá:v:remplir] >> kùnfá:v:surcharger [kùn:n:tête fá:v:remplir]
+kùnfá:v:charger [kùn:n:tête fá:v:remplir] >> kùnfá:v:surcharger [kùn:n:tête fá:v:remplir]
+kùnfɔ:v:exposer [kùn:n:tête fɔ́:v:dire] >> kùnfɔ́:v:exposer [kùn:n:tête fɔ́:v:dire]
+kùnkari:v:casser.en.deux [kùn:n:tête kári:v:casser] >> kùnkári:v:casser.en.deux [kùn:n:tête kári:v:casser]
+kùnkɔri:v:interrompre [kùn:n:tête kɔ́ri:v:toucher] >> kùnkɔ́ri:v:interrompre [kùn:n:tête kɔ́ri:v:toucher]
+kùnmabɔ:v:racheter >> kùnmabɔ́:v:racheter
+kùnmadɔgɔya:v:rendre.chétif [kùnma:n:vitalité kùn:n:tête mà:mrph:SUPER dɔ́gɔ:vq:petit ya:mrph:ABSTR] >> kùnmadɔ́gɔya:v:rendre.chétif [kùnma:n:vitalité kùn:n:tête mà:mrph:SUPER dɔ́gɔ:vq:petit ya:mrph:ABSTR]
+kùnmafalen:v:échanger [kùn:n:tête mà:mrph:SUPER fàlen:v:échanger] >> kùnmafàlen:v:échanger [kùn:n:tête mà:mrph:SUPER fàlen:v:échanger]
+kùnmasícɛ̀:v:tressaillir [kùn:n:tête mà:pp:ADR sí:n:poil cɛ̀:v:ramasser] >> kùnmasicɛ̀:v:tressaillir [kùn:n:tête mà:pp:ADR sí:n:poil cɛ̀:v:ramasser]
+kùnmato:v:mettre.en.gage [kùn:n:tête mà:pp:ADR tó:v:rester] >> kùnmató:v:mettre.en.gage [kùn:n:tête mà:pp:ADR tó:v:rester]
+kùnmatu:n:indemnité [kùn:n:tête mà:pp:ADR tú:n:touffe] >> kùnmatú:n:indemnité [kùn:n:tête mà:pp:ADR tú:n:touffe]
+kùnnada:v:rappeler.un.bienfait >> kùnnadá:v:rappeler.un.bienfait
+kùnnafa:v:arrêter [kùn:n:tête ná:pp:à fá:v:remplir] >> kùnnafá:v:surcharger [kùn:n:tête ná:pp:à fá:v:remplir]
+kùnnafoni:v:renseigner [kùn:n:tête ná:pp:à fóni:v:détacher] >> kùnnafóni:v:renseigner [kùn:n:tête ná:pp:à fóni:v:détacher]
+kùnnatiɲɛ:v:détourner [kùn:n:tête ná:pp:à tíyɛn:v:gâter] >> kùnnatíɲɛ:v:détourner [kùn:n:tête ná:pp:à tíyɛn:v:gâter]
+kùnnawolo:v:faire.l'honneur [kùn:n:tête ná:pp:à wólo:v:accoucher] >> kùnnawólo:v:faire.l'honneur [kùn:n:tête ná:pp:à wólo:v:accoucher]
+kùnsuma:v:parler.peu [kùn:n:tête súma:v:rafraîchir] >> kùnsúma:v:parler.peu [kùn:n:tête súma:v:rafraîchir]
+kùntilen:v:se.mettre.en.face [kùn:n:tête tílen:v:redresser] >> kùntílen:v:se.mettre.en.face [kùn:n:tête tílen:v:redresser]
+kùntiɲɛ:v:détourner [kùn:n:tête tíyɛn:v:gâter] >> kùntíɲɛ:v:détourner [kùn:n:tête tíyɛn:v:gâter]
+kùntiyɛn:v:détourner [kùn:n:tête tíyɛn:v:gâter] >> kùntíyɛn:v:détourner [kùn:n:tête tíyɛn:v:gâter]
+kùrumankɔ:v:régresser [kùru:v:plier ma:mrph:DIR ń:pers:1SG kɔ́:pp:après] >> kùrumankɔ́:v:régresser [kùru:v:plier ma:mrph:DIR ń:pers:1SG kɔ́:pp:après]
+kùrunbokari:v:laver.pour.la.première.fois [kùrunbo:adj:neuf kári:v:casser] >> kùrunbokári:v:laver.pour.la.première.fois [kùrunbo:adj:neuf kári:v:casser]
+kùrunbonkari:v:laver.pour.la.première.fois [kùrunbo:adj:neuf kári:v:casser] >> kùrunbonkári:v:laver.pour.la.première.fois [kùrunbo:adj:neuf kári:v:casser]
+kùrunkɔ:v:revenir >> kùrunkɔ́:v:revenir
+kùrusigi:v:rythmer [kùru:n:boule sìgi:v:asseoir] >> kùrusìgi:v:rythmer [kùru:n:boule sìgi:v:asseoir]
+lábàlí:v:confondre >> lábàli:v:confondre
+lábɔ̀ɔsí:v:ravir >> lábɔ̀ɔsi:v:ravir
+lájɛ̀ngɛ́n:v:faire.pencher >> lájɛ̀ngɛn:v:faire.pencher
+lásáha:v:faire.se.reposer >> lásaha:v:relaxer
+màbalima:v:flatter >> màbálima:v:flatter
+màbiri:v:abaisser >> màbíri:v:abaisser
+màbɔ:v:éloigner >> màbɔ́:v:éloigner
+màda:v:incliner >> màdá:v:incliner
+màdeli:v:prier >> màdéli:v:prier
+màdigi:v:rouvrir >> màdígi:v:rouvrir
+màdiya:v:aimer >> màdíya:v:aimer
+màdɔgɔya:v:humilier [mà:mrph:SUPER dɔ́gɔya:v:amoindrir [dɔ́gɔ:vq:petit ya:mrph:DEQU]] >> màdɔ́gɔya:v:humilier [mà:mrph:SUPER dɔ́gɔya:v:amoindrir [dɔ́gɔ:vq:petit ya:mrph:DEQU]]
+màfa:v:combler >> màfá:v:combler
+màfara:v:séparer >> màfára:v:séparer
+màfilɛ:v:regarder >> màfílɛ:v:examiner
+màfiyɛn:v:dénigrer >> màfíyɛn:v:dénigrer
+màfyɛ́n:v:dénigrer >> màfyɛ́n:v:dénigrer
+màfiɲɛ:v:dénigrer >> màfíɲɛ:v:dénigrer
+màfiyɛnya:v: dénigrer >> màfíyɛnya:v: dénigrer
+màfyɛ́nya:v: dénigrer >> màfyɛ́nya:v: dénigrer
+màfura:v:nettoyer >> màfúra:v:nettoyer
+màgɛn:v:poursuivre >> màgɛ́n:v:rejoindre
+màgwɛn:v:poursuivre >> màgwɛ́n:v:rejoindre
+màgɛrɛ:v:approcher >> màgɛ̀rɛ:v:approcher
+màgwɛrɛ:v:approcher >> màgwɛ̀rɛ:v:approcher
+màgara:v:approcher >> màgàra:v:approcher
+màgwara:v:approcher >> màgwàra:v:approcher
+màjogin:v:blesser >> màjógin:v:blesser
+màkaran:v:défendre >> màkáran:v:défendre
+màkari:v:avoir.pitié >> màkári:v:avoir.pitié
+màkili:v:invoquer >> màkíli:v:invoquer
+màkoto:v:épargner >> màkotó:v:épargner
+màkuma:v:critiquer >> màkuma:v:gronder
+màkunu:v:réveiller >> màkúnu:v:réveiller
+màmeleke:v:envelopper >> màméleke:v:envelopper
+mànda:v:mesurer >> màndá:v:mesurer
+màndimi:v:causer.de.la.douleur >> màndími:v:blesser
+màndiya:v:chérir [màn:mrph:SUPER dí:vq/adj:agréable ya:mrph:ABSTR] >> màndíya:v:chérir [màn:mrph:SUPER dí:vq:agréable ya:mrph:DEQU]
+màngoya:v:détester >> màngóya:v:détester
+mànjaraki:v:être.presque.mûr >> mànjáraki:v:être.presque.mûr
+bànjaraki:v:être.presque.mûr >> bànjáraki:v:être.presque.mûr
+mànkutu:v:glorifier >> mànkútu:v:glorifier
+mànɔgɔ:v:salir >> mànɔ́gɔ:v:salir
+màɲaga:v:refuser >> màɲaga:v:se.rebiffer
+màɲaka:v:refuser >> màɲaka:v:se.rebiffer
+màɲɔgɔlɔn:v:orner >> màɲɔ́gɔlɔn:v:orner
+màɲuman:v:avoir.pitié >> màɲúman:v:avoir.pitié
+màsama:v:attirer >> màsàma [mà:mrph:SUPER sàma:v:tirer.à.soi]:v:attirer
+màsuma:v:calmer >> màsúma:v:calmer
+màsumaya:v:tarder >> màsúmaya:v:tarder
+màtaama:v:prospecter >> màtáama:v:férquenter
+màtara:v:invoquer >> màtára:v:invoquer
+màtarafa:v:fréquenter >> màtárafa:v:fréquenter
+màtiɲɛ:v:gâter >> màtíɲɛ:v:vilipender
+màtiyɛn:v:gâter >> màtíyɛn:v:vilipender
+màwɔrɔ:v:déshabiller >> màwɔ́rɔ:v:déshabiller
+màyigiyigi:v:secouer >> màyígiyigi:v:secouer
+nɔ̀bɔ:v:suivre >> nɔ̀bɔ́:v:suivre
+nɔ̀fɛgɛn:v:poursuivre >> nɔ̀fɛgɛ́n:v:poursuivre
+nɔ̀fɛtaama:v:aller.chercher >> nɔ̀fɛtáama:v:filer
+nɔ̀gɛn:v:poursuivre.en.courant >> nɔ̀gɛ́n:v:poursuivre.en.courant
+nɔ̀nabila:v:remplacer >> nɔ̀nabìla:v:remplacer
+nɔ̀rɔ́gɔ̀si:v:détériorer >> nɔ̀rɔgɔ̀si:v:détériorer
+ɲɛ́mɛ́gɛmɛgɛ:v:ciller >> ɲɛ́mɛgɛmɛgɛ:v:ciller
+ɲɛ́súma:v:prospérer >> ɲɛ́suma:v:prospérer
+ɲɛ́túnu:v:disparaître >> ɲɛ́tunu:v:disparaître
+ɲɛ́kúnu:v:disparaître >> ɲɛ́kunu:v:disparaître
+ɲɛ́túru:v:braquer.les.yeux >> ɲɛ́turu:v:braquer.les.yeux
+sànsi:v:passer.l'année >> sànsì:v:passer.l'année
+sènkɛnyɛ:v:coïncider >> sènkɛ́nyɛ:v:coïncider
+sènkɔrɔcɛ:v:faire.tomber >> sènkɔrɔcɛ̀:v:faire.tomber
+sènkɔrɔmacɛ:v:faire.tomber >> sènkɔrɔmacɛ̀:v:faire.tomber
+sènkɔrɔmadɛmɛ:v:soutenir >> sènkɔrɔmadɛ̀mɛ:v:soutenir
+sènkɔrɔmadon:v:soutenir >> sènkɔrɔmadòn:v:soutenir
+sènkɔrɔdon:v:soutenir >> sènkɔrɔdòn:v:soutenir
+sènnasiri:v:entraver.la.marche >> sènnasìri:v:entraver.la.marche
+sènnasumaya:v:ralentir >> sènnasúmaya:v:ralentir
+sènnateliya:v:presser.l'allure >> sènnatéliya:v:presser.l'allure
+sènnayaala:v:se.promener.à.pied >> sènnayáala:v:se.promener.à.pied
+sɛ̀gɛnnabɔ:v:se.reposer >> sɛ̀gɛnnabɔ́:v:se.reposer
+sɛ̀gɛnnafiyɛn:v:se.reposer >> sɛ̀gɛnnafíyɛn:v:se.reposer
+sílásà:v:exterminer >> sílasà:v:exterminer
+sɔ̀gɔmafo:v:saluer.le.matin >> sɔ̀gɔmafó:v:saluer.le.matin
+tɔ̀nɔmàdá:v:mettre.en.gage >> tɔ̀nɔmadá:v:mettre.en.gage
+tnɔ̀màdá:v:mettre.en.gage >> tnɔ̀madá:v:mettre.en.gage
+fàlen:n:monnaie >> fàlen:n:échange
+kɛ́nɛman:adj:sain [kɛ́nɛ:vq/adj:en.bonne.santé man:mrph:ADJ] >> kɛ́nɛman:adj:sain [kɛ́nɛ:vq:sain man:mrph:ADJ]
+yé:cop:BE >> yé:cop:être
+y':cop:BE >> y':cop:être
