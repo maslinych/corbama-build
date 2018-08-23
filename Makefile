@@ -27,6 +27,7 @@ dabased=$(PYTHON) $(DABA)/dabased.py -v
 REPL=python ../repl/repl.py
 RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
+makelexicon=$(PYTHON) $(DABA)/ad-hoc/tt-make-lexicon.py
 # 
 # EXTERNAL RESOURCES
 grammar=$(BAMADABA)/bamana.gram.txt
@@ -53,6 +54,7 @@ brutfiles := $(netfiles) $(patsubst %.html,%,$(replfiles))
 prlfiles := $(filter %.bam-fra.prl,$(gitfiles))
 alignedbam = $(patsubst %.bam-fra.prl,%.non-tonal.vert,$(prlfiles))
 alignedfra = $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
+netfiles-fullpath := $(realpath $(patsubst %,$(SRC)/%.html,$(netfiles)))
 
 ## Corpora — main part
 corpbasename := corbama
@@ -69,15 +71,17 @@ corpora-corbama-prl := corbamafara corfarabama
 
 
 include remote.mk
+include tests.mk
 
 
 .PRECIOUS: $(parshtmlfiles) %.repl.html
 
-test:
-	@echo $(brutfiles) | tr ' ' '\n'
+.PHONY: %.list
+
+all: compile
 
 print-%:
-	$(info $*=$($*))
+	@echo $(info $($*))
 
 %.pars.tonal.vert: %.pars.html
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
@@ -96,6 +100,18 @@ print-%:
 
 %.dis.nul.vert: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --unique --null --convert > "$@"
+
+
+%.dis.lemma.vert: %.dis.html %.dis.dbs
+	$(daba2vert) "$<" --unique --convert --canonical --conll --senttag "SENT" > "$@"
+
+%.dis.conll: %.dis.html %.dis.dbs
+	$(daba2vert) "$<" --unique --convert --canonical --conll --senttag "SENT" | \
+	awk -F"\t" -v OFS="\t" '/^<doc/ {print "#" " " $$0; next} /^</ && $$2 != "SENT" {next} {print $$1, $$3, $$2}' > "$@"
+
+%.dis.tonal.conll: %.dis.html %.dis.dbs
+	$(daba2vert) "$<" --unique --convert --canonical --conll --senttag "SENT" --tonal | \
+	awk -F"\t" -v OFS="\t" '/^<doc/ {print "#" " " $0; next} /^</ && $$2 != "SENT" {next} {print $$1, $$3, $$2}' > "$@"
 
 %.dis.bam.txt: %.dis.html
 	$(daba2align) "$<" "$@"
@@ -197,6 +213,13 @@ corbama-net-tonal.vert: $(addsuffix .tonal.vert,$(netfiles))
 corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles)) 
 	cat $(sort $^) > $@
 
+corbama-net-non-tonal.conll: $(addsuffix .conll,$(netfiles)) 
+	cat $(sort $^) > $@
+
+corbama-net-tonal.conll: $(addsuffix .tonal.conll,$(netfiles)) 
+	cat $(sort $^) > $@
+
+
 corbamafara.vert: $(alignedbam)
 	cat $(sort $^) > $@
 
@@ -275,6 +298,19 @@ corpsize:
 corpsize-daba:
 	@echo $(brutfiles) | tr ' ' '\n' | fgrep -v .dis | sed 's/.pars/.pars.html/' | xargs -n1 python ../daba/metaprint.py -w | awk '{c+=$$2}END{print "brut:" c}'
 #find -name \*.pars.html -print0 | xargs -0 -n 1 python ../daba/metaprint.py -w | awk '{c+=$$2}END{print "brut:" c}'
+
+
+%.list:
+	$(foreach brutfile,$($*),$(file >> $@,$(brutfile))) 
+
+%.lexicon.txt: %.list
+	$(makelexicon) --corpus . --filelist $< > $@
+
+lexicon.brut.txt: parshtmlfiles.list
+	$(makelexicon) --corpus . --runtimedir ./run --join --filelist $< > $@
+
+lexicon.net-tonal.txt: dishtmlfiles.list
+	$(makelexicon) --corpus $(SRC) --filelist $< --join > $@
 
 clean: clean-vert clean-parse clean-pars
 
