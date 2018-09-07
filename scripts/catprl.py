@@ -10,6 +10,7 @@ def read_prls(filelist):
     ainc, binc = (-1, -1)
     amax, bmax = (0, 0)
     for f in filelist:
+        print(u"<doc={}>".format(f).encode('utf8'))
         with open(f, 'r+') as prl:
             ainc = ainc + amax + 1
             binc = binc + bmax + 1
