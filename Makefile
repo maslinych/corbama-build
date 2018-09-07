@@ -55,6 +55,9 @@ prlfiles := $(filter %.bam-fra.prl,$(gitfiles))
 alignedbam = $(patsubst %.bam-fra.prl,%.non-tonal.vert,$(prlfiles))
 alignedfra = $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
 netfiles-fullpath := $(realpath $(patsubst %,$(SRC)/%.html,$(netfiles)))
+# Lemmatizer files
+tkzfiles := $(addsuffix .tkz,$(basename $(parsefiles) $(parseoldfiles)))
+
 
 ## Corpora — main part
 corpbasename := corbama
@@ -111,7 +114,7 @@ print-%:
 
 %.dis.tonal.conll: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --unique --convert --canonical --conll --senttag "SENT" --tonal | \
-	awk -F"\t" -v OFS="\t" '/^<doc/ {print "#" " " $0; next} /^</ && $$2 != "SENT" {next} {print $$1, $$3, $$2}' > "$@"
+	awk -F"\t" -v OFS="\t" '/^<doc/ {print "#" " " $$0; next} /^</ && $$2 != "SENT" {next} {print $$1, $$3, $$2}' > "$@"
 
 %.dis.bam.txt: %.dis.html
 	$(daba2align) "$<" "$@"
@@ -134,6 +137,24 @@ print-%:
 
 %.pars.html: %.txt $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
+
+%.old.tkz: %.old.txt
+	$(PARSER) -N -s bamlatinold -c -f "tokens" -i "$<" -o "$@"
+
+%.tkz: %.txt
+	$(PARSER) -N -c -f "tokens" -i "$<" -o "$@"
+
+%.tkz: %.html
+	$(PARSER) -N -c -f "tokens" -i "$<" -o "$@"
+
+%.tkzid: %.tkz
+	cat $< | awk '$$0 ~ /^# <doc/ {match($$0, /^# <doc path=([^ >]+).tkz/, doc); docid=doc[1]; sentid=1; next} !length($$0) {sentid += 1; next} $$1 ~ /^[#<]/ || NF > 1 {next} NF == 1 {print docid, sentid, $$1}' > $@
+
+%.tkzid: %.conll
+	cat $< | awk -F"\t" '$$0 ~ /^# <doc/ {match($$0, /id="([^" >]+).dis.html/, doc); docid=doc[1]; sentid=1; next} $2 == "SENT" {sentid += 1; next} $1 ~ /^</ || NF > 1 {next} NF == 1 {print docid, sentid, $$1}' > $@
+
+%.old.tkz: %.old.html
+	$(PARSER) -N -s bamlatinold -c -f "tokens" -i "$<" -o "$@"
 
 %.dis.pars.html: %.dis.html $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
@@ -219,6 +240,8 @@ corbama-net-non-tonal.conll: $(addsuffix .conll,$(netfiles))
 corbama-net-tonal.conll: $(addsuffix .tonal.conll,$(netfiles)) 
 	cat $(sort $^) > $@
 
+corbama-brut.tkz: $(tkzfiles)
+	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 
 corbamafara.vert: $(alignedbam)
 	cat $(sort $^) > $@
