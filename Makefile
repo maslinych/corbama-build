@@ -20,10 +20,13 @@ BUILT=built
 BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
 PARSER=mparser -s apostrophe
-daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
+#daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
+daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba-disamb-syn.txt
 #daba2align=mparser -N -f sentlist
-daba2align=$(PYTHON) $(DABA)/ad-hoc/daba2align.py
-dabased=$(PYTHON) $(DABA)/dabased.py -v
+#daba2align=$(PYTHON) $(DABA)/ad-hoc/daba2align.py
+daba2align=daba2align
+#dabased=$(PYTHON) $(DABA)/dabased.py -v
+dabased=dabased -v
 REPL=python ../repl/repl.py
 RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
@@ -31,8 +34,11 @@ makelexicon=$(PYTHON) $(DABA)/ad-hoc/tt-make-lexicon.py
 # 
 # EXTERNAL RESOURCES
 grammar=$(BAMADABA)/bamana.gram.txt
-dictionaries := $(addprefix $(BAMADABA)/,bamadaba.txt jamuw.txt togow.txt yorow.txt enciclop.txt)
-dabafiles := $(addrefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
+#dictionaries := $(addprefix $(BAMADABA)/,bamadaba.txt jamuw.txt togow.txt yorow.txt enciclop.txt ETRGFRA.txt)
+#dabafiles := $(addrefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
+dictionaries := $(addprefix $(BAMADABA)/,bamadaba-disamb-syn.txt)
+dabafiles := $(addprefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
+
 # 
 # SOURCE FILELISTS
 gitfiles := $(shell $(gitsrc) ls-files)
@@ -166,10 +172,10 @@ print-%:
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
 
 %.repl.html: %.pars.html
-	$(REPL) "$*" -fast
+	$(REPL) "$*"
 
 %.old.repl.html: %.old.pars.html
-	$(REPL) "$*.old" -fast
+	$(REPL) "$*.old"
 
 %.repl.tonal.vert: %.dis.repl.html
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
@@ -203,7 +209,7 @@ print-%:
 				fi ;\
 			fi ;\
 			done );\
-		echo "Already applyed:" $< $$f ;\
+		echo "Already applied:" $< $$f ;\
 		test -z "$$applyed" && $(dabased) -s $$f $< && echo $$f $$dabasedsha $$lastcommit >> $@ ;\
 		done ; exit 0 
 
