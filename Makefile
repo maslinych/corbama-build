@@ -285,6 +285,7 @@ export/data/%/word.lex: config/% %.vert
 	mkdir -p export/vert
 	encodevert -c ./$< -p $(@D) $*.vert
 	cp $< export/registry
+	sed -i 's,./export,/var/lib/manatee/,' export/registry/$*
 
 corbama-dist.zip:
 	git archive -o corbama-dist.zip --format=zip HEAD
@@ -304,6 +305,7 @@ export/corbama.tar.xz: $(compiled)
 	bash -c "pushd export ; tar cJvf corbama.tar.xz --mode='a+r' * ; popd"
 
 mkalign: corbama-bam-fra.prl corbama-fra-bam.prl
+	sed -i '/^\s*<doc/d' $?
 	mkalign corbama-bam-fra.prl export/data/corbamafara/align.corfarabama
 	mkalign corbama-fra-bam.prl export/data/corfarabama/align.corbamafara
 
