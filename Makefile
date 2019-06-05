@@ -20,11 +20,12 @@ BUILT=built
 BAMADABA=$(ROOT)/bamadaba
 PYTHON=PYTHONPATH=$(DABA) python
 PARSER=mparser -s apostrophe
-#daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
-daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba-disamb-syn.txt
+daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
+#daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba-disamb-syn.txt
 #daba2align=mparser -N -f sentlist
 #daba2align=$(PYTHON) $(DABA)/ad-hoc/daba2align.py
 daba2align=daba2align
+daba2conllu=python scripts/daba2conllu.py
 #dabased=$(PYTHON) $(DABA)/dabased.py -v
 dabased=dabased -v
 REPL=python ../repl/repl.py
@@ -34,9 +35,9 @@ makelexicon=$(PYTHON) $(DABA)/ad-hoc/tt-make-lexicon.py
 # 
 # EXTERNAL RESOURCES
 grammar=$(BAMADABA)/bamana.gram.txt
-#dictionaries := $(addprefix $(BAMADABA)/,bamadaba.txt jamuw.txt togow.txt yorow.txt enciclop.txt ETRGFRA.txt)
+dictionaries := $(addprefix $(BAMADABA)/,bamadaba.txt jamuw.txt togow.txt yorow.txt enciclop.txt ETRGFRA.txt)
 #dabafiles := $(addrefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
-dictionaries := $(addprefix $(BAMADABA)/,bamadaba-disamb-syn.txt)
+#dictionaries := $(addprefix $(BAMADABA)/,bamadaba-disamb-syn.txt)
 dabafiles := $(addprefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
 
 # 
@@ -112,7 +113,7 @@ print-%:
 
 
 %.dis.lemma.vert: %.dis.html %.dis.dbs
-	$(daba2vert) "$<" --unique --convert --canonical --conll --senttag "SENT" > "$@"
+	$(daba2vert) "$<" --tonal --unique --convert --canonical --senttag "SENT" --conll > "$@"
 
 %.dis.conll: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --unique --convert --canonical --conll --senttag "SENT" | \
@@ -121,6 +122,9 @@ print-%:
 %.dis.tonal.conll: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --unique --convert --canonical --conll --senttag "SENT" --tonal | \
 	awk -F"\t" -v OFS="\t" '/^<doc/ {print "#" " " $$0; next} /^</ && $$2 != "SENT" {next} {print $$1, $$3, $$2}' > "$@"
+
+%.dis.tonal.conllu: %.dis.html %.dis.dbs
+	$(daba2conllu) "$<" > "$@"
 
 %.dis.bam.txt: %.dis.html
 	$(daba2align) "$<" "$@"
@@ -244,6 +248,12 @@ corbama-net-non-tonal.conll: $(addsuffix .conll,$(netfiles))
 	cat $(sort $^) > $@
 
 corbama-net-tonal.conll: $(addsuffix .tonal.conll,$(netfiles)) 
+	cat $(sort $^) > $@
+
+corbama-net-tonal.lemma.vert: $(addsuffix .lemma.vert,$(netfiles)) 
+	cat $(sort $^) > $@
+
+corbama-net-tonal.conllu: $(addsuffix .tonal.conllu,$(netfiles)) 
 	cat $(sort $^) > $@
 
 corbama-brut.tkz: $(tkzfiles)
