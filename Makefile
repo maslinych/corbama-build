@@ -27,7 +27,8 @@ daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba-disamb-s
 daba2align=daba2align
 #dabased=$(PYTHON) $(DABA)/dabased.py -v
 dabased=dabased -v
-REPL=python ../repl/repl.py
+# REPL=python ../repl/repl.py
+REPL=../repl/nuitka/repl.bin
 RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
 makelexicon=$(PYTHON) $(DABA)/ad-hoc/tt-make-lexicon.py
