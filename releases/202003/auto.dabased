@@ -1,0 +1,190 @@
+#changes in lx tones :  5 
+
+jùnjun:v:secouer >> júnjun:v:secouer
+jùnyu:v:secouer >> júnyu:v:secouer
+jùnyun:v:secouer >> júnyun:v:secouer
+jùɲu:v:secouer >> júɲu:v:secouer
+ɲɔ̀nɔ:n:pédoncule >> ɲɔ́nɔ:n:pédoncule
+# bprev1: kàanagwɛlɛn:adj/n:intransigeant [kàana:n:caractère gwɛ̀lɛn:adj:difficile]
+# bprev1: kàanagɛlɛn:adj/n:intransigeant [kàana:n:caractère gɛ̀lɛn:adj:difficile]
+# bprev1: kànagɛlɛn:adj/n:intransigeant [kàana:n:caractère gɛ̀lɛn:adj:difficile]
+# bprev1: kɛ̀lɛɲɔgɔn:adj/n:adversaire [kɛ̀lɛ:v:combattre ɲɔgɔn:mrph:RECP]
+
+# changes in ps ? (or new lx ?) :  0 
+
+
+# changes in mm :  5 
+
+kɔ̀nkɔnma:v:se.préparer [kɔ̀nkɔn:v:se.préparer ma:mrph:DIR] >> kɔ̀nkɔnma:v:se.préparer [kɔ̀nkɔn:v:se.charger ma:mrph:DIR]
+ɲámaba:n:pied-de-boeuf [ɲáma:n:arbre.Piliostigma.sp ba:mrph:AUGM] >> ɲámaba:n:pied-de-boeuf [ɲáma:n:pied-de-boeuf ba:mrph:AUGM]
+ɲámacɛ:n:pied-de-chameau [ɲáma:n:arbre.Piliostigma.sp cɛ̀:n:mâle] >> ɲámacɛ:n:pied-de-chameau [ɲáma:n:pied-de-boeuf cɛ̀:n:mâle]
+ɲámafu:n:fibres.du.pied-de-boeuf [ɲáma:n:arbre.Piliostigma.sp fù:n:fibre] >> ɲámafu:n:fibres.du.pied-de-boeuf [ɲáma:n:pied-de-boeuf fù:n:fibre]
+ɲámamuso:n:pied-de-boeuf [ɲáma:n:arbre.Piliostigma.sp mùso:adj:féminin] >> ɲámamuso:n:pied-de-boeuf [ɲáma:n:pied-de-boeuf mùso:adj:féminin]
+
+# changes in gloss :  4 
+
+kɔ̀nkɔn:n:demi-brassée >> kɔ̀nkɔn:n:brassée
+kɔ̀nkɔn:v:se.préparer >> kɔ̀nkɔn:v:se.charger
+mère:n:vache >> mère:n:vache.race
+ɲáma:n:arbre.Piliostigma.sp >> ɲáma:n:pied-de-boeuf
+
+# changes in gloss and mm :  0 
+
+
+# New words :  161  ? Check with last paragraph (words having disappeared)
+
+Cɛfala:n.prop: >> Cɛfala:n.prop:TOP
+Cɛmɛna:n.prop: >> Cɛmɛna:n.prop:TOP
+Cɛn:n.prop: >> Cɛn:n.prop:TOP
+Cɛndaga:n.prop: >> Cɛndaga:n.prop:TOP
+Dànséni:n.prop: >> Dànséni:n.prop:NOM.M
+Dogofiri:n.prop: >> Dogofiri:n.prop:TOP
+Dɔnbila:n.prop: >> Dɔnbila:n.prop:TOP
+Dɔribugu:n.prop: >> Dɔribugu:n.prop:TOP
+Dɛnɛnba:n.prop: >> Dɛnɛnba:n.prop:TOP
+Facana:n.prop: >> Facana:n.prop:TOP
+Falo:n.prop: >> Falo:n.prop:TOP
+Falu:n.prop: >> Falu:n.prop:TOP
+Fasumuku:n.prop: >> Fasumuku:n.prop:TOP
+Gajaga:n.prop: >> Gajaga:n.prop:TOP
+Gɔrɔ:n.prop: >> Gɔrɔ:n.prop:TOP
+Jalan:n.prop: >> Jalan:n.prop:TOP
+Jijɛni:n.prop: >> Jijɛni:n.prop:TOP
+Jumazana:n.prop: >> Jumazana:n.prop:TOP
+Kalifabugu:n.prop: >> Kalifabugu:n.prop:TOP
+Kankela:n.prop: >> Kankela:n.prop:TOP
+Kocɛbugu:n.prop: >> Kocɛbugu:n.prop:TOP
+Koyan:n.prop: >> Koyan:n.prop:TOP
+Koyon:n.prop: >> Koyon:n.prop:TOP
+Kula:n.prop: >> Kula:n.prop:TOP
+Kumantu:n.prop: >> Kumantu:n.prop:TOP
+Kuwale:n.prop: >> Kuwale:n.prop:TOP
+Kɔbabolofɛ:n.prop: >> Kɔbabolofɛ:n.prop:TOP
+Kɔnsɔfɔn:n.prop: >> Kɔnsɔfɔn:n.prop:TOP
+Kɛbɛki:n.prop: >> Kɛbɛki:n.prop:TOP
+Líbanɛ:n: >> Líbanɛ:n:Libanais
+Lulo:n.prop: >> Lulo:n.prop:TOP
+Maagasa:n.prop: >> Maagasa:n.prop:NOM.CL
+Marasɛyi:n.prop: >> Marasɛyi:n.prop:TOP
+Masaran:n.prop: >> Masaran:n.prop:NOM.F
+Moreyali:n.prop: >> Moreyali:n.prop:TOP
+Nayirobi:n.prop: >> Nayirobi:n.prop:TOP
+Ntinɛnga:n.prop: >> Ntinɛnga:n.prop:TOP
+Nuwasɔki:n.prop: >> Nuwasɔki:n.prop:TOP
+Sagabari:n.prop: >> Sagabari:n.prop:TOP
+Sanamanin:n.prop: >> Sanamanin:n.prop:TOP
+Saranbugu:n.prop: >> Saranbugu:n.prop:TOP
+Sebekɔrɔ:n.prop: >> Sebekɔrɔ:n.prop:TOP
+Siloweni:n.prop: >> Siloweni:n.prop:TOP
+Siɲɛnso:n.prop: >> Siɲɛnso:n.prop:TOP
+Sorokɔrɔ:n.prop: >> Sorokɔrɔ:n.prop:TOP
+Surukutu:n.prop: >> Surukutu:n.prop:TOP
+Tanbakunda:n.prop: >> Tanbakunda:n.prop:TOP
+Tasɔna:n.prop: >> Tasɔna:n.prop:TOP
+Tigina:n.prop: >> Tigina:n.prop:TOP
+Tumanibugu:n.prop: >> Tumanibugu:n.prop:TOP
+Warala:n.prop: >> Warala:n.prop:TOP
+Wɛrɛkela:n.prop: >> Wɛrɛkela:n.prop:TOP
+Yopugɔn:n.prop: >> Yopugɔn:n.prop:TOP
+Zankarabala:n.prop: >> Zankarabala:n.prop:TOP
+bànanbiri:v: >> bànanbiri:v:barrer
+bólokɛɲɛ:v: >> bólokɛɲɛ:v:interloquer [bólo:n:bras kɛ́ɲɛ:v:empêcher]
+bɔ́gɔn:n: >> bɔ́gɔn:n:argile
+céw-céw-céw:adv: >> céw-céw-céw:adv:exactement
+cúron:v: >> cúron:v:enfoncer
+cɛ́-cɛ́-cɛ́:adv: >> cɛ́-cɛ́-cɛ́:adv:exactement
+cɛ́fɛrɛ:v: >> cɛ́fɛrɛ:v:fendre.en.deux [cɛ́:n:milieu]
+cɛ́w-cɛ́w-cɛ́w:adv: >> cɛ́w-cɛ́w-cɛ́w:adv:exactement
+dálakango:n: >> dálakango:n:qui.parle.mal [dálakan:n:voeu [dá:n:bouche lá:pp:à kán:n:cou] gó:adj:désagréable]
+dárɔkango:n: >> dárɔkango:n:qui.parle.mal [dárɔkan:n:voeu [dá:n:bouche rɔ́:pp:IN kán:n:cou] gó:adj:désagréable]
+dátigɛndala:n: >> dátigɛndala:n:bouderie [dá:n:bouche tìgɛ:v:couper ń:pers:1SG dá:n:bouche lá:pp:à]
+díina:n: >> díina:n:religion
+dòmidomi:v: >> dòmidomi:v:piétiner
+dùgusɛ:n: >> dùgusɛ:n:aube [dùgu:n:terre]
+dɔ́nyɔrɔ:n: >> dɔ́nyɔrɔ:n:compétence [dɔ́n:v:connaître yɔ́rɔ:n:lieu]
+fàkan:n: >> fàkan:n:langue.maternelle [fà:n:père kán:n:cou]
+fìnisiri:n: >> fìnisiri:n:baluchon [sìri:n:liaison fìni:n:tissu]
+foromansi:n: >> foromansi:n:fromage
+gánatìgɛ:v: >> gánatìgɛ:v:trancher [gán:n:gombo tìgɛ:v:couper]
+gènin:n: >> gènin:n:vène
+géni:n: >> géni:n:encens
+génin:n: >> génin:n:encens
+gɔ̀nga:n: >> gɔ̀nga:n:zébu
+gɔ̀ni:n: >> gɔ̀ni:n:chaleur
+gɔ̀nin:n: >> gɔ̀nin:n:chaleur
+gɛ̀rɛjigɛ:n: >> gɛ̀rɛjigɛ:n:chance
+hákililata:n: >> hákililata:n:avis [hákili:n:esprit lata:mrph:MNT2]
+jága:v: >> jága:v:creuser
+járantigɛ:v: >> járantigɛ:v:trancher [tìgɛ:v:couper]
+jíganna:n: >> jíganna:n:ménagère [jí:n:eau gàn:v:chauffer na:mrph:AG.PRM]
+jírisi:n: >> jírisi:n:menuiserie [jíri:n:arbre sí:v:moudre]
+jùkɔrɔdòn:v: >> jùkɔrɔdòn:v:pousser.vers.le.haut [jùkɔ́rɔ:pp:dessous [jù:n:derrière kɔ́rɔ:pp:sous] dòn:v:entrer]
+jùkɔrɔmadon:v: >> jùkɔrɔmadon:v:pousser.vers.le.haut [jùkɔ́rɔ:pp:dessous [jù:n:derrière kɔ́rɔ:pp:sous] mà:mrph:SUPER dòn:v:entrer]
+jùkɔrɔmadondon:v: >> jùkɔrɔmadondon:v:pousser.vers.le.haut [jùkɔ́rɔ:pp:dessous [jù:n:derrière kɔ́rɔ:pp:sous] mà:mrph:SUPER dòn:v:entrer dòn:v:entrer]
+jùkɔrɔmatíntin:v: >> jùkɔrɔmatíntin:v:soutenir [jùkɔ́rɔ:pp:dessous [jù:n:derrière kɔ́rɔ:pp:sous] mà:mrph:SUPER tíntin:v:enfoncer]
+júju:v: >> júju:v:secouer
+jɔ̀ɔrɛ:n: >> jɔ̀ɔrɛ:n:inquiétude
+jɔ̀ɔrɛ:v: >> jɔ̀ɔrɛ:v:s'inquiéter
+kàanagwɛlɛn:adj: >> kàanagwɛlɛn:adj:intransigeant [kàana:n:caractère gwɛ̀lɛn:adj:difficile]
+kàanagɛlɛn:adj: >> kàanagɛlɛn:adj:intransigeant [kàana:n:caractère gɛ̀lɛn:adj:difficile]
+kàarɔgwɛlɛn:n: >> kàarɔgwɛlɛn:n:intransigeant [gwɛ̀lɛn:adj:difficile]
+kànagwɛlɛn:adj: >> kànagwɛlɛn:adj:intransigeant [kàana:n:caractère gwɛ̀lɛn:adj:difficile]
+kànagɛlɛn:adj: >> kànagɛlɛn:adj:intransigeant [kàana:n:caractère gɛ̀lɛn:adj:difficile]
+kálosa:n: >> kálosa:n:fin.de.mois [kálo:n:lune sà:n:mort]
+kíititigɛ:n: >> kíititigɛ:n:procès [kíiti:n:jugement tìgɛ:v:couper]
+koronawirisi:n: >> koronawirisi:n:coronavirus
+kúmalasigi:n: >> kúmalasigi:n:réunion [kúma:n:parole lásìgi:v:faire.asseoir [lá:mrph:CAUS sìgi:v:asseoir]]
+kɛ̀lɛɲɔgɔn:n: >> kɛ̀lɛɲɔgɔn:n:adversaire [kɛ̀lɛ:v:combattre ɲɔgɔn:mrph:RECP]
+lapitani:n: >> lapitani:n:hôpital
+làkoli:n: >> làkoli:n:école
+láalaatɔ:adj: >> láalaatɔ:adj:amorphe [lágalaga:n:apathie tɔ:mrph:ST]
+láalaatɔ:n: >> láalaatɔ:n:amorphe [lágalaga:n:apathie tɔ:mrph:ST]
+lájunjun:v: >> lájunjun:v:tapoter [lá:mrph:CAUS júnjun:v:secouer]
+lájunyu:v: >> lájunyu:v:tapoter [lá:mrph:CAUS júnyu:v:secouer]
+lájuɲu:v: >> lájuɲu:v:tapoter [lá:mrph:CAUS júɲu:v:secouer]
+lòteli:n: >> lòteli:n:hôtel
+màgaman:adj: >> màgaman:adj:mou [màga:vq:mou man:mrph:ADJ]
+màriyasi:n: >> màriyasi:n:jeu.de.cartes
+mɔ́ɲɔngɔ:v: >> mɔ́ɲɔngɔ:v:écraser [mɔ́ɲɔ:v:écraser]
+nàmadunan:v: >> nàmadunan:v:manger.copieusement [nàma:n:hyène dúnan:n:étranger]
+nájunjun:v: >> nájunjun:v:tapoter [ná:mrph:CAUS júnjun:v:secouer]
+nájunyu:v: >> nájunyu:v:tapoter [ná:mrph:CAUS júnyu:v:secouer]
+nájuɲu:v: >> nájuɲu:v:tapoter [ná:mrph:CAUS júɲu:v:secouer]
+nátilen:v: >> nátilen:v:redresser [ná:mrph:CAUS tílen:v:redresser]
+ncábilen:n: >> ncábilen:n:terre.profonde [bìlen:adj:rouge]
+nìginaga:n: >> nìginaga:n:étourdissement
+nìginaga:v: >> nìginaga:v:étourdir
+nìnna:n: >> nìnna:n:don [nì:v:offrir ń:pers:1SG ná:pp:à]
+ntɛ́gɛn:n: >> ntɛ́gɛn:n:planche.de.semis
+nɔ̀nkɔ:n: >> nɔ̀nkɔ:n:coude
+nɔ̀nkɔmasa:v: >> nɔ̀nkɔmasa:v:s'accouder [nɔ̀nkɔ:n:coude]
+nɛgiri:n: >> nɛgiri:n:nègre
+piyɛsi:n: >> piyɛsi:n:pièce
+popilɛri:adj: >> popilɛri:adj:populaire
+pósite:n: >> pósite:n:poste
+rɔ́junjun:v: >> rɔ́junjun:v:tapoter [rɔ́:mrph:IN júnjun:v:secouer]
+rɔ́junyu:v: >> rɔ́junyu:v:tapoter [rɔ́:mrph:IN júnyu:v:secouer]
+rɔ́juɲu:v: >> rɔ́juɲu:v:tapoter [rɔ́:mrph:IN júɲu:v:secouer]
+sanburuyɛri:n: >> sanburuyɛri:n:chambre.à.air
+sánfa-dùgufa:adj: >> sánfa-dùgufa:adj:gros.et.grand [sán:n:ciel fá:v:remplir dùgu:n:terre fá:v:remplir]
+sìtaanɛ:n: >> sìtaanɛ:n:diable
+síta:n: >> síta:n:très.bien
+sɔ̀n:adv: >> sɔ̀n:adv:souvent
+tarakitɛrɛ:n: >> tarakitɛrɛ:n:tracteur
+tìn:v: >> tìn:v:être.dressé
+tírikitɔrɔkɔ:v: >> tírikitɔrɔkɔ:v:se.disperser
+tónsenna:n: >> tónsenna:n:durabilité [tó:v:rester ń:pers:1SG sèn:n:jambe ná:pp:à]
+túlomagɛ̀lɛya:v: >> túlomagɛ̀lɛya:v:s'entêter [túlomagɛlɛ:adj:entêté [túlo:n:oreille ma:mrph:SUPER gɛ̀lɛ:adj:difficile] ya:mrph:ABSTR]
+tɛ́gun:v: >> tɛ́gun:v:être.contigu
+tɛ́gɛn:n: >> tɛ́gɛn:n:planche.de.semis
+tɛ́ɛnkun:v: >> tɛ́ɛnkun:v:être.contigu
+wámɛ:n: >> wámɛ:n:inondation
+wèleweledala:n: >> wèleweledala:n:crieur.public [wéleweleda:v:annoncer.publiquement [wélewele:n:annonce.publique dá:v:poser] la:mrph:AG.PRM \:mrph:NMLZ2]
+wèlewelelila:n: >> wèlewelelila:n:crieur.public [wélewele:n:annonce.publique li:mrph:NMLZ la:mrph:AG.PRM \:mrph:NMLZ2]
+wùluncɔrɔgɔ:n: >> wùluncɔrɔgɔ:n:plante.Cissus.quadrangularis [wùlu:n:chien]
+wùsa:vq: >> wùsa:vq:mieux
+yàga:v: >> yàga:v:niveler
+ɔpɛrashɔn:n: >> ɔpɛrashɔn:n:opération
+ɔsishɛni:n: >> ɔsishɛni:n:oxygène
+ɲámalen:n: >> ɲámalen:n:fruit.de.pied-de-boeuf [ɲáma:n:pied-de-boeuf len:mrph:DIM]
+ɲɔ́ɔnɔ:n: >> ɲɔ́ɔnɔ:n:pédoncule
