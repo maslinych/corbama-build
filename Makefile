@@ -18,7 +18,7 @@ PRODPORT=8099
 BUILT=built
 # UTILS
 BAMADABA=$(ROOT)/bamadaba
-PYTHON=PYTHONPATH=$(DABA) python
+PYTHON=PYTHONPATH=$(DABA) python3
 PARSER=mparser -s apostrophe
 #daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
 daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba-disamb-syn.txt
@@ -27,8 +27,9 @@ daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba-disamb-s
 daba2align=daba2align
 #dabased=$(PYTHON) $(DABA)/dabased.py -v
 dabased=dabased -v
-# REPL=python ../repl/repl.py
-REPL=../repl/nuitka/repl.bin
+REPL=python3 ../repl/repl.py
+#REPL=../repl/nuitka/repl.bin
+#REPL=../repl.dist/repl
 RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
 makelexicon=$(PYTHON) $(DABA)/ad-hoc/tt-make-lexicon.py
@@ -228,30 +229,35 @@ makedirs:
 run.dabased: $(addsuffix .dbs,$(netfiles))
 
 corbama-nul.vert: $(addsuffix .nul.vert,$(brutfiles))
-	rm -f $@
-	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
+	$(file >$@) $(foreach f,$(sort $^),$(shell cat $f >> $@))
+	@true
 
 corbama-brut.vert: $(addsuffix .non-tonal.vert,$(brutfiles))
-	rm -f $@
-	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
+	$(file >$@) $(foreach f,$(sort $^),$(shell cat $f >> $@))
+	@true
 
 corbama-net-tonal.vert: $(addsuffix .tonal.vert,$(netfiles)) 
-	cat $(sort $^) > $@
+	$(file >$@) $(foreach f,$(sort $^),$(shell cat $f >> $@))
+	@true
 
 corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles)) 
-	cat $(sort $^) > $@
+	$(file >$@) $(foreach f,$(sort $^),$(shell cat $f >> $@))
+	@true
 
 corbama-net-non-tonal.conll: $(addsuffix .conll,$(netfiles)) 
-	cat $(sort $^) > $@
+	$(file >$@) $(foreach f,$(sort $^),$(shell cat $f >> $@))
+	@true
 
 corbama-net-tonal.conll: $(addsuffix .tonal.conll,$(netfiles)) 
-	cat $(sort $^) > $@
+	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
+	@true
 
 corbama-brut.tkz: $(tkzfiles)
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 
 corbamafara.vert: $(alignedbam)
-	cat $(sort $^) > $@
+	rm -f $@
+	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
 
 corfarabama.vert: $(alignedfra)
 	rm -f $@
