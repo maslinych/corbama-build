@@ -28,7 +28,8 @@ daba2align=daba2align
 #dabased=$(PYTHON) $(DABA)/dabased.py -v
 dabased=dabased -v
 # REPL=python ../repl/repl.py
-REPL=../repl/nuitka/repl.bin
+# REPL=../repl/nuitka/repl.bin  - as of june 2021,python3 version is faster than nuitka c-compiled version by 10%
+REPL=python3 ../repl3/repl.py
 RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
 makelexicon=$(PYTHON) $(DABA)/ad-hoc/tt-make-lexicon.py
@@ -36,8 +37,9 @@ makelexicon=$(PYTHON) $(DABA)/ad-hoc/tt-make-lexicon.py
 # EXTERNAL RESOURCES
 grammar=$(BAMADABA)/bamana.gram.txt
 #dictionaries := $(addprefix $(BAMADABA)/,bamadaba.txt jamuw.txt togow.txt yorow.txt enciclop.txt ETRGFRA.txt)
-#dabafiles := $(addrefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
-dictionaries := $(addprefix $(BAMADABA)/,bamadaba-disamb-syn.txt)
+#dictionaries := $(addprefix $(BAMADABA)/,bamadaba-disamb-syn.txt)
+# june 2021 : modified version of bamadaba.txt with \ve modified as \va -> bamadaba-va.txt (\ve : variant to be avoided in normalised orthography)
+dictionaries := $(addprefix $(BAMADABA)/,bamadaba-va.txt jamuw.txt togow.txt yorow.txt enciclop.txt ETRGFRA.txt)
 dabafiles := $(addprefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
 
 # 
