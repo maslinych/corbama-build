@@ -1,0 +1,42 @@
+bɛ́ɛnnaka:n:parent.du.còté.maternel >> bɛ́ɛnnaka:n:parent.du.côté.maternel [bɛ́ɛnna:n:lieu.d'origine.de.la.mère [bɛ́ɛn:n:oncle.maternel na:mrph:LOC] ka:mrph:GENT]
+bɛɛnnaka:n:parent.du.còté.maternel >> bɛ́ɛnnaka:n:parent.du.côté.maternel [bɛ́ɛnna:n:lieu.d'origine.de.la.mère [bɛ́ɛn:n:oncle.maternel na:mrph:LOC] ka:mrph:GENT]
+b':cop:BE >> b':cop:être
+bi:cop:BE >> bi:cop:être
+ye:cop:BE >> ye:cop:être
+bí:cop:BE >> bí:cop:être
+yé:cop:BE >> yé:cop:être
+y':cop:BE >> y':cop:être
+# correction des corrections erronées du run précédent
+bi:cop:être >> bí:cop:être
+ye:cop:être >> yé:cop:être
+# correction après encore
+b':pm:BE >> b':cop:être
+yé:pm:BE >> yé:pm:être
+ye:pm:BE >> yé:pm:être
+# apostrophe ?
+y’:cop:BE >> y':cop:être
+# autres découvertes incidentes
+# occurences de gloses sans décomposition : cousin.de.plaisanterie-ABSTR ou parent.à.plaisanterie
+sènankunya:n: >>  sènankunya:n:cousinage.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ya:mrph:ABSTR]
+sénankunya:n: >>  sènankunya:n:cousinage.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ya:mrph:ABSTR]
+sènankunma:adj: >> sènankunma:adj:cousin.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ma:mrph:RECP.PRN]
+sènankunma:n: >> sènankunma:n:cousin.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ma:mrph:RECP.PRN]
+sènankunmaw:adj: >> sènankunmaw:adj: [sènankunma:adj:cousin.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ma:mrph:RECP.PRN] w:mrph:PL]
+sènankunmaw:n: >> sènankunmaw:n: [sènankunma:n:cousin.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ma:mrph:RECP.PRN] w:mrph:PL]
+senankunya:n: >>  sènankunya:n:cousinage.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ya:mrph:ABSTR]
+senankunma:adj: >> sènankunma:adj:cousin.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ma:mrph:RECP.PRN]
+senankunma:n: >> sènankunma:n:cousin.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ma:mrph:RECP.PRN]
+senankunmaw:adj: >> sènankunmaw:adj: [sènankunma:adj:cousin.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ma:mrph:RECP.PRN] w:mrph:PL]
+senankunmaw:n: >> sènankunmaw:n: [sènankunma:n:cousin.de.plaisanterie [sènankun:n:cousin.de.plaisanterie ma:mrph:RECP.PRN] w:mrph:PL]
+
+kɔ́ɔrisɛnɛnaw:n: >> kɔ́ɔrisɛnɛnaw:n: [kɔ́ɔrisɛnɛna:n: [kɔ́ɔrisɛnɛ:v: [kɔ́ɔri:n:coton sɛ̀nɛ:v:cultiver] na:mrph:AG.PRM] w:mrph:PL]
+tɔ̀ɲɔnikɛlaw:n: >> tɔ̀ɲɔnikɛlaw:n: [tɔ̀ɲɔnikɛla:n: [tɔ̀ɲɔ:v:offenser ni:mrph:NMLZ kɛ́:v:faire la:mrph:AG.PRM] w:mrph:PL]
+kɛ́taw:ptcp: >> kɛ́taw:ptcp: [kɛ́ta:ptcp: [kɛ́:v:faire ta:mrph:PTCP.POT] w:mrph:PL]
+tíɲɛnenw:ptcp: >> tíɲɛnenw:ptcp: [tíɲɛnen:ptcp: [tíɲɛ:v:gâter nen:mrph:PTCP.RES] w:mrph:PL]
+kɛ̀lɛkɛdenw:n: >> kɛ̀lɛkɛdenw:n: [kɛ̀lɛkɛden:n:soldat [kɛ̀lɛ:n:querelle kɛ́:v:faire dén:n:enfant] w:mrph:PL]
+tàbaaw:n: >> tàbaaw:n: [tàbaa:n: [tà:v:prendre baa:mrph:AG.OCC] w:mrph:PL]
+dílalaw:n: >> dílalaw:n: [dílala:n: [díla:v:fabriquer la:mrph:AG.PRM] w:mrph:PL]
+fɔ́lɔmɔgɔw:n: >> fɔ́lɔmɔgɔw:n: [fɔ́lɔmɔgɔ:n:homme.préhistorique [fɔ́lɔ:n:autrefois mɔ̀gɔ:n:homme] w:mrph:PL]
+kɔlɔnw:n: >> kolonw:n: [kɔlɔn:n:colon w:mrph:PL]
+sɛ̀nɛfɛnw:n: >> sɛ̀nɛfɛnw:n: [sɛ̀nɛfɛn:n:plante.cultivée [sɛ̀nɛ:v:cultiver fɛ́n:n:chose] w:mrph:PL]
+làkɔlidenw:n: >> làkɔlidenw:n: [làkɔliden:n:élève [làkɔli:n:école dén:n:enfant] w:mrph:PL]

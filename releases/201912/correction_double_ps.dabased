@@ -1,0 +1,226 @@
+# correction of double ps in composed glosses
+
+dɔ́w:prn: [dɔ́:prn/dtm:certain w:mrph:PL] >> dɔ́w:prn: [dɔ́:prn:certain w:mrph:PL]
+dɔ́w:dtm: [dɔ́:prn/dtm:certain w:mrph:PL] >> dɔ́w:prn: [dɔ́:dtm:certain w:mrph:PL]
+
+díya:n:bon.goût [dí:vq/adj:agréable ya:mrph:DEQU] >> díya:n:bon.goût [dí:vq:agréable ya:mrph:DEQU]
+díya:v:rendre.agréable [dí:vq/adj:agréable ya:mrph:DEQU] >> díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU]
+
+kósɛbɛ:adv:très.bien [kó:n:affaire sɛ̀bɛ:vq/adj:sérieux]>> kósɛbɛ:adv:très.bien [kó:n:affaire sɛ̀bɛ:adj:sérieux]
+
+kɛ́nɛya:n:bonne.santé [kɛ́nɛ:vq/adj:sain ya:mrph:DEQU] >> kɛ́nɛya:n:bonne.santé [kɛ́nɛ:vq:sain ya:mrph:DEQU]
+kɛ́nɛya:v:guérir [kɛ́nɛ:vq/adj:sain ya:mrph:DEQU] >> kɛ́nɛya:v:guérir [kɛ́nɛ:vq:sain ya:mrph:DEQU]
+kɛ́nɛw:adj: [kɛ́nɛ:vq/adj:sain w:mrph:PL] >> kɛ́nɛw:adj: [kɛ́nɛ:adj:sain w:mrph:PL]
+
+túguni:adv:encore [ní:prep/conj:et] >> túguni:adv:encore
+túguni:adv:encore [ní:conj/prep:et] >> túguni:adv:encore
+túguni:adv:encore [ni:prep/conj:et] >> túguni:adv:encore
+túguni:adv:encore [ni:conj/prep:et] >> túguni:adv:encore
+
+túgunni:adv:encore [ní:conj/prep:et] >> túgunni:adv:encore
+túgunni:adv:encore [ni:conj/prep:et] >> túgunni:adv:encore
+
+cɛ̀nímùsoya:n:rapports.sexuels [cɛ̀:n:mâle ní:conj/prep:et mùso:n:femme ya:mrph:ABSTR] >> cɛ̀nímùsoya:n:rapports.sexuels [cɛ̀:n:mâle ni:conj:et mùso:n:femme ya:mrph:ABSTR]
+cɛ̀nimusoya:n:rapports.sexuels [cɛ̀:n:mâle ní:conj/prep:et mùso:n:femme ya:mrph:ABSTR] >> cɛ̀nímùsoya:n:rapports.sexuels [cɛ̀:n:mâle ni:conj:et mùso:n:femme ya:mrph:ABSTR]
+cɛ̀nímùsoya:n:rapports.sexuels [cɛ̀:n:mâle ni:conj/prep:et mùso:n:femme ya:mrph:ABSTR] >> cɛ̀nímùsoya:n:rapports.sexuels [cɛ̀:n:mâle ni:conj:et mùso:n:femme ya:mrph:ABSTR]
+cɛ̀nimusoya:n:rapports.sexuels [cɛ̀:n:mâle ni:conj/prep:et mùso:n:femme ya:mrph:ABSTR] >> cɛ̀nímùsoya:n:rapports.sexuels [cɛ̀:n:mâle ni:conj:et mùso:n:femme ya:mrph:ABSTR]
+
+sánì:conj:avant.de [sá:n:ici ní:conj/prep:et] >> sánì:conj:avant.de
+sánì:conj:avant.de [sá:n:ici ni:conj/prep:et] >> sánì:conj:avant.de
+sáni:conj:avant.de [sá:n:ici ní:conj/prep:et] >> sánì:conj:avant.de
+sáni:conj:avant.de [sá:n:ici ni:conj/prep:et] >> sánì:conj:avant.de
+
+sánnì:conj:avant.de [ní:conj/prep:et] >> sánnì:conj:avant.de
+sánnì:conj:avant.de [ni:conj/prep:et] >> sánnì:conj:avant.de
+sánní:conj:avant.de [ní:conj/prep:et] >> sánní:conj:avant.de
+sánní:conj:avant.de [ni:conj/prep:et] >> sánní:conj:avant.de
+sánni:conj:avant.de [ní:conj/prep:et] >> sánnì:conj:avant.de
+sánni:conj:avant.de [ni:conj/prep:et] >> sánnì:conj:avant.de
+
+yànní:conj:avant.que [yàn:adv/n:ici ní:prep/conj:et] >> yànní:conj:avant.que
+yànní:conj:avant.que [yàn:adv/n:ici ní:conj/prep:et] >> yànní:conj:avant.que
+yànní:conj:avant.que [yàn:adv/n:ici ni:prep/conj:et] >> yànní:conj:avant.que
+yànní:conj:avant.que [yàn:adv/n:ici ni:conj/prep:et] >> yànní:conj:avant.que
+yànní:conj:avant.que [yàn:adv/n:ici] >> yànní:conj:avant.que
+yànní:conj:avant.que [yàn:n:ici ní:prep/conj:et] >> yànní:conj:avant.que
+yànní:conj:avant.que [yàn:n:ici ní:conj/prep:et] >> yànní:conj:avant.que
+yànní:conj:avant.que [yàn:n:ici ni:prep/conj:et] >> yànní:conj:avant.que
+yànní:conj:avant.que [yàn:n:ici ni:conj/prep:et] >> yànní:conj:avant.que
+
+yànni:conj:avant.que [yàn:adv/n:ici ní:prep/conj:et] >> yànní:conj:avant.que
+yànni:conj:avant.que [yàn:adv/n:ici ní:conj/prep:et] >> yànní:conj:avant.que
+yànni:conj:avant.que [yàn:adv/n:ici ni:prep/conj:et] >> yànní:conj:avant.que
+yànni:conj:avant.que [yàn:adv/n:ici ni:conj/prep:et] >> yànní:conj:avant.que
+yànni:conj:avant.que [yàn:adv/n:ici] >> yànní:conj:avant.que
+yànni:conj:avant.que [yàn:n:ici ní:prep/conj:et] >> yànní:conj:avant.que
+yànni:conj:avant.que [yàn:n:ici ní:conj/prep:et] >> yànní:conj:avant.que
+yànni:conj:avant.que [yàn:n:ici ni:prep/conj:et] >> yànní:conj:avant.que
+yànni:conj:avant.que [yàn:n:ici ni:conj/prep:et] >> yànní:conj:avant.que
+
+júguman:adj:méchant [júgu:vq/adj:méchant man:mrph:ADJ] >> júguman:adj:méchant [júgu:vq:méchant man:mrph:ADJ]
+júguw:adj: [júgu:vq/adj:méchant w:mrph:PL] >> júguw:adj: [júgu:adj:méchant w:mrph:PL]
+júguba:adj: [júgu:vq/adj:méchant ba:mrph:AUGM] >> júguba:adj: [júgu:adj:méchant ba:mrph:AUGM]
+júguya:v:être.méchant [júgu:vq/adj:méchant ya:mrph:DEQU] >> júguya:v:être.méchant [júgu:vq:méchant ya:mrph:DEQU]
+
+dùgujɛ:n:aube [dùgu:n:terre jɛ́:vq/adj:blanc] >> dùgujɛ:n:aube [dùgu:n:terre jɛ́:adj:blanc]
+dùgusɛjɛ:n:aurore [dùgu:n:terre jɛ́:vq/adj:blanc] >> dùgusɛjɛ:n:aurore [dùgu:n:terre jɛ́:adj:blanc]
+
+díyagoya:adv.p:de.force [díya:v:rendre.agréable dí:vq/adj:agréable ya:mrph:DEQU gó:vq:désagréable ya:mrph:DEQU] >> díyagoya:adv.p:de.force [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] gó:vq:désagréable ya:mrph:DEQU]
+díyagoya:v:contraindre [díya:v:rendre.agréable dí:vq/adj:agréable ya:mrph:DEQU gó:vq:désagréable ya:mrph:DEQU] >> díyagoya:v:contraindre [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] gó:vq:désagréable ya:mrph:DEQU]
+díyagòya:n:contrainte [díya:n:bon.goût dí:vq:agréable ya:mrph:DEQU gó:vq:désagréable ya:mrph:DEQU] >> díyagòya:n:contrainte [díya:n:bon.goût [dí:vq:agréable ya:mrph:DEQU] gó:vq:désagréable ya:mrph:DEQU]
+
+nìnw:prn: [nìn:prn/dtm:ceci w:mrph:PL] >> nìnw:prn: [nìn:prn:ceci w:mrph:PL]
+nìnw:prn: [nìn:prn/dtm:DEM w:mrph:PL] >> nìnw:prn: [nìn:prn:ceci w:mrph:PL]
+nìnw:dtm: [nìn:prn/dtm:DEM w:mrph:PL] >> nìnw:dtm: [nìn:dtm:DEM w:mrph:PL]
+
+nìnw:prn:ceci-PL [nìn:prn/dtm:ceci w:mrph:PL] >> nìnw:prn: [nìn:prn:ceci w:mrph:PL]
+nìnw:prn:ceci-PL [nìn:prn/dtm:DEM w:mrph:PL] >> nìnw:prn: [nìn:prn:ceci w:mrph:PL]
+nìnw:dtm:DEM-PL [nìn:prn/dtm:DEM w:mrph:PL] >> nìnw:dtm: [nìn:dtm:DEM w:mrph:PL]
+
+kɔ̀rɔw:adj: [kɔ̀rɔ:vq/adj:vieux w:mrph:PL] >> kɔ̀rɔw:adj: [kɔ̀rɔ:adj:vieux w:mrph:PL]
+kɔ̀rɔba:adj: [kɔ̀rɔ:vq/adj:vieux ba:mrph:AUGM] >> kɔ̀rɔba:adj: [kɔ̀rɔ:adj:vieux ba:mrph:AUGM]
+kɔ̀rɔbalen:n:le.plus.vieux [kɔ̀rɔ:vq/adj:vieux ba:mrph:AUGM len:mrph:PTCP.RES] >> kɔ̀rɔbalen:n:le.plus.vieux [kɔ̀rɔ:adj:vieux ba:mrph:AUGM len:mrph:PTCP.RES]
+
+fàantanw:adj: [fàantan:adj/n:pauvre [fàa:n:force ntan:mrph:PRIV] w:mrph:PL] >> fàantanw:adj: [fàantan:adj:pauvre [fàa:n:force ntan:mrph:PRIV] w:mrph:PL]
+fàantanw:n: [fàantan:adj/n:pauvre [fàa:n:force ntan:mrph:PRIV] w:mrph:PL] >> fàantanw:n: [fàantan:n:pauvre [fàa:n:force ntan:mrph:PRIV] w:mrph:PL]
+
+mɔ̀gɔkɔrɔba:n:vieux [mɔ̀gɔ:n:homme kɔ̀rɔ:vq/adj:vieux ba:mrph:AUGM] >> mɔ̀gɔkɔrɔba:n:vieux [mɔ̀gɔ:n:homme kɔ̀rɔ:adj:vieux ba:mrph:AUGM]
+# mɔ̀gɔkɔrɔbaw:n: [mɔ̀gɔkɔrɔba:n:vieux [mɔ̀gɔ:n:homme kɔ̀rɔ:vq/adj:vieux ba:mrph:AUGM] w:mrph:PL] >> mɔ̀gɔkɔrɔbaw:n: [mɔ̀gɔkɔrɔba:n:vieux [mɔ̀gɔ:n:homme kɔ̀rɔ:adj:vieux ba:mrph:AUGM] w:mrph:PL]
+màakɔrɔba:n:vieux [mɔ̀gɔ:n:homme kɔ̀rɔ:vq/adj:vieux ba:mrph:AUGM] >> màakɔrɔba:n:vieux [màa:n:homme kɔ̀rɔ:adj:vieux ba:mrph:AUGM]
+
+mùsokɔrɔba:n:vieille.femme [mùsokɔrɔ:n:vieille.femme [mùso:n:femme kɔ̀rɔ:vq/adj:vieux] ba:mrph:AUGM] >> mùsokɔrɔba:n:vieille.femme [mùsokɔrɔ:n:vieille.femme [mùso:n:femme kɔ̀rɔ:adj:vieux] ba:mrph:AUGM]
+mùsokɔrɔba:n:vieille.femme [mùsokɔrɔ:n:vieille.femme mùso:n:femme kɔ̀rɔ:vq/adj:vieux ba:mrph:AUGM] >> mùsokɔrɔba:n:vieille.femme [mùsokɔrɔ:n:vieille.femme [mùso:n:femme kɔ̀rɔ:adj:vieux] ba:mrph:AUGM]
+
+cɛ̀kɔrɔba:n:vieillard [cɛ̀kɔrɔ:n:homme.assez.âgé [cɛ̀:n:mâle kɔ̀rɔ:vq/adj:vieux] ba:mrph:AUGM] >> cɛ̀kɔrɔba:n:vieillard [cɛ̀kɔrɔ:n:homme.assez.âgé [cɛ̀:n:mâle kɔ̀rɔ:adj:vieux] ba:mrph:AUGM]
+
+fɔ́lɔw:adj: [fɔ́lɔ:adj/n:premier w:mrph:PL] >> fɔ́lɔw:adj: [fɔ́lɔ:adj:premier w:mrph:PL]
+fɔ́lɔw:n: [fɔ́lɔ:adj/n:premier w:mrph:PL] >> fɔ́lɔw:n: [fɔ́lɔ:n:premier w:mrph:PL]
+
+mùsokɔrɔnin:n:vieille.femme [mùsokɔrɔ:n:vieille.femme [mùso:n:femme kɔ̀rɔ:vq/adj:vieux] nin:mrph:DIM] >> mùsokɔrɔnin:n:vieille.femme [mùsokɔrɔ:n:vieille.femme [mùso:n:femme kɔ̀rɔ:adj:vieux] nin:mrph:DIM]
+mùsokɔrɔnin:n:vieille.femme [mùsokɔrɔ:n:vieille.femme mùso:n:femme kɔ̀rɔ:vq/adj:vieux nin:mrph:DIM] >> mùsokɔrɔnin:n:vieille.femme [mùsokɔrɔ:n:vieille.femme [mùso:n:femme kɔ̀rɔ:adj:vieux] nin:mrph:DIM]
+
+bàkɔrɔnin:n:bouc [bàkɔrɔ:n:bouc [bà:n:chèvre kɔrɔ:vq/adj:mâle.adulte] nin:mrph:DIM] >> bàkɔrɔnin:n:bouc [bàkɔrɔ:n:bouc [bà:n:chèvre kɔrɔ:adj:mâle.adulte] nin:mrph:DIM]
+bàkɔrɔnin:n:bouc [bàkɔrɔ:n:bouc bà:n:chèvre kɔrɔ:vq/adj:mâle.adulte nin:mrph:DIM] >> bàkɔrɔnin:n:bouc [bàkɔrɔ:n:bouc [bà:n:chèvre kɔrɔ:adj:mâle.adulte] nin:mrph:DIM]
+
+mìsɛnw:adj: [mìsɛn:vq/adj:petit w:mrph:PL] >> mìsɛnw:adj: [mìsɛn:adj:petit w:mrph:PL]
+mìsɛnw:vq: [mìsɛn:vq/adj:petit w:mrph:PL] >> mìsɛnw:adj: [mìsɛn:adj:petit w:mrph:PL]
+mìsɛnnin:adj: [mìsɛn:vq/adj:petit nin:mrph:DIM] >> mìsɛnnin:adj: [mìsɛn:adj:petit nin:mrph:DIM]
+mìsɛnninw:adj: [mìsɛn:vq/adj:petit nin:mrph:DIM w:mrph:PL] >> mìsɛnninw:adj: [mìsɛn:adj:petit nin:mrph:DIM w:mrph:PL]
+
+kɔ̀rɔnin:adj: [kɔ̀rɔ:vq/adj:vieux nin:mrph:DIM] >> kɔ̀rɔnin:adj: [kɔ̀rɔ:adj:vieux nin:mrph:DIM]
+
+nìnnú:dtm:DEM.PL [nìn:prn/dtm:DEM nu:mrph:PL2] >> nìnnú:dtm:DEM.PL [nìn:dtm:DEM nu:mrph:PL2]
+nìnnú:prn:DEM.PL [nìn:prn/dtm:ceci nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnú:prn:DEM.PL [nìn:prn/dtm:DEM nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnu:dtm:DEM.PL [nìn:prn/dtm:DEM nu:mrph:PL2] >> nìnnú:dtm:DEM.PL [nìn:dtm:DEM nu:mrph:PL2]
+nìnnu:prn:DEM.PL [nìn:prn/dtm:ceci nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnu:prn:DEM.PL [nìn:prn/dtm:DEM nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnú:prn:DEM.PL [nìn:dtm/prn:ceci nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnú:prn:DEM.PL [nìn:dtm/prn:DEM nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnu:prn:DEM.PL [nìn:dtm/prn:ceci nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnu:prn:DEM.PL [nìn:dtm/prn:DEM nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+
+nìnnú:dtm:DEM-PL [nìn:prn/dtm:DEM nu:mrph:PL2] >> nìnnú:dtm:DEM.PL [nìn:dtm:DEM nu:mrph:PL2]
+nìnnú:prn:DEM-PL [nìn:prn/dtm:ceci nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnú:prn:DEM-PL [nìn:prn/dtm:DEM nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnu:dtm:DEM-PL [nìn:prn/dtm:DEM nu:mrph:PL2] >> nìnnú:dtm:DEM.PL [nìn:dtm:DEM nu:mrph:PL2]
+nìnnu:prn:DEM-PL [nìn:prn/dtm:ceci nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnu:prn:DEM-PL [nìn:prn/dtm:DEM nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnú:prn:DEM-PL [nìn:dtm/prn:ceci nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnú:prn:DEM-PL [nìn:dtm/prn:DEM nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnu:prn:DEM-PL [nìn:dtm/prn:ceci nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+nìnnu:prn:DEM-PL [nìn:dtm/prn:DEM nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2]
+
+jɛ́man:adj:blanc [jɛ́:vq/adj:blanc man:mrph:ADJ] >> jɛ́man:adj:blanc [jɛ́:vq:blanc man:mrph:ADJ]
+# jɛmanw OK
+jɛ́ya:n:blancheur [jɛ́:vq/adj:blanc ya:mrph:DEQU] >> jɛ́ya:n:blancheur [jɛ́:vq:blanc ya:mrph:DEQU]
+jɛ́ya:v:blanchir [jɛ́:vq/adj:blanc ya:mrph:DEQU] >> jɛ́ya:v:blanchir [jɛ́:vq:blanc ya:mrph:DEQU]
+
+tíminandiya:n:bonne.application [tíminandi:n:appliqué [tími:v:s'appliquer nan:mrph:à dí:vq/adj:agréable] ya:mrph:ABSTR] >> tíminandiya:n:bonne.application [tíminandi:n:appliqué [tími:v:s'appliquer nan:mrph:à dí:vq:agréable] ya:mrph:ABSTR]
+tíminandiya:n:bonne.application [tíminandi:n:appliqué tími:v:s'appliquer nan:mrph:à dí:vq/adj:agréable ya:mrph:ABSTR] >> tíminandiya:n:bonne.application [tíminandi:n:appliqué [tími:v:s'appliquer nan:mrph:à dí:vq:agréable] ya:mrph:ABSTR]
+
+tíminandiya:v:s'appliquer.au.travail [tíminandi:n:appliqué [tími:v:s'appliquer nan:mrph:à dí:vq/adj:agréable] ya:mrph:ABSTR] >> tíminandiya:v:s'appliquer.au.travail [tíminandi:n:appliqué [tími:v:s'appliquer nan:mrph:à dí:vq:agréable] ya:mrph:ABSTR]
+tíminandiya:v:s'appliquer.au.travail [tíminandi:n:appliqué tími:v:s'appliquer nan:mrph:à dí:vq/adj:agréable ya:mrph:ABSTR] >> tíminandiya:v:s'appliquer.au.travail [tíminandi:n:appliqué [tími:v:s'appliquer nan:mrph:à dí:vq:agréable] ya:mrph:ABSTR]
+tíminandiya:v:s'appliquer.au.travail [tíminandi:adj/n:appliqué [tími:v:s'appliquer nan:mrph:à dí:vq/adj:agréable] ya:mrph:ABSTR] >> tíminandiya:v:s'appliquer.au.travail [tíminandi:n:appliqué [tími:v:s'appliquer nan:mrph:à dí:vq:agréable] ya:mrph:ABSTR]
+
+bìlama:adj:actuel [bì:adv/n:aujourd'hui lama:mrph:STAT] >> bìlama:adj:actuel [bì:n:aujourd'hui lama:mrph:STAT]
+bìlama:adj:actuel [bì:n/adv:aujourd'hui lama:mrph:STAT] >> bìlama:adj:actuel [bì:n:aujourd'hui lama:mrph:STAT]
+
+sɛ̀bɛkɔrɔ:adv.p:sérieusement [sɛ̀bɛ:adj/n:sérieux kɔ̀rɔ:vq/adj:vieux] >> sɛ̀bɛkɔrɔ:adv.p:sérieusement [sɛ̀bɛ:adj:sérieux kɔ̀rɔ:adj:vieux]
+
+kɛ́nɛyako:n: [kɛ́nɛya:n:bonne.santé [kɛ́nɛ:vq/adj:sain ya:mrph:DEQU] kó:n:affaire] >> kɛ́nɛyako:n: [kɛ́nɛya:n:bonne.santé [kɛ́nɛ:vq:sain ya:mrph:DEQU] kó:n:affaire]
+kɛ́nɛyako:n: [kɛ́nɛya:v:guérir [kɛ́nɛ:vq/adj:sain ya:mrph:DEQU] kó:n:affaire] >> kɛ́nɛyako:n: [kɛ́nɛya:n:bonne.santé [kɛ́nɛ:vq:sain ya:mrph:DEQU] kó:n:affaire]
+kɛ́nɛman:adj:sain [kɛ́nɛ:vq/adj:sain man:mrph:ADJ] >> kɛ́nɛman:adj:sain [kɛ́nɛ:vq:sain man:mrph:ADJ]
+
+súmayabana:n:paludisme [súmaya:n:froid [súma:vq/adj:frais ya:mrph:DEQU] bàna:n:maladie] >> súmayabana:n:paludisme [súmaya:n:froid [súma:vq:frais ya:mrph:DEQU] bàna:n:maladie]
+
+nísɔndiya:n:joie [nísɔn:n:humeur ní:n:âme sɔ̀n:n:coeur dí:vq/adj:agréable ya:mrph:DEQU] >> nísɔndiya:n:joie [nísɔn:n:humeur [ní:n:âme sɔ̀n:n:coeur] díya:n:bon.goût [dí:vq:agréable ya:mrph:DEQU]]
+nísɔndiya:v:réjouir [nísɔn:n:humeur ní:n:âme sɔ̀n:n:coeur dí:vq/adj:agréable ya:mrph:DEQU] >> nísɔndiya:v:réjouir [nísɔn:n:humeur [ní:n:âme sɔ̀n:n:coeur] díya:n:bon.goût [dí:vq:agréable ya:mrph:DEQU]]
+
+nísɔngoya:v:contrarier [nísɔngo:adj/n:de.mauvaise.humeur nísɔn:n:humeur ní:n:âme sɔ̀n:n:coeur gó:vq:désagréable ya:mrph:ABSTR] >> nísɔngoya:v:contrarier [nísɔngo:adj:de.mauvaise.humeur [nísɔn:n:humeur [ní:n:âme sɔ̀n:n:coeur] gó:adj:désagréable] ya:mrph:ABSTR]
+nísɔngoya:v:contrarier [nísɔngo:adj/n:de.mauvaise.humeur nísɔn:n:humeur ní:n:âme sɔ̀n:n:coeur gó:adj:désagréable ya:mrph:ABSTR] >> nísɔngoya:v:contrarier [nísɔngo:adj:de.mauvaise.humeur [nísɔn:n:humeur [ní:n:âme sɔ̀n:n:coeur] gó:adj:désagréable] ya:mrph:ABSTR]
+
+fàrafin:n:Noir [fàra:n:écorce fìn:vq/adj:noir] >> fàrafin:n:Noir [fàra:n:écorce fìn:adj:noir]
+fàrafin:n:noir [fàra:n:écorce fìn:vq/adj:noir] >> fàrafin:n:Noir [fàra:n:écorce fìn:adj:noir]
+
+téliya:n:rapidité [téli:vq/adj:rapide ya:mrph:DEQU] >> téliya:n:rapidité [téli:vq:rapide ya:mrph:DEQU]
+téliya:v:accélérer [téli:vq/adj:rapide ya:mrph:DEQU] >> téliya:v:accélérer [téli:vq:rapide ya:mrph:DEQU]
+
+súgunɛbilennin:n: [súgunɛbilen:n:bilharziose [súgunɛ:n:urine bìlen:vq/adj:rouge] nin:mrph:DIM] >> súgunɛbilennin:n: [súgunɛbilen:n:bilharziose [súgunɛ:n:urine bìlen:adj:rouge] nin:mrph:DIM]
+
+fíyentɔw:adj: [fíyentɔ:adj/n:aveugle [fíyen:v:devenir.aveugle tɔ:mrph:ST] w:mrph:PL] >> fíyentɔw:adj: [fíyentɔ:adj:aveugle [fíyen:v:devenir.aveugle tɔ:mrph:ST] w:mrph:PL]
+fíyentɔw:n: [fíyentɔ:adj/n:aveugle [fíyen:v:devenir.aveugle tɔ:mrph:ST] w:mrph:PL] >> fíyentɔw:n: [fíyentɔ:n:aveugle [fíyen:v:devenir.aveugle tɔ:mrph:ST] w:mrph:PL]
+
+ɲɛ́nafin:n:nostalgie [ɲɛ́na:n:vue ɲɛ́:n:oeil ná:mrph:à fìn:vq/adj:noir] >> ɲɛ́nafin:n:nostalgie [ɲɛ́na:n:vue [ɲɛ́:n:oeil ná:pp:à] fìn:adj:noir]
+ɲɛ́nafin:v:être.triste [ɲɛ́na:n:vue ɲɛ́:n:oeil ná:mrph:à fìn:vq/adj:noir] >> ɲɛ́nafin:v:être.triste [ɲɛ́na:n:vue [ɲɛ́:n:oeil ná:pp:à] fìn:adj:noir]
+ɲɛ́nafin:n:nostalgie [ɲɛ́na:n:vue ɲɛ́:n:oeil na:mrph:MNT1 fìn:vq/adj:noir] >> ɲɛ́nafin:n:nostalgie [ɲɛ́na:n:vue [ɲɛ́:n:oeil ná:pp:à] fìn:adj:noir]
+ɲɛ́nafin:v:être.triste [ɲɛ́na:n:vue ɲɛ́:n:oeil na:mrph:MNT1 fìn:vq/adj:noir] >> ɲɛ́nafin:v:être.triste [ɲɛ́na:n:vue [ɲɛ́:n:oeil ná:pp:à] fìn:adj:noir]
+
+dùgumisɛnw:n: [dùgu:n:terre mìsɛn:vq/adj:petit w:mrph:DIM] >> dùgumisɛnw:n: [dùgu:n:terre mìsɛn:adj:petit w:mrph:DIM]
+
+fálatɔw:adj: [fálatɔ:adj/n:orphelin [fála:n:orphelin tɔ:mrph:ST] w:mrph:PL] >> fálatɔw:adj: [fálatɔ:adj:orphelin [fála:n:orphelin tɔ:mrph:ST] w:mrph:PL]
+fálatɔw:n: [fálatɔ:adj/n:orphelin [fála:n:orphelin tɔ:mrph:ST] w:mrph:PL] >> fálatɔw:n: [fálatɔ:n:orphelin [fála:n:orphelin tɔ:mrph:ST] w:mrph:PL]
+
+ɲɛ́ngoya:n:jalousie [ɲɛ́ngo:adj/n:jaloux [ɲɛ́n:n:oeil gó:vq:désagréable] ya:mrph:ABSTR] >> ɲɛ́ngoya:n:jalousie [ɲɛ́ngo:adj:jaloux [ɲɛ́n:n:oeil gó:adj:désagréable] ya:mrph:ABSTR]
+ɲɛ́ngoya:n:jalousie [ɲɛ́ngo:adj/n:jaloux ɲɛ́n:n:oeil gó:vq:désagréable ya:mrph:ABSTR] >> ɲɛ́ngoya:n:jalousie [ɲɛ́ngo:adj:jaloux [ɲɛ́n:n:oeil gó:adj:désagréable] ya:mrph:ABSTR]
+
+sànnifeere:n:commerce [sàn:v:acheter ní:conj/prep:et fèere:v:vendre] >> sànnifeere:n:commerce [sàn:v:acheter ni:conj:et fèere:v:vendre]
+sànnifeere:n:commerce [sàn:v:acheter ni:conj/prep:et fèere:v:vendre] >> sànnifeere:n:commerce [sàn:v:acheter ni:conj:et fèere:v:vendre]
+
+jànw:adj: [jàn:vq/adj:long w:mrph:PL] >> jànw:adj: [jàn:adj:long w:mrph:PL]
+
+fìnman:adj:noir [fìn:vq/adj:noir man:mrph:ADJ] >> fìnman:adj:noir [fìn:vq:noir man:mrph:ADJ]
+
+kósɔbɛ:adv:très.bien [kó:n:affaire sɔ̀bɛ:adj/n:sérieux] >> kósɔbɛ:adv:très.bien [kó:n:affaire sɔ̀bɛ:adj:sérieux]
+
+náafigiw:adj: [náafigi:adj/n:rapporteur w:mrph:PL] >> náafigiw:adj: [náafigi:adj:rapporteur w:mrph:PL]
+náafigiw:n: [náafigi:adj/n:rapporteur w:mrph:PL] >> náafigiw:n: [náafigi:n:rapporteur w:mrph:PL]
+
+màgaman:adj: [màga:vq:mou man:mrph:ADJ] >> màgaman:adj: [màga:vq:mou man:mrph:ADJ]
+
+hɔ́rɔnw:n: [hɔ́rɔn:adj/n:homme.libre w:mrph:PL] >> hɔ́rɔnw:n: [hɔ́rɔn:n:homme.libre w:mrph:PL]
+hɔ́rɔnw:n: [hɔ́rɔn:adj/n:libre w:mrph:PL] >> hɔ́rɔnw:n: [hɔ́rɔn:n:homme.libre w:mrph:PL]
+
+ládiya:v:faire.plaisir [lá:mrph:CAUS díya:v:rendre.agréable dí:vq/adj:agréable ya:mrph:DEQU] >> ládiya:v:faire.plaisir [lá:mrph:CAUS díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU]]
+
+kùrunnin:adj: [kùrun:vq/adj:court nin:mrph:DIM] >> kùrunnin:adj: [kùrun:adj:court nin:mrph:DIM]
+
+kójugu:adv:trop [kó:n:affaire júgu:vq/adj:méchant] >> kójugu:adv:trop [kó:n:affaire júgu:adj:méchant]
+kójugu:n:affaire.grave [kó:n:affaire júgu:vq/adj:méchant] >> kójugu:n:affaire.grave [kó:n:affaire júgu:adj:méchant]
+
+
+cɛ̀farin:n: [cɛ̀:n:mâle fárin:vq/adj:ardent] >> cɛ̀farin:n: [cɛ̀:n:mâle fárin:adj:ardent]
+
+díyanye:n:plaisir [díya:v:rendre.agréable dí:vq/adj:agréable ya:mrph:DEQU ń:pers:1SG yé:pp:PP] >> díyanye:n:plaisir [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] ń:pers:1SG yé:pp:PP]
+
+bànabaatɔw:n: [bànabaatɔ:adj/n:malade [bàna:n:maladie baa:mrph:AG.OCC tɔ:mrph:ST] w:mrph:PL] >> bànabaatɔw:n: [bànabaatɔ:n:malade [bàna:n:maladie baa:mrph:AG.OCC tɔ:mrph:ST] w:mrph:PL]
+
+sétigiw:n: [sétigi:adj/n:influent [sé:n:arrivée tìgi:n:maître] w:mrph:PL] >> sétigiw:n: [sétigi:n:influent [sé:n:arrivée tìgi:n:maître] w:mrph:PL]
+sétigiw:adj: [sétigi:adj/n:influent [sé:n:arrivée tìgi:n:maître] w:mrph:PL] >> sétigiw:adj: [sétigi:adj:influent [sé:n:arrivée tìgi:n:maître] w:mrph:PL]
+
+kùnbabaw:adj: [kùnbaba:adj/n:gros [kùnba:adj:gros ba:mrph:AUGM] w:mrph:PL] >> kùnbabaw:adj: [kùnbaba:adj:gros [kùnba:adj:gros ba:mrph:AUGM] w:mrph:PL]
+kùnbabaw:n: [kùnbaba:adj/n:gros [kùnba:adj:gros ba:mrph:AUGM] w:mrph:PL] >> kùnbabaw:n: [kùnbaba:n:gros [kùnba:adj:gros ba:mrph:AUGM] w:mrph:PL]
+
+díya:v:rendre.agréable [dí:vq/adj:agréable ya:mrph:DEQU] >> díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU]
+
+gurupu:n:groupe.electrogène >> gurupu:n:groupe

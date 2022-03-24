@@ -1,0 +1,56 @@
+
+# correction for past double \gf in bamadaba - parser was taking the last one instead of keeping the 1st one.
+
+dà:n:Hibiscus.cannabicus >> dà:n:chanvre
+dàn:v:dépasser >> dàn:v:s'arrêter
+dálasigi:n:portier  >> dálasigi:n:adjoint
+dángadenya:v:rendre.vaurien >> dángadenya:v:maudire
+
+dɛ̀mɛdɛmɛ:v:aider.à.marcher >> dɛ̀mɛdɛmɛ:v:se.démener
+dɛ̀ndɛ:v:aider.à.marcher >> dɛ̀ndɛ:v:se.démener
+dɛ̀ɛndɛɛn:v:aider.à.marcher >> dɛ̀ɛndɛɛn:v:se.démener
+
+fára:v:bifurquer >> fára:v:diviser
+fòlokofalaka:v:agir.avec.peu.de.sérieux >> fòlokofalaka:v:s'agiter.légèrement
+
+gá:n:échafaudage >> gá:n:hangar
+gwá:n:échafaudage >> gwá:n:hangar
+
+gírinya:v:rendre.lourd >> gírinya:v:être.lourd
+grínya:v:rendre.lourd >> grínya:v:être.lourd
+
+jàasere:n:index >> jàasere:n:avertissement
+jàgasere:n:index >> jàgasere:n:avertissement
+
+jìra:v:indiquer >> jìra:v:montrer
+jìr':v:indiquer >> jìr':v:montrer
+yìra:v:indiquer >> yìra:v:montrer
+
+kánfila:n:personne.versatile >> kánfila:n:fourbe
+kɔ́kan:n:javanais >> kɔ́kan:n:médisance
+
+námara:v:escroquer >> námara:v:tromper
+nánbara:v:escroquer >> nánbara:v:tromper
+
+nɛ̀gɛma:adj:en.fer >> nɛ̀gɛma:adj:contenant.du.fer
+sà:n:fin >> sà:n:mort
+
+syɛ́n:n:plant.à.repiquer >> syɛ́n:n:bouture
+sɛ́n:n:plant.à.repiquer >> sɛ́n:n:bouture
+shyɛ́n:n:plant.à.repiquer >> shyɛ́n:n:bouture
+síɲɛ:n:plant.à.repiquer >> síɲɛ:n:bouture
+síɲɛn:n:plant.à.repiquer >> síɲɛn:n:bouture
+
+sɔ̀rɔdasi:n:soldat >> sɔ̀rɔdasi:n:militaire
+sɔ̀rasi:n:soldat >> sɔ̀rasi:n:militaire
+sòrodasi:n:soldat >> sòrodasi:n:militaire
+
+táalibɛ:n:disciple >> táalibɛ:n:élève
+tìnminɛmuso:n:accoucheuse >> tìnminɛmuso:n:sage-femme
+tɛ́tɛ:n:suppurations.cutanées >> tɛ́tɛ:n:panaris.de.pouce
+wɛ́ntɛrɛ:v:distribuer >> wɛ́ntɛrɛ:v:solder
+
+ɲìninka:v:demander >> ɲìninka:v:interroger
+ɲìninkan:v:demander >> ɲìninkan:v:interroger
+
+ɲɛ́bilen:n:oeil.menaçant >> ɲɛ́bilen:n:rougeâtre

@@ -1,0 +1,141 @@
+#changes in lx tones :  9 
+
+Sabali:n.prop:NOM.M >> Sàbali:n.prop:NOM.M
+delegasɔn:n:délégation >> délegasɔn:n:délégation
+díyagoya:n:contrainte [díya:n:bon.goût [dí:vq:agréable ya:mrph:DEQU] gó:vq:désagréable ya:mrph:DEQU] >> díyagòya:n:contrainte [díya:n:bon.goût [dí:vq:agréable ya:mrph:DEQU] gó:vq:désagréable ya:mrph:DEQU]
+díyakoya:n:contrainte [díya:n:bon.goût [dí:vq:agréable ya:mrph:DEQU] kó:vq:désagréable ya:mrph:DEQU] >> díyakòya:n:contrainte [díya:n:bon.goût [dí:vq:agréable ya:mrph:DEQU] kó:vq:désagréable ya:mrph:DEQU]
+dɔ́gɔtɔrɔmobili:n:ambulance [dɔ̀gɔtɔrɔ:n:docteur móbili:n:automobile] >> dɔ̀gɔtɔrɔmobili:n:ambulance [dɔ̀gɔtɔrɔ:n:docteur móbili:n:automobile]
+erezɔn:n:région >> érezɔn:n:région
+jágoya:n:contrainte [já:n:bon.goût gó:vq:désagréable ya:mrph:DEQU] >> jágòya:n:contrainte [já:n:bon.goût gó:vq:désagréable ya:mrph:DEQU]
+jákoya:n:contrainte [já:n:bon.goût kó:vq:désagréable ya:mrph:DEQU] >> jákòya:n:contrainte [já:n:bon.goût kó:vq:désagréable ya:mrph:DEQU]
+sànpiyɔna:n:championnat >> sánpiyɔna:n:championnat
+sànpiɲɔna:n:championnat >> sánpiɲɔna:n:championnat
+
+# changes in ps ? (or new lx ?) :  1 
+
+kɔ̀gɔwasa:v:sel.iodé [kɔ̀gɔ:n:sel wàsa:n:satisfaction] >> kɔ̀gɔwasa:n:sel.iodé [kɔ̀gɔ:n:sel wàsa:n:satisfaction]
+
+# changes in mm :  3 
+
+kɔ́nɔbolintumu:n:trichuris [kɔ́nɔboli:n:diarrhée [kɔ́nɔ:n:ventre bòli:n:course] ntùmu:n:ver kɔ́nɔboli:n:diarrhée [kɔ́nɔ:n:ventre bòli:n:course] tùmu:n:ver] >> kɔ́nɔbolintumu:n:trichuris [kɔ́nɔboli:n:diarrhée [kɔ́nɔ:n:ventre bòli:n:course] ntùmu:n:ver]
+sànanko:v:rincer [sànan:n:gratin kò:v:laver] >> sànanko:v:rincer
+tímina:n:application [tími:v:s'appliquer na:mrph:MNT1] >> tímina:n:application [tími:v:s'appliquer na:mrph:à]
+
+# changes in gloss :  9 
+
+kúrakura:adv: >> kúrakura:adv:cataclop.cataclop
+sàn:n:gratin >> sàn:n:brûlé
+sàna:n:gratin >> sàna:n:brûlé
+sànan:n:gratin >> sànan:n:brûlé
+sɛ̀nɛ:n:gratin >> sɛ̀nɛ:n:brûlé
+wisiki:n:ETRG.FRA >> wisiki:n:whisky
+ziyifu:n:juif >> ziyifu:n:Juif
+zuifu:n:juif >> zuifu:n:Juif
+zuyifu:n:juif >> zuyifu:n:Juif
+
+# changes in gloss and mm :  0 
+
+
+# New words :  72  ? Check with last paragraph (words having disappeared)
+
+#- - - extra caution with homonyms ! ex: new: dákojugu "contrefait" // added to existing: dákojugu "mauvais coucheur" 
+
+Gize:n.prop: >> Gize:n.prop:TOP
+Ogosagu:n.prop: >> Ogosagu:n.prop:TOP
+Sansana:n.prop: >> Sansana:n.prop:TOP
+Sirilanka:n.prop: >> Sirilanka:n.prop:TOP
+#  agarafezi:n: >> agarafezi:n:agrafeuse
+arozuwari:n: >> ározuwari:n:arrosoir
+ákademi:n: >> ákademi:n:académie
+címicama:n: >> címicama:n:bosson.alcoolisé
+címicama:v: >> címicama:v:soûler
+délege:n: >> délege:n:délégué
+#  dɔkitora:n: >> dɔkitora:n:doctorat
+#  eremɔriku:n: >> eremɔriku:n:remorque
+#  erezisɛri:n: >> erezisɛri:n:régisseur
+éreni:n: >> éreni:n:hernie
+érini:n: >> érini:n:hernie
+fágu:vq: >> fágu:vq:inutile
+fáranfaasi:n: >> fáranfaasi:n:différence
+fáranfaasi:v: >> fáranfaasi:v:différencier
+fáranfaasilan:n: >> fáranfaasilan:n:déterminant [fáranfaasi:v:différencier lan:mrph:INSTR]
+fáranfaasiya:n: >> fáranfaasiya:n:précision [fáranfaasi:v:différencier ya:mrph:ABSTR]
+fáranfaasiya:v: >> fáranfaasiya:v:bien.préciser [fáranfaasi:v:différencier ya:mrph:ABSTR]
+ísiye:n: >> ísiye:n:huissier
+jùnkun:n: >> jùnkun:n:bosse
+#  kasino:n: >> kasino:n:casino
+#  kazino:n: >> kazino:n:casino
+kánan:v: >> kánan:v:émonder
+#  kizini:n: >> kizini:n:cuisine
+kìlɔti:n: >> kìlɔti:n:culotte
+#  kɔntenɛri:n: >> kɔntenɛri:n:conteneur
+kɔ́nɔbolitumu:n: >> kɔ́nɔbolitumu:n:trichuris [kɔ́nɔboli:n:diarrhée [kɔ́nɔ:n:ventre bòli:n:course] tùmu:n:ver]
+làafiya:v: >> làafiya:v:se.reposer
+làga:n: >> làga:n:bouillie.crémeuse
+# avoid - ambiguous ( 2 ) :  láafu:v: >> láafu:v:affaiblir
+láfu:n: >> láfu:n:faiblesse
+màara:v: >> màara:v:barbouiller
+#  mɛtirikibi:n: >> mɛtirikibi:n:mètre-cube
+#  nasiyɔn:n: >> nasiyɔn:n:nation
+# avoid - ambiguous ( 2 ) :  náalo:n: >> náalo:n:saletés
+# avoid - ambiguous ( 2 ) :  náalon:n: >> náalon:n:saletés
+orokɛti:n: >> orokɛti:n:roquette
+póliyo:n: >> póliyo:n:poliomyélite
+pónpe:n: >> pónpe:n:pompe
+pɔ́shi:n: >> pɔ́shi:n:poche
+#  rayi:n: >> rayi:n:rail
+#  sarabɛti:n: >> sarabɛti:n:serviette
+sànsana:n: >> sànsana:n:brûlé
+shànpiyɔn:n: >> shànpiyɔn:n:champion
+shànpiɲɔn:n: >> shànpiɲɔn:n:champion
+shánpiyɔna:n: >> shánpiyɔna:n:championnat
+shánpiyɔna:n: >> shánpiyɔna:n:championnat
+shɔ́lɔ:v: >> shɔ́lɔ:v:égoutter
+símisi:n: >> símisi:n:chemise
+sùlusála:v: >> sùlusála:v:flâner
+syólo:v: >> syólo:v:égoutter
+sɔ́ɔlɔlan:n: >> sɔ́ɔlɔlan:n:passoire [sɔ́ɔlɔ:v:égoutter lan:mrph:INSTR]
+tíminan:n: >> tíminan:n:application [tími:v:s'appliquer nan:mrph:à]
+wiski:n: >> wiski:n:whisky
+yáabe:n: >> yáabe:n:but.contre.son.camp
+yíribila:n: >> yíribila:n:rappel [bìla:v:mettre]
+zaponɛ:n: >> zaponɛ:n:Japonais
+zapɔnɛ:n: >> zapɔnɛ:n:Japonais
+zóni:n: >> zóni:n:zone
+#  zuzi:n: >> zuzi:n:juge
+zúrunali:n: >> zúrunali:n:journal
+zɔ́ni:n: >> zɔ́ni:n:zone
+Ɛndonesi:n.prop: >> Ɛndonesi:n.prop:TOP
+ɛ́reni:n: >> ɛ́reni:n:hernie
+
+# Words which have disappeared in the last Bamadaba :  6 ?! Check with previous paragraph (new words)
+#    For instance look out for words where the tones in lx and the mm in gloss have both changed.
+#    i.e after split of vq/adj: júgu:vq/adj:mauvais >> júgu:vq/adj:méchant + júgu:vq:mauvais >> júgu:vq:méchant + júgu:adj:mauvais >> júgu:adj:méchant
+#    or for instance : rɔ́ncàkanpo:v:contredire [rɔ́:mrph:IN] >> rɔ́ncàpanko:v:contredire [rɔ́:mrph:IN ncàpanko:v:contredire]
+
+
+# ? sànsàná:n:gratin
+# ? syɔ́lɔlan:n:passoire [syɔ́lɔ:v:égoutter lan:mrph:INSTR]
+# ? ɛrini:n:hernie
+
+# manuel (vu dans 1er exercice dicortho)
+bánakɔtaayɔrɔ:n: >> bánakɔtaayɔrɔ:n:toilettes [bánakɔtaa:n:excrément.humain [bána:n:extérieur.du.village kɔ́:pp:après táa:v:aller] yɔ́rɔ:n:lieu]
+bánakɔtagayɔrɔ:n: >> bánakɔtagayɔrɔ:n:toilettes [bánakɔtaga:n:excrément.humain [bána:n:extérieur.du.village kɔ́:pp:après tága:v:aller] yɔ́rɔ:n:lieu]
+bánfan:n: >> bánfan:n:bassin
+bɛ́ɛnnaka:n:parent.du.còté.maternel [bɛ́ɛnna:n:lieu.d'origine.de.la.mère [bɛ́ɛn:n:oncle.maternel na:mrph:LOC] ka:mrph:GENT] >> bɛ́ɛnnaka:n:parent.du.côté.maternel [bɛ́ɛnna:n:lieu.d'origine.de.la.mère [bɛ́ɛn:n:oncle.maternel na:mrph:LOC] ka:mrph:GENT]
+bìnkannikɛla:n: >> bìnkannikɛla:n:bandit [bìnkanni:n:agression [bìn:v:tomber kàn:pp:sur ni:mrph:NMLZ] kɛ́:v:faire la:mrph:AG.PRM]
+bònbonsima:adj: >> bònbonsima:adj:barbu [bònbonsi:n:barbe [bònbon:n:menton sí:n:poil] ma:mrph:COM]
+bɔ̀gɔpasa:n: >> bɔ̀gɔpasa:n:argile [bɔ̀gɔ:n:terre pàsa:v:maigrir]
+degelikaramɔgɔ:n: >> dègelikaramɔgɔ:n:entraîneur [dègeli:n:apprentissage [dège:v:enseigner li:mrph:NMLZ] kàramɔgɔ:n:maître [mɔ̀gɔ:n:homme]]
+dègelikaramɔgɔ:n: >> dègelikaramɔgɔ:n:entraîneur [dègeli:n:apprentissage [dège:v:enseigner li:mrph:NMLZ] kàramɔgɔ:n:maître [mɔ̀gɔ:n:homme]]
+dílannabana:n:>> dálannabana:n:impuissance.sexuelle [dálan:n:lit [dá:v:poser lan:mrph:INSTR] ná:pp:à bàna:n:maladie]
+fàriganbagatɔ:adj: >> fàriganbagatɔ:adj:fiévreux [fàrigan:n:fièvre [fàri:n:corps gàn:n:fièvre] baga:mrph:AG.OCC tɔ:mrph:ST]
+fàriganbagatɔ:n: >> fàriganbagatɔ:n:fiévreux [fàrigan:n:fièvre [fàri:n:corps gàn:n:fièvre] baga:mrph:AG.OCC tɔ:mrph:ST]
+fílanya:n: >> fílanya:n:camaraderie [fílan:n:camarade.d’âge ya:mrph:ABSTR]
+fíɲetɔ:adj: >> fíɲetɔ:adj:aveugle [fíɲe:n:aveugle tɔ:mrph:ST]
+fíɲetɔ:n: >> fíɲetɔ:n:aveugle [fíɲe:n:aveugle tɔ:mrph:ST]
+kànɛmɛya:n: >> kànɛmɛya:n:relations.de.cousinage.croisé [kànɛmɛ:n:cousin.croisé ya:mrph:ABSTR]
+kànimɛya:n: >> kànimɛya:n:relations.de.cousinage.croisé [kànimɛ:n:cousin.croisé ya:mrph:ABSTR]
+kíriso:n: >> kíriso:n:tribunal [kíri:n:jugement só:n:maison]
+kɔ́nɔnafɛn:n: >> kɔ́nɔnafɛn:n:entrailles [kɔ́nɔ:n:ventre ná:pp:à fɛ́n:n:chose]
+kúnunnama:adj: >> kúnunnama:adj:tel.qu'il.était.hier [kúnun:n:hier nama:mrph:STAT]
