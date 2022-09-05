@@ -76,6 +76,7 @@ def main():
     ruler = nlp.get_pipe("attribute_ruler")
     sents = read_sentences(args.infile)
     doc = lemmatize_document(nlp, sents)
+    sys.stderr.write("Processing file: {}...\n".format(args.infile))
     with open(args.outfile, 'w') as out:
         out.write('<doc id="{}">\n'.format(os.path.basename(args.infile)))
         for s in doc:

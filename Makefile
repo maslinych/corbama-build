@@ -199,7 +199,10 @@ print-%:
 	diff -u $^ | python scripts/repldiff.py > "$@"
 
 %.fra.vert: %.fra.txt
-	cat $< | scripts/melt_it.sh > $@
+	python scripts/spacy-lemmatize-fr.py $< $@
+
+%.fra.vert: %.dis.fra.txt
+	python scripts/spacy-lemmatize-fr.py $< $@
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
 	touch $@
@@ -270,8 +273,8 @@ corbamafara.vert: $(alignedbam)
 	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
 
 corfarabama.vert: $(alignedfra)
-	rm -f $@
-	$(foreach f,$^,echo '<doc id="$(notdir $(f))">' >> $@ ; cat $(f) >> $@ ; echo "</doc>" >> $@ ;) 
+	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
+	@true
 
 corbama-bam-fra.prl: $(prlfiles)
 	python scripts/catprl.py $(sort $(prlfiles:%=$(SRC)/%)) > $@
