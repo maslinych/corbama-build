@@ -47,7 +47,8 @@ dabafiles := $(addprefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
 gitfiles := $(shell $(gitsrc) ls-files)
 auxtxtfiles := freqlist.txt
 frafiles := $(filter %.fra.txt, $(gitfiles))
-txtfiles := $(filter-out $(auxtxtfiles) $(frafiles),$(filter %.txt,$(gitfiles)))
+bamtxtfiles := $(filter %.bam.txt, $(gitfiles))
+txtfiles := $(filter-out $(auxtxtfiles) $(frafiles) $(bamtxtfiles),$(filter %.txt,$(gitfiles)))
 htmlfiles := $(filter-out %.pars.html %.dis.html,$(filter %.html,$(gitfiles)))
 dishtmlfiles := $(filter %.dis.html,$(gitfiles))
 srchtmlfiles := $(filter-out $(dishtmlfiles:.dis.html=.html) $(dishtmlfiles:.dis.html=.old.html),$(htmlfiles))
@@ -66,7 +67,10 @@ alignedfra = $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
 netfiles-fullpath := $(realpath $(patsubst %,$(SRC)/%.html,$(netfiles)))
 # Lemmatizer files
 tkzfiles := $(addsuffix .tkz,$(basename $(parsefiles) $(parseoldfiles)))
-
+tokenfiles := $(tkzfiles:.tkz=.tokens)
+# Parallel files for testing alignment
+export bamtxtsources := $(alignedbam:.non-tonal.vert=.bam.txt)
+export fratxtsources := $(alignedfra:.vert=.txt)
 
 ## Corpora — main part
 corpbasename := corbama
@@ -83,10 +87,10 @@ corpora-corbama-prl := corbamafara corfarabama
 
 
 include remote.mk
-include tests.mk
+#include tests.mk
 
 
-.PRECIOUS: $(parshtmlfiles) %.repl.html
+.PRECIOUS: $(parshtmlfiles) $(bamtxtfiles) %.repl.html
 
 .PHONY: %.list
 
@@ -99,6 +103,9 @@ print-%:
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
 
 %.pars.non-tonal.vert: %.pars.html
+	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
+
+%.non-tonal.vert: %.pars.html
 	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
 
 %.pars.nul.vert: %.pars.html
@@ -131,7 +138,7 @@ print-%:
 %.dis.bam.txt: %.dis.html
 	$(daba2align) "$<" "$@"
 
-%.pars.bam.txt: %.pars.html
+%.bam.txt: %.pars.html
 	$(daba2align) "$<" "$@"
 
 %.vert: config/%
@@ -150,6 +157,9 @@ print-%:
 %.pars.html: %.txt $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
 
+%.pars.html: %.bam.txt $(dictionaries) $(grammar) $(dabafiles)
+	$(PARSER) -i "$<" -o "$@" --sentlist
+
 %.old.tkz: %.old.txt
 	$(PARSER) -N -s bamlatinold -c -f "tokens" -i "$<" -o "$@"
 
@@ -167,6 +177,9 @@ print-%:
 
 %.old.tkz: %.old.html
 	$(PARSER) -N -s bamlatinold -c -f "tokens" -i "$<" -o "$@"
+
+%.tokens: %.tkz
+	cat $< | sed '1a\\n' | gawk 'BEGIN{RS=""} {for (i=1;i<=NF;i++) {printf "%s ", $$i}; printf "\n" }' > $@
 
 %.dis.pars.html: %.dis.html $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
@@ -205,7 +218,6 @@ print-%:
 	python scripts/spacy-lemmatize-fr.py $< $@
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
-	touch $@
 	export lastcommit=$$($(gitsrc) log -n1 --pretty="%H" -- "$(<:$(SRC)/%=%)") ; \
 	for f in $(dabasedfiles); do \
 		export dabasedsha=$$(sha1sum $$f | cut -f1 -d" ") ; \
@@ -221,6 +233,7 @@ print-%:
 		echo "Already applied:" $< $$f ;\
 		test -z "$$applyed" && $(dabased) -s $$f $< && echo $$f $$dabasedsha $$lastcommit >> $@ ;\
 		done ; exit 0 
+	touch $@
 
 all: compile
 
@@ -265,7 +278,7 @@ corbama-net-tonal.lemma.vert: $(addsuffix .lemma.vert,$(netfiles))
 corbama-net-tonal.conllu: $(addsuffix .tonal.conllu,$(netfiles)) 
 	cat $(sort $^) > $@
 
-corbama-brut.tkz: $(tkzfiles)
+corbama-brut.tokenized: $(tokenfiles)
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 
 corbamafara.vert: $(alignedbam)
@@ -380,6 +393,12 @@ clean-duplicates:
 
 clean-pars:
 	find -name \*.pars.html -exec rm -f {} \;
+
+test: $(bamtxtfiles)
+	$(MAKE) -C tests
+
+test-parallel: $(bamtxtsources) $(fratxtsources) corbamafara.vert corfarabama.vert
+	$(MAKE) -C tests 
 
 
 net-subparts:
