@@ -28,16 +28,17 @@ def tokenize_tags(line):
 
 
 def read_sentences(filename):
-    sent_re = re.compile('(?P<starttag><s n="[0-9]+">)(?P<senttext>.*?)</s>\\s*')
+    #sent_re = re.compile('(?P<starttag><s n="[0-9]+">)(?P<senttext>.*?)</s>\\s*')
+    sent_re = re.compile('(?P<starttag><s[ ]+n="(?P<id>[0-9]+)"\s*>)(?P<senttext>(.|\n(?!<s n=))*)(?P<endtag></s>)', re.MULTILINE)
+    sent_ids = []
     with open(filename, 'r') as infile:
-        for i, line in enumerate(infile):
-            if line and not line.isspace():
-                m = sent_re.match(line)
-                if m:
-                    yield (m.group('starttag'), m.group('senttext'))
-                else:
-                    sys.stderr.write('ERROR: Malformed line {}: {}'.format(i+1, line))
-                    #sys.exit(1)
+        txt = infile.read()
+        for s in re.finditer(sent_re, txt):
+            sent_ids.append(int(s.group('id')))
+            yield (s.group('starttag'), re.sub("\n", " ", s.group('senttext')).strip())
+    for i in range(sent_ids[-1]+1):
+        if i not in sent_ids:
+            sys.stderr.write('ERROR: Missing sentence id in parsed data: {}'.format(i))
 
 
 def lemmatize_document(parser, sents):
@@ -63,9 +64,12 @@ def format_morph(morph):
 def format_sentence(sentid, sent):
     out = []
     out.append(sentid)
-    for token in sent:
-        out.append('\t'.join([str(token), token.lemma_, token.pos_,
-                              format_morph(token.morph), token.dep_]))
+    try:
+        for token in sent:
+            out.append('\t'.join([str(token), token.lemma_, token.pos_,
+                                  format_morph(token.morph), token.dep_]))
+    except TypeError:
+        sys.stderr.write("INFO: empty sentence %s: %s\n" % (sentid, sent))
     out.append('</s>')
     return '\n'.join(out) + '\n'
 
