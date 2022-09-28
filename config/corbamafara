@@ -75,5 +75,5 @@ MAXDETAIL 200
 
 ALIGNSTRUCT "s"
 ALIGNED "corfarabama"
-ALIGNDEF "../corbama-fra-bam.prl"
+ALIGNDEF "../corbama-bam-fra.prl"
 

@@ -11,15 +11,19 @@ WPOSLIST ",adjectif,adj,adverbe,adv,adverbe préverbal,adv.p,conjonction,conj,co
 
 
 ATTRIBUTE word
-ATTRIBUTE tag 
 ATTRIBUTE lemma 
+ATTRIBUTE tag 
+ATTRIBUTE features
+ATTRIBUTE del_rel
 
 STRUCTURE doc {
     ATTRIBUTE id
     ATTRIBUTE wordcount
 }
-STRUCTURE s 
-SHORTREF "=doc.id,#"
+STRUCTURE s {
+    ATTRIBUTE n
+}
+SHORTREF "=doc.id,s.n"
 MAXCONTEXT 100
 MAXDETAIL 200
 
