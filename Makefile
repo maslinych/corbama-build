@@ -284,9 +284,11 @@ corbama-brut.tokenized: $(tokenfiles)
 corbamafara.vert: $(alignedbam)
 	rm -f $@
 	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
+	sed -i '/<s>/N;s,<s>\s*\n</s>,<s>\n.\t.\t.\t.\t.\t.\t.\t.\t.\n</s>,' $@
 
 corfarabama.vert: $(alignedfra)
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
+	sed -i '/^<s /N;s,^<s\([^>]\+>\)\s*\n</s>,<s\1\n.\t.\t.\t.\t.\n</s>,' $@
 	@true
 
 corbama-bam-fra.prl: $(prlfiles)
