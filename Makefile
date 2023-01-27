@@ -230,30 +230,35 @@ makedirs:
 run.dabased: $(addsuffix .dbs,$(netfiles))
 
 corbama-nul.vert: $(addsuffix .nul.vert,$(brutfiles))
-	rm -f $@
-	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
+	$(file >$@) $(foreach f,$(sort $^),$(shell cat $f >> $@))
+	@true
 
 corbama-brut.vert: $(addsuffix .non-tonal.vert,$(brutfiles))
-	rm -f $@
-	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
+	$(file >$@) $(foreach f,$(sort $^),$(shell cat $f >> $@))
+	@true
 
 corbama-net-tonal.vert: $(addsuffix .tonal.vert,$(netfiles)) 
-	cat $(sort $^) > $@
+	$(file >$@) $(foreach f,$(sort $^),$(shell cat $f >> $@))
+	@true
 
 corbama-net-non-tonal.vert: $(addsuffix .non-tonal.vert,$(netfiles)) 
-	cat $(sort $^) > $@
+	$(file >$@) $(foreach f,$(sort $^),$(shell cat $f >> $@))
+	@true
 
 corbama-net-non-tonal.conll: $(addsuffix .conll,$(netfiles)) 
-	cat $(sort $^) > $@
+	$(file >$@) $(foreach f,$(sort $^),$(shell cat $f >> $@))
+	@true
 
 corbama-net-tonal.conll: $(addsuffix .tonal.conll,$(netfiles)) 
-	cat $(sort $^) > $@
+	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
+	@true
 
 corbama-brut.tkz: $(tkzfiles)
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 
 corbamafara.vert: $(alignedbam)
-	cat $(sort $^) > $@
+	rm -f $@
+	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
 
 corfarabama.vert: $(alignedfra)
 	rm -f $@

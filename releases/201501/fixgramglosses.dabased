@@ -1,7 +1,0 @@
-:pm:"PFV:NEG" >> :pm:PFV.NEG
-:pm:"QUAL:NEG" >> :pm:QUAL.NEG
-:pm:"IPFV:NEG" >> :pm:IPFV.NEG
-:n.prop:NOM_M >> :n.prop:NOM.M
-:pm:"COP:NEG" >> :pm:COP.NEG
-:prn:1_SG >> :prn:1.SG
-:pm:"VQ:NEG" >> :pm:VQ.NEG
