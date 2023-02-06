@@ -1,0 +1,93 @@
+
+# après élimination des semblables :
+# nombre d'entrées de bamlastn : 40
+# nombre d'entrées de bamprev : 39
+# après ajout des ps dédoublées :
+# nombre d'entrées de bamlastn : 40
+# nombre d'entrées de bamprev : 39
+
+#changes in lx tones : 4
+
+láfin:v:noircir [lá:mrph:CAUS fìn:v:noircir] >> láfìn:v:noircir [lá:mrph:CAUS fìn:v:noircir]
+náfin:v:noircir [lá:mrph:CAUS fìn:v:noircir] >> náfìn:v:noircir [lá:mrph:CAUS fìn:v:noircir]
+sariziyɛri:n:chargeur.de.batterie >> sáriziyɛri:n:chargeur.de.batterie
+sísàn:n:maintenant >> sísan:n:maintenant
+
+# changes in ps ? (or new lx ?) : 0
+
+
+# changes in mm : 2
+
+sísandanin:n:tout.de.suite [sísàn:n:maintenant dá:n:bouche nin:mrph:DIM] >> sísandanin:n:tout.de.suite [sísan:n:maintenant dá:n:bouche nin:mrph:DIM]
+sísanwaati:n:le.présent [sísàn:n:maintenant wáati:n:moment] >> sísanwaati:n:le.présent [sísan:n:maintenant wáati:n:moment]
+
+# changes in gloss : 22, of which 0 need checking : 
+
+bànkasa:n:vétiver [bà:n:chèvre nkása:n:vétiver] >> bànkasa:n:vétiver [bà:n:chèvre nkása:n:vétiver]
+dájinɛ:n:ange.'gardien' [dá:n:bouche jínɛ:n:esprit] >> dájinɛ:n:ange.gardien [dá:n:bouche jínɛ:n:esprit]
+fùfu:n:purée.d'ignames >> fùfu:n:purée.d'ignames
+hébeku:v:être.stupéfait >> hébeku:v:être.stupéfait
+jíbondon:n:chateau.d'eau [jí:n:eau bòndon:n:grenier.en.pisé] >> jíbondon:n:château.d'eau [jí:n:eau bòndon:n:grenier.en.pisé]
+jíya:n:état.liquide [jí:n:eau ya:mrph:ABSTR] >> jíya:n:état.liquide [jí:n:eau ya:mrph:ABSTR]
+jíya:v:liquéfier [jí:n:eau ya:mrph:ABSTR] >> jíya:v:liquéfier [jí:n:eau ya:mrph:ABSTR]
+kàarisa:n:un.tel [kàari:n:un.tel] >> kàarisa:n:untel [kàari:n:un.tel]
+kàmisii:n:motif.décoratif [kàmi:n:pintade sí:n:poil] >> kàmisii:n:motif.décoratif [kàmi:n:pintade sí:n:poil]
+kàrimaasina:n:un.tel >> kàrimaasina:n:untel
+kàrimaasinɛ:n:un.tel >> kàrimaasinɛ:n:untel
+kàrisa:n:un.tel [kàari:n:un.tel] >> kàrisa:n:untel [kàari:n:un.tel]
+kúmalasigi:n:réunion [kúma:n:parole lásìgi:v:faire.asseoir [lá:mrph:CAUS sìgi:v:asseoir]] >> kúmalasigi:n:réunion [kúma:n:parole lásìgi:v:faire.asseoir [lá:mrph:CAUS sìgi:v:asseoir]]
+màsalenfiyen:n:cécité.des.rivières [fíyen:n:aveugle] >> màsalenfiyen:n:cécité.des.rivières [fíyen:n:aveugle]
+mánwu:v:stupéfier >> mánwu:v:stupéfier
+míri:adv:très.noir >> míri:adv:très.noir
+nkàlontigiya:v:démentir [nkàlon:n:mensonge tìgi:n:maître ya:mrph:ABSTR] >> nkàlontigiya:v:démentir [nkàlon:n:mensonge tìgi:n:maître ya:mrph:ABSTR]
+npáraki:adv:à.foison >> npáraki:adv:à.foison
+pɔnze:n.prop:Point.G.hôpital >> pɔnze:n.prop:Point.G.hôpital
+sènpara:n:enjambée [sèn:n:jambe] >> sènpara:n:enjambée [sèn:n:jambe]
+tónton:v:être.proéminent >> tónton:v:être.proéminent
+ŋáɲi:adv:très.serré >> ŋáɲi:adv:très.serré
+
+# changes in gloss and mm : 0
+
+
+# New words : 12 ? Check with last paragraph (words having disappeared)
+
+#- - - extra caution with homonyms ! ex: new: dákojugu "contrefait" // added to existing: dákojugu "mauvais coucheur" 
+
+
+#	 cas résolus (?) : 12	 = if found in dis.html files, impose the new gloss!
+bɔ̀nɛrɔtɔgɔ:n: >> bɔ̀nɛrɔtɔgɔ:n:nom.tutélaire [bɔ̀nɛ:n:malheur rɔ́:pp:IN tɔ́gɔ:n:nom]
+fálafala:adj: >> fálafala:adj:blanchâtre
+fɔ́lɔfɔlɔ:n: >> fɔ́lɔfɔlɔ:n:autrefois [fɔ́lɔ:n:autrefois fɔ́lɔ:n:autrefois]
+gélenkete:adv: >> gélenkete:adv:parfaitement
+gíri:onomat: >> gíri:onomat:boum
+jìgin-ń-ná:n: >> jìgin-ń-ná:n:rancune [jìgin:v:descendre ń:pers:1SG lá:pp:à]
+mɔ́biligari:n: >> mɔ́biligari:n:gare.routière [mɔ́bili:n:automobile gári:n:gare]
+ntóntonton:n: >> ntóntonton:n:tout-puissant
+pági:onomat: >> pági:onomat:bruit.de.coup
+tán-t’à-sɔ̀rɔ:n: >> tán-t’à-sɔ̀rɔ:n:nouveau.riche [tán:num:dix t':pm:IPFV.NEG à:pers:3SG sɔ̀rɔ:v:obtenir]
+táyɛri:n: >> táyɛri:n:tailleur
+tìnnadɔn:n: >> tìnnadɔn:n:regret [tùn:prt:PST nà:pm:CERT dɔ́n:v:connaître]
+
+#	 cas ambigüs : 0
+
+# Words which have disappeared in the last Bamadaba : 11?! Check with previous paragraph (new words)
+#    For instance look out for words where the tones in lx and the mm in gloss have both changed.
+#    i.e after split of vq/adj: júgu:vq/adj:mauvais >> júgu:vq/adj:méchant + júgu:vq:mauvais >> júgu:vq:méchant + júgu:adj:mauvais >> júgu:adj:méchant
+#    or for instance : rɔ́ncàkanpo:v:contredire [rɔ́:mrph:IN] >> rɔ́ncàpanko:v:contredire [rɔ́:mrph:IN ncàpanko:v:contredire]
+
+
+
+# \ve to be replaced by \lx gloss: 1
+dáfyɛ:v:dire.le.secret >> dáfiyɛ:v:dire.le.secret [dá:n:bouche fíyɛ:v:souffler]
+
+# Have disappeared, like for instance \va suppressed : 10
+# ? bàro:n:halo
+# ? bɛ́ kàn kà:pm:PROG.AFF
+# ? dànkari:v:mettre.fin [dàn:n:limite kári:v:casser]
+# ? dànmanata:n:particulier [dàn:n:limite mà:n:endroit lata:mrph:MNT2]
+# ? jìgi-ń-ná:n:rancune [jìgin:v:descendre ń:pers:1SG lá:pp:à]
+# ? kɔnti:n:compte.en.banque
+# ? mɔbiligarɛ:n:gare.routie ̀re
+# ? ndúbalen:n:figuier.palabres
+# ? sariziye:v:charger
+# ? tán-t'á-sɔ̀rɔ:n:nouveau.riche [tán:num:dix t':pm:IPFV.NEG à:pers:3SG sɔ̀rɔ:v:obtenir]

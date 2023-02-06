@@ -1,6 +1,7 @@
 # SETUP PATHS
 ROOT=..
-DABA=$(ROOT)/daba/daba/
+#DABA=$(ROOT)/daba/daba/
+DABA=/home/corpus-team/venv_3.10/lib/python3.10/site-packages/daba/
 SRC=$(ROOT)/corbama
 vpath %.txt $(SRC)
 vpath %.html $(SRC)
@@ -29,7 +30,8 @@ daba2align=daba2align
 dabased=dabased -v
 # REPL=python ../repl/repl.py
 # REPL=../repl/nuitka/repl.bin  - as of june 2021,python3 version is faster than nuitka c-compiled version by 10%
-REPL=python3 ../repl3/repl.py
+# jan 2023 : latest version of repl is repl/repl.py3
+REPL=python3 ../repl3/repl.py3
 RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
 makelexicon=$(PYTHON) $(DABA)/ad-hoc/tt-make-lexicon.py
@@ -39,7 +41,8 @@ grammar=$(BAMADABA)/bamana.gram.txt
 #dictionaries := $(addprefix $(BAMADABA)/,bamadaba.txt jamuw.txt togow.txt yorow.txt enciclop.txt ETRGFRA.txt)
 #dictionaries := $(addprefix $(BAMADABA)/,bamadaba-disamb-syn.txt)
 # june 2021 : modified version of bamadaba.txt with \ve modified as \va -> bamadaba-va.txt (\ve : variant to be avoided in normalised orthography)
-dictionaries := $(addprefix $(BAMADABA)/,bamadaba-va.txt jamuw.txt togow.txt yorow.txt enciclop.txt ETRGFRA.txt)
+# jan 2023 : back to full bamadaba
+dictionaries := $(addprefix $(BAMADABA)/,bamadaba.txt jamuw.txt togow.txt yorow.txt enciclop.txt ETRGFRA.txt)
 dabafiles := $(addprefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
 
 # 
@@ -283,7 +286,7 @@ repl: $(replfiles)
 repldiff: $(patsubst %.dis.html,%.repl.diff,$(dishtmlfiles))
 
 freqlist.txt: corbama-net-tonal.vert
-	python freqlist.py $< > $@
+	python2 freqlist.py $< > $@
 
 export/data/%/word.lex: config/% %.vert
 	rm -rf export/data/$*
