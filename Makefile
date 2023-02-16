@@ -239,7 +239,8 @@ all: compile
 
 parse: $(parshtmlfiles)
 
-resources: $(dictionaries) $(grammar) $(dabafiles) 
+resources: $(dictionaries) $(grammar) $(dabafiles)
+	rm -f run/*
 	$(PARSER) -n -g $(grammar) $(addprefix -d ,$(dictionaries))
 	touch $@
 
