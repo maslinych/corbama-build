@@ -49,7 +49,6 @@ ATTRIBUTE tagstring {
 
 STRUCTURE doc {
     ATTRIBUTE id
-    ATTRIBUTE wordcount
 	ATTRIBUTE text_genre {
         MULTIVALUE yes
         MULTISEP ";"

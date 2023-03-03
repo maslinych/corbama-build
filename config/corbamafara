@@ -49,7 +49,6 @@ ATTRIBUTE tagstring {
 
 STRUCTURE doc {
     ATTRIBUTE id
-    ATTRIBUTE wordcount
 	ATTRIBUTE text_genre {
         MULTIVALUE yes
         MULTISEP ";"
@@ -75,5 +74,5 @@ MAXDETAIL 200
 
 ALIGNSTRUCT "s"
 ALIGNED "corfarabama"
-ALIGNDEF "../corbama-bam-fra.prl"
+ALIGNDEF "/var/lib/manatee/vert/corbama-bam-fra.prl"
 

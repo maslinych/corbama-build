@@ -18,7 +18,6 @@ ATTRIBUTE del_rel
 
 STRUCTURE doc {
     ATTRIBUTE id
-    ATTRIBUTE wordcount
 }
 STRUCTURE s {
     ATTRIBUTE n
@@ -29,4 +28,4 @@ MAXDETAIL 200
 
 ALIGNSTRUCT "s"
 ALIGNED "corbamafara"
-ALIGNDEF "../corbama-fra-bam.prl"
+ALIGNDEF "/var/lib/manatee/vert/corbama-fra-bam.prl"
