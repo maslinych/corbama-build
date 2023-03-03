@@ -1,7 +1,7 @@
 PATH "./export/data/corbamafara"
 VERTICAL "./export/vert/corbamafara.vert"
 ENCODING "utf-8"
-LANGUAGE "Bambara"
+LANGUAGE "Bambara-Français (corpus parallèle)"
 LOCALE "bm_ML"
 MAINTAINER "Kirill Maslinsky"
 INFO "Corpus Bambara de Reference (parallel Bambara-French subcorpus, Bambara part)"

@@ -1,7 +1,7 @@
 PATH "/var/lib/manatee/data/corbama-brut"
 VERTICAL "/var/lib/manatee/vert/corbama-brut.vert"
 ENCODING "utf-8"
-LANGUAGE "Bambara"
+LANGUAGE "Corpus Bambara de Référence (non-désambiguïsé)"
 LOCALE "bm_ML"
 MAINTAINER "Kirill Maslinsky"
 INFO "Corpus Bambara de Reference (non-disambiguated subcorpus)"
