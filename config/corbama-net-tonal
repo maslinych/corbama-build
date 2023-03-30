@@ -55,6 +55,7 @@ STRUCTURE doc {
     ATTRIBUTE text_title
 }
 
+SIMPLEQUERY '[word="%s" | lemma="%s" | gloss="%s"]'
 STRUCTURE p
 STRUCTURE s 
 SHORTREF "=doc.id"

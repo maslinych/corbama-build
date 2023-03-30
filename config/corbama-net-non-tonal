@@ -71,4 +71,4 @@ STRUCTURE s
 SHORTREF "=doc.id,#"
 MAXCONTEXT 100
 MAXDETAIL 200
-
+SIMPLEQUERY '[word="%s" | lemma="%s" | gloss="%s"]'

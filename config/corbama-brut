@@ -37,6 +37,27 @@ ATTRIBUTE polisemy {
     MULTISEP "|"
     LOCALE "fr_FR"
 }
+ATTRIBUTE lc {
+    LABEL "word (lowercase)"
+    DYNAMIC utf8lowercase
+    DYNLIB internal
+    ARG1 "C"
+    FUNTYPE s
+    FROMATTR word
+    TYPE index
+    TRANSQUERY yes
+}
+
+ATTRIBUTE lemma_lc {
+    LABEL "lemma (lowercase)"
+    DYNAMIC utf8lowercase
+    DYNLIB internal
+    ARG1 "C"
+    FUNTYPE s
+    FROMATTR lemma
+    TYPE index
+    TRANSQUERY yes
+}
 
 STRUCTURE doc {
     ATTRIBUTE id
@@ -64,4 +85,4 @@ STRUCTURE s
 SHORTREF "=doc.id,#"
 MAXCONTEXT 100
 MAXDETAIL 200
-
+SIMPLEQUERY '[lc="%s" | lemma_lc="%s" | gloss="%s"]'

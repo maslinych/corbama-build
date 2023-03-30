@@ -14,7 +14,27 @@ ATTRIBUTE word
 ATTRIBUTE lemma 
 ATTRIBUTE tag 
 ATTRIBUTE features
-ATTRIBUTE del_rel
+ATTRIBUTE dep_rel
+ATTRIBUTE lc {
+    LABEL "word (lowercase)"
+    DYNAMIC utf8lowercase
+    DYNLIB internal
+    ARG1 "C"
+    FUNTYPE s
+    FROMATTR word
+    TYPE index
+    TRANSQUERY yes
+}
+ATTRIBUTE lemma_lc {
+    LABEL "lemma (lowercase)"
+    DYNAMIC utf8lowercase
+    DYNLIB internal
+    ARG1 "C"
+    FUNTYPE s
+    FROMATTR lemma
+    TYPE index
+    TRANSQUERY yes
+}
 
 STRUCTURE doc {
     ATTRIBUTE id
