@@ -1,5 +1,5 @@
-PATH "./export/data/corbamafara"
-VERTICAL "./export/vert/corbamafara.vert"
+PATH "/var/lib/manatee/data/corbamafara"
+VERTICAL "/var/lib/manatee/vert/corbamafara.vert"
 ENCODING "utf-8"
 LANGUAGE "Bambara-Français (corpus parallèle)"
 LOCALE "bm_ML"

@@ -1,5 +1,5 @@
-PATH "./export/data/corfarabama"
-VERTICAL "./export/vert/corfarabama.vert"
+PATH "/var/lib/manatee/data/corfarabama"
+VERTICAL "/var/lib/manatee/vert/corfarabama.vert"
 ENCODING "utf-8"
 LANGUAGE "Français-Bambara (corpus parallèle)"
 LOCALE "fr_FR"
