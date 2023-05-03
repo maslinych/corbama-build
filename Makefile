@@ -31,6 +31,7 @@ dabased=dabased -v
 REPL=python ../repl/repl.py3
 #REPL=../repl/nuitka/repl.bin
 #REPL=../repl.dist/repl
+repldeps=../repl/repl.py3 ../repl/REPL-STANDARD.txt
 RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
 makelexicon=$(PYTHON) $(DABA)/ad-hoc/tt-make-lexicon.py
@@ -76,6 +77,7 @@ export fratxtsources := $(alignedfra:.vert=.txt)
 corpbasename := corbama
 corpsite := corbama
 corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut 
+corpora-prl := corbamafara corfarabama
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
 ## Remote corpus installation data
@@ -87,6 +89,7 @@ corpora-corbama-prl := corbamafara corfarabama
 
 
 include remote.mk
+include docker.mk
 #include tests.mk
 
 
@@ -190,22 +193,22 @@ print-%:
 %.dis.pars.tonal.vert: %.dis.pars.html 
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
 
-%.repl.html: %.pars.html
+%.repl.html: %.pars.html $(repldeps)
 	$(REPL) "$*"
 
-%.old.repl.html: %.old.pars.html
+%.old.repl.html: %.old.pars.html $(repldeps)
 	$(REPL) "$*.old"
 
-%.repl.tonal.vert: %.dis.repl.html
+%.repl.tonal.vert: %.dis.repl.html $(repldeps)
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
 
-%.repl.non-tonal.vert: %.old.repl.html
+%.repl.non-tonal.vert: %.old.repl.html $(repldeps)
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
-%.repl.non-tonal.vert: %.repl.html
+%.repl.non-tonal.vert: %.repl.html $(repldeps)
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
-%.repl.non-tonal.vert: %.dis.pars.html
+%.repl.non-tonal.vert: %.dis.pars.html $(repldeps)
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
 %.repl.diff: %.repl.non-tonal.vert %.dis.non-tonal.vert
@@ -216,6 +219,12 @@ print-%:
 
 %.fra.vert: %.dis.fra.txt
 	python scripts/spacy-lemmatize-fr.py $< $@
+
+%.fra.vert: %.fra2.txt
+	python scripts/spacy-lemmatize-fr.py $< $@
+
+%.bam-fra.prl: %.fra2.txt
+	last=$$(sed 's,<s n="\([0-9]\+\).*,\1,' $< | tail -1) ; echo "0:$$last  0:$$last" > $@
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
 	export lastcommit=$$($(gitsrc) log -n1 --pretty="%H" -- "$(<:$(SRC)/%=%)") ; \
@@ -300,7 +309,7 @@ corbama-fra-bam.prl: corbama-bam-fra.prl
 
 compile: $(corpora-vert)
 
-compile-prl: corbamafara.vert corfarabama.vert corbama-bam-fra.prl corbama-fra-bam.prl $(corpora-corbama-prl:%=export/data/%/word.lex) mkalign
+compile-prl: corbamafara.vert corfarabama.vert corbama-bam-fra.prl corbama-fra-bam.prl 
 
 reparse-net: $(addsuffix .pars.html,$(netfiles))
 
