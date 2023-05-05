@@ -5,7 +5,7 @@ SRC=$(ROOT)/corbama
 vpath %.txt $(SRC)
 vpath %.html $(SRC)
 vpath %.dabased $(SRC)
-vpath %.prl $(SRC)
+vpath %.bam-fra.prl $(SRC)
 #
 # SETUP CREDENTIALS
 HOST=corpora
@@ -63,8 +63,14 @@ netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(replfiles))
 # Parallel corpus
 prlfiles := $(filter %.bam-fra.prl,$(gitfiles))
-alignedbam = $(patsubst %.bam-fra.prl,%.non-tonal.vert,$(prlfiles))
-alignedfra = $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
+prlajuste-fra := $(filter %.fra2.txt,$(gitfiles))
+prlajuste-prl := $(patsubst %.fra2.txt,%.bam-fra2.prl,$(prlajuste-fra))
+ajustebam = $(patsubst %.bam-fra2.prl,%.non-tonal.vert,$(prlajuste-prl))
+ajustefra = $(patsubst %.fra2.txt,%.fra2.vert,$(prlajuste-fra))
+alignedbam = $(ajustebam) $(patsubst %.bam-fra.prl,%.non-tonal.vert,$(prlfiles))
+alignedfra = $(ajustefra) $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
+prlfiles-full := $(prlajuste-prl) $(prlfiles)
+prlfiles-ajuste := $(prlajuste-prl) $(patsubst %.bam-fra.prl,%.bam-fra2.prl,$(prlfiles))
 netfiles-fullpath := $(realpath $(patsubst %,$(SRC)/%.html,$(netfiles)))
 # Lemmatizer files
 tkzfiles := $(addsuffix .tkz,$(basename $(parsefiles) $(parseoldfiles)))
@@ -77,7 +83,7 @@ export fratxtsources := $(alignedfra:.vert=.txt)
 corpbasename := corbama
 corpsite := corbama
 corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut 
-corpora-prl := corbamafara corfarabama
+corpora-prl := corbamafara corfarabama corfarabama-ajuste
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
 ## Remote corpus installation data
@@ -85,7 +91,7 @@ corpsite-corbama := corbama
 corpora-corbama := corbama-net-non-tonal corbama-net-tonal corbama-brut
 ## Parallel subcorpus
 corpsite-corbama-prl := corbama
-corpora-corbama-prl := corbamafara corfarabama
+corpora-corbama-prl := corbamafara corfarabama corfarabama-ajuste
 
 
 include remote.mk
@@ -220,11 +226,14 @@ print-%:
 %.fra.vert: %.dis.fra.txt
 	python scripts/spacy-lemmatize-fr.py $< $@
 
-%.fra.vert: %.fra2.txt
+%.fra2.vert: %.fra2.txt
 	python scripts/spacy-lemmatize-fr.py $< $@
 
-%.bam-fra.prl: %.fra2.txt
-	last=$$(sed 's,<s n="\([0-9]\+\).*,\1,' $< | tail -1) ; echo "0:$$last  0:$$last" > $@
+%.bam-fra2.prl: %.fra2.txt
+	last=$$(sed -n 's,<s n="\([0-9]\+\).*,\1,p' $< | tail -1) ; echo "0:$$last	0:$$last" > $@
+
+%.bam-fra2.prl: %.bam.txt
+	last=$$(sed -n 's,<s n="\([0-9]\+\).*,\1,p' $< | tail -1) ; echo "0:$$last	-1" > $@
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
 	export lastcommit=$$($(gitsrc) log -n1 --pretty="%H" -- "$(<:$(SRC)/%=%)") ; \
@@ -301,15 +310,26 @@ corfarabama.vert: $(alignedfra)
 	sed -i '/^<s /N;s,^<s\([^>]\+>\)\s*\n</s>,<s\1\n.\t.\t.\t.\t.\n</s>,' $@
 	@true
 
-corbama-bam-fra.prl: $(prlfiles)
-	python scripts/catprl.py $(sort $(prlfiles:%=$(SRC)/%)) > $@
+corfarabama-ajuste.vert: $(ajustefra)
+	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
+	sed -i '/^<s /N;s,^<s\([^>]\+>\)\s*\n</s>,<s\1\n.\t.\t.\t.\t.\n</s>,' $@
+	@true
+
+corbama-bam-fra.prl: $(prlfiles-full)
+	python scripts/catprl.py $(sort $(patsubst %.bam-fra.prl,$(SRC)/%.bam-fra.prl,$(prlfiles-full))) > $@
 
 corbama-fra-bam.prl: corbama-bam-fra.prl
-	awk 'BEGIN{FS="\t";OFS="\t"}{print $$2, $$1}' corbama-bam-fra.prl > $@
+	awk 'BEGIN{FS="\t";OFS="\t"}{print $$2, $$1}' $< > $@
+
+corbama-bam-fra2.prl: $(prlfiles-ajuste)
+	python scripts/catprl.py $(sort $(prlfiles-ajuste)) > $@
+
+corbama-fra2-bam.prl: corbama-bam-fra2.prl
+	awk 'BEGIN{FS="\t";OFS="\t"}{print $$2, $$1}' $< > $@
 
 compile: $(corpora-vert)
 
-compile-prl: corbamafara.vert corfarabama.vert corbama-bam-fra.prl corbama-fra-bam.prl 
+compile-prl: corbamafara.vert corfarabama.vert corfarabama-ajuste.vert corbama-bam-fra.prl corbama-fra-bam.prl corbama-bam-fra2.prl corbama-fra2-bam.prl
 
 reparse-net: $(addsuffix .pars.html,$(netfiles))
 
