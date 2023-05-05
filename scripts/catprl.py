@@ -13,7 +13,7 @@ def read_prls(filelist):
         with open(f, 'r') as prl:
             ainc = ainc + amax + 1
             binc = binc + bmax + 1
-            amax, bmax = (0, 0)
+            amax, bmax = (-1, -1)
             for line in prl:
                 pair = line.strip().split('\t')
                 a, b = map(parse_align, pair)
@@ -21,7 +21,7 @@ def read_prls(filelist):
                 astr = increment_align(a, ainc)
                 bstr = increment_align(b, binc)
                 yield (astr, bstr)
-                
+
 
 def parse_align(afield):
     try:
