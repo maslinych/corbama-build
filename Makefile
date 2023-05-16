@@ -65,19 +65,27 @@ brutfiles := $(netfiles) $(patsubst %.html,%,$(replfiles))
 prlfiles := $(filter %.bam-fra.prl,$(gitfiles))
 prlajuste-fra := $(filter %.fra2.txt,$(gitfiles))
 prlajuste-prl := $(patsubst %.fra2.txt,%.bam-fra2.prl,$(prlajuste-fra))
-ajustebam = $(patsubst %.bam-fra2.prl,%.non-tonal.vert,$(prlajuste-prl))
-ajustefra = $(patsubst %.fra2.txt,%.fra2.vert,$(prlajuste-fra))
-alignedbam = $(ajustebam) $(patsubst %.bam-fra.prl,%.non-tonal.vert,$(prlfiles))
-alignedfra = $(ajustefra) $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
-prlfiles-full := $(prlajuste-prl) $(prlfiles)
-prlfiles-ajuste := $(prlajuste-prl) $(patsubst %.bam-fra.prl,%.bam-fra2.prl,$(prlfiles))
-netfiles-fullpath := $(realpath $(patsubst %,$(SRC)/%.html,$(netfiles)))
+ajustebam := $(patsubst %.fra2.txt,%.non-tonal.vert,$(prlajuste-fra))
+ajustefra := $(patsubst %.fra2.txt,%.fra2.vert,$(prlajuste-fra))
+alignedbam := $(patsubst %.bam-fra.prl,%.non-tonal.vert,$(prlfiles))
+alignedfra := $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
+nonajustebam := $(filter-out $(prlajuste-prl),$(prlfiles:.bam-fra.prl=.bam-fra2.prl))
+corbamafara-files := $(alignedbam) $(filter-out $(alignedbam),$(ajustebam))
+corfarabama-files := $(alignedfra) $(filter-out $(alignedfra:.fra.vert=.fra2.vert),$(ajustefra))
+corfarabama-ajuste-files := $(ajustefra)
+corfarabama-prl := $(prlfiles) $(filter-out $(prlfiles:.bam-fra.prl=.bam-fra2.prl),$(prlajuste-prl))
+corfarabama-ajuste-prl := $(prlajuste-prl) $(nonajustebam)
+#prlfiles-full := $(prlajuste-prl) $(prlfiles)
+#prlfiles-ajuste := $(prlajuste-prl) $(patsubst %.bam-fra.prl,%.bam-fra2.prl,$(prlfiles))
+#netfiles-fullpath := $(realpath $(patsubst %,$(SRC)/%.html,$(netfiles)))
 # Lemmatizer files
 tkzfiles := $(addsuffix .tkz,$(basename $(parsefiles) $(parseoldfiles)))
 tokenfiles := $(tkzfiles:.tkz=.tokens)
 # Parallel files for testing alignment
-export bamtxtsources := $(alignedbam:.non-tonal.vert=.bam.txt)
-export fratxtsources := $(alignedfra:.vert=.txt)
+export bamtxtsources := $(corbamafara-files:.non-tonal.vert=.bam.txt)
+export fratxtsources := $(corfarabama-files:.vert=.txt)
+export fra2txtsources := $(corfarabama-ajuste-files:.vert=.txt)
+
 
 ## Corpora — main part
 corpbasename := corbama
@@ -233,7 +241,7 @@ print-%:
 	last=$$(sed -n 's,<s n="\([0-9]\+\).*,\1,p' $< | tail -1) ; echo "0:$$last	0:$$last" > $@
 
 %.bam-fra2.prl: %.bam.txt
-	last=$$(sed -n 's,<s n="\([0-9]\+\).*,\1,p' $< | tail -1) ; echo "0:$$last	-1" > $@
+	last=$$(sed -n 's,<s n="\([0-9]\+\).*,\1,p' $< | tail -1) ; echo "0,$$last	-1" > $@
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
 	export lastcommit=$$($(gitsrc) log -n1 --pretty="%H" -- "$(<:$(SRC)/%=%)") ; \
@@ -300,29 +308,29 @@ corbama-net-tonal.conllu: $(addsuffix .tonal.conllu,$(netfiles))
 corbama-brut.tokenized: $(tokenfiles)
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 
-corbamafara.vert: $(alignedbam)
+corbamafara.vert: $(corbamafara-files)
 	rm -f $@
 	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
 	sed -i '/<s>/N;s,<s>\s*\n</s>,<s>\n.\t.\t.\t.\t.\t.\t.\t.\t.\n</s>,' $@
 
-corfarabama.vert: $(alignedfra)
+corfarabama.vert: $(corfarabama-files)
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 	sed -i '/^<s /N;s,^<s\([^>]\+>\)\s*\n</s>,<s\1\n.\t.\t.\t.\t.\n</s>,' $@
 	@true
 
-corfarabama-ajuste.vert: $(ajustefra)
+corfarabama-ajuste.vert: $(corfarabama-ajuste-files)
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 	sed -i '/^<s /N;s,^<s\([^>]\+>\)\s*\n</s>,<s\1\n.\t.\t.\t.\t.\n</s>,' $@
 	@true
 
-corbama-bam-fra.prl: $(prlfiles-full)
-	python scripts/catprl.py $(sort $(patsubst %.bam-fra.prl,$(SRC)/%.bam-fra.prl,$(prlfiles-full))) > $@
+corbama-bam-fra.prl: $(corfarabama-prl)
+	python scripts/catprl.py $(sort $(patsubst %.bam-fra.prl,$(SRC)/%.bam-fra.prl,$^)) > $@
 
 corbama-fra-bam.prl: corbama-bam-fra.prl
 	awk 'BEGIN{FS="\t";OFS="\t"}{print $$2, $$1}' $< > $@
 
-corbama-bam-fra2.prl: $(prlfiles-ajuste)
-	python scripts/catprl.py $(sort $(prlfiles-ajuste)) > $@
+corbama-bam-fra2.prl: $(corfarabama-ajuste-prl)
+	python scripts/catprl.py $(sort $^) > $@
 
 corbama-fra2-bam.prl: corbama-bam-fra2.prl
 	awk 'BEGIN{FS="\t";OFS="\t"}{print $$2, $$1}' $< > $@
@@ -429,7 +437,7 @@ clean-pars:
 test: $(bamtxtfiles)
 	$(MAKE) -C tests
 
-test-parallel: $(bamtxtsources) $(fratxtsources) corbamafara.vert corfarabama.vert
+test-parallel: $(bamtxtsources) $(fratxtsources) $(fra2txtsources) corbamafara.vert corfarabama.vert corfarabama-ajuste.vert corbama-bam-fra.prl corbama-bam-fra2.prl 
 	$(MAKE) -C tests 
 
 
