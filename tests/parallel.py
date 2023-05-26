@@ -50,6 +50,8 @@ class ParallelCorpusTestCase(unittest.TestCase):
         # Parse compiled vertfiles
         self.corbamafara = self.parse_vertfile(os.path.join(self.root_dir, 'corbamafara.vert'))
         self.corfarabama = self.parse_vertfile(os.path.join(self.root_dir, 'corfarabama.vert'))
+        self.corbamafara_prl = self.get_prl_filelist(os.path.join(self.root_dir, 'corbama-bam-fra.prl'))
+        self.corbamafara_prl2 = self.get_prl_filelist(os.path.join(self.root_dir, 'corbama-bam-fra2.prl'))
         self.corfarabama_ajuste = self.parse_vertfile(os.path.join(self.root_dir, 'corfarabama-ajuste.vert'))
         self.prl_joined_bam, self.prl_joined_fra = self.check_prl_syntax(os.path.join(self.root_dir, 'corbama-bam-fra.prl'))
         self.prl_joined_bam2, self.prl_joined_fra2 = self.check_prl_syntax(os.path.join(self.root_dir, 'corbama-bam-fra2.prl'))
@@ -68,6 +70,18 @@ class ParallelCorpusTestCase(unittest.TestCase):
             return corbama_filename
         else:
             return os.path.join(self.root_dir, filename)
+
+    def get_prl_filelist(self, filename):
+        """Extract file ids included in corpus-wide prl file"""
+        out = []
+        with open(filename, 'r') as prlfile:
+            for line in prlfile:
+                if line.startswith('<doc'):
+                    docid = re.match('<doc=([.][.]/corbama/)?(?P<id>.+?)([.]bam-fra.?[.]prl)', line).group('id')
+                    out.append(os.path.basename(docid))
+                else:
+                    continue
+        return out
 
     def check_prl_syntax(self, filename):
         """Check syntax in a .prl file"""
@@ -297,7 +311,19 @@ class ParallelCorpusTestCase(unittest.TestCase):
     def test_bam_fra2_filelists_aligned(self):
         """Test that files go in the same order in corbamafara.vert and corfarabama.vert"""
         cbf = [f for f in list(self.corbamafara) if f in list(self.corfarabama_ajuste)]
-        self.assertTrue(cbf == list(self.corfarabama_ajuste), msg="ERROR: sequences of files are not aligned in corbamafara/corfarabama-ajuste")        
+        self.assertTrue(cbf == list(self.corfarabama_ajuste), msg="ERROR: sequences of files are not aligned in corbamafara/corfarabama-ajuste")
+
+    def test_corbamafara_vert_matches_prl(self):
+        """Test that files in corbamafara are in the same order in .vert and in corpus-wide .prl"""
+        vertlist = list(self.corbamafara.keys())
+        diff = set(vertlist) ^ set(self.corbamafara_prl)
+        self.assertTrue(vertlist == self.corbamafara_prl, msg="ERROR: corbamafara filelist does not match in vert and prl corpus, diff set: %s" % diff)
+
+    def test_corbamafara_vert_matches_prl2(self):
+        """Test that files in corbamafara-ajuste are in the same order in .vert and in corpus-wide .prl"""
+        vertlist = list(self.corbamafara.keys())
+        diff = set(vertlist) ^ set(self.corbamafara_prl)
+        self.assertTrue(vertlist == self.corbamafara_prl2, msg="ERROR: corbamafara-ajuste filelist does not match in vert and prl corpus, diff set: %s" % diff)
 
     def test_numsent_match_prl(self):
         """Check that number of <s> tags in corbama/fara matches .prl files"""
