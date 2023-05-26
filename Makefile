@@ -324,7 +324,7 @@ corfarabama-ajuste.vert: $(corfarabama-ajuste-files)
 	@true
 
 corbama-bam-fra.prl: $(corfarabama-prl)
-	python scripts/catprl.py $(sort $(patsubst %.bam-fra.prl,$(SRC)/%.bam-fra.prl,$^)) > $@
+	python scripts/catprl.py $(patsubst %.bam-fra.prl,$(SRC)/%.bam-fra.prl,$(sort $(corfarabama-prl))) > $@
 
 corbama-fra-bam.prl: corbama-bam-fra.prl
 	awk 'BEGIN{FS="\t";OFS="\t"}{print $$2, $$1}' $< > $@
