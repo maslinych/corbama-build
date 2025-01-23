@@ -1,7 +1,7 @@
 # SETUP PATHS
 ROOT=..
 #DABA=$(ROOT)/daba/daba/
-DABA=/home/corpus-team/venv_3.10/lib/python3.10/site-packages/daba/
+DABA=/home/corpus-team/venv3_12/lib/python3.9/site-packages/daba/
 SRC=$(ROOT)/corbama
 vpath %.txt $(SRC)
 vpath %.html $(SRC)
@@ -18,7 +18,8 @@ TESTPORT=8098
 PRODPORT=8099
 BUILT=built
 # UTILS
-BAMADABA=$(ROOT)/bamadaba
+#BAMADABA=$(ROOT)/bamadaba
+BAMADABA=$(ROOT)/corbama-build-dic
 PYTHON=PYTHONPATH=$(DABA) python
 PARSER=mparser -s apostrophe
 #daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
@@ -49,7 +50,7 @@ dabafiles := $(addprefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
 # SOURCE FILELISTS
 gitfiles := $(shell $(gitsrc) ls-files)
 auxtxtfiles := freqlist.txt
-frafiles := $(filter %.fra.txt, $(gitfiles))
+frafiles := $(filter %.fra.txt %.fra2.txt %.bam.txt, $(gitfiles))
 txtfiles := $(filter-out $(auxtxtfiles) $(frafiles),$(filter %.txt,$(gitfiles)))
 htmlfiles := $(filter-out %.pars.html %.dis.html,$(filter %.html,$(gitfiles)))
 dishtmlfiles := $(filter %.dis.html,$(gitfiles))
