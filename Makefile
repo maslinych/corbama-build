@@ -1,7 +1,7 @@
 # SETUP PATHS
 ROOT=..
 #DABA=$(ROOT)/daba/daba/
-DABA=/home/corpus-team/venv3_12/lib/python3.9/site-packages/daba/
+DABA=/home/corpus-team/venv3_12/lib/python3.12/site-packages/daba/
 SRC=$(ROOT)/corbama
 vpath %.txt $(SRC)
 vpath %.html $(SRC)
