@@ -122,6 +122,9 @@ print-%:
 %.pars.non-tonal.vert: %.pars.html
 	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
 
+%.bam.non-tonal.vert: %.pars.html
+	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
+
 %.non-tonal.vert: %.pars.html
 	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
 
@@ -155,7 +158,7 @@ print-%:
 %.dis.bam.txt: %.dis.html
 	$(daba2align) "$<" "$@"
 
-%.bam.txt: %.pars.html
+%.pars.bam.txt: %.ppars.html
 	$(daba2align) "$<" "$@"
 
 %.vert: config/%
@@ -174,7 +177,7 @@ print-%:
 %.pars.html: %.txt $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
 
-%.pars.html: %.bam.txt $(dictionaries) $(grammar) $(dabafiles)
+%.ppars.html: %.bam.txt $(dictionaries) $(grammar) $(dabafiles)
 	$(PARSER) -i "$<" -o "$@" --sentlist
 
 %.old.tkz: %.old.txt
@@ -309,9 +312,9 @@ corbama-brut.tokenized: $(tokenfiles)
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 
 corbamafara.vert: $(corbamafara-files)
-	rm -f $@
-	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
+	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 	sed -i '/<s>/N;s,<s>\s*\n</s>,<s>\n.\t.\t.\t.\t.\t.\t.\t.\t.\n</s>,' $@
+	@true
 
 corfarabama.vert: $(corfarabama-files)
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
