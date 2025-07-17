@@ -1,0 +1,705 @@
+
+# après élimination des semblables :
+# nombre d'entrées de bamlastn : 324
+# nombre d'entrées de bamprev : 301
+# après ajout des ps dédoublées :
+# nombre d'entrées de bamlastn : 324
+# nombre d'entrées de bamprev : 301
+
+#changes in lx tones : 51
+
+Baalo:n.prop:NOM.CL >> Báalo:n.prop:NOM.CL
+Balo:n.prop:NOM.CL >> Bálo:n.prop:NOM.CL
+Bánbèrá:n.prop:NOM.CL >> Bánbèra:n.prop:NOM.CL
+Buware:n.prop:NOM.CL >> Bùware:n.prop:NOM.CL
+Bwarɛ:n.prop:NOM.CL >> Bwàrɛ:n.prop:NOM.CL
+Bɔarɛ:n.prop:NOM.CL >> Bɔ̀arɛ:n.prop:NOM.CL
+Bɔrɛ:n.prop:NOM.CL >> Bɔ̀rɛ:n.prop:NOM.CL
+Dànsúba:n.prop:NOM.CL >> Dànsuba:n.prop:NOM.CL
+Daramɛ:n.prop:NOM.CL >> Dàramɛ:n.prop:NOM.CL
+Dabo:n.prop:NOM.CL >> Dábo:n.prop:NOM.CL
+Dènbága:n.prop:NOM.CL >> Dènbaga:n.prop:NOM.CL
+Dùwansí:n.prop:NOM.CL >> Dùwansi:n.prop:NOM.CL
+Dunmuya:n.prop:NOM.CL >> Dúnmuya:n.prop:NOM.CL
+Famanta:n.prop:NOM.CL >> Fámànta:n.prop:NOM.CL
+Haydara:n.prop:NOM.CL >> Háydara:n.prop:NOM.CL
+Jabagatɛ:n.prop:NOM.CL >> Jàbagatɛ:n.prop:NOM.CL
+Jubatɛ:n.prop:NOM.CL >> Jùbatɛ:n.prop:NOM.CL
+Jɛbaatɛ:n.prop:NOM.CL >> Jɛ̀baatɛ:n.prop:NOM.CL
+Jɛbagatɛ:n.prop:NOM.CL >> Jɛ̀bagatɛ:n.prop:NOM.CL
+Jɛbatɛ:n.prop:NOM.CL >> Jɛ̀batɛ:n.prop:NOM.CL
+Kamanta:n.prop:NOM.CL >> Kámànta:n.prop:NOM.CL
+Kónatɛ̀:n.prop:NOM.CL >> Kònatɛ:n.prop:NOM.CL
+Konte:n.prop:NOM.CL >> Kóntè:n.prop:NOM.CL
+Pámàntà:n.prop:NOM.CL >> Pámànta:n.prop:NOM.CL
+So:n.prop:NOM.CL >> Só:n.prop:NOM.CL
+Suko:n.prop:NOM.CL >> Súko:n.prop:NOM.CL
+Sɔ:n.prop:NOM.CL >> Sɔ́:n.prop:NOM.CL
+bèreketenin:adj:minuscule >> béreketenin:adj:minuscule
+buruyɛti:n:brouette >> bùruyɛti:n:brouette
+dara:n:drap >> dàra:n:drap
+dúgudugu:v:marmonner >> dùgudugu:v:marmonner
+fàrankofoni:n:Francophonie >> fárankofoni:n:Francophonie
+federali:adj:fédéral >> féderali:adj:fédéral
+hàáli:adv:très >> hàálì:adv:très
+hàáli:intj:exact >> hàálì:intj:exact
+iniwɛrɛsite:n:université >> íniwɛrɛsite:n:université
+jaason:n:lièvre >> jáàson:n:lièvre
+kárakàsá:n:polyptère >> kárakàsa:n:polyptère
+kiriyɔn:n:crayon >> kíriyɔn:n:crayon
+komando:n:commando >> kómando:n:commando
+kùnpa:v:être.dans.l'attente >> kúnpa:v:être.dans.l'attente
+kùnpan:v:être.dans.l'attente >> kúnpan:v:être.dans.l'attente
+láfili:v:tromper [lá:mrph:CAUS fìli:v:jeter] >> láfìli:v:tromper [lá:mrph:CAUS fìli:v:jeter]
+láfin:v:noircir [lá:mrph:CAUS fìn:v:noircir] >> láfìn:v:noircir [lá:mrph:CAUS fìn:v:noircir]
+náfili:v:tromper [lá:mrph:CAUS fìli:v:jeter] >> náfìli:v:tromper [lá:mrph:CAUS fìli:v:jeter]
+náfin:v:noircir [lá:mrph:CAUS fìn:v:noircir] >> náfìn:v:noircir [lá:mrph:CAUS fìn:v:noircir]
+sariziyɛri:n:chargeur.de.batterie >> sáriziyɛri:n:chargeur.de.batterie
+sísàn:n:maintenant >> sísan:n:maintenant
+tán-t'á-sɔ̀rɔ:n:nouveau.riche [tán:num:dix t':pm:IPFV.NEG à:pers:3SG sɔ̀rɔ:v:obtenir] >> tán-t'à-sɔ̀rɔ:n:nouveau.riche [tán:num:dix t':pm:IPFV.NEG à:pers:3SG sɔ̀rɔ:v:obtenir]
+Ɲaarɛ:n.prop:NOM.CL >> Ɲàarɛ:n.prop:NOM.CL
+Ɲarɛ:n.prop:NOM.CL >> Ɲàrɛ:n.prop:NOM.CL
+# bprev1:100nan:adj/n:centième [kɛ̀mɛ:num:cent nan:mrph:ORD]
+# bprev1:Nɔ̀ɔka:adj/n:NOM.CL [ka:mrph:GENT]
+# bprev1:Súyanka:adj/n:NOM.CL
+# bprev1:kɛ̀mɛnan:adj/n:centième [kɛ̀mɛ:num:cent nan:mrph:ORD]
+
+# changes in ps ? (or new lx ?) : 0
+
+
+# changes in mm : 24
+
+52:n:petite.bonne [Sàn:n.prop:TOP ka:mrph:GENT dén:n:enfant]] >> 52:n:petite.bonne [Sàn:n.prop:TOP ka:mrph:GENT dén:n:enfant]
+bɛ́ɛnninmuso:n:nièce [bɛ́ɛnnin:n:neveu.ou.nièce [bélen:n:parent.maternel nin:mrph:DIM] mùso:adj:féminin] >> bɛ́ɛnninmuso:n:nièce [bɛ́nnin:n:neveu [bélen:n:parent.maternel nin:mrph:DIM] mùso:adj:féminin]
+dùgumasara:n:défaite [dùgu:n:village mà:pp:ADR sàra:n:paie] >> dùgumasara:n:défaite [dùgu:n:village mà:pp:ADR sára:n:lot]
+dɔ́nbagalafili:n:méconnaissable [dɔ́nbaga:n:qui.connaît [dɔ́n:v:connaître baga:mrph:AG.OCC] láfili:v:tromper [lá:mrph:CAUS fìli:v:jeter]] >> dɔ́nbagalafili:n:méconnaissable [dɔ́nbaga:n:qui.connaît [dɔ́n:v:connaître baga:mrph:AG.OCC] láfìli:v:tromper [lá:mrph:CAUS fìli:v:jeter]]
+jɔ́nnasìgi:v:humilier [lá:mrph:CAUS sìgi:v:asseoir] >> jɔ́nnasìgi:v:humilier [jɔ́n:n:humiliation lá:mrph:CAUS sìgi:v:asseoir]
+kàmakun:n:épaule [kàma:n:épaule kùn:n:tête] >> kàmakun:n:épaule [kàman:n:épaule kùn:n:tête]
+kùnnala:n:dessus [kùnná:pp:au.dessus [kùn:n:tête lá:pp:à] la:mrph:LOC] >> kùnnala:n:dessus [kùnná:pp:au-dessus [kùn:n:tête lá:pp:à] la:mrph:LOC]
+kùnnana:n:dessus [kùnná:pp:au.dessus [kùn:n:tête lá:pp:à] la:mrph:LOC] >> kùnnana:n:dessus [kùnná:pp:au-dessus [kùn:n:tête lá:pp:à] la:mrph:LOC]
+kùnnasàgon:v:enjamber [kùnná:pp:au.dessus [kùn:n:tête lá:pp:à] sàgon:v:sauter.par.dessus] >> kùnnasàgon:v:enjamber [kùnná:pp:au-dessus [kùn:n:tête lá:pp:à] sàgon:v:sauter.par.dessus]
+kùnnatɛ̀mɛ:v:achever.une.oeuvre [kùnná:pp:au.dessus [kùn:n:tête lá:pp:à] tɛ̀mɛ:v:passer] >> kùnnatɛ̀mɛ:v:achever.une.oeuvre [kùnná:pp:au-dessus [kùn:n:tête lá:pp:à] tɛ̀mɛ:v:passer]
+kɔ̀nɔnafili:n:perplexité [kɔ́nɔ:n:ventre náfili:v:tromper [lá:mrph:CAUS fìli:v:jeter]] >> kɔ̀nɔnafili:n:perplexité [kɔ́nɔ:n:ventre náfìli:v:tromper [lá:mrph:CAUS fìli:v:jeter]]
+kɔ́nɔnafìli:v:embarrasser [kɔ́nɔ:n:ventre náfili:v:tromper [lá:mrph:CAUS fìli:v:jeter]] >> kɔ́nɔnafìli:v:embarrasser [kɔ́nɔ:n:ventre náfìli:v:tromper [lá:mrph:CAUS fìli:v:jeter]]
+làadalalajɛ:n:réunion.ordinaire [làada:n:coutume lá:pp:à lájɛ:n:réunion [lá:mrph:CAUS jɛ̀:v:assembler]] >> làadalalajɛ:n:réunion.ordinaire [làada:n:coutume lá:pp:à làjɛ:n:réunion [lá:mrph:CAUS jɛ̀:v:assembler]]
+láfilibaatɔ:adj:triste [láfili:v:tromper [lá:mrph:CAUS fìli:v:jeter] baga:mrph:AG.OCC tɔ:mrph:ST] >> láfilibaatɔ:adj:triste [láfìli:v:tromper [lá:mrph:CAUS fìli:v:jeter] baga:mrph:AG.OCC tɔ:mrph:ST]
+láfilibagatɔ:adj:triste [láfili:v:tromper [lá:mrph:CAUS fìli:v:jeter] baga:mrph:AG.OCC tɔ:mrph:ST] >> láfilibagatɔ:adj:triste [láfìli:v:tromper [lá:mrph:CAUS fìli:v:jeter] baga:mrph:AG.OCC tɔ:mrph:ST]
+mànamanako:n:bêtise [mànamana:n:banal kó:n:affaire] >> mànamanako:n:bêtise [mànamana:n:banalité kó:n:affaire]
+móbilibolila:n:automobiliste [móbili:n:automobile bòli:v:courir la:mrph:AG.PRM] >> móbilibolila:n:automobiliste [mɔ́bili:n:automobile bòli:v:courir la:mrph:AG.PRM]
+nàbaraya:n:paralysie [nàbara:n:paralysé.des.jambes ya:mrph:ABSTR nàbara:n:paralysé.des.jambes ya:mrph:ABSTR] >> nàbaraya:n:paralysie [nàbara:n:paralysé.des.jambes ya:mrph:ABSTR]
+náfilibaatɔ:adj:triste [náfili:v:tromper [lá:mrph:CAUS fìli:v:jeter] baga:mrph:AG.OCC tɔ:mrph:ST] >> náfilibaatɔ:adj:triste [náfìli:v:tromper [lá:mrph:CAUS fìli:v:jeter] baga:mrph:AG.OCC tɔ:mrph:ST]
+náfilibagatɔ:adj:triste [náfili:v:tromper [lá:mrph:CAUS fìli:v:jeter] baga:mrph:AG.OCC tɔ:mrph:ST] >> náfilibagatɔ:adj:triste [náfìli:v:tromper [lá:mrph:CAUS fìli:v:jeter] baga:mrph:AG.OCC tɔ:mrph:ST]
+sitarati:n:citrate (Dɔgɔtɔrɔ tɛ sigida min na, 2018) >> sitarati:n:citrate
+sísandanin:n:tout.de.suite [sísàn:n:maintenant dá:n:bouche nin:mrph:DIM] >> sísandanin:n:tout.de.suite [sísan:n:maintenant dá:n:bouche nin:mrph:DIM]
+sísanwaati:n:le.présent [sísàn:n:maintenant wáati:n:moment] >> sísanwaati:n:le.présent [sísan:n:maintenant wáati:n:moment]
+sɛ̀mɛkuru:n:hache-houe [sɛ̀mɛ:n:hache-houe kùru:n:boule] >> sɛ̀mɛkuru:n:hache-houe [sɛ̀mɛ:n:herminette kùru:n:boule]
+
+# changes in gloss : 49, of which 7 need checking : 
+
+bànkasa:n:vétiver [bà:n:chèvre nkása:n:vétiver] >> bànkasa:n:vétiver [bà:n:chèvre nkása:n:vétiver]
+báldi:n:vache.noir >> báldi:n:vache.noire
+bíɲɛkalama:n:brochette.de.viande [bíɲɛ:n:foie kàlama:n:bâtonnet] >> bíɲɛkalama:n:brochette.de.foie [bíɲɛ:n:foie kàlama:n:bâtonnet]
+dàra:n:crasse >> dàra:n:drap
+dájinɛ:n:ange.'gardien' [dá:n:bouche jínɛ:n:esprit] >> dájinɛ:n:ange.gardien [dá:n:bouche jínɛ:n:esprit]
+dénya:n:filiation [dén:n:enfant ya:mrph:ABSTR] >> dénya:n:enfance [dén:n:enfant ya:mrph:ABSTR]
+
+# ??? dùn:n:eau.profond >> dùn:n:eau.profonde
+dùn:n:eau.profond >> dùn:n:eau.profonde
+
+dɔ́gɔɲinina:n:ramasseuse.du.fagot [dɔ́gɔ:n:fagot ɲíni:v:chercher la:mrph:AG.PRM] >> dɔ́gɔɲinina:n:ramasseuse.de.fagot [dɔ́gɔ:n:fagot ɲíni:v:chercher la:mrph:AG.PRM]
+
+# ??? dɛ́ndɛ:v:prendre.soin >> dɛ́ndɛ:v:surveiller
+dɛ́ndɛ:v:prendre.soin >> dɛ́ndɛ:v:surveiller
+
+# ???NON dɛ́ndɛ:v:prendre.soin >> dɛ́ndɛ:v:économiser
+
+#(monolithe fr!?) - fùfu:n:purée.d'ignames >> fùfu:n:purée.d'ignames
+fúrubatola:n:qui.horore.lois.du.mariage [fúru:n:mariage bàto:v:adorer la:mrph:AG.PRM] >> fúrubatola:n:qui.honore.les.lois.du.mariage [fúru:n:mariage bàto:v:adorer la:mrph:AG.PRM]
+fútɛ̀rɛ́:n:rien.de.tout >> fútɛ̀rɛ́:n:rien.du.tout
+#(monolithe fr!?) - hébeku:v:être.stupéfait >> hébeku:v:être.stupéfait
+jèlimuso:n:griote [jèli:n:griot mùso:adj:féminin] >> jèlimuso:n:griotte [jèli:n:griot mùso:adj:féminin]
+jíbondon:n:chateau.d'eau [jí:n:eau bòndon:n:grenier.en.pisé] >> jíbondon:n:château.d'eau [jí:n:eau bòndon:n:grenier.en.pisé]
+#(monolithe fr!?) - jíya:n:état.liquide [jí:n:eau ya:mrph:ABSTR] >> jíya:n:état.liquide [jí:n:eau ya:mrph:ABSTR]
+#(monolithe fr!?) - jíya:v:liquéfier [jí:n:eau ya:mrph:ABSTR] >> jíya:v:liquéfier [jí:n:eau ya:mrph:ABSTR]
+kàarisa:n:un.tel [kàari:n:un.tel] >> kàarisa:n:untel [kàari:n:un.tel]
+#(monolithe fr!?) - kàmisii:n:motif.décoratif [kàmi:n:pintade sí:n:poil] >> kàmisii:n:motif.décoratif [kàmi:n:pintade sí:n:poil]
+kàrimaasina:n:un.tel >> kàrimaasina:n:untel
+kàrimaasinɛ:n:un.tel >> kàrimaasinɛ:n:untel
+kàrisa:n:un.tel [kàari:n:un.tel] >> kàrisa:n:untel [kàari:n:un.tel]
+#(monolithe fr!?) - kùnná:pp:au.dessus [kùn:n:tête lá:pp:à] >> kùnná:pp:au-dessus [kùn:n:tête lá:pp:à]
+#(monolithe fr!?) - kúmalasigi:n:réunion [kúma:n:parole lásìgi:v:faire.asseoir [lá:mrph:CAUS sìgi:v:asseoir]] >> kúmalasigi:n:réunion [kúma:n:parole lásìgi:v:faire.asseoir [lá:mrph:CAUS sìgi:v:asseoir]]
+mànamana:n:banal >> mànamana:n:banalité
+#(monolithe fr!?) - màsalenfiyen:n:cécité.des.rivières [fíyen:n:aveugle] >> màsalenfiyen:n:cécité.des.rivières [fíyen:n:aveugle]
+#(monolithe fr!?) - mánwu:v:stupéfier >> mánwu:v:stupéfier
+#(monolithe fr!?) - míri:adv:très.noir >> míri:adv:très.noir
+#??? múnumunu:v:faire.tourner [múnu:v:tourner múnu:v:tourner] >> múnumunu:v:tourner [múnu:v:tourner múnu:v:tourner]
+múnumunu:v:faire.tourner  >> múnumunu:v:tourner 
+#??? nísɔngoya:v:contrarier [nísɔngo:adj:de.mauvaise.humeur [nísɔn:n:humeur [ní:n:âme sɔ̀n:n:coeur] gó:adj:désagréable] ya:mrph:ABSTR] >> nísɔngoya:v:attrister [nísɔngo:adj:de.mauvaise.humeur [nísɔn:n:humeur [ní:n:âme sɔ̀n:n:coeur] gó:adj:désagréable] ya:mrph:ABSTR]
+nísɔngoya:v:contrarier >> nísɔngoya:v:attrister 
+#???nkàlontigiya:v:démentir [nkàlon:n:mensonge tìgi:n:maître ya:mrph:ABSTR] >> nkàlontigiya:v:démentir [nkàlon:n:mensonge tìgi:n:maître ya:mrph:ABSTR]
+#(monolithe fr!?) - nkàlontigiya:v:démentir >> nkàlontigiya:v:démentir
+#??? nkàntoronin:n:arbre.Strychnos.innocua [nin:mrph:DIM] >> nkàntoronin:n:oranger.de.brousse [nin:mrph:DIM]
+nkàntoronin:n:arbre.Strychnos.innocua >> nkàntoronin:n:oranger.de.brousse
+npáraki:adv:à.foison >> npáraki:adv:à.foison
+#??? nɛ̀gɛkɔrɔsigi:n:circoncision [nɛ̀gɛ:n:fer kɔ́rɔ:pp:sous sìgi:v:asseoir] >> nɛ̀gɛkɔrɔsigi:n:excision [nɛ̀gɛ:n:fer kɔ́rɔ:pp:sous sìgi:v:asseoir]
+nɛ̀gɛkɔrɔsigi:n:circoncision >> nɛ̀gɛkɔrɔsigi:n:excision
+pútɛ̀rɛ́:n:rien.de.tout >> pútɛ̀rɛ́:n:rien.du.tout
+#(monolithe fr!?) - pɔnze:n.prop:Point.G.hôpital >> pɔnze:n.prop:Point.G.hôpital
+sàban:n:liane.sp >> sàban:n:liane.Saba.senegalensis
+#(monolithe fr!?) - sènpara:n:enjambée [sèn:n:jambe] >> sènpara:n:enjambée [sèn:n:jambe]
+
+# ??? súran:v:piler >> súran:v:monder
+súran:v:piler >> súran:v:monder
+
+# ??? súruntu:v:siffler.avec.mépris >> súruntu:v:tchiper
+súruntu:v:siffler.avec.mépris >> súruntu:v:tchiper
+
+# ??? súuru:v:siffler.avec.mépris >> súuru:v:tchiper
+súuru:v:siffler.avec.mépris >> súuru:v:tchiper
+
+sɔ̀miniminɛn:n:organe.de.sens [sɔ̀mi:v:soupçonner li:mrph:NMLZ mìnɛn:n:outils] >> sɔ̀miniminɛn:n:organe.sensoriel [sɔ̀mi:v:soupçonner li:mrph:NMLZ mìnɛn:n:outils]
+
+# ??? sɛ̀mɛ:n:hache-houe >> sɛ̀mɛ:n:herminette
+sɛ̀mɛ:n:hache-houe >> sɛ̀mɛ:n:herminette
+
+tákùla:n:pain.de.mil >> tákùla:n:galette
+#(monolithe fr!?) - tónton:v:être.proéminent >> tónton:v:être.proéminent
+ŋàara:n:griot >> ŋàara:n:maître.griot
+#(monolithe fr!?) - ŋáɲi:adv:très.serré >> ŋáɲi:adv:très.serré
+ɲàgi:n:foëne.à.trois.dents >> ɲàgi:n:harpon
+
+# changes in gloss and mm : 4
+
+nkànkoronin:n:arbre.Strychnos.innocua [nin:mrph:DIM] >> nkànkoronin:n:oranger.de.brousse [nkànkoro:n:arbre.Strychnos.spinosa nin:mrph:DIM]
+pisi:n:pièce(de tissu) >> pisi:n:pièce.de.tissu
+#!!! segɔnsikili:n:second cycle >> segɔnsikili:n:second.cycle
+
+# espaces dans lexème non traités par dabased : yé kà:pm:EQU INF >> yé kà:pm:EQU.INF
+
+# New words : 197 ? Check with last paragraph (words having disappeared)
+
+#- - - extra caution with homonyms ! ex: new: dákojugu "contrefait" // added to existing: dákojugu "mauvais coucheur" 
+
+
+#	 cas résolus (?) : 189	 = if found in dis.html files, impose the new gloss!
+100nan:adj: >> 100nan:adj:centième [kɛ̀mɛ:num:cent nan:mrph:ORD]
+Asimi:n.prop: >> Asimi:n.prop:NOM.M
+Coro:n.prop: >> Coro:n.prop:NOM.CL
+Dako:n.prop: >> Dako:n.prop:NOM.CL
+Damiba:n.prop: >> Damiba:n.prop:NOM.ETRG
+Dancogo:n.prop: >> Dancogo:n.prop:NOM.CL
+Dányɔ:n.prop: >> Dányɔ:n.prop:NOM.CL
+Dáɲɔn:n.prop: >> Dáɲɔn:n.prop:NOM.CL
+Dukara:n.prop: >> Dukara:n.prop:NOM.CL
+Duɲɔ:n.prop: >> Duɲɔ:n.prop:NOM.CL
+Duɲɔn:n.prop: >> Duɲɔn:n.prop:NOM.CL
+Dúgùre:n.prop: >> Dúgùre:n.prop:NOM.CL
+Dɔlɔ:n.prop: >> Dɔlɔ:n.prop:NOM.CL
+Dɛna:n.prop: >> Dɛna:n.prop:NOM.CL
+Gaburuyɛli:n.prop: >> Gaburuyɛli:n.prop:Gabriel
+Girinantali:n.prop: >> Girinantali:n.prop:NOM.ETRG
+Jafune:n.prop: >> Jafune:n.prop:NOM.CL
+Jágùraga:n.prop: >> Jágùraga:n.prop:NOM.CL
+Jigiba:n.prop: >> Jigiba:n.prop:NOM.CL
+Jinbiga:n.prop: >> Jinbiga:n.prop:NOM.CL
+Káàn:n.prop: >> Káàn:n.prop:NOM.CL
+Kân:n.prop: >> Kân:n.prop:NOM.CL
+Kida:n.prop: >> Kida:n.prop:NOM.CL
+Nbum:n.prop: >> Nbum:n.prop:NOM.CL
+Ngom:n.prop: >> Ngom:n.prop:NOM.CL
+Nɔ̀ɔka:n.prop: >> Nɔ̀ɔka:n.prop:NOM.CL [ka:mrph:GENT]
+Páki:n: >> Páki:n:Pâques
+Pámànte:n.prop: >> Pámànte:n.prop:NOM.CL
+Plea:n.prop: >> Plea:n.prop:NOM.CL
+Saanɔgɔ:n.prop: >> Saanɔgɔ:n.prop:NOM.CL
+Saganɔgɔ:n.prop: >> Saganɔgɔ:n.prop:NOM.CL
+Sanankua:n.prop: >> Sanankua:n.prop:NOM.CL
+Sumalo:n.prop: >> Sumalo:n.prop:NOM.CL
+Súyanka:n.prop: >> Súyanka:n.prop:NOM.CL
+Sɔgɛli:n.prop: >> Sɔgɛli:n.prop:NOM.ETRG
+Sɔngo:n.prop: >> Sɔngo:n.prop:TOP
+Tenbeli:n.prop: >> Tenbeli:n.prop:NOM.CL
+Tenbelu:n.prop: >> Tenbelu:n.prop:NOM.CL
+Tenbine:n.prop: >> Tenbine:n.prop:NOM.CL
+Wahikalo:n.prop: >> Wahikalo:n.prop:NOM.CL
+anfetamini:n: >> anfetamini:n:amphétamine
+anterepirizi:n: >> anterepirizi:n:entreprise
+àbáràtá:conj: >> àbáràtá:conj:pourtant
+bali:n: >> bali:n:balle.de.coton
+bàala:n: >> bàala:n:poisson-chien
+bànbali:n: >> bànbali:n:hie
+bàndari:n: >> bàndari:n:bannière
+bàndugu:n: >> bàndugu:n:manioc
+bálikuya:n: >> bálikuya:n:âge.adulte [báliku:v:grandir ya:mrph:ABSTR]
+bèbedennin:n: >> bèbedennin:n:poupée [dén:n:enfant nin:mrph:DIM]
+biyo:n: >> biyo:n:bio
+bìbi:v: >> bìbi:v:tâter
+bìbili:n: >> bìbili:n:pêche.nocturne [bìbi:v:tâter li:mrph:NMLZ]
+bɔ̀nɛrɔtɔgɔ:n: >> bɔ̀nɛrɔtɔgɔ:n:nom.tutélaire [bɔ̀nɛ:n:malheur rɔ́:pp:IN tɔ́gɔ:n:nom]
+dàma:adv: >> dàma:adv:seulement
+dénbilennin:n: >> dénbilennin:n:nourisson [dén:n:enfant bìlen:adj:rouge nin:mrph:DIM]
+déndennin:n: >> déndennin:n:poupée [dén:n:enfant dén:n:enfant nin:mrph:DIM]
+dógodogoninɲɛ:n: >> dógodogoninɲɛ:n:recoin [dógodogo:n:coin nin:mrph:DIM ɲɛ́:n:oeil]
+dùgubadùguba:v: >> dùgubadùguba:v:grommeler
+dùguduguma:v: >> dùguduguma:v:grogner
+dɛ́ndɛn:v: >> dɛ́ndɛn:v:économiser
+elɛkitorozɛni:adj: >> elɛkitorozɛni:adj:électrogène
+erezisu:n: >> erezisu:n:rhésus
+fálafala:adj: >> fálafala:adj:blanchâtre
+fezibuku:n: >> fezibuku:n:facebook
+féleku:n: >> féleku:n:silhouette
+féleku:v: >> féleku:v:passer.rapidement
+fíɲɛ:adv: >> fíɲɛ:adv:parfaitement
+fúrayaalala:v: >> fúrayaalala:v:vendeur.de.médicaments [fúra:n:feuille yáala:v:errer la:mrph:AG.PRM]
+fɔ́lɔfɔlɔ:n: >> fɔ́lɔfɔlɔ:n:autrefois [fɔ́lɔ:n:autrefois fɔ́lɔ:n:autrefois]
+fɛrɛzi:n: >> fɛrɛzi:n:fraise
+garazi:n: >> garazi:n:garage
+gélenkete:adv: >> gélenkete:adv:parfaitement
+gíri:onomat: >> gíri:onomat:boum
+gùfa:v: >> gùfa:v:arracher
+gùfan:v: >> gùfan:v:arracher
+gùpa:v: >> gùpa:v:arracher
+gwɛ́ntɛrɛ:n: >> gwɛ́ntɛrɛ:n:bouclier
+híriri:adv: >> híriri:adv:à.vive.allure
+híriri:n: >> híriri:n:allure
+hírri:adv: >> hírri:adv:à.vive.allure
+hírri:n: >> hírri:n:allure
+hɛkitari:n: >> hɛkitari:n:hectare
+ikisi:n: >> ikisi:n:X
+jalizi:n: >> jalizi:n:dialise
+jìgin-ń-ná:n: >> jìgin-ń-ná:n:rancune [jìgin:v:descendre ń:pers:1SG lá:pp:à]
+jìgitigɛ:adj: >> jìgitigɛ:adj:énorme [jìgi:n:espoir tìgɛ:v:couper]
+jɔ́karamɛ:n: >> jɔ́karamɛ:n:Diawambé
+jɔ́n:n: >> jɔ́n:n:humiliation
+kanabisi:n: >> kanabisi:n:cannabis
+kano:n: >> kano:n:canon
+karanɛ:n: >> karanɛ:n:carnet
+kàlokalo:n: >> kàlokalo:n:insignifiance
+kálaba:n: >> kálaba:n:arc [kála:n:arc bá:n:mère]
+káladen:n: >> káladen:n:flèche [kála:n:arc dén:n:enfant]
+keleyakeleya:n: >> keleyakeleya:n:mange-mil
+kereyatinini:n: >> kereyatinini:n:créatinine
+kilakisɔni:n: >> kilakisɔni:n:klaxon
+kowidi:n: >> kowidi:n:covid
+kònbokanba:v: >> kònbokanba:v:barbotter
+kùnnasigikan:n: >> kùnnasigikan:n:langue.officielle [kùnnasigi:n:installation.de.la.femme [kùn:n:tête lá:pp:à sìgi:v:asseoir] kán:n:cou]
+kùnnasigiya:n: >> kùnnasigiya:n:version.officielle [kùnnasigi:n:installation.de.la.femme [kùn:n:tête lá:pp:à sìgi:v:asseoir] ya:mrph:ABSTR]
+kúmaɲɛbila:n: >> kúmaɲɛbila:n:avant-propos [kúma:n:parole ɲɛ́bila:n:guide [ɲɛ́:n:oeil bìla:n:abandon]]
+kɔnwansiyɔnɛri:n: >> kɔnwansiyɔnɛri:n:conventionnaire
+kɔnwayɛri:n: >> kɔnwayɛri:n:convoyeur
+kɔ̀nzɛ:n: >> kɔ̀nzɛ:n:congé
+kɔ́kisi:n: >> kɔ́kisi:n:arrière-garde [kɔ́:n:dos kísi:v:sauver]
+kɔ́tɔrɛ:n: >> kɔ́tɔrɛ:n:bouclier
+kɔ́tɛrɛ:n: >> kɔ́tɛrɛ:n:bouclier
+kɛ̀mɛnan:adj: >> kɛ̀mɛnan:adj:centième [kɛ̀mɛ:num:cent nan:mrph:ORD]
+lazɛri:n: >> lazɛri:n:laser
+lában:prt: >> lában:prt:finalement
+ládùsu:v: >> ládùsu:v:monter.contre [lá:mrph:CAUS dùsu:v:se.fâcher]
+lámunumunu:v: >> lámunumunu:v:faire.tourner [lá:mrph:CAUS múnumunu:v:tourner]
+lègelege:v: >> lègelege:v:chatouiller
+maresali:n: >> maresali:n:maréchal
+masiki:n: >> masiki:n:masque
+màafaa:n: >> màafaa:n:meurtre [mɔ̀gɔ:n:homme fàga:v:tuer]
+metoro:n: >> metoro:n:métro
+mìnnɔgɔ:v: >> mìnnɔgɔ:v:avoir.soif [mìn:v:boire dɔ́gɔ:n:désir]
+mìsiriman:n: >> mìsiriman:n:aveugle [mìsiri:n:mosquée màa:n:homme]
+mísimisi:n: >> mísimisi:n:horreur
+mísimisi:v: >> mísimisi:v:frémir
+musuwarɛ:n: >> musuwarɛ:n:mouchoir
+mùnnesi:prn: >> mùnnesi:prn:quoi.exactement?
+múyi:v: >> múyi:v:naître
+mɔ́biligari:n: >> mɔ́biligari:n:gare.routière [mɔ́bili:n:automobile gári:n:gare]
+nàmaraya:n: >> nàmaraya:n:paralysie [nàbara:n:paralysé.des.jambes ya:mrph:ABSTR]
+nànama:adv.p: >> nànama:adv.p:tranquillement
+ncɔ̀rɔnin:n: >> ncɔ̀rɔnin:n:serin
+negatifu:adj: >> negatifu:adj:négatif
+nkànkoro:n: >> nkànkoro:n:arbre.Strychnos.spinosa
+nkàntoro:n: >> nkàntoro:n:arbre.Strychnos.spinosa
+npérekete:adj: >> npérekete:adj:minuscule
+ntóntonton:n: >> ntóntonton:n:tout-puissant
+ntɔ́:adv: >> ntɔ́:adv:très.froid
+òrobinɛ:n: >> òrobinɛ:n:robinet
+pá:onomat: >> pá:onomat:bah
+páa:onomat: >> páa:onomat:paf
+pági:onomat: >> pági:onomat:bruit.de.coup
+peyazi:n: >> peyazi:n:péage
+pilato:n: >> pilato:n:plateau
+piyasiri:n: >> piyasiri:n:piastre
+pizɔn:n: >> pizɔn:n:pigeon
+porofesiyɔnɛli:adj: >> porofesiyɔnɛli:adj:professionnel
+pozitifu:adj: >> pozitifu:adj:positif
+púwɛ:intj: >> púwɛ:intj:ouf
+pɛ́:adv: >> pɛ́:adv:sans.dormir
+pɛ́rɛn:n: >> pɛ́rɛn:n:engueulade
+sanfuru:n: >> sanfuru:n:chanvre
+sàribon:n: >> sàribon:n:charbon
+sáfi:n: >> sáfi:n:idiot
+segɔndɛri:n: >> segɔndɛri:n:secondaire
+sìgibolo:n: >> sìgibolo:n:institution [sìgi:v:asseoir bólo:n:bras]
+sìgiboloma:n: >> sìgiboloma:n:subdivision [sìgi:v:asseoir bólo:n:bras ma:mrph:COM]
+sosiyo:adj: >> sosiyo:adj:sociaux
+sɔ̀nɔ́gɔ:v: >> sɔ̀nɔ́gɔ:v:atténuer [sɔ̀:mrph:EN nɔ̀gɔn:vq:facile]
+taramadɔli:n: >> taramadɔli:n:Tramadol
+tari:n: >> tari:n:hectare
+táli:adv: >> táli:adv:bruit.de.chute
+táyɛri:n: >> táyɛri:n:tailleur
+teweya:n: >> teweya:n:TVA
+tike:n: >> tike:n:ticket
+tìnnadɔn:n: >> tìnnadɔn:n:regret [tùn:prt:PST nà:pm:CERT dɔ́n:v:connaître]
+toropiki:n: >> toropiki:n:tropique
+túlomagɛn:v: >> túlomagɛn:v:venir.en.aide [túlo:n:oreille màgɛ́n:v:rejoindre [mà:mrph:SUPER gɛ́n:v:chasser]]
+tɔ́:adv: >> tɔ́:adv:très.froid
+tɔ́ntɔn:adv: >> tɔ́ntɔn:adv:très.froid
+wasapu:n: >> wasapu:n:whatsapp
+wàgeya:n: >> wàgeya:n:décence
+wántɛrɛ:n: >> wántɛrɛ:n:soldes
+wántɛrɛ:v: >> wántɛrɛ:v:solder
+wéeleweeleda:v: >> wéeleweeleda:v:annoncer.publiquement [wéeleweele:n:annonce.publique dá:v:poser]
+widewo:n: >> widewo:n:vidéo
+wòrobinɛ:n: >> wòrobinɛ:n:robinet
+wúsu:adj: >> wúsu:adj:fumé
+yékewu:adv: >> yékewu:adv:furtivement
+yéluyelu:v: >> yéluyelu:v:briller
+yìtinɛ:n: >> yìtinɛ:n:lieutenant
+yɛ̀rɛmasu:v: >> yɛ̀rɛmasu:v:séduire [yɛ̀rɛ̂:dtm:même mà:mrph:SUPER sú:v:tremper]
+zɛli:n: >> zɛli:n:gel
+ŋálajɔ:n: >> ŋálajɔ:n:liane.chevelue [Ŋála:n:Dieu jɔ̀:n:filet]
+ɛkitari:n: >> ɛkitari:n:hectare
+ɛndisi:n: >> ɛndisi:n:indice
+ɲàanan:n: >> ɲàanan:n:igname.sauvage
+ɲánimaboli:n: >> ɲánimaboli:n:exil [ɲáni:n:misère mà:pp:ADR bòli:n:course]
+ɲègi:n: >> ɲègi:n:harpon
+ɲɛ́dan:n: >> ɲɛ́dan:n:horizon [ɲɛ́:n:oeil dàn:n:limite]
+ɲɛ́majɔ:n: >> ɲɛ́majɔ:n:prudence [ɲɛ́:n:oeil mà:pp:ADR jɔ̀:v:dresser]
+
+#	 cas ambigüs : 8
+# (3 similar) : géle:n: >> géle:n:assommoir 	# !check! : géle:n:arbre.Prosopis.africana <?> géle:n:assommoir <?> géle:n:terre.ferme
+# (2 similar) : jása:n: >> jása:n:ignare 	# !check! : jása:n:ignare <?> jása:n:palissade
+# (3 similar) : kànko:n: >> kànko:n:filet.triangulaire 	# !check! : kànko:n:calebasse.sphérique <?> kànko:n:corbeille.d'apiculteur <?> kànko:n:filet.triangulaire
+# (2 similar) : kálan:adj: >> kálan:adj:bariolé 	# !check! : kálan:adj:bariolé <?> kálan:adj:chaud
+# (3 similar) : líburu:n: >> líburu:n:livre.ouvrage 	# !check! : líburu:n:livre <?> líburu:n:livre.ouvrage <?> líburu:n:livre.unité.poids
+# (3 similar) : líburu:n: >> líburu:n:livre.unité.poids 	# !check! : líburu:n:livre <?> líburu:n:livre.ouvrage <?> líburu:n:livre.unité.poids
+# (2 similar) : sántimɛtɛrɛ:n: >> sántimɛtɛrɛ:n:centimètre [mɛ́tɛrɛ:n:mètre] 	# !check! : sántimɛtɛrɛ:n:centimètre <?> sántimɛtɛrɛ:n:centimètre [mɛ́tɛrɛ:n:mètre]
+# (2 similar) : tɔ̀ɲɔ:v: >> tɔ̀ɲɔ:v:opprimer 	# !check! : tɔ̀ɲɔ:v:offenser <?> tɔ̀ɲɔ:v:opprimer
+tɔ̀ɲɔ:v:opprimer >> tɔ̀ɲɔ:v:offenser
+
+# Words which have disappeared in the last Bamadaba : 174?! Check with previous paragraph (new words)
+#    For instance look out for words where the tones in lx and the mm in gloss have both changed.
+#    i.e after split of vq/adj: júgu:vq/adj:mauvais >> júgu:vq/adj:méchant + júgu:vq:mauvais >> júgu:vq:méchant + júgu:adj:mauvais >> júgu:adj:méchant
+#    or for instance : rɔ́ncàkanpo:v:contredire [rɔ́:mrph:IN] >> rɔ́ncàpanko:v:contredire [rɔ́:mrph:IN ncàpanko:v:contredire]
+
+
+
+# \ve to be replaced by \lx gloss: 25
+Bagayoko:n.prop:NOM.CL >> Bàgayɔgɔ:n.prop:NOM.CL
+Bàgayɔkɔ:n.prop:NOM.CL >> Bàgayɔgɔ:n.prop:NOM.CL
+Bèrte:n.prop:NOM.CL >> Bèrete:n.prop:NOM.CL
+Daɲɔgɔ:n.prop:NOM.CL >> Daɲɔkɔ:n.prop:NOM.CL
+Dramera:n.prop:NOM.CL >> Daramera:n.prop:NOM.CL
+Dramɛ:n.prop:NOM.CL >> Dàramɛ:n.prop:NOM.CL
+Kanutɛ:n.prop:NOM.CL >> Kanute:n.prop:NOM.CL
+Kònde:n.prop:NOM.CL >> Kɔ́ndɛ:n.prop:NOM.CL
+Kɔnatɛ:n.prop:NOM.CL >> Kònate:n.prop:NOM.CL
+árɔndiseman:n:arrondissement >> árɔndisiman:n:arrondissement
+dáfyɛ:v:dire.le.secret >> dáfiyɛ:v:dire.le.secret [dá:n:bouche fíyɛ:v:souffler]
+fɛ̀nɛtɛrɛ:n:fenêtre >> fìnɛtiri:n:fenêtre
+gìdɔrɔn:n:goudron >> gùdɔrɔn:n:goudron
+gìtɔrɔn:n:goudron >> gùdɔrɔn:n:goudron
+kàanni:n:glaire >> kàari:n:glaire
+kàanri:n:glaire >> kàari:n:glaire
+kàriɲa:n:crécelle >> kɛ̀rɛɲɛ:n:crécelle
+kánare:n:canal >> kánari:n:canal
+kɛrɛyɔn:n:crayon >> kíriyɔn:n:crayon
+mɔ́rɔkɔ:v:écraser >> mɔ́rɔnkɔ:v:écraser
+nkàrinya:n:crécelle >> kɛ̀rɛɲɛ:n:crécelle
+nkìrinyɛ:n:crécelle >> kɛ̀rɛɲɛ:n:crécelle
+pèrikali:n:percale >> pɛ̀rɛkali:n:percale
+sántimɛtiri:n:centimètre >> sántimɛtɛrɛ:n:centimètre
+zɔ́ni:n:zone >> zóni:n:zone
+
+# Have disappeared, like for instance \va suppressed : 149
+# Ou plutôt pas de correspondance
+# càd problèmes non traités plus haut : changement d'une lettre (e par ɛ, o par ɔ...), 
+#   changement multiples (ton+gloses), monolithe dans lexème... et bugs éventuels de code!
+# Il s'agit parfois de doublons supprimés ("doublon prev"= doublon dans le précédent bamadaba)
+# et parfois - rarement - de suppressions ("absent last"=pas trouvé dans la dernière version de bamadaba).
+# Tous ces litiges doivent être réglés manuellement!
+# ##################################################
+
+# les 115 suivants ont été résolus "à la main"
+
+# ? Àngola:n.prop:TOP           doublon prev
+# ? Bérete:n.prop:NOM.CL
+Bérete:n.prop:NOM.CL >> Bèrete:n.prop:NOM.CL
+# ? Dafe:n.prop:NOM.CL
+Dafe:n.prop:NOM.CL >> Dáfe:n.prop:NOM.CL
+# ? Daramerra:n.prop:NOM.CL
+Daramerra:n.prop:NOM.CL >> Daramera:n.prop:NOM.CL
+# ? Daɲon:n.prop:NOM.CL
+Daɲon:n.prop:NOM.CL >> Dáɲɔn:n.prop:NOM.CL
+# ? Dányò:n.prop:NOM.CL
+Dányò:n.prop:NOM.CL >> Dányɔ:n.prop:NOM.CL
+# ? Dèna:n.prop:NOM.CL
+Dèna:n.prop:NOM.CL >> Dɛna:n.prop:NOM.CL
+# ? Dolo:n.prop:NOM.CL
+Dolo:n.prop:NOM.CL >> Dɔlɔ:n.prop:NOM.CL
+# ? Fòdé:n.prop:NOM.M
+Fòdé:n.prop:NOM.M >> Fódè:n.prop:NOM.M
+# ? Fɔ́nbà:n.prop:NOM.CL
+Fɔ́nbà:n.prop:NOM.CL >> Fɔ̀nba:n.prop:NOM.CL
+# ? Hàmadí:n.prop:NOM.M
+Hàmadí:n.prop:NOM.M >> Hámàdi:n.prop:NOM.M
+# ? Jàbate:n.prop:NOM.CL
+Jàbate:n.prop:NOM.CL >> Jàbatɛ:n.prop:NOM.CL
+# ? Jigibe:n.prop:NOM.CL
+Jigibe:n.prop:NOM.CL >> Jigiba:n.prop:NOM.CL
+# ? Jirɛ:n.prop:NOM.CL
+Jirɛ:n.prop:NOM.CL >> Jire:n.prop:NOM.CL
+# ? Kaane:n.prop:NOM.CL
+Kaane:n.prop:NOM.CL >> Káane:n.prop:NOM.CL
+# ? Konantɛ:n.prop:NOM.CL
+Konantɛ:n.prop:NOM.CL >> Kònatɛ:n.prop:NOM.CL
+# ? Kòninba:n.prop:NOM.MF
+Kòninba:n.prop:NOM.MF >> Kóninbà:n.prop:NOM.MF
+# ? Kɔ́ntɛ:n.prop:NOM.CL
+Kɔ́ntɛ:n.prop:NOM.CL >> Kóntè:n.prop:NOM.CL
+# ? Màmá:n.prop:NOM.MF
+Màmá:n.prop:NOM.MF >> Mámà:n.prop:NOM.MF
+# ? Mànjú:n.prop:NOM.M
+Mànjú:n.prop:NOM.M >> Mánjù:n.prop:NOM.M
+# ? Mùsá:n.prop:NOM.M
+Mùsá:n.prop:NOM.M >> Músà:n.prop:NOM.M
+# ? Nɔ̀ɔka:n:NOM.CL [ka:mrph:GENT]
+Nɔ̀ɔka:n:NOM.CL [ka:mrph:GENT] >> Nɔ̀ɔka:n.prop:NOM.CL [ka:mrph:GENT]
+# ? Sakanoko:n.prop:NOM.CL
+Sakanoko:n.prop:NOM.CL >> Saganɔgɔ:n.prop:NOM.CL
+# ? Sanogo:n.prop:NOM.CL
+Sanogo:n.prop:NOM.CL >> Sanɔgɔ:n.prop:NOM.CL
+# ? Sàajɔ:n.prop:NOM.MF
+Sàajɔ:n.prop:NOM.MF >> Sáajɔ̀:n.prop:NOM.MF
+# ? Sáràn:n.prop:NOM.F
+Sáràn:n.prop:NOM.F >> Sàran:n.prop:NOM.F
+# ? Sèdu:n.prop:NOM.M
+Sèdu:n.prop:NOM.M >> Sédu:n.prop:NOM.M
+# ? Sídi:n.prop:NOM.M
+Sídi:n.prop:NOM.M >> Sídì:n.prop:NOM.M
+# ? Súyanka:n:NOM.CL
+Súyanka:n:NOM.CL >> Súyanka:n.prop:NOM.CL
+# ? Tembeli:n.prop:NOM.CL
+Tembeli:n.prop:NOM.CL >> Tenbeli:n.prop:NOM.CL
+# ? Tembelu:n.prop:NOM.CL
+Tembelu:n.prop:NOM.CL >> Tenbelu:n.prop:NOM.CL
+# ? Tembine:n.prop:NOM.CL
+Tembine:n.prop:NOM.CL >> Tenbine:n.prop:NOM.CL
+# ? baki:n:bac.traversée.fleuve
+baki:n:bac.traversée.fleuve >> báki:n:bac.bateau
+# ? bandi:n:bande
+bandi:n:bande >> bándi:n:bande.tissu
+# ? bazi:n:base
+bazi:n:base >> bázi:n:base
+# ? bárikon:n:barrique
+bárikon:n:barrique >> bariko:n:barrique
+# ? bi:n:but
+bi:n:but >> bí:n:but
+# ? buwatimɛli:n:boîte.mail
+buwatimɛli:n:boîte.mail >> búwatimɛli:n:boîte.mail
+# ? bɔmu:n:bombe
+bɔmu:n:bombe >> bɔ́mu:n:bombe
+# ? bɛ́ kàn kà:pm:PROG.AFF       impossible à traiter (espaces)
+# ? bɛ́nnin:n:neveu.ou.nièce [bélen:n:parent.maternel nin:mrph:DIM]
+bɛ́nnin:n:neveu.ou.nièce [bélen:n:parent.maternel nin:mrph:DIM] >> bɛ́nnin:n:neveu [bélen:n:parent.maternel nin:mrph:DIM]
+# ? bɛ́ɛnnin:n:neveu.ou.nièce [bélen:n:parent.maternel nin:mrph:DIM]
+bɛ́ɛnnin:n:neveu.ou.nièce [bélen:n:parent.maternel nin:mrph:DIM] >> bɛ́ɛnnin:n:neveu [bélen:n:parent.maternel nin:mrph:DIM]
+# ? bɛ́ɛnninkɛ:n:neveu [bɛ́ɛnnin:n:neveu.ou.nièce [bélen:n:parent.maternel nin:mrph:DIM] kɛ:adj:mâle]
+bɛ́ɛnninkɛ:n:neveu [bɛ́ɛnnin:n:neveu.ou.nièce [bélen:n:parent.maternel nin:mrph:DIM] kɛ:adj:mâle] >> bɛ́ɛnninkɛ:n:neveu [bɛ́nnin:n:neveu [bélen:n:parent.maternel nin:mrph:DIM] kɛ:adj:mâle]
+# ? dànda:v:accompagner  
+dànda:v:accompagner >> dɛ̀ndɛ:v:soutenir
+# ? dànkari:v:mettre.fin [dàn:n:limite kári:v:casser]  ############## ATTENTION ###################
+dànkari:v:mettre.fin [dàn:n:limite kári:v:casser] >> dàn:n:limite ++ kári:v:casser
+# ? dànmanata:n:particulier [dàn:n:limite mà:n:endroit lata:mrph:MNT2]  	absent de last = dàmanata "convenable" ?
+# ? dɛ̀ndɛn:v:accompagner
+dɛ̀ndɛn:v:accompagner >> dɛ̀ndɛn:v:soutenir
+# ? fakitiri:n:facture
+fakitiri:n:facture >> fákitiri:n:facture
+# ? fárankofoni:n:Francophonie   # monolithe
+fárankofoni:n:Francophonie >> fárankofoni:n:Francophonie
+# ? fɛrɛn:n:frein
+fɛrɛn:n:frein >> fɛ̀rɛn:n:frein
+# ? gárasi:n:garage
+gárasi:n:garage >> gàrasi:n:garage
+# ? hàradanɛ:n:Harratine
+hàradanɛ:n:Harratine >> háradanɛ:n:Harratine
+# ? iniwɛrisite:n:université
+iniwɛrisite:n:université >> íniwɛrisite:n:université
+# ? iraniyɔmu:n:uranium
+iraniyɔmu:n:uranium >> íraniyɔmu:n:uranium
+# ? jermani:n:germanique
+jermani:n:germanique >> jɛrimani:n:germanique
+# ? jìgi-ń-ná:n:rancune [jìgin:v:descendre ń:pers:1SG lá:pp:à]
+jìgi-ń-ná:n:rancune [jìgin:v:descendre ń:pers:1SG lá:pp:à] >> jìgin-ń-ná:n:rancune [jìgin:v:descendre ń:pers:1SG lá:pp:à]
+# ? jɛrimanikan:n:langue.germanique [jɛrimani:n:germanique kán:n:cou]
+jɛrimanikan:n:langue.germanique [jɛrimani:n:germanique kán:n:cou] >> jɛrimanikan:n: [jɛrimani:n:germanique kán:n:cou]
+# ? kanpeman:n:campement
+kanpeman:n:campement >> kampɛman:n:campement
+# ? kasiki:n:casque
+kasiki:n:casque >> kásiki:n:casque
+# ? kèlennan:adj:unième [kélen:num:un nan:mrph:ORD]
+kèlennan:adj:unième [kélen:num:un nan:mrph:ORD] >> kélennan:adj:unième [kélen:num:un nan:mrph:ORD]
+# ? kokayini:n:cocaïne
+kokayini:n:cocaïne >> kókayini:n:cocaïne
+# ? krɛyɔn:n:crayon
+krɛyɔn:n:crayon >> kíriyɔn:n:crayon
+# ? kupu:n:coupe
+kupu:n:coupe >> kúpu:n:coupe
+# ? kupudafiriki:n:coupe.d'Afrique
+kupudafiriki:n:coupe.d'Afrique >> kúpudafiriki:n:coupe.d'Afrique
+# ? kupudimɔndi:n:coupe.du.monde
+kupudimɔndi:n:coupe.du.monde >> kúpudimɔni:n:coupe.du.monde
+# ? kómando:n:commando  # monolithe
+kómando:n:commando >> kómando:n:commando
+# ? kɔli:n:colle
+kɔli:n:colle >> kɔ́li:n:colle
+# ? kɔnsɛyi:n:conseil
+kɔnsɛyi:n:conseil >> kɔ̀nsɛyi:n:conseil
+# ? kɔnti:n:compte.en.banque
+kɔnti:n:compte.en.banque >> kɔnti:n:compte
+# ? kɛ̀mɛnan:n:centième [kɛ̀mɛ:num:cent nan:mrph:ORD]
+kɛ̀mɛnan:n:centième [kɛ̀mɛ:num:cent nan:mrph:ORD] >> kɛ̀mɛnan:adj:centième [kɛ̀mɛ:num:cent nan:mrph:ORD]
+# ? kɛ̀nɛtintiri:n:pénil [kɛ̀nɛ:n:pubis tíntìri:n:chair.molle]
+kɛ̀nɛtintiri:n:pénil [kɛ̀nɛ:n:pubis tíntìri:n:chair.molle] >> kɛ̀nɛtintiri:n:pénil [kɛ̀ɲɛ:n:pubis tíntìri:n:chair.molle]
+# ? lájigin:n:abaissement [lá:mrph:CAUS jìgin:v:descendre]
+lájigin:n:abaissement [lá:mrph:CAUS jìgin:v:descendre] >> làjigin:n:abaissement [lá:mrph:CAUS jìgin:v:descendre \:mrph:NMLZ2]
+# ? lájɛ:n:réunion [lá:mrph:CAUS jɛ̀:v:assembler]
+lájɛ:n:réunion [lá:mrph:CAUS jɛ̀:v:assembler] >> làjɛ:n:réunion [lá:mrph:CAUS jɛ̀:v:assembler \:mrph:NMLZ2]
+# ? lìnɛti:n:lunettes
+lìnɛti:n:lunettes >> lùnɛti:n:lunettes
+# ? luwe:v:louer
+luwe:v:louer >> lúwe:v:louer
+# ? lègelege:v:chatouiller      # monolithe
+lègelege:v:chatouiller >> lègelege:v:chatouiller
+# ? màgasan:n:entrepôt
+màgasan:n:entrepôt >> màngasa:n:entrepôt
+# ? máamà:n:libellule
+máamà:n:libellule >> màama:n:libellule
+# ? mɔbiligarɛ:n:gare.routie ̀re
+mɔbiligarɛ:n: >> mɔ́biligari:n:gare.routière [mɔ́bili:n:automobile gári:n:gare]
+# ? mɛ̀:conj:mais
+mɛ̀:conj:mais >> mɛ:conj:mais
+# ? nájɛ:n:réunion [lá:mrph:CAUS jɛ̀:v:assembler]
+nájɛ:n:réunion [lá:mrph:CAUS jɛ̀:v:assembler] >> nàjɛ:n:réunion [lá:mrph:CAUS jɛ̀:v:assembler \:mrph:NMLZ2]
+# ? ndúbalen:n:figuier.palabres
+ndúbalen:n:figuier.palabres >> dúbàlen:n:figuier-palabres
+# ? nkɛ̀rɛnyɛ:n:crécelle
+nkɛ̀rɛnyɛ:n:crécelle >> kɛ̀rɛɲɛ:n:crécelle
+# ? npèreketenin:adj:minuscule
+npèreketenin:adj:minuscule >> npéreketenin:adj:minuscule
+# ? operasɔn:n:opération
+operasɔn:n:opération >> óperasɔn:n:opération
+# ? paki:n:Pâques
+paki:n:Pâques >> Páki:n:Pâques
+# ? pélenpelenkolo:n:tibia [kólo:n:os]
+pélenpelenkolo:n:tibia [kólo:n:os] >> pélenpelenkolo:n:tibia [pélenpelen:n:devant.de.la.patte kólo:n:os]
+# ? ponpe:n:pompe
+ponpe:n:pompe >> pɔ́npe:n:pompe
+# ? puwa:n:poids
+puwa:n:poids >> púwa:n:poids
+# ? pɛngili:n:épingle
+pɛngili:n:épingle >> pɛ́ngili:n:épingle
+# ? pɛ̀rikali:n:percale
+pɛ̀rikali:n:percale >> pɛ̀rɛkali:n:percale
+# ? sanburuyɛri:n:chambre.à.air
+sanburuyɛri:n:chambre.à.air >> sánburuyɛri:n:chambre.à.air
+# ? sanburuyɛrɛ:n:chambre.à.air
+sanburuyɛrɛ:n:chambre.à.air >> sánburuyɛri:n:chambre.à.air
+# ? sancari:n:centiare
+sancari:n:centiare >> sáncari:n:centiare
+# ? santilitiri:n:centilitre
+santilitiri:n:centilitre >> sántilitiri:n:centilitre
+# ? sariziye:v:charger
+sariziye:v:charger >> sáriziye:v:charger
+# ? sàafurǔláyi:intj:pardon
+sàafurǔláyi:intj:pardon >> sàafurùlayì:intj:pardon
+# ? sàfurùlayì:intj:pardon
+sàfurùlayì:intj:pardon >> sàfuruláyi:intj:pardon
+# ? sezariyɛni:n:césarienne
+sezariyɛni:n:césarienne >> sézariyɛni:n:césarienne
+# ? sèginńkànni:n:répétition [sègin:v:revenir ń:pers:1SG kàn:pp:sur li:mrph:NMLZ]
+sèginńkànni:n:répétition [sègin:v:revenir ń:pers:1SG kàn:pp:sur li:mrph:NMLZ] >> sèginnkanni:n:répétition [sègin:v:revenir ń:pers:1SG kàn:pp:sur li:mrph:NMLZ]
+# ? sènkolosabana:n:poliomyélite
+sènkolosabana:n:poliomyélite >> sènkolosabana:n:poliomyélite [sèn:n:jambe kólo:n:os sà:v:mourir bàna:n:maladie]
+# ? sènsabana:n:poliomyélite
+sènsabana:n:poliomyélite >> sènsabana:n:poliomyélite [sèn:n:jambe sà:v:mourir bàna:n:maladie]
+# ? tetanɔsi:n:tétanos
+tetanɔsi:n:tétanos >> tétanɔsi:n:tétanos
+# ? turisi:n:touriste
+turisi:n:touriste >> túrisi:n:touriste
+# ? táli:adv:bruit.de.chute  # monolithe
+táli:adv:bruit.de.chute >> táli:adv:bruit.de.chute
+# ? tɔ́yi:adv:très.frais
+tɔ́yi:adv:très.frais >> tɔ́yi:adv:très.froid
+# ? wantɛrɛ:n:vente.aux.enchères
+wantɛrɛ:n:vente.aux.enchères >> wántɛrɛ:n:soldes
+# ? wantɛrɛ:v:vendre.aux.enchères
+wantɛrɛ:v:vendre.aux.enchères >> wántɛrɛ:v:solder
+# ? wèleweledala:n:crieur.public [wéleweleda:v:annoncer.publiquement [wélewele:n:annonce.publique dá:v:poser] la:mrph:AG.PRM \:mrph:NMLZ2]
+wèleweledala:n:crieur.public [wéleweleda:v:annoncer.publiquement [wélewele:n:annonce.publique dá:v:poser] la:mrph:AG.PRM \:mrph:NMLZ2] >> wéleweledala:n:crieur.public [wéleweleda:v:annoncer.publiquement [wélewele:n:annonce.publique dá:v:poser] la:mrph:AG.PRM]
+# ? wéeleweleeda:v:annoncer.publiquement [wéeleweele:n:annonce.publique dá:v:poser]
+wéeleweleeda:v:annoncer.publiquement [wéeleweele:n:annonce.publique dá:v:poser] >> wéeleweeleda:v:annoncer.publiquement [wéeleweele:n:annonce.publique dá:v:poser]
+# ? witiri:n:vitre
+witiri:n:vitre >> wítiri:n:vitre
+# ? wɛntɛrɛ:n:vente.aux.enchères
+wɛntɛrɛ:n:vente.aux.enchères >> wɛ́ntɛrɛ:n:soldes
+# ? wɛntɛrɛ:v:vendre.aux.enchères
+wɛntɛrɛ:v:vendre.aux.enchères >> wɛ́ntɛrɛ:v:solder
+# ? zawɛliji:n:eau.de.Javel
+zawɛliji:n:eau.de.Javel >> záwɛliji:n:eau.de.Javel [jí:n:eau]
+# ? Ɲɛ́ba:n.prop:NOM.F
+Ɲɛ́ba:n.prop:NOM.F >> Ɲɛ̀ba:n.prop:NOM.F
+# ? ɛsikoro:n:escroc
+ɛsikoro:n:escroc >> ɛ́sikoro:n:escroc
+# ? ɲàki:n:foëne.à.trois.dents
+ɲàki:n:foëne.à.trois.dents >> ɲàgi:n:harpon
+# ? ɲàki:n:lacet (plusieurs sens à ce mot)
+ɲàki:n:lacet >> ɲàgi:n:harpon
+
+
+# 34 non résolus: S'il n'y a aucune occurrence Corpus désambiguisés, il n'y a rien à faire!!!
+# restent à résoudre les NOM.CL : Bàyo, Dukare, Ɲanbali
+
+# ? Banjugusi:n.prop:NOM.CL 	absent last 0 occ corbama
+# ? Barola:n.prop:NOM.CL 	absent last 0 occ corbama
+# ? Bàyo:n.prop:NOM.CL 		absent last 3 occ dans 1 fichier : dumestre-manigances_2003_06.dis.html
+# ? Dukare:n.prop:NOM.CL   	absent last ??? Dukara ? 1 occ : kibaru570_05dunbiya_jara-koloneli_yusufu.dis.html
+# ? Dunyo:n.prop:NOM.CL    	absent last ??? Duɲɔ ?   0 occ corbama
+# ? Jágàraga:n.prop:NOM.CL  	absent last 0 occ corbama 
+# ? Jinbiya:n.prop:NOM.CL  	absent last ??? Jinbiga? 0 occ corbama
+# ? Kide:n.prop:NOM.CL    	absent last ??? Kida ?   0 occ corbama
+# ? Kirigun:n.prop:NOM.CL 	absent last : Kirikou a disparu ? 0 occ corbama
+# ? Kanisi:n.prop:NOM.CL 	absent last 0 occ corbama 
+# ? Karo:n.prop:NOM.CL 		absent last 0 occ corbama 
+# ? Kasumasi:n.prop:NOM.CL 	absent last 0 occ corbama 
+# ? Keren:n.prop:NOM.CL 	absent last 0 occ corbama
+# ? Korora:n.prop:NOM.CL 	absent last 0 occ corbama
+# ? Sagango:n.prop:NOM.CL 	absent last 1 occ kibaru415_06sanogo-senekelaw_ka.dis.html étrange: pour un Sanɔgɔ dans le texte!!!
+Sagango:n.prop:NOM.CL >> Sanɔgɔ:n.prop:NOM.CL
+# ? Sagɔ:n.prop:NOM.CL 		absent last 0 occ corbama
+# ? Samagana:n.prop:NOM.CL  	absent last 0 occ corbama
+# ? Sanarkua:n.prop:NOM.CL 	absent last 0 occ corbama
+# ? Senayong:n.prop:NOM.CL 	absent last 0 occ corbama
+# ? Simpara:n.prop:NOM.CL 	absent last 2 occ jama14_23dunbuya-sinankunya+radio_mali1993_01_27
+Simpara:n.prop:NOM.CL >> Sɛnpara:n.prop:NOM.CL
+# ? Sìdimɛ:n.prop:NOM.CL 	absent last 0 occ corbama
+# ? Sogo:n.prop:NOM.CL 		absent last 6 occ 2 fichiers: kibaru492_04sogo-sisemaralaw_nana+kibaru539_04tulema-tugarankew
+# ? Somaso:n.prop:NOM.CL 	absent last 0 occ corbama
+# ? Sow:n.prop:NOM.CL 		absent last 1 occ : kibaru537_03sikaso_dugu_bugunnatige
+Sow:n.prop:NOM.CL >> Sów:n.prop: [Só:n.prop:NOM.CL w:mrph:PL]
+# ? Wago:n.prop:NOM.CL  	absent last 0 occ corbama
+# ? Walikalo:n.prop:NOM.CL 	absent last 0 occ corbama
+# ? Ɲamakansi:n.prop:NOM.CL     absent last
+# ? Ɲanbali:n.prop:NOM.CL       absent last 2 occ dans 1 fichier : jama14_23dunbuya-sinankunya
+
+# ? 100nan:n:centième [kɛ̀mɛ:num:cent nan:mrph:ORD]	devenu adj  -> 0 match dans corbama
+# ? bàro:n:halo   					absent last -> 0 match dans corbama
+# ? ɲɛ́jɔ̀:v:fixer.regard [ɲɛ́:n:oeil jɔ̀:v:dresser]	absent last -> 1 occ: fasokan2010-02_warimesenkogeleya.dis.html
+# donc on peut essayer :
+ɲɛ́jɔ̀:v:fixer.regard [ɲɛ́:n:oeil jɔ̀:v:dresser] >> ɲɛ́:n:oeil ++ jɔ̀:v:dresser

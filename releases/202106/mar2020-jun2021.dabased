@@ -1,0 +1,1650 @@
+# après élimination des semblables :
+# nombre d'entrées de bamlastn :  1622
+# nombre d'entrées de bamprev :  3569
+
+# après ajout des ps dédoublées :
+# nombre d'entrées de bamlastn :  1622
+# nombre d'entrées de bamprev :  3574
+
+#changes in lx tones :  91 
+
+Bágadaji:n.prop:TOP >> Bàgadáji:n.prop:TOP
+Banankabugu:n.prop:TOP >> Bànankabugu:n.prop:TOP
+Babilen:n.prop:TOP >> Bábilen:n.prop:TOP
+Badenma:n.prop:Badema National >> Bádenma:n.prop:Badema National
+Badi:n.prop:ABR >> Bádi:n.prop:ABR
+Bafilabɛn:n.prop:TOP >> Báfilabɛn:n.prop:TOP
+Bagbɛ:n.prop:TOP >> Bágbɛ:n.prop:TOP
+Baginda:n.prop:TOP >> Báginda:n.prop:TOP
+Bagindakan:n.prop:TOP >> Bágindakan:n.prop:TOP
+Bagineda:n.prop:TOP >> Bágineda:n.prop:TOP
+Bagwɛ:n.prop:TOP >> Bágwɛ:n.prop:TOP
+Bajangara:n.prop:TOP >> Bájangara:n.prop:TOP
+Bajankara:n.prop:TOP >> Bájankara:n.prop:TOP
+Bajɛ:n.prop:TOP >> Bájɛ:n.prop:TOP
+Bakoyi:n.prop:TOP >> Bákoyi:n.prop:TOP
+Bangi:n.prop:TOP >> Bángi:n.prop:TOP
+Baninfin:n.prop:TOP >> Báninfin:n.prop:TOP
+Jene:n.prop:TOP >> Jène:n.prop:TOP
+Sajɔ:n.prop:NOM.MF >> Sàjɔ:n.prop:NOM.MF
+Sisɔkɔ:n.prop:NOM.CL >> Sìsɔkɔ:n.prop:NOM.CL
+Sòkálakɔ̀nɔ:n.prop:TOP >> Sòkalakɔ̀nɔ:n.prop:TOP
+álhamdulilayi:intj:Dieu.soit.loué >> àlhámdulìlayì:intj:Dieu.soit.loué
+álihamedulilahi:intj:Dieu.soit.loué >> àlihámedulìlahì:intj:Dieu.soit.loué
+àpolo:n:conjonctivite >> ápolo:n:conjonctivite
+bárigon:n:barrique >> bàrigon:n:barrique
+bárikon:n:barrique >> bàrikon:n:barrique
+bàga:n:bouillie >> bága:n:bouillie
+báni:prt:donc >> bánì:prt:donc
+bánni:prt:donc >> bánnì:prt:donc
+bìlakoro:n:garçonnet.incirconcis >> bìlakòro:n:garçonnet.incirconcis
+búnunbunun:n:cendres.non.éteintes >> bùnunbunun:n:cendres.non.éteintes
+dáfe:n:cheval.blanc >> dàfe:n:cheval.blanc
+dànfara:v:distinguer [dàn:n:limite fára:v:diviser] >> dànfára:v:distinguer [dàn:n:limite fára:v:diviser]
+dágosi:v:frapper.à.la.porte [dá:n:bouche gòsi:v:battre] >> dágòsi:v:frapper.à.la.porte [dá:n:bouche gòsi:v:battre]
+dépite:n:député >> dèpite:n:député
+dògodogo:v:cacher >> dògodògo:v:cacher
+dúnunfɔla:n:joueur.de.tambour [dùnun:n:tambour fɔ́:v:dire la:mrph:AG.PRM] >> dùnunfɔla:n:joueur.de.tambour [dùnun:n:tambour fɔ́:v:dire la:mrph:AG.PRM]
+fìlidabɔ:n:chaussure.faite.à.partir.d'un.vieux.pneu >> fìlidábɔ:n:chaussure.faite.à.partir.d'un.vieux.pneu
+fúnufunu:v:tourbillonner >> fúnufùnu:v:tourbillonner
+fɔ́lɔ:adv:autrefois >> fɔ́lɔ̀:adv:autrefois
+gárana:n:corne.à.poudre >> gàrana:n:corne.à.poudre
+gélu:v:couper >> gèlu:v:couper
+kàbi:conj:depuis >> kàbí:conj:depuis
+kàbi:prep:depuis >> kàbí:prep:depuis
+kálamada:v:éviter [kála:n:arc màdá:v:incliner [mà:mrph:SUPER dá:v:poser]] >> kálamàdá:v:éviter [kála:n:arc màdá:v:incliner [mà:mrph:SUPER dá:v:poser]]
+kánnabàganín:n:angine [kán:n:cou ná:pp:à bàga:n:poison nin:mrph:DIM] >> kánnabàganin:n:angine [kán:n:cou ná:pp:à bàga:n:poison nin:mrph:DIM]
+kèlennín:n:as [nin:mrph:DIM] >> kèlennin:n:as [nin:mrph:DIM]
+kèlenya:n:unité [kélen:num:un ya:mrph:ABSTR] >> kélenya:n:unité [kélen:num:un ya:mrph:ABSTR]
+kòlokolo:adj:déplumé >> kòlokòlo:adj:déplumé
+kúnasini:adv:avant-hier >> kúnàsínì:adv:avant-hier
+kúnasini:n:avant-hier >> kúnàsínì:n:avant-hier
+kɔ́lɔlɔ:n:séquelle >> kɔ̀lɔlɔ:n:séquelle
+kɔ́nan:adj:sans.enfant >> kɔ̀nan:adj:sans.enfant
+kɔ̀nɔnin-kà-fíni:n:herbe.Digitaria.argillacea [kɔ̀nɔ:n:oiseau nin:mrph:DIM ka:pp:POSS fíni:n:fonio] >> kɔ̀nɔnin-ká-fíni:n:herbe.Digitaria.argillacea [kɔ̀nɔ:n:oiseau nin:mrph:DIM ka:pp:POSS fíni:n:fonio]
+kɔ̀nɔsogonin:n:autruche >> kɔ̀nɔsògonin:n:autruche
+kɔ̀nɔsogonti:n:autruche >> kɔ̀nɔsògonti:n:autruche
+kɔ̀nɔsogoti:n:autruche >> kɔ̀nɔsògoti:n:autruche
+kɔ̀rɔlen:adv:déjà [kɔ̀rɔ:v:vieillir len:mrph:PTCP.RES] >> kɔ̀rɔlén:adv:déjà [kɔ̀rɔ:v:vieillir len:mrph:PTCP.RES]
+màmarikanjɛ:n:cigogne.épiscopale [kán:n:cou jɛ́:adj:blanc] >> màmarikánjɛ:n:cigogne.épiscopale [kán:n:cou jɛ́:adj:blanc]
+màtárafa:v:fréquenter >> màtarafa:v:fréquenter
+mángòró:n:manguier >> mángòro:n:manguier
+mùmɛ:dtm:entier >> mùmɛ̂:dtm:entier
+mùumɛ:dtm:entier >> mùumɛ̂:dtm:entier
+nkànfyɛ̀lɛ́:n:dermatose >> nkànfyɛ̀lɛ:n:dermatose
+nkèlennín:n:as [nin:mrph:DIM] >> nkèlennin:n:as [nin:mrph:DIM]
+ntámàró:n:palmier-dattier >> ntámàro:n:palmier-dattier
+ntènkìsɛdábílen:n:érythrine [ntèn:n:palmier.à.huile kìsɛ:n:grain dá:n:bouche bìlen:adj:rouge] >> ntènkisɛdabilen:n:érythrine [ntèn:n:palmier.à.huile kìsɛ:n:grain dá:n:bouche bìlen:adj:rouge]
+pénbelen:n:maillet >> pénbèlen:n:maillet
+sáfo:v:devenir.fade >> sàfo:v:devenir.fade
+sáfo:vq:fade >> sàfo:vq:fade
+ságo:vq:fade >> sàgo:vq:fade
+ságon:v:devenir.fade >> sàgon:v:devenir.fade
+ságon:vq:fade >> sàgon:vq:fade
+sankaden:n:petite.bonne >> sànkaden:n:petite.bonne
+sànnifeere:n:commerce [sàn:v:acheter ni:conj:et fèere:v:vendre] >> sànnifèere:n:commerce [sàn:v:acheter ni:conj:et fèere:v:vendre]
+sàfɛ:conj:ça.fait >> sáfɛ:conj:ça.fait
+sálonnasini:adv:il.y.a.deux.ans [sálòn:n:l'an.dernier ná:pp:à síni:n:demain] >> sálònnasínì:adv:il.y.a.deux.ans [sálòn:n:l'an.dernier ná:pp:à síni:n:demain]
+sálonnasini:n:il.y.a.deux.ans [sálòn:n:l'an.dernier ná:pp:à síni:n:demain] >> sálònnasínì:n:il.y.a.deux.ans [sálòn:n:l'an.dernier ná:pp:à síni:n:demain]
+santimɛtɛrɛ:n:centimètre >> sántimɛtɛrɛ:n:centimètre
+sènninfila:adj:bipède [sèn:n:jambe nin:mrph:DIM fìla:num:deux] >> sènninfìla:adj:bipède [sèn:n:jambe nin:mrph:DIM fìla:num:deux]
+sìlamɛyakɛmɛ:num:cent [sìlamɛ:n:musulman ya:mrph:ABSTR kɛ̀mɛ:num:cent] >> sìlamɛyakɛ̀mɛ:num:cent [sìlamɛ:n:musulman ya:mrph:ABSTR kɛ̀mɛ:num:cent]
+sírakɔ̀gɔma:n:tortue.de.terre >> sìrakɔ̀gɔma:n:tortue.de.terre
+tàbaarikala:intj:Dieu.soit.loué >> tàbáarikala:intj:Dieu.soit.loué
+tàbarikala:intj:Dieu.soit.loué >> tàbárikala:intj:Dieu.soit.loué
+túlomàjɔ:v:écouter [túlo:n:oreille màjɔ̀:v:mettre.droit [mà:mrph:SUPER jɔ̀:v:dresser]] >> túlomajɔ̀:v:écouter [túlo:n:oreille màjɔ̀:v:mettre.droit [mà:mrph:SUPER jɔ̀:v:dresser]]
+úruyi:n:bouillie.de.farine >> ùruyi:n:bouillie.de.farine
+wánjɛ:n:blague >> wànjɛ:n:blague
+wɔ́nfɔlɔ:n:cola.ntaba >> wɔ̀nfɔlɔ:n:cola.ntaba
+wɛ́ncɛ:n:blague >> wɛ̀ncɛ:n:blague
+ɲàmatutu:n:coucal.du.Sénégal >> ɲàmatùtu:n:coucal.du.Sénégal
+ɲèniɲeni:n:canard >> ɲèniɲèni:n:canard
+
+# changes in ps ? (or new lx ?) :  2 
+
+bán:adv:pas.encore >> bán:prt:pas.encore
+nànamasumalen:ptcp:sans.effort [nàna:n:don.gratuit mà:mrph:SUPER súma:v:rafraîchir len:mrph:PTCP.RES] >> nànamasumalen:adv.p:sans.effort [nàna:n:don.gratuit mà:mrph:SUPER súma:v:rafraîchir len:mrph:PTCP.RES]
+
+# changes in mm :  740 
+
+52:n:petite.bonne >> 52:n:petite.bonne [Sàn:n.prop:TOP ka:mrph:GENT dén:n:enfant]]
+àlikaamamugu:n:farine [àlikaama:n:blé múgu:n:poudre] >> àlikaamamugu:n:farine [àlikama:n:blé múgu:n:poudre]
+àlikamamugu:n:farine [àlikama:n:blé múgu:n:poudre] >> àlikamamugu:n:farine [àlikaama:n:blé múgu:n:poudre]
+àrijabamakɔnɔ:n:Djumada.al-Ahira [àrijaba:n:Radjab mà:mrph:SUPER kɔ̀nɔ:v:attendre] >> àrijabamakɔnɔ:n:Djumada.al-Ahira [àrajaba:n:Radjab mà:mrph:SUPER kɔ̀nɔ:v:attendre]
+á-yé-fàli-bɛ̀n:n:ample.vêtement [á:pers:2PL yé:pm:IMP fàli:n:âne bɛ̀n:v:se.rencontrer] >> á-yé-fàli-bɛ̀n:n:ample.vêtement [á':pers:2PL yé:pm:IMP fàli:n:âne bɛ̀n:v:se.rencontrer]
+bàboonsi:n:plante.Chloris.breviseta [bà:n:chèvre bòonsi:n:barbe [bòon:n:menton sí:n:poil]] >> bàboonsi:n:plante.Chloris.breviseta [bà:n:chèvre bònbonsi:n:barbe [bònbon:n:menton sí:n:poil]]
+bàdɛgɛ:n:bouc.castré [bà:n:chèvre dɛ̀gɛ:adj:castré] >> bàdɛgɛ:n:bouc.castré [bà:n:chèvre ntɛ̀gɛ:adj:castré]
+bàfoolo:n:plante.Commelina.capitata [bà:n:chèvre fòolo:n:goître] >> bàfoolo:n:plante.Commelina.capitata [bà:n:chèvre fòolo:n:goitre]
+bàkurubasàn:v:acheter.en.gros [bákuru:n:tout [bá:n:base kùru:n:boule] sàn:v:acheter] >> bàkurubasàn:v:acheter.en.gros [bákuru:n:tout [bá:n:base kùru:n:boule] ba:mrph:AUGM sàn:v:acheter]
+bàkɔrɔ:n:bouc [bà:n:chèvre kɔrɔ:adj:mâle.adulte] >> bàkɔrɔ:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte]
+bàkɔrɔnin:n:bouc [bàkɔrɔ:n:bouc [bà:n:chèvre kɔrɔ:adj:mâle.adulte] nin:mrph:DIM] >> bàkɔrɔnin:n:bouc [bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte] nin:mrph:DIM]
+bàkɔrɔnkuri:n:civette [bàkɔrɔ:n:bouc [bà:n:chèvre kɔrɔ:adj:mâle.adulte]] >> bàkɔrɔnkuri:n:civette [bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte]]
+bàkɔrɔnkuriɲama:n:eczéma.suintant [bàkɔrɔnkuri:n:civette [bàkɔrɔ:n:bouc [bà:n:chèvre kɔrɔ:adj:mâle.adulte]] ɲàma:n:force.occulte] >> bàkɔrɔnkuriɲama:n:eczéma.suintant [bàkɔrɔnkuri:n:civette [bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte]] ɲàma:n:force.occulte]
+bàkɔrɔnpeku:n:plante.Lannea.velutina [bàkɔrɔ:n:bouc [bà:n:chèvre kɔrɔ:adj:mâle.adulte] npèku:n:raisinier] >> bàkɔrɔnpeku:n:plante.Lannea.velutina [bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte] npèku:n:raisinier]
+bàkɔrɔnson:n:varicelle [bà:n:chèvre kɔrɔ:adj:mâle.adulte nsòn:n:variole] >> bàkɔrɔnson:n:varicelle [bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte] nsòn:n:variole]
+bànabaatɔ:adj:malade [bàna:n:maladie baa:mrph:AG.OCC tɔ:mrph:ST] >> bànabaatɔ:adj:malade [bàna:n:maladie baga:mrph:AG.OCC tɔ:mrph:ST]
+bànabaatɔ:n:malade [bàna:n:maladie baa:mrph:AG.OCC tɔ:mrph:ST] >> bànabaatɔ:n:malade [bàna:n:maladie baga:mrph:AG.OCC tɔ:mrph:ST]
+bànbaanci:n:entêté [bàn:v:refuser baa:mrph:AG.OCC nci:mrph:AG.EX] >> bànbaanci:n:entêté [bàn:v:refuser baga:mrph:AG.OCC nci:mrph:AG.EX]
+bànbaanciya:n:entêtement [bànbaanci:n:entêté [bàn:v:refuser baa:mrph:AG.OCC nci:mrph:AG.EX] ya:mrph:ABSTR] >> bànbaanciya:n:entêtement [bànbaganci:n:entêté [bàn:v:refuser baga:mrph:AG.OCC nci:mrph:AG.EX] ya:mrph:ABSTR]
+bàtobaa:n:adepte [bàto:v:adorer baa:mrph:AG.OCC] >> bàtobaa:n:adepte [bàto:v:adorer baga:mrph:AG.OCC]
+báataraden:n:vaurien [báatara:n:inutilité dén:n:enfant] >> báataraden:n:vaurien [bátara:n:inutilité dén:n:enfant]
+báfàarɔ:n:lamantin [bá:n:fleuve fàarɔ:n:génie.des.eaux] >> báfàarɔ:n:lamantin [bá:n:fleuve fàaro:n:génie.des.eaux]
+bákuruba:adv.p:entièrement [bákuru:n:tout [bá:n:base kùru:n:boule] ba:mrph:AUGM] >> bákuruba:adv.p:entièrement [bákuru:n:tout [bá:n:base kùru:n:boule] ma:mrph:COM]
+bálobaa:n:nourricier [bálo:n:nourriture baa:mrph:AG.OCC] >> bálobaa:n:nourricier [bálo:n:nourriture baga:mrph:AG.OCC]
+bánakɔtagayɔrɔ:n:toilettes [bánakɔtaga:n:excrément.humain [bána:n:extérieur.du.village kɔ́:pp:après tága:v:aller] yɔ́rɔ:n:lieu] >> bánakɔtagayɔrɔ:n:toilettes [bánakɔtaa:n:excrément.humain [bána:n:extérieur.du.village kɔ́:pp:après táa:v:aller] yɔ́rɔ:n:lieu]
+bánbaatɔ:n:défunt [bán:v:terminer baa:mrph:AG.OCC tɔ:mrph:ST] >> bánbaatɔ:n:défunt [bán:v:terminer baga:mrph:AG.OCC tɔ:mrph:ST]
+bángebaa:n:parent [bánge:v:naître baa:mrph:AG.OCC] >> bángebaa:n:parent [bánge:v:naître baga:mrph:AG.OCC]
+bángegɛlɛya:n:infécondité [bánge:v:naître gɛ̀lɛ:adj:difficile ya:mrph:ABSTR] >> bángegɛlɛya:n:infécondité [bánge:v:naître gɛ̀lɛya:n:dureté [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+bátigɛbaa:n:passeur [bá:n:fleuve tìgɛ:v:couper baa:mrph:AG.OCC] >> bátigɛbaa:n:passeur [bá:n:fleuve tìgɛ:v:couper baga:mrph:AG.OCC]
+báyɛlɛmani:n:transformation [báyɛ̀lɛma:v:transformer [bá:n:base yɛ̀lɛma:v:changer] ni:mrph:NMLZ] >> báyɛlɛmani:n:transformation [báyɛ̀lɛma:v:transformer [bá:n:base yɛ̀lɛma:v:changer] li:mrph:NMLZ]
+bìlakoroba:n:adolescent.incirconcis [bìlakoro:n:garçonnet.incirconcis ba:mrph:AUGM] >> bìlakoroba:n:adolescent.incirconcis [bìlakòro:n:garçonnet.incirconcis ba:mrph:AUGM]
+bìlakorolama:adj:dans.l'état.d'incirconcis [bìlakoro:n:garçonnet.incirconcis lama:mrph:STAT] >> bìlakorolama:adj:dans.l'état.d'incirconcis [bìlakòro:n:garçonnet.incirconcis lama:mrph:STAT]
+bìlakoroya:n:enfance [bìlakoro:n:garçonnet.incirconcis ya:mrph:ABSTR] >> bìlakoroya:n:enfance [bìlakòro:n:garçonnet.incirconcis ya:mrph:ABSTR]
+bìlakoroya:v:devenir.garçonnet [bìlakoro:n:garçonnet.incirconcis ya:mrph:ABSTR] >> bìlakoroya:v:devenir.garçonnet [bìlakòro:n:garçonnet.incirconcis ya:mrph:ABSTR]
+bìyɛntulo:n:barbillon.de.flèche [bìyɛn:n:pointe túlo:n:oreille] >> bìyɛntulo:n:barbillon.de.flèche [bìɲɛ:n:pointe túlo:n:oreille]
+bléncɛ:n:gardénia.mâle [blén:n:gardénia cɛ̀:n:mâle] >> bléncɛ:n:gardénia.mâle [nbúren:n:gardénia cɛ̀:n:mâle]
+bòlibaa:n:chauffeur [bòli:v:courir baa:mrph:AG.OCC] >> bòlibaa:n:chauffeur [bòli:v:courir baga:mrph:AG.OCC]
+bólogɛlɛya:v:endurcir [bólo:n:bras gɛ̀lɛ:adj:difficile ya:mrph:ABSTR] >> bólogɛlɛya:v:endurcir [bólo:n:bras gɛ̀lɛya:v:durcir [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] >> bólokɔni:n:doigt [bólo:n:bras nkɔni:n:doigt]
+bólokɔnicɛmancɛ:n:médius [bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] cɛ́mancɛ:n:milieu] >> bólokɔnicɛmancɛ:n:médius [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] cɛ́mancɛ:n:milieu]
+bólokɔniden:n:doigt [bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] dén:n:enfant] >> bólokɔniden:n:doigt [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] dén:n:enfant]
+bólokɔnidenkunba:n:pouce [bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] dén:n:enfant kùnba:vq:gros] >> bólokɔnidenkunba:n:pouce [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] dén:n:enfant kùnba:vq:gros]
+bólokɔnidimi:n:panaris [bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] dími:n:souffrance] >> bólokɔnidimi:n:panaris [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] dími:n:souffrance]
+bólokɔnijan:n:médius [bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] jàn:adj:long] >> bólokɔnijan:n:médius [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] jàn:adj:long]
+bólokɔnikolo:n:phalange [bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] kólo:n:os] >> bólokɔnikolo:n:phalange [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] kólo:n:os]
+bólokɔnikunba:n:pouce [bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] kùnba:vq:gros] >> bólokɔnikunba:n:pouce [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] kùnba:vq:gros]
+bólokɔninanɛgɛ:n:bague [bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] ná:pp:à nɛ̀gɛ:n:fer] >> bólokɔninanɛgɛ:n:bague [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] ná:pp:à nɛ̀gɛ:n:fer]
+bólokɔninɛgɛ:n:bague [bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] nɛ̀gɛ:n:fer] >> bólokɔninɛgɛ:n:bague [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] nɛ̀gɛ:n:fer]
+bólokɔnisinnaban:n:auriculaire [bólokɔni:n:doigt [bólo:n:bras kɔni:n:doigt] sínnaban:n:dernier.enfant [sín:n:sein nában:n:fin [ná:mrph:CAUS bán:v:terminer]]] >> bólokɔnisinnaban:n:auriculaire [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] sínnaban:n:dernier.enfant [sín:n:sein nában:n:fin [lá:mrph:CAUS bán:v:terminer]]]
+bólolafiyɛn:adj:qui.vole.facilement [bólola:n:action.de.main [bólo:n:bras la:mrph:à] fíyɛn:adj:léger] >> bólolafiyɛn:adj:qui.vole.facilement [bólola:n:action.de.main [bólo:n:bras la:mrph:à] fɛ́gɛn:adj:léger]
+bólolafiyɛnya:n:défaut.de.touche-à-tout [bólolafiyɛn:adj:qui.vole.facilement [bólola:n:action.de.main [bólo:n:bras la:mrph:à] fíyɛn:adj:léger] ya:mrph:ABSTR] >> bólolafiyɛnya:n:défaut.de.touche-à-tout [bólolafiyɛn:adj:qui.vole.facilement [bólola:n:action.de.main [bólo:n:bras la:mrph:à] fɛ́gɛn:adj:léger] ya:mrph:ABSTR]
+bólolafiɲɛ:adj:qui.vole.facilement [bólola:n:action.de.main [bólo:n:bras la:mrph:à] fíɲɛ:adj:léger] >> bólolafiɲɛ:adj:qui.vole.facilement [bólola:n:action.de.main [bólo:n:bras la:mrph:à] fɛ́gɛn:adj:léger]
+bólolafiɲɛya:n:défaut.de.touche-à-tout [bólolafiɲɛ:adj:qui.vole.facilement [bólola:n:action.de.main [bólo:n:bras la:mrph:à] fíɲɛ:adj:léger] ya:mrph:ABSTR] >> bólolafiɲɛya:n:défaut.de.touche-à-tout [bólolafiɲɛ:adj:qui.vole.facilement [bólola:n:action.de.main [bólo:n:bras la:mrph:à] fɛ́gɛn:adj:léger] ya:mrph:ABSTR]
+bólolandi:adj:soigneux [bólolan:n:action.de.main [bólo:n:bras lan:mrph:à] dí:vq:agréable] >> bólolandi:adj:soigneux [bólola:n:action.de.main [bólo:n:bras la:mrph:à] dí:vq:agréable]
+bólolandi:n:soigneux [bólolan:n:action.de.main [bólo:n:bras lan:mrph:à] dí:vq:agréable] >> bólolandi:n:soigneux [bólola:n:action.de.main [bólo:n:bras la:mrph:à] dí:vq:agréable]
+bólolandɔgɔ:adj:pauvre [bólolan:n:action.de.main [bólo:n:bras lan:mrph:à] dɔ́gɔ:vq:étroit] >> bólolandɔgɔ:adj:pauvre [bólola:n:action.de.main [bólo:n:bras la:mrph:à] dɔ́gɔ:vq:étroit]
+bólolango:adj:avare [bólolan:n:action.de.main [bólo:n:bras lan:mrph:à] gó:adj:désagréable] >> bólolango:adj:avare [bólola:n:action.de.main [bólo:n:bras la:mrph:à] gó:adj:désagréable]
+bólolango:n:avare [bólolan:n:action.de.main [bólo:n:bras lan:mrph:à] gó:adj:désagréable] >> bólolango:n:avare [bólola:n:action.de.main [bólo:n:bras la:mrph:à] gó:adj:désagréable]
+bólolanjugu:adj:désordonné [bólolan:n:action.de.main [bólo:n:bras lan:mrph:à] júgu:adj:méchant] >> bólolanjugu:adj:désordonné [bólola:n:action.de.main [bólo:n:bras la:mrph:à] júgu:adj:méchant]
+bólolanjugu:n:désordonné [bólolan:n:action.de.main [bólo:n:bras lan:mrph:à] júgu:adj:méchant] >> bólolanjugu:n:désordonné [bólola:n:action.de.main [bólo:n:bras la:mrph:à] júgu:adj:méchant]
+bólolankolon:adj:pauvre [bólo:n:bras lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide]] >> bólolankolon:adj:pauvre [bólo:n:bras lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide]]
+bólolankolon:n:pauvre [bólo:n:bras lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide]] >> bólolankolon:n:pauvre [bólo:n:bras lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide]]
+bólolankolonya:n:pauvreté [bólo:n:bras lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR] >> bólolankolonya:n:pauvreté [bólo:n:bras lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR]
+bólolankolonya:v:rendre.pauvre [bólo:n:bras lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR] >> bólolankolonya:v:rendre.pauvre [bólo:n:bras lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR]
+bólomandɔgɔ:adj:pauvre [bólo:n:bras man:mrph:SUPER dɔ́gɔ:vq:étroit] >> bólomandɔgɔ:adj:pauvre [bólo:n:bras ma:mrph:SUPER dɔ́gɔ:vq:étroit]
+bólomandɔgɔ:n:pauvre [bólo:n:bras man:mrph:SUPER dɔ́gɔ:vq:étroit] >> bólomandɔgɔ:n:pauvre [bólo:n:bras ma:mrph:SUPER dɔ́gɔ:vq:étroit]
+bólomandɔgɔya:n:pauvreté [bólomandɔgɔ:n:pauvre [bólo:n:bras man:mrph:SUPER dɔ́gɔ:vq:étroit] ya:mrph:ABSTR] >> bólomandɔgɔya:n:pauvreté [bólomadɔgɔ:n:pauvre [bólo:n:bras ma:mrph:SUPER dɔ́gɔ:vq:étroit] ya:mrph:ABSTR]
+bóloɲa:n:paume [bólo:n:bras ɲá:pp:devant] >> bóloɲa:n:paume [bólo:n:bras ɲɛ́:pp:devant]
+bùlukukankɔnɔ:n:jacana [bùluku:n:plante.Echinochloa.stagnina kàn:pp:sur kɔ̀nɔ:n:oiseau] >> bùlukukankɔnɔ:n:jacana [bùruku:n:plante.Echinochloa.stagnina kàn:pp:sur kɔ̀nɔ:n:oiseau]
+búgunnatigɛ:n:précision [búgun:n:moisissure nátìgɛ:v:faire.passer [ná:mrph:CAUS tìgɛ:v:couper]] >> búgunnatigɛ:n:précision [búgun:n:moisissure nátìgɛ:v:faire.passer [lá:mrph:CAUS tìgɛ:v:couper]]
+búgunnatigɛ:v:éclaircir [búgun:n:moisissure nátìgɛ:v:faire.passer [ná:mrph:CAUS tìgɛ:v:couper]] >> búgunnatigɛ:v:éclaircir [búgun:n:moisissure nátìgɛ:v:faire.passer [lá:mrph:CAUS tìgɛ:v:couper]]
+búlencɛ:n:gardénia.mâle [búlen:n:gardénia cɛ̀:n:mâle] >> búlencɛ:n:gardénia.mâle [nbúren:n:gardénia cɛ̀:n:mâle]
+búnukorokwajɛ:n:souchet [búnukoro:n:canard.armé kwá:n:poitrine jɛ́:adj:blanc] >> búnukorokwajɛ:n:souchet [búnukoro:n:canard.armé kɔ́gɔ:n:poitrine jɛ́:adj:blanc]
+búnukurukwajɛ:n:souchet [búnukuru:n:canard.armé kwá:n:poitrine jɛ́:adj:blanc] >> búnukurukwajɛ:n:souchet [búnukuru:n:canard.armé kɔ́gɔ:n:poitrine jɛ́:adj:blanc]
+búrencɛ:n:gardénia.mâle [búren:n:gardénia cɛ̀:n:mâle] >> búrencɛ:n:gardénia.mâle [nbúren:n:gardénia cɛ̀:n:mâle]
+búrugosiyɔrɔ:n:boulangerie [búru:n:pain gòsi:v:battre yɔ́rɔ:n:lieu] >> búrugosiyɔrɔ:n:boulangerie [búuru:n:pain gòsi:v:battre yɔ́rɔ:n:lieu]
+bɔ̀gɔradɔ́n:v:insister [bɔ̀gɔ:n:terre rá:pp:à dɔ̀n:v:danser] >> bɔ̀gɔradɔ́n:v:insister [bɔ̀gɔ:n:terre lá:pp:à dɔ̀n:v:danser]
+bɔ́baa:n:originaire [bɔ́:v:sortir baa:mrph:AG.OCC] >> bɔ́baa:n:originaire [bɔ́:v:sortir baga:mrph:AG.OCC]
+bɛ̀lɛkisɛnin:n:appendice [bɛ̀lɛkisɛ:n:gravier [bɛ̀lɛ:n:gravier kìsɛ:n:grain] nin:mrph:DIM] >> bɛ̀lɛkisɛnin:n:appendice [bɛ̀lɛkisɛ:n:petit.caillou [bɛ̀lɛ:n:gravier kìsɛ:n:grain] nin:mrph:DIM]
+bɛ̀lɛrɔfuralan:n:plante.Aristida.stipoides [bɛ̀lɛ:n:gravier rɔ́:mrph:IN fúra:v:balayer lan:mrph:INSTR] >> bɛ̀lɛrɔfuralan:n:plante.Aristida.stipoides [bɛ̀lɛ:n:gravier rɔ́:mrph:IN fúran:v:balayer lan:mrph:INSTR]
+bɛ̀lɛwɔyɔdunan:n:serpent.Causus.rhombeatus(?) [bɛ̀lɛwɔyɔ:n:vipère.Cerastes.vipera(?) dúnan:n:étranger] >> bɛ̀lɛwɔyɔdunan:n:serpent.Causus.rhombeatus(?) [bɛ̀lɛwɔ̀yɔ:n:vipère.Cerastes.vipera(?) dúnan:n:étranger]
+càngɛrɛblen:n:kinkeliba.coriace [càngɛrɛ:n:arbuste.chigomier blèn:adj:rouge] >> càngɛrɛblen:n:kinkeliba.coriace [càngɛrɛ:n:arbuste.chigomier bìlen:adj:rouge]
+cíbaa:n:celui.qui.envoie [cí:v:envoyer baa:mrph:AG.OCC] >> cíbaa:n:celui.qui.envoie [cí:v:envoyer baga:mrph:AG.OCC]
+cɛ̀gana:n:célibataire [cɛ̀:n:mâle gána:adj:célibataire] >> cɛ̀gana:n:célibataire [cɛ̀:n:mâle gánan:adj:célibataire]
+cɛ̀ganakunsigi:n:plante.Desmodium.gangeticum [cɛ̀gana:n:célibataire [cɛ̀:n:mâle gána:adj:célibataire] kùnsigi:n:cheveux [kùn:n:tête]] >> cɛ̀ganakunsigi:n:plante.Desmodium.gangeticum [cɛ̀ganan:n:célibataire [cɛ̀:n:mâle gánan:adj:célibataire] kùnsigi:n:cheveux [kùn:n:tête]]
+cɛ̀ganaya:n:célibat [cɛ̀gana:n:célibataire [cɛ̀:n:mâle gána:adj:célibataire] ya:mrph:ABSTR] >> cɛ̀ganaya:n:célibat [cɛ̀ganan:n:célibataire [cɛ̀:n:mâle gánan:adj:célibataire] ya:mrph:ABSTR]
+cɛ̀ganaya:v:priver.de.femme [cɛ̀gana:n:célibataire [cɛ̀:n:mâle gána:adj:célibataire] ya:mrph:ABSTR] >> cɛ̀ganaya:v:priver.de.femme [cɛ̀ganan:n:célibataire [cɛ̀:n:mâle gánan:adj:célibataire] ya:mrph:ABSTR]
+cɛ̀kule:n:cri.de.guerre [cɛ̀:n:mâle kúle:v:hurler] >> cɛ̀kule:n:cri.de.guerre [cɛ̀:n:mâle kúlo:v:hurler]
+cɛ́bɛnbaa:n:médiateur [cɛ́bɛ̀n:v:réunir [cɛ́:n:milieu bɛ̀n:v:se.rencontrer] baa:mrph:AG.OCC] >> cɛ́bɛnbaa:n:médiateur [cɛ́bɛ̀n:v:réunir [cɛ́:n:milieu bɛ̀n:v:se.rencontrer] baga:mrph:AG.OCC]
+cɛ́fɛrɛ:v:fendre.en.deux [cɛ́:n:milieu] >> cɛ́fɛrɛ:v:fendre.en.deux [cɛ́:n:milieu pɛ́rɛn:v:fendre]
+cɛ́mabɔli:n:décentralisation [cɛ́:n:milieu màbɔ́:v:éloigner [mà:mrph:SUPER bɔ́:v:sortir] li:mrph:NMLZ] >> cɛ́mabɔli:n:décentralisation [cɛ́mabɔ:v:décentraliser [cɛ́:n:milieu màbɔ́:v:éloigner [mà:mrph:SUPER bɔ́:v:sortir]] li:mrph:NMLZ]
+dàbajura:n:champion.de.culture [dàba:n:houe jùra:n:commerçant] >> dàbajura:n:champion.de.culture [dàba:n:houe jùla:n:commerçant]
+dàmada:n:mine.d'or [dàma:n:puits.de.mine.d'or dá:n:bouche] >> dàmada:n:mine.d'or [dàman:n:puits.de.mine.d'or dá:n:bouche]
+dànkuru:n:bosse [dàn:n:mal.de.Pott kùru:n:boule] >> dànkuru:n:bosse [dàn:n:bosse kùru:n:boule]
+dànnikɛmasin:n:semoir [dànni:n:semis [dàn:v:semer ni:mrph:NMLZ] kɛ́:v:faire màsin:n:machine] >> dànnikɛmasin:n:semoir [dànni:n:semis [dàn:v:semer ni:mrph:NMLZ] kɛ́:v:faire mànsin:n:machine]
+dábaatɔ:adj:grabataire [dá:v:poser baa:mrph:AG.OCC tɔ:mrph:ST] >> dábaatɔ:adj:grabataire [dá:v:poser baga:mrph:AG.OCC tɔ:mrph:ST]
+dáfanɛ:adj:niais [dá:n:bouche fá:v:remplir nɛ̀:n:langue] >> dáfanɛ:adj:niais [dá:n:bouche fá:v:remplir nɛ̀n:n:langue]
+dáfyɛ:v:dire.le.secret [dá:n:bouche fyɛ́:v:souffler] >> dáfyɛ:v:dire.le.secret [dá:n:bouche fíyɛ:v:souffler]
+dálafiyɛn:adj:indiscret [dála:n:bouche.active [dá:n:bouche la:mrph:à] fíyɛn:adj:léger] >> dálafiyɛn:adj:indiscret [dála:n:bouche.active [dá:n:bouche la:mrph:à] fɛ́gɛn:adj:léger]
+dálafiyɛn:n:indiscret [dála:n:bouche.active [dá:n:bouche la:mrph:à] fíyɛn:adj:léger] >> dálafiyɛn:n:indiscret [dála:n:bouche.active [dá:n:bouche la:mrph:à] fɛ́gɛn:adj:léger]
+dálafiɲɛ:adj:indiscret [dála:n:bouche.active [dá:n:bouche la:mrph:à] fíɲɛ:adj:léger] >> dálafiɲɛ:adj:indiscret [dála:n:bouche.active [dá:n:bouche la:mrph:à] fɛ́gɛn:adj:léger]
+dálafiɲɛ:n:indiscret [dála:n:bouche.active [dá:n:bouche la:mrph:à] fíɲɛ:adj:léger] >> dálafiɲɛ:n:indiscret [dála:n:bouche.active [dá:n:bouche la:mrph:à] fɛ́gɛn:adj:léger]
+dálamaa:n:rappel [dá:n:bouche lámàa:v:remuer [lá:mrph:CAUS màa:v:toucher]] >> dálamaa:n:rappel [dá:n:bouche lámàga:v:remuer [lá:mrph:CAUS màga:v:toucher]]
+dálamàa:v:remuer.la.bouche [dá:n:bouche lámàa:v:remuer [lá:mrph:CAUS màa:v:toucher]] >> dálamàa:v:remuer.la.bouche [dá:n:bouche lámàga:v:remuer [lá:mrph:CAUS màga:v:toucher]]
+dálankolon:adj:édenté [dá:n:bouche lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide]] >> dálankolon:adj:édenté [dá:n:bouche lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide]]
+dálankolon:n:édenté [dá:n:bouche lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide]] >> dálankolon:n:édenté [dá:n:bouche lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide]]
+dárɔgɛ̀lɛya:v:s'entêter [dá:n:bouche rɔ́:mrph:IN gɛ̀lɛ:vq:dur ya:mrph:DEQU] >> dárɔgɛ̀lɛya:v:s'entêter [dá:n:bouche rɔ́:mrph:IN gɛ̀lɛya:v:durcir [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+dénnaminaden:n:fillette-bonne.d'enfant [dén:n:enfant námìna:v:maintenir [ná:mrph:CAUS mìna:v:attraper] dén:n:enfant] >> dénnaminaden:n:fillette-bonne.d'enfant [dén:n:enfant lámìnɛ:v:maintenir [lá:mrph:CAUS mìnɛ:v:attraper] dén:n:enfant]
+dímibaatɔ:adj:furieux [dími:n:souffrance baa:mrph:AG.OCC tɔ:mrph:ST] >> dímibaatɔ:adj:furieux [dími:n:souffrance baga:mrph:AG.OCC tɔ:mrph:ST]
+dínɔnɔ:n:miel.clarifié [dí:n:miel nɔ̀nɔ:n:miel.clarifié] >> dínɔnɔ:n:miel.clarifié [dí:n:miel nɔ̀ɔnɔ:n:miel.clarifié]
+díyabaatɔ:adj:lambin [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] baa:mrph:AG.OCC tɔ:mrph:ST] >> díyabaatɔ:adj:lambin [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] baga:mrph:AG.OCC tɔ:mrph:ST]
+díyanyebaa:n:bien-aimé [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] ń:pers:1SG yé:pp:PP baa:mrph:AG.OCC] >> díyanyebaa:n:bien-aimé [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] ń:pers:1SG yé:pp:PP baga:mrph:AG.OCC]
+díyanyebaatɔ:n:de.bon.coeur [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] ń:pers:1SG yé:pp:PP baa:mrph:AG.OCC tɔ:mrph:ST] >> díyanyebaatɔ:n:de.bon.coeur [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] ń:pers:1SG yé:pp:PP baga:mrph:AG.OCC tɔ:mrph:ST]
+díɲɛnatigɛ:n:vie [díɲɛ:n:monde nátìgɛ:v:faire.passer [ná:mrph:CAUS tìgɛ:v:couper]] >> díɲɛnatigɛ:n:vie [díɲɛ:n:monde nátìgɛ:v:faire.passer [lá:mrph:CAUS tìgɛ:v:couper]]
+dlɔ̀min:n:consommation.d'alcool [dlɔ̀:n:bière.de.mil mìn:v:boire] >> dlɔ̀min:n:consommation.d'alcool [dɔ̀lɔ:n:bière.de.mil mìn:v:boire]
+dògodogoninkuma:n:cachotterie [dògodogo:v:cacher nin:mrph:DIM kúma:n:parole] >> dògodogoninkuma:n:cachotterie [dògodògo:v:cacher nin:mrph:DIM kúma:n:parole]
+dónkibarubɔla:n:devin [dónkibaru:n:avenir [dón:n:jour kìbaru:n:nouvelle] bɔ́:v:sortir la:mrph:AG.PRM] >> dónkibarubɔla:n:devin [dónkibaru:n:information.du.jour [dón:n:jour kìbaru:n:nouvelle] bɔ́:v:sortir la:mrph:AG.PRM]
+dónnatɛmɛ:n:passe-temps [dón:n:jour nátɛ̀mɛ:v:faire.passer [ná:mrph:CAUS tɛ̀mɛ:v:passer]] >> dónnatɛmɛ:n:passe-temps [dón:n:jour nátɛ̀mɛ:v:faire.passer [lá:mrph:CAUS tɛ̀mɛ:v:passer]]
+dùbaden:n:enfant.béni [dùba:n:bénédiction dén:n:enfant] >> dùbaden:n:enfant.béni [dùga:n:bénédiction dén:n:enfant]
+dùfamasa:n:percnoptère.brun [dùfa:n:vautour màsa:n:roi] >> dùfamasa:n:percnoptère.brun [dùga:n:vautour màsa:n:roi]
+dùgukolokunsi:n:plante.Fimbristylis.cioniana [dùgukolo:n:terre [dùgu:n:terre kólo:n:os] kùnsi:n:cheveux [kùn:n:tête sí:n:poil]] >> dùgukolokunsi:n:plante.Fimbristylis.cioniana [dùgukolo:n:terre [dùgu:n:terre kólo:n:os] kùnsigi:n:cheveux [kùn:n:tête]]
+dùsukungɛlɛya:n:obstination [dùsukun:n:coeur [dùsu:n:coeur kùn:n:tête] gɛ̀lɛ:vq:dur ya:mrph:DEQU] >> dùsukungɛlɛya:n:obstination [dùsukun:n:coeur [dùsu:n:coeur kùn:n:tête] gɛ̀lɛya:n:dureté [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+dùsumandiya:n:bonne.humeur [dùsumandi:adj:bénin [dùsuman:n:humeur [dùsu:n:coeur man:mrph:SUPER] dí:vq:agréable] ya:mrph:ABSTR] >> dùsumandiya:n:bonne.humeur [dùsumandi:adj:affable [dùsuman:n:humeur [dùsu:n:coeur man:mrph:SUPER] dí:vq:agréable] ya:mrph:ABSTR]
+dɔ́nbaa:n:qui.connaît [dɔ́n:v:connaître baa:mrph:AG.OCC] >> dɔ́nbaa:n:qui.connaît [dɔ́n:v:connaître baga:mrph:AG.OCC]
+dɔ́nnakari:v:connaître.à.fond [dɔ́n:n:connaissance nákari:v:rendre.inefficace [ná:mrph:CAUS kári:v:casser]] >> dɔ́nnakari:v:connaître.à.fond [dɔ́n:n:connaissance nákari:v:rendre.inefficace [lá:mrph:CAUS kári:v:casser]]
+dɔ́nnibaa:n:savant [dɔ́n:v:connaître ni:mrph:NMLZ baa:mrph:AG.OCC] >> dɔ́nnibaa:n:savant [dɔ́n:v:connaître ni:mrph:NMLZ baga:mrph:AG.OCC]
+dɛ̀mɛbaa:n:assistant [dɛ̀mɛ:v:aider baa:mrph:AG.OCC] >> dɛ̀mɛbaa:n:assistant [dɛ̀mɛ:v:aider baga:mrph:AG.OCC]
+dɛ́sɛbaatɔ:adj:indigent [dɛ́sɛ:v:échouer baa:mrph:AG.OCC tɔ:mrph:ST] >> dɛ́sɛbaatɔ:adj:indigent [dɛ́sɛ:v:échouer baga:mrph:AG.OCC tɔ:mrph:ST]
+dɛ́sɛbaatɔ:n:indigent [dɛ́sɛ:v:échouer baa:mrph:AG.OCC tɔ:mrph:ST] >> dɛ́sɛbaatɔ:n:indigent [dɛ́sɛ:v:échouer baga:mrph:AG.OCC tɔ:mrph:ST]
+fàali:n:meurtre [fàa:v:tuer li:mrph:NMLZ] >> fàali:n:meurtre [fàga:v:tuer li:mrph:NMLZ]
+fàantan:adj:pauvre [fàa:n:force ntan:mrph:PRIV] >> fàantan:adj:pauvre [fànga:n:force ntan:mrph:PRIV]
+fàantan:n:pauvre [fàa:n:force ntan:mrph:PRIV] >> fàantan:n:pauvre [fànga:n:force ntan:mrph:PRIV]
+fàantanden:n:fils.de.pauvre [fàantan:n:pauvre [fàa:n:force ntan:mrph:PRIV] dén:n:enfant] >> fàantanden:n:fils.de.pauvre [fàantan:n:pauvre [fànga:n:force ntan:mrph:PRIV] dén:n:enfant]
+fàantanjamana:n:pays.pauvre [fàantan:n:pauvre [fàa:n:force ntan:mrph:PRIV] jàmana:n:pays] >> fàantanjamana:n:pays.pauvre [fàantan:n:pauvre [fànga:n:force ntan:mrph:PRIV] jàmana:n:pays]
+fàantanya:n:pauvreté [fàantan:n:pauvre [fàa:n:force ntan:mrph:PRIV] ya:mrph:ABSTR] >> fàantanya:n:pauvreté [fàantan:n:pauvre [fànga:n:force ntan:mrph:PRIV] ya:mrph:ABSTR]
+fàantanya:v:appauvrir [fàantan:n:pauvre [fàa:n:force ntan:mrph:PRIV] ya:mrph:ABSTR] >> fàantanya:v:appauvrir [fàantan:n:pauvre [fànga:n:force ntan:mrph:PRIV] ya:mrph:ABSTR]
+fàkɛ:n:père [fà:n:père kɛ̀:n:mâle] >> fàkɛ:n:père [fà:n:père cɛ̀:n:mâle]
+fàrifaa:n:fatigue.générale [fàri:n:corps fàa:v:tuer] >> fàrifaa:n:fatigue.générale [fàri:n:corps fàga:v:tuer]
+fàrifaa:v:épuiser [fàri:n:corps fàa:v:tuer] >> fàrifaa:v:épuiser [fàri:n:corps fàga:v:tuer]
+fàriganbaatɔ:adj:fiévreux [fàrigan:n:fièvre [fàri:n:corps gàn:n:fièvre] baa:mrph:AG.OCC tɔ:mrph:ST] >> fàriganbaatɔ:adj:fiévreux [fàrigan:n:fièvre [fàri:n:corps gàn:n:fièvre] baga:mrph:AG.OCC tɔ:mrph:ST]
+fàriganbaatɔ:n:fiévreux [fàrigan:n:fièvre [fàri:n:corps gàn:n:fièvre] baa:mrph:AG.OCC tɔ:mrph:ST] >> fàriganbaatɔ:n:fiévreux [fàrigan:n:fièvre [fàri:n:corps gàn:n:fièvre] baga:mrph:AG.OCC tɔ:mrph:ST]
+fàrikalaya:n:température.élevée [fàri:n:corps kála:vq:chaud ya:mrph:DEQU] >> fàrikalaya:n:température.élevée [fàri:n:corps kálaya:n:chaleur [kálan:vq:chaud ya:mrph:DEQU]]
+fàrikoloɲɛnajɛ:n:sport [fàrikolo:n:corps [fàri:n:corps kólo:n:os] ɲɛ́najɛ:n:réjouissance [ɲɛ́:n:oeil ná:mrph:CAUS jɛ́:v:blanchir]] >> fàrikoloɲɛnajɛ:n:sport [fàrikolo:n:corps [fàri:n:corps kólo:n:os] ɲɛ́najɛ:n:réjouissance [ɲɛ́:n:oeil lá:mrph:CAUS jɛ́:v:blanchir]]
+fàrikoloɲɛnajɛkɛnɛ:n:stade.de.sport [fàrikoloɲɛnajɛ:n:sport [fàrikolo:n:corps [fàri:n:corps kólo:n:os] ɲɛ́najɛ:n:réjouissance [ɲɛ́:n:oeil ná:mrph:CAUS jɛ́:v:blanchir]] kɛ́nɛ:n:clarté] >> fàrikoloɲɛnajɛkɛnɛ:n:stade.de.sport [fàrikoloɲɛnajɛ:n:sport [fàrikolo:n:corps [fàri:n:corps kólo:n:os] ɲɛ́najɛ:n:réjouissance [ɲɛ́:n:oeil lá:mrph:CAUS jɛ́:v:blanchir]] kɛ́nɛ:n:clarté]
+fáatuli:n:décès [fáatu:v:mourir li:mrph:NMLZ] >> fáatuli:n:décès [fátu:v:mourir li:mrph:NMLZ]
+fábaatɔ:adj:gavé [fá:v:remplir baa:mrph:AG.OCC tɔ:mrph:ST] >> fábaatɔ:adj:gavé [fá:v:remplir baga:mrph:AG.OCC tɔ:mrph:ST]
+fágonbaatɔ:n:sot [fágon:v:corrompre baa:mrph:AG.OCC tɔ:mrph:ST] >> fágonbaatɔ:n:sot [fágon:v:corrompre baga:mrph:AG.OCC tɔ:mrph:CONV]
+fágonbagatɔ:n:sot [fágon:v:corrompre baga:mrph:AG.OCC tɔ:mrph:CONV] >> fágonbagatɔ:n:sot [fágon:v:corrompre baga:mrph:AG.OCC tɔ:mrph:ST]
+fákubaatɔ:n:sot [fáku:v:corrompre baa:mrph:AG.OCC tɔ:mrph:ST] >> fákubaatɔ:n:sot [fáku:v:corrompre baga:mrph:AG.OCC tɔ:mrph:ST]
+fánfyɛ:v:haleter [fán:n:forge fyɛ́:v:souffler] >> fánfyɛ:v:haleter [fán:n:forge fíyɛ:v:souffler]
+fìlibaanci:n:égaré [fìli:n:erreur baa:mrph:AG.OCC nci:mrph:AG.EX] >> fìlibaanci:n:égaré [fìli:n:erreur baga:mrph:AG.OCC nci:mrph:AG.EX]
+fírifirilan:n:versoir.d'une.charrue >> fírifirilan:n:versoir.d'une.charrue [fíri:v:renverser fíri:v:renverser lan:mrph:INSTR]
+fíɲɛnabɔ:n:expiration [fíɲɛ:n:vent nábɔ:v:faire.sortir [ná:mrph:CAUS bɔ́:v:sortir]] >> fíɲɛnabɔ:n:expiration [fíɲɛ:n:vent nábɔ:v:faire.sortir [lá:mrph:CAUS bɔ́:v:sortir]]
+fùradama:n:de.tout.temps [fùra:n:distance dàma:n:limite [dàn:n:limite mà:pp:ADR]] >> fùradama:n:de.tout.temps [fùran:n:distance dàma:n:limite [dàn:n:limite mà:pp:ADR]]
+fùrawènce:n:intrus [fùra:n:distance wènce:n:intrus] >> fùrawènce:n:intrus [fùran:n:distance wènce:n:intrus]
+fùsabaanciya:n:discrimination [fùsa:vq:mieux baa:mrph:AG.OCC nci:mrph:AG.EX ya:mrph:ABSTR] >> fùsabaanciya:n:discrimination [fìsa:vq:mieux baa:mrph:AG.OCC nci:mrph:AG.EX ya:mrph:ABSTR]
+fùsabaanciya:v:préférer [fùsa:vq:mieux baa:mrph:AG.OCC nci:mrph:AG.EX ya:mrph:ABSTR] >> fùsabaanciya:v:préférer [fìsa:vq:mieux baa:mrph:AG.OCC nci:mrph:AG.EX ya:mrph:ABSTR]
+fúralan:n:balai [fúra:v:balayer lan:mrph:INSTR] >> fúralan:n:balai [fúran:v:balayer lan:mrph:INSTR]
+fúrannan:n:balai [fúran:v:balayer nan:mrph:INSTR] >> fúrannan:n:balai [fúran:v:balayer lan:mrph:INSTR]
+fúrukɛ:n:mari [fúru:n:mariage kɛ̀:n:mâle] >> fúrukɛ:n:mari [fúru:n:mariage cɛ̀:n:mâle]
+fɔ́baa:n:parleur [fɔ́:v:dire baa:mrph:AG.OCC] >> fɔ́baa:n:parleur [fɔ́:v:dire baga:mrph:AG.OCC]
+fɔ́rɔnu:n:gland [fɔ́rɔ:n:membre.viril nú:n:nez] >> fɔ́rɔnu:n:gland [fɔ́rɔ:n:membre.viril nún:n:nez]
+fɛ́nnabɔnɔ:n:casse-tout [fɛ́n:n:chose ná:pp:à bɔ̀nɔ:n:malheur] >> fɛ́nnabɔnɔ:n:casse-tout [fɛ́n:n:chose ná:pp:à bɔ̀nɛ:n:malheur]
+fɛ́nnadila:n:rangement [fɛ́n:n:chose nádila:v:arranger [ná:mrph:CAUS díla:v:fabriquer]] >> fɛ́nnadila:n:rangement [fɛ́n:n:chose nádila:v:arranger [lá:mrph:CAUS díla:v:fabriquer]]
+fɛ́rɛbaanci:n:oisif [fɛ́rɛ:v:être.à.l'aise baa:mrph:AG.OCC nci:mrph:AG.EX] >> fɛ́rɛbaanci:n:oisif [fɛ́rɛ:v:être.à.l'aise baga:mrph:AG.OCC nci:mrph:AG.EX]
+fɛ́rɛbaanci:n:oisif [fɛ́rɛ:v:être.à.l'aise baa:mrph:AG.OCC nci:mrph:AG.EX] >> fɛ́rɛbaanci:n:oisif [fɛ́rɛ:v:être.à.l'aise baga:mrph:AG.OCC nci:mrph:AG.EX]
+fɛ́rɛbaanci:n:oisif [fɛ́rɛ:v:être.à.l'aise baa:mrph:AG.OCC nci:mrph:AG.EX] >> fɛ́rɛbaanci:n:oisif [fɛ́rɛ:v:être.à.l'aise baga:mrph:AG.OCC nci:mrph:AG.EX]
+gánkekɔnɔdimi:n:règles.douloureuses >> gánkekɔnɔdimi:n:règles.douloureuses [gánke:n:utérus kɔ́nɔ:n:ventre dími:n:souffrance]
+gáralan:n:vis [gára:v:entraver lan:mrph:INSTR] >> gáralan:n:vis [gáran:v:entraver lan:mrph:INSTR]
+gɛ̀lɛnkala:n:tibia >> gɛ̀lɛnkala:n:tibia [gɛ̀lɛn:n:tibia kàla:n:tige]
+gɛ̀lɛya:n:dureté [gɛ̀lɛ:vq:dur ya:mrph:DEQU] >> gɛ̀lɛya:n:dureté [gɛ̀lɛn:vq:dur ya:mrph:DEQU]
+gɛ̀lɛya:v:durcir [gɛ̀lɛ:vq:dur ya:mrph:DEQU] >> gɛ̀lɛya:v:durcir [gɛ̀lɛn:vq:dur ya:mrph:DEQU]
+gɛ̀lɛyalan:n:clef [gɛ̀lɛya:v:durcir [gɛ̀lɛ:vq:dur ya:mrph:DEQU] lan:mrph:INSTR] >> gɛ̀lɛyalan:n:clef [gɛ̀lɛya:v:durcir [gɛ̀lɛn:vq:dur ya:mrph:DEQU] lan:mrph:INSTR]
+hákilijagabɔ:n:réflexion [hákili:n:esprit jágabɔ:v:se.moquer [jága:n:dîme bɔ́:v:sortir]] >> hákilijagabɔ:n:réflexion [hákili:n:esprit jákabɔ:v:se.moquer [jáka:n:dîme bɔ́:v:sortir]]
+háwusatɛrɛn:n:à.pied [háwusa:n:haoussa tɛ̀rɛn:n:train] >> háwusatɛrɛn:n:à.pied [háwusa:n:haoussa tɛ́rɛn:n:train]
+hɔ́rɔnyabaa:n:libérateur [hɔ́rɔnya:v:libérer [hɔ́rɔn:adj:libre ya:mrph:ABSTR] baa:mrph:AG.OCC] >> hɔ́rɔnyabaa:n:libérateur [hɔ́rɔnya:v:libérer [hɔ́rɔn:adj:libre ya:mrph:ABSTR] baga:mrph:AG.OCC]
+jàbaa:n:logeur [jà:v:héberger baa:mrph:AG.OCC] >> jàbaa:n:logeur [jà:v:héberger baga:mrph:AG.OCC]
+jàbaala:n:logement [jàbaa:n:logeur [jà:v:héberger baa:mrph:AG.OCC] la:mrph:LOC] >> jàbaala:n:logement [jàbaga:n:logeur [jà:v:héberger baga:mrph:AG.OCC] la:mrph:LOC]
+jàbaaya:n:hospitalité [jàbaa:n:logeur [jà:v:héberger baa:mrph:AG.OCC] ya:mrph:ABSTR] >> jàbaaya:n:hospitalité [jàbaga:n:logeur [jà:v:héberger baga:mrph:AG.OCC] ya:mrph:ABSTR]
+jàbaaya:v:loger [jàbaa:n:logeur [jà:v:héberger baa:mrph:AG.OCC] ya:mrph:ABSTR] >> jàbaaya:v:loger [jàbaga:n:logeur [jà:v:héberger baga:mrph:AG.OCC] ya:mrph:ABSTR]
+jàrabàkɔrɔ:n:bouc [jàra:n:lion bàkɔrɔ:n:bouc [bà:n:chèvre kɔrɔ:adj:mâle.adulte]] >> jàrabàkɔrɔ:n:bouc [jàra:n:lion bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte]]
+jìgilamɔgɔ:n:personne.sur.laquelle.on.compte [jìgila:n:espoir [jìgi:v:espérer la:mrph:MNT1] mɔ̀gɔ:n:homme] >> jìgilamɔgɔ:n:personne.sur.laquelle.on.compte [jìgila:n:espoir [jìgi:v:espérer la:mrph:MNT1]]
+jìgiya:v:donner.l'hospitalité [jìgi:v:descendre ya:mrph:ABSTR] >> jìgiya:v:donner.l'hospitalité [jìgin:v:descendre ya:mrph:ABSTR]
+jídunu:n:tambour.d'eau [jí:n:eau dùnu:n:tambour] >> jídunu:n:tambour.d'eau [jí:n:eau dùnun:n:tambour]
+jísamamasin:n:moto-pompe [jí:n:eau sàma:v:tirer.vers.soi màsin:n:machine] >> jísamamasin:n:moto-pompe [jí:n:eau sàma:v:tirer.vers.soi mànsin:n:machine]
+jítɔya:n:peur [jítɔ:vq:poltron [jí:n:eau tɔ:mrph:ST] ya:mrph:DEQU] >> jítɔya:n:peur [jítɔ:vq:poltron [jí:n:eau tɔ:mrph:ST] ya:mrph:ABSTR]
+jítɔya:v:avoir.peur [jítɔ:vq:poltron [jí:n:eau tɔ:mrph:ST] ya:mrph:DEQU] >> jítɔya:v:avoir.peur [jítɔ:vq:poltron [jí:n:eau tɔ:mrph:ST] ya:mrph:ABSTR]
+jùlasonkalanin:n:arbrisseau.Feretia.apodanthera [jùla:n:commerçant sònkala:n:bâtonnet [kàla:n:tige] nin:mrph:DIM] >> jùlasonkalanin:n:arbrisseau.Feretia.apodanthera [jùla:n:commerçant sònkala:n:mouvette [kàla:n:tige] nin:mrph:DIM]
+jɔ́nnasìgi:v:humilier [ná:mrph:CAUS sìgi:v:asseoir] >> jɔ́nnasìgi:v:humilier [lá:mrph:CAUS sìgi:v:asseoir]
+jɛ̀tura:n:taureau [jɛ̀:n:porc túra:n:taureau] >> jɛ̀tura:n:taureau [jɛ̀:n:porc ntúra:n:taureau]
+jɛ̀ɛmukan:n:termes.du.discours [jɛ̀ɛmu:n:parole kán:n:cou] >> jɛ̀ɛmukan:n:termes.du.discours [jɛ̀mu:n:parole kán:n:cou]
+kàarɔgɛlɛnya:n:entêtement [kàarɔgɛlɛn:n:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR] >> kàarɔgɛlɛnya:n:entêtement [kàarɔgɛlɛn:adj:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+kàbakurun:n:nuage [kàba:n:ciel kùrun:n:boule] >> kàbakurun:n:nuage [kàba:n:ciel kùru:n:boule]
+kàlabana:n:arbre.Antiaris.africana [kàla:n:tige bàna:n:fromager] >> kàlabana:n:arbre.Antiaris.africana [kàla:n:tige bànan:n:fromager]
+kàntìgɛ:n:arachide [tìgɛ:n:arachide] >> kàntìgɛ:n:arachide [tìga:n:arachide]
+kànubaa:n:amateur [kànu:v:aimer baa:mrph:AG.OCC] >> kànubaa:n:amateur [kànu:v:aimer baga:mrph:AG.OCC]
+kàrɔgɛlɛnya:n:entêtement [kàrɔgɛlɛn:n:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR] >> kàrɔgɛlɛnya:n:entêtement [kàarɔgɛlɛn:n:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+káburusonina:n:fossoyeur [káburu:n:tombeau sòni:v:creuser na:mrph:AG.PRM] >> káburusonina:n:fossoyeur [káburu:n:tombeau sèn:v:creuser na:mrph:AG.PRM]
+káfiriya:n:paganisme [káfiri:n:païen ya:mrph:ABSTR] >> káfiriya:n:paganisme [káfiri:n:païen ya:mrph:ABSTR káfiri:n:païen ya:mrph:ABSTR]
+káfiriya:v:être.païen [káfiri:n:païen ya:mrph:ABSTR] >> káfiriya:v:être.païen [káfiri:n:païen ya:mrph:ABSTR káfiri:n:païen ya:mrph:ABSTR]
+kálabaanci:n:entêté [baa:mrph:AG.OCC nci:mrph:AG.EX] >> kálabaanci:n:entêté [baga:mrph:AG.OCC nci:mrph:AG.EX]
+kálabaanciya:n:obstination.forcenée [kálabaanci:n:entêté [baa:mrph:AG.OCC nci:mrph:AG.EX] ya:mrph:ABSTR] >> kálabaanciya:n:obstination.forcenée [kálabaanci:n:entêté [baga:mrph:AG.OCC nci:mrph:AG.EX] ya:mrph:ABSTR]
+kálakalalen:n:poisson.Synodontis.ocellifer [kálakala:v:rayer len:mrph:PTCP.RES] >> kálakalalen:n:poisson.Synodontis.ocellifer [kálankalan:v:rayer len:mrph:PTCP.RES]
+kálaya:n:chaleur [kála:vq:chaud ya:mrph:DEQU] >> kálaya:n:chaleur [kálan:vq:chaud ya:mrph:DEQU]
+kálaya:v:chauffer [kála:vq:chaud ya:mrph:DEQU] >> kálaya:v:chauffer [kálan:vq:chaud ya:mrph:DEQU]
+kánnabìla:v:promettre [kán:n:cou nábìla:v:laisser.partir [ná:mrph:CAUS bìla:v:mettre]] >> kánnabìla:v:promettre [kán:n:cou nábìla:v:laisser.partir [lá:mrph:CAUS bìla:v:mettre]]
+kánnabɔ:n:rebord [kán:n:cou nábɔ:v:faire.sortir [ná:mrph:CAUS bɔ́:v:sortir]] >> kánnabɔ:n:rebord [kán:n:cou nábɔ:v:faire.sortir [lá:mrph:CAUS bɔ́:v:sortir]]
+kánnabɔ:v:refaire [kán:n:cou nábɔ:v:faire.sortir [ná:mrph:CAUS bɔ́:v:sortir]] >> kánnabɔ:v:refaire [kán:n:cou nábɔ:v:faire.sortir [lá:mrph:CAUS bɔ́:v:sortir]]
+kánnakɔnɔ:n:collier.de.perles [kán:n:cou ná:pp:à kɔ́nɔ:n:perle] >> kánnakɔnɔ:n:collier.de.perles [kán:n:cou ná:pp:à kɔ́nɔn:n:perle]
+kánnaminɛna:n:interprète [kánnamìnɛ:v:acquiescer [kán:n:cou námìnɛ:v:maintenir [ná:mrph:CAUS mìnɛ:v:attraper]] na:mrph:AG.PRM] >> kánnaminɛna:n:interprète [kánnamìnɛ:v:acquiescer [kán:n:cou námìnɛ:v:maintenir [lá:mrph:CAUS mìnɛ:v:attraper]] na:mrph:AG.PRM]
+kánnamìnɛ:v:acquiescer [kán:n:cou námìnɛ:v:maintenir [ná:mrph:CAUS mìnɛ:v:attraper]] >> kánnamìnɛ:v:acquiescer [kán:n:cou námìnɛ:v:maintenir [lá:mrph:CAUS mìnɛ:v:attraper]]
+káradaɲi:n:carde [kárada:n:carde ɲí:n:dent] >> káradaɲi:n:carde [kárada:n:carde ɲín:n:dent]
+kèguya:n:ruse [kègu:vq:malin ya:mrph:DEQU] >> kèguya:n:ruse [kègun:vq:malin ya:mrph:DEQU]
+kèguya:v:rendre.malin [kègu:vq:malin ya:mrph:DEQU] >> kèguya:v:rendre.malin [kègun:vq:malin ya:mrph:DEQU]
+kíititigɛ:n:procès [kíiti:n:jugement tìgɛ:v:couper] >> kíititigɛ:n:procès [kíiri:n:jugement tìgɛ:v:couper]
+kíniyanfan:n:le.côté.droit [kíni:n:droite yàn:n:cet.endroit fàn:n:côté] >> kíniyanfan:n:le.côté.droit [kínin:n:droite yàn:n:cet.endroit fàn:n:côté]
+kíritigɛ:n:procès [kíri:n:jugement tìgɛ:v:couper] >> kíritigɛ:n:procès [kíiri:n:jugement tìgɛ:v:couper]
+kíritigɛ:v:juger [kíri:n:jugement tìgɛ:v:couper] >> kíritigɛ:v:juger [kíiri:n:jugement tìgɛ:v:couper]
+kíritigɛla:n:juge [kíritigɛ:v:juger [kíri:n:jugement tìgɛ:v:couper] la:mrph:AG.PRM] >> kíritigɛla:n:juge [kíiritigɛ:v:juger [kíiri:n:jugement tìgɛ:v:couper] la:mrph:AG.PRM]
+kíritigɛso:n:palais.de.justice [kíritigɛ:n:procès [kíri:n:jugement tìgɛ:v:couper] só:n:maison] >> kíritigɛso:n:palais.de.justice [kíritigɛ:n:procès [kíiri:n:jugement tìgɛ:v:couper] só:n:maison]
+kíritigɛɲɔgɔn:n:partie.adverse [kíritigɛ:v:juger [kíri:n:jugement tìgɛ:v:couper] ɲɔgɔn:mrph:RECP] >> kíritigɛɲɔgɔn:n:partie.adverse [kíiritigɛ:v:juger [kíiri:n:jugement tìgɛ:v:couper] ɲɔgɔn:mrph:RECP]
+kòroba:n:arbre.Vitex.doniana [kòro:n:arbre.Vitex ba:mrph:AUGM] >> kòroba:n:arbre.Vitex.doniana [kòro:n:prunier.noir ba:mrph:AUGM]
+kòronin-súmago:n:arbre.Vitex.madiensis [kòro:n:arbre.Vitex nin:mrph:DIM súma:n:odeur gó:adj:désagréable] >> kòronin-súmago:n:arbre.Vitex.madiensis [kòro:n:prunier.noir nin:mrph:DIM súma:n:odeur gó:adj:désagréable]
+kòronin:n:arbuste.Vitex.chrysocarpa [kòro:n:arbre.Vitex nin:mrph:DIM] >> kòronin:n:arbuste.Vitex.chrysocarpa [kòro:n:prunier.noir nin:mrph:DIM]
+kòroninfin:n:arbuste.Vitex.chrysocarpa [kòro:n:arbre.Vitex nin:mrph:DIM fìn:adj:noir] >> kòroninfin:n:arbuste.Vitex.chrysocarpa [kòro:n:prunier.noir nin:mrph:DIM fìn:adj:noir]
+kòroŋɛɲɛ:n:prurigo [kòro:n:arbre.Vitex ŋɛ́ɲɛ:vq:rugueux] >> kòroŋɛɲɛ:n:prurigo [kòro:n:prunier.noir ŋɛ́ɲɛ:vq:rugueux]
+kójugu:intj:assurément [kó:n:affaire júgu:adj:méchant] >> kójugu:intj:assurément [kó:n:affaire júgu:adj:méchant kó:n:affaire júgu:adj:méchant]
+kólofiyɛnya:v:user [kólo:n:os fíyɛnya:v:alléger [fíyɛn:vq:léger ya:mrph:DEQU]] >> kólofiyɛnya:v:user [kólo:n:os fɛ́gɛnya:v:alléger [fɛ́gɛn:vq:léger ya:mrph:DEQU]]
+kólogɛlɛya:n:solidité [kólo:n:os gɛ̀lɛya:n:dureté [gɛ̀lɛ:vq:dur ya:mrph:DEQU]] >> kólogɛlɛya:n:solidité [kólo:n:os gɛ̀lɛya:n:dureté [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+kólogɛlɛya:v:rendre.dur [kólo:n:os gɛ̀lɛya:v:durcir [gɛ̀lɛ:vq:dur ya:mrph:DEQU]] >> kólogɛlɛya:v:rendre.dur [kólo:n:os gɛ̀lɛya:v:durcir [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+kólowalawala:n:rhumatisme [kólo:n:os wálawala:v:dérouler] >> kólowalawala:n:rhumatisme [kólo:n:os wálanwalan:v:dérouler]
+kómagɛlɛyasɛbɛn:n:attestation [kó:n:affaire màgɛlɛya:n:difficulté [mà:mrph:SUPER gɛ̀lɛya:n:dureté [gɛ̀lɛ:vq:dur ya:mrph:DEQU]] sɛ́bɛn:n:écrit] >> kómagɛlɛyasɛbɛn:n:attestation [kó:n:affaire màgɛlɛya:n:difficulté [mà:mrph:SUPER gɛ̀lɛya:n:dureté [gɛ̀lɛn:vq:dur ya:mrph:DEQU]] sɛ́bɛn:n:écrit]
+kóniyabaga:n:jaloux [kóniya:n:envie baga:mrph:AG.OCC] >> kóniyabaga:n:jaloux [kɔ́niya:n:envie baga:mrph:AG.OCC]
+kùngana:n:à.la.tête.rasée [kùn:n:tête gàna:v:raser] >> kùngana:n:à.la.tête.rasée [kùn:n:tête gànan:v:raser]
+kùnnabiri:n:voile.de.tête [kùn:n:tête nábiri:v:abaisser [ná:mrph:CAUS bíri:v:courber]] >> kùnnabiri:n:voile.de.tête [kùn:n:tête nábiri:v:abaisser [lá:mrph:CAUS bíri:v:courber]]
+kùnnabíri:v:voiler.la.tête [kùn:n:tête nábiri:v:abaisser [ná:mrph:CAUS bíri:v:courber]] >> kùnnabíri:v:voiler.la.tête [kùn:n:tête nábiri:v:abaisser [lá:mrph:CAUS bíri:v:courber]]
+kùnnabɔ:n:présentation.du.bébé [kùn:n:tête nábɔ:v:faire.sortir [ná:mrph:CAUS bɔ́:v:sortir]] >> kùnnabɔ:n:présentation.du.bébé [kùn:n:tête nábɔ:v:faire.sortir [lá:mrph:CAUS bɔ́:v:sortir]]
+kùnnadá:v:rappeler.un.bienfait [kùn:n:tête náda:v:faire.coucher [ná:mrph:CAUS dá:v:poser]] >> kùnnadá:v:rappeler.un.bienfait [kùn:n:tête náda:v:faire.coucher [lá:mrph:CAUS dá:v:poser]]
+kùnnafá:v:surcharger [kùn:n:tête náfa:v:remplir [ná:mrph:CAUS fá:v:remplir]] >> kùnnafá:v:surcharger [kùn:n:tête láfa:v:remplir [lá:mrph:CAUS fá:v:remplir]]
+kùnnagosi:n:réprimande [kùn:n:tête nágòsi:v:mépriser [ná:mrph:CAUS gòsi:v:battre]] >> kùnnagosi:n:réprimande [kùn:n:tête nágòsi:v:mépriser [lá:mrph:CAUS gòsi:v:battre]]
+kùnnagòsi:v:relever.les.défauts [kùn:n:tête nágòsi:v:mépriser [ná:mrph:CAUS gòsi:v:battre]] >> kùnnagòsi:v:relever.les.défauts [kùn:n:tête nágòsi:v:mépriser [lá:mrph:CAUS gòsi:v:battre]]
+kùnnandi:adj:chanceux [kùnnan:n:contenu.de.tête [kùn:n:tête nan:mrph:à] dí:vq:agréable] >> kùnnandi:adj:chanceux [kùnna:n:contenu.de.tête [kùn:n:tête na:mrph:à] dí:vq:agréable]
+kùnnandi:n:chanceux [kùnnan:n:contenu.de.tête [kùn:n:tête nan:mrph:à] dí:vq:agréable] >> kùnnandi:n:chanceux [kùnna:n:contenu.de.tête [kùn:n:tête na:mrph:à] dí:vq:agréable]
+kùnnandiya:n:chance [kùnnandi:adj:chanceux [kùnnan:n:contenu.de.tête [kùn:n:tête nan:mrph:à] dí:vq:agréable] ya:mrph:ABSTR] >> kùnnandiya:n:chance [kùnnandi:adj:chanceux [kùnna:n:contenu.de.tête [kùn:n:tête na:mrph:à] dí:vq:agréable] ya:mrph:ABSTR]
+kùnnandiya:v:être.chanceux [kùnnandi:adj:chanceux [kùnnan:n:contenu.de.tête [kùn:n:tête nan:mrph:à] dí:vq:agréable] ya:mrph:ABSTR] >> kùnnandiya:v:être.chanceux [kùnnandi:adj:chanceux [kùnna:n:contenu.de.tête [kùn:n:tête na:mrph:à] dí:vq:agréable] ya:mrph:ABSTR]
+kùnnango:adj:malchanceux [kùnnan:n:contenu.de.tête [kùn:n:tête nan:mrph:à] gó:adj:désagréable] >> kùnnango:adj:malchanceux [kùnna:n:contenu.de.tête [kùn:n:tête na:mrph:à] gó:adj:désagréable]
+kùnnango:n:malchanceux [kùnnan:n:contenu.de.tête [kùn:n:tête nan:mrph:à] gó:adj:désagréable] >> kùnnango:n:malchanceux [kùnna:n:contenu.de.tête [kùn:n:tête na:mrph:à] gó:adj:désagréable]
+kùnnangoya:n:malchance [kùnnango:adj:malchanceux [kùnnan:n:contenu.de.tête [kùn:n:tête nan:mrph:à] gó:adj:désagréable] ya:mrph:ABSTR] >> kùnnangoya:n:malchance [kùnnango:adj:malchanceux [kùnna:n:contenu.de.tête [kùn:n:tête na:mrph:à] gó:adj:désagréable] ya:mrph:ABSTR]
+kùnnangoya:v:être.malchanceux [kùnnango:adj:malchanceux [kùnnan:n:contenu.de.tête [kùn:n:tête nan:mrph:à] gó:adj:désagréable] ya:mrph:ABSTR] >> kùnnangoya:v:être.malchanceux [kùnnango:adj:malchanceux [kùnna:n:contenu.de.tête [kùn:n:tête na:mrph:à] gó:adj:désagréable] ya:mrph:ABSTR]
+kùnnankolon:adj:tête.nue [kùn:n:tête nan:mrph:à kólon:adj:vide] >> kùnnankolon:adj:tête.nue [kùn:n:tête na:mrph:à kólon:adj:vide]
+kùnnankolonbila:n:tête.non.couverte [kùnnankolon:adj:tête.nue [kùn:n:tête nan:mrph:à kólon:adj:vide] bìla:v:mettre] >> kùnnankolonbila:n:tête.non.couverte [kùnnankolon:adj:tête.nue [kùn:n:tête na:mrph:à kólon:adj:vide] bìla:v:mettre]
+kùnnasùuli:v:humilier [kùn:n:tête ná:mrph:CAUS sùuli:v:abaisser] >> kùnnasùuli:v:humilier [kùn:n:tête lá:mrph:CAUS sùuli:v:abaisser]
+kùnnasúmaya:v:rendre.lent [kùn:n:tête násumaya:v:rafraîchir [ná:mrph:CAUS súmaya:v:rafraîchir [súma:vq:frais ya:mrph:DEQU]]] >> kùnnasúmaya:v:rendre.lent [kùn:n:tête násumaya:v:rafraîchir [lá:mrph:CAUS súmaya:v:rafraîchir [súma:vq:frais ya:mrph:DEQU]]]
+kùnnatà:v:enjamber [kùn:n:tête nátà:v:passer.par.dessus [ná:mrph:CAUS tà:v:prendre]] >> kùnnatà:v:enjamber [kùn:n:tête nátà:v:passer.par.dessus [lá:mrph:CAUS tà:v:prendre]]
+kùnnatigɛ:n:impudence [kùn:n:tête nátìgɛ:v:faire.passer [ná:mrph:CAUS tìgɛ:v:couper]] >> kùnnatigɛ:n:impudence [kùn:n:tête nátìgɛ:v:faire.passer [lá:mrph:CAUS tìgɛ:v:couper]]
+kùnnatigɛlenya:n:effronterie [kùnnatìgɛ:v:libérer.de.honte [kùn:n:tête nátìgɛ:v:faire.passer [ná:mrph:CAUS tìgɛ:v:couper]] len:mrph:PTCP.RES ya:mrph:ABSTR] >> kùnnatigɛlenya:n:effronterie [kùnnatìgɛ:v:libérer.de.honte [kùn:n:tête nátìgɛ:v:faire.passer [lá:mrph:CAUS tìgɛ:v:couper]] len:mrph:PTCP.RES ya:mrph:ABSTR]
+kùnnatiɲɛ:n:déshonneur [kùn:n:tête nátiɲɛ:v:gâter [ná:mrph:CAUS tíɲɛ:v:gâter]] >> kùnnatiɲɛ:n:déshonneur [kùn:n:tête nátiɲɛ:v:gâter [lá:mrph:CAUS tíɲɛ:v:gâter]]
+kùnnatìgɛ:v:libérer.de.honte [kùn:n:tête nátìgɛ:v:faire.passer [ná:mrph:CAUS tìgɛ:v:couper]] >> kùnnatìgɛ:v:libérer.de.honte [kùn:n:tête nátìgɛ:v:faire.passer [lá:mrph:CAUS tìgɛ:v:couper]]
+kùnnatìgɛlen:n:effronté [kùnnatìgɛ:v:libérer.de.honte [kùn:n:tête nátìgɛ:v:faire.passer [ná:mrph:CAUS tìgɛ:v:couper]] len:mrph:PTCP.RES] >> kùnnatìgɛlen:n:effronté [kùnnatìgɛ:v:libérer.de.honte [kùn:n:tête nátìgɛ:v:faire.passer [lá:mrph:CAUS tìgɛ:v:couper]] len:mrph:PTCP.RES]
+kùnnatíɲɛ:v:détourner [kùn:n:tête nátiɲɛ:v:gâter [ná:mrph:CAUS tíɲɛ:v:gâter]] >> kùnnatíɲɛ:v:détourner [kùn:n:tête nátiɲɛ:v:gâter [lá:mrph:CAUS tíɲɛ:v:gâter]]
+kúnasiniwo:adv:avant-hier [kúnasini:adv:avant-hier] >> kúnasiniwo:adv:avant-hier [kúnàsínì:adv:avant-hier]
+kúnasiniwo:n:avant-hier [kúnasini:adv:avant-hier] >> kúnasiniwo:n:avant-hier [kúnàsínì:adv:avant-hier]
+kúnberefoolo:n:épanchement.de.synovie [kúnbere:n:genou fòolo:n:goître] >> kúnberefoolo:n:épanchement.de.synovie [kúnbere:n:genou fòolo:n:goitre]
+kúngodòno:n:huppe [kúngo:n:brousse dòno:n:coq] >> kúngodòno:n:huppe [kúngo:n:brousse dònon:n:coq]
+kúnunnama:adj:tel.qu'il.était.hier [kúnun:n:hier nama:mrph:STAT] >> kúnunnama:adj:tel.qu'il.était.hier [kúnu:n:hier nama:mrph:STAT]
+kɔ̀nɔnafili:n:perplexité [kɔ́nɔ:n:ventre náfili:v:tromper [ná:mrph:CAUS fìli:v:jeter]] >> kɔ̀nɔnafili:n:perplexité [kɔ́nɔ:n:ventre náfili:v:tromper [lá:mrph:CAUS fìli:v:jeter]]
+kɔ́ngɔngɔki:n:petit.calao [kɔ́ngɔ:n:faim ngɔ̀ki:n:gorge] >> kɔ́ngɔngɔki:n:petit.calao [kɔ́ngɔ:n:faim ngɔ̀ɔnɔ:n:gorge]
+kɔ́niyabaa:n:jaloux [kɔ́niya:v:envier baa:mrph:AG.OCC] >> kɔ́niyabaa:n:jaloux [kɔ́niya:v:envier baga:mrph:AG.OCC]
+kɔ́ntigɛ:n:arachide [kɔ́n:n:intervalle.entre.deux.noeuds tìgɛ:n:arachide] >> kɔ́ntigɛ:n:arachide [kɔ́n:n:intervalle.entre.deux.noeuds tìga:n:arachide]
+kɔ́ntɔrɔmàbɔ́:v:reculer [kɔ́:n:dos ntɔ́rɔn:v:cogner màbɔ́:v:éloigner [mà:mrph:SUPER bɔ́:v:sortir]] >> kɔ́ntɔrɔmàbɔ́:v:reculer [kɔ́:n:dos tɔ́rɔ:v:éclore màbɔ́:v:éloigner [mà:mrph:SUPER bɔ́:v:sortir]]
+kɔ́ntɔrɔnmàbɔ́:v:reculer [kɔ́:n:dos ntɔ́rɔn:v:cogner màbɔ́:v:éloigner [mà:mrph:SUPER bɔ́:v:sortir]] >> kɔ́ntɔrɔnmàbɔ́:v:reculer [kɔ́:n:dos tɔ́rɔ:v:éclore màbɔ́:v:éloigner [mà:mrph:SUPER bɔ́:v:sortir]]
+kɔ́nɔganbaatɔ:adj:accablé.de.soucis [kɔ́nɔgàn:v:angoisser [kɔ́nɔ:n:ventre gàn:v:chauffer] baa:mrph:AG.OCC tɔ:mrph:ST] >> kɔ́nɔganbaatɔ:adj:accablé.de.soucis [kɔ́nɔgàn:v:angoisser [kɔ́nɔ:n:ventre gàn:v:chauffer] baga:mrph:AG.OCC tɔ:mrph:ST]
+kɔ́nɔgwanbaatɔ:adj:accablé.de.soucis [kɔ́nɔgwàn:v:angoisser [kɔ́nɔ:n:ventre gwàn:v:chauffer] baa:mrph:AG.OCC tɔ:mrph:ST] >> kɔ́nɔgwanbaatɔ:adj:accablé.de.soucis [kɔ́nɔgàn:v:angoisser [kɔ́nɔ:n:ventre gàn:v:chauffer] baga:mrph:AG.OCC tɔ:mrph:ST]
+kɔ́nɔgwanbagatɔ:adj:accablé.de.soucis [kɔ́nɔgwàn:v:angoisser [kɔ́nɔ:n:ventre gwàn:v:chauffer] baga:mrph:AG.OCC tɔ:mrph:ST] >> kɔ́nɔgwanbagatɔ:adj:accablé.de.soucis [kɔ́nɔgàn:v:angoisser [kɔ́nɔ:n:ventre gàn:v:chauffer] baga:mrph:AG.OCC tɔ:mrph:ST]
+kɔ́nɔmagayalan:n:laxatif [kɔ́nɔ:n:ventre màgaya:v:rendre.mou [màga:vq:mou ya:mrph:DEQU] lan:mrph:INSTR] >> kɔ́nɔmagayalan:n:laxatif [kɔ́nɔ:n:ventre màgaya:v:rendre.mou [màgan:vq:mou ya:mrph:DEQU] lan:mrph:INSTR]
+kɔ́nɔnabɔ:v:curer [kɔ́nɔ:n:ventre nábɔ:v:faire.sortir [ná:mrph:CAUS bɔ́:v:sortir]] >> kɔ́nɔnabɔ:v:curer [kɔ́nɔ:n:ventre nábɔ:v:faire.sortir [lá:mrph:CAUS bɔ́:v:sortir]]
+kɔ́nɔnafìli:v:embarrasser [kɔ́nɔ:n:ventre náfili:v:tromper [ná:mrph:CAUS fìli:v:jeter]] >> kɔ́nɔnafìli:v:embarrasser [kɔ́nɔ:n:ventre náfili:v:tromper [lá:mrph:CAUS fìli:v:jeter]]
+kɔ́nɔnagan:n:angoisse [kɔ́nɔ:n:ventre ná:mrph:CAUS gàn:v:chauffer] >> kɔ́nɔnagan:n:angoisse [kɔ́nɔ:n:ventre lá:mrph:CAUS gàn:v:chauffer]
+kɔ́nɔnagàn:v:angoisser [kɔ́nɔ:n:ventre ná:mrph:CAUS gàn:v:chauffer] >> kɔ́nɔnagàn:v:angoisser [kɔ́nɔ:n:ventre lá:mrph:CAUS gàn:v:chauffer]
+kɔ́nɔnugutigɛtumu:n:strongyloïdes [kɔ́nɔnugutigɛ:n:crampe.d'estomac [kɔ́nɔnugu:n:intestin [kɔ́nɔ:n:ventre nùgu:n:intestin] tìgɛ:v:couper] tùmu:n:ver] >> kɔ́nɔnugutigɛtumu:n:strongyloïdes [kɔ́nɔnugutigɛ:n:crampe.d'estomac [kɔ́nɔnugu:n:intestin [kɔ́nɔ:n:ventre nùgu:n:intestin] tìgɛ:v:couper] ntùmu:n:ver]
+kɔ́rada:n:tapis.de.selle [kɔ́:n:dos rá:mrph:IN dá:v:poser] >> kɔ́rada:n:tapis.de.selle [kɔ́:n:dos lá:pp:à dá:v:poser]
+kɔ́raɲɔ:n:pause [kɔ́:n:dos rá:mrph:IN ɲɔ́:v:respirer] >> kɔ́raɲɔ:n:pause [kɔ́:n:dos rá:mrph:IN ɲɔ́n:v:respirer]
+kɔ́raɲɔ:v:se.reposer [kɔ́:n:dos rá:mrph:IN ɲɔ́:v:respirer] >> kɔ́raɲɔ:v:se.reposer [kɔ́:n:dos rá:mrph:IN ɲɔ́n:v:respirer]
+kɔ́rɔɲɔ:n:pause [kɔ́:n:dos rɔ́:mrph:IN ɲɔ́:v:respirer] >> kɔ́rɔɲɔ:n:pause [kɔ́:n:dos rɔ́:mrph:IN ɲɔ́n:v:respirer]
+kɔ́rɔɲɔ:v:se.reposer [kɔ́:n:dos rɔ́:mrph:IN ɲɔ́:v:respirer] >> kɔ́rɔɲɔ:v:se.reposer [kɔ́:n:dos rɔ́:mrph:IN ɲɔ́n:v:respirer]
+kɔ́tɔrɔmabɔ:v:reculer [kɔ́:n:dos tɔ́rɔ:v:cogner màbɔ́:v:éloigner [mà:mrph:SUPER bɔ́:v:sortir]] >> kɔ́tɔrɔmabɔ:v:reculer [kɔ́:n:dos tɔ́rɔ:v:éclore màbɔ́:v:éloigner [mà:mrph:SUPER bɔ́:v:sortir]]
+kɔ́ɲɔkɛ:n:le.jeune.marié [kɔ́ɲɔ:n:noce kɛ̀:n:mâle] >> kɔ́ɲɔkɛ:n:le.jeune.marié [kɔ́ɲɔ:n:noce cɛ̀:n:mâle]
+kɛ́nɛjɛnda:n:aurore [kɛ́nɛ:n:clarté jɛ́n:v:blanchir dá:n:bouche] >> kɛ́nɛjɛnda:n:aurore [kɛ́nɛ:n:clarté jɛ́:v:blanchir dá:n:bouche]
+làhaalaya:n:condition [làhaala:n:aspect ya:mrph:ABSTR] >> làhaalaya:n:condition [làhala:n:aspect ya:mrph:ABSTR]
+làhaalaya:v:se.renseigner [làhaala:n:aspect ya:mrph:ABSTR] >> làhaalaya:v:se.renseigner [làhala:n:aspect ya:mrph:ABSTR]
+làhalaya:v:se.renseigner [làhala:n:aspect ya:mrph:ABSTR] >> làhalaya:v:se.renseigner [làhaala:n:aspect ya:mrph:ABSTR]
+làkalita:n:nouvelle.à.diffuser [lákàli:v:raconter ta:mrph:PTCP.POT] >> làkalita:n:nouvelle.à.diffuser [lákàli:v:raconter ta:mrph:PTCP.POT \:mrph:NMLZ2]
+làkalitasɛbɛn:n:journal [làkalita:n:nouvelle.à.diffuser [lákàli:v:raconter ta:mrph:PTCP.POT] sɛ́bɛn:n:écrit] >> làkalitasɛbɛn:n:journal [làkalita:n:nouvelle.à.diffuser [lákàli:v:raconter ta:mrph:PTCP.POT \:mrph:NMLZ2] sɛ́bɛn:n:écrit]
+làkalitaɲini:n:reportage [làkalita:n:nouvelle.à.diffuser [lákàli:v:raconter ta:mrph:PTCP.POT] ɲíni:v:chercher] >> làkalitaɲini:n:reportage [làkalita:n:nouvelle.à.diffuser [lákàli:v:raconter ta:mrph:PTCP.POT \:mrph:NMLZ2] ɲíni:v:chercher]
+làkalitaɲinina:n:journaliste [làkalita:n:nouvelle.à.diffuser [lákàli:v:raconter ta:mrph:PTCP.POT] ɲíni:v:chercher na:mrph:AG.PRM] >> làkalitaɲinina:n:journaliste [làkalita:n:nouvelle.à.diffuser [lákàli:v:raconter ta:mrph:PTCP.POT \:mrph:NMLZ2] ɲíni:v:chercher na:mrph:AG.PRM]
+lábatobaliya:n:inobservance [lábàto:v:respecter.les.règles [lá:mrph:CAUS bàto:v:adorer] bali:mrph:PTCP.PRIV ya:mrph:ABSTR] >> lábatobaliya:n:inobservance [lábàto:v:respecter [lá:mrph:CAUS bàto:v:adorer] bali:mrph:PTCP.PRIV ya:mrph:ABSTR]
+lágɔ̀si:v:mépriser [lá:mrph:CAUS gɔ̀si:v:battre] >> lágɔ̀si:v:mépriser [lá:mrph:CAUS gòsi:v:battre]
+lágɛ̀lɛya:v:durcir [lá:mrph:CAUS gɛ̀lɛya:v:durcir [gɛ̀lɛ:vq:dur ya:mrph:DEQU]] >> lágɛ̀lɛya:v:durcir [lá:mrph:CAUS gɛ̀lɛya:v:durcir [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+lákèguya:v:rendre.malin [lá:mrph:CAUS kèguya:v:rendre.malin [kègu:vq:malin ya:mrph:DEQU]] >> lákèguya:v:rendre.malin [lá:mrph:CAUS kèguya:v:rendre.malin [kègun:vq:malin ya:mrph:DEQU]]
+lámantɔ̀:v:faire.taire [lá:mrph:CAUS màntɔ:v:faire.taire [màn:mrph:SUPER tɔ̀:v:bloquer]] >> lámantɔ̀:v:faire.taire [lá:mrph:CAUS màntɔ:v:faire.taire [màn:mrph:SUPER tɔ̀n:v:bloquer]]
+lámàa:v:remuer [lá:mrph:CAUS màa:v:toucher] >> lámàa:v:remuer [lá:mrph:CAUS màga:v:toucher]
+lámàgaya:v:ramollir [lá:mrph:CAUS màgaya:v:rendre.mou [màga:vq:mou ya:mrph:DEQU]] >> lámàgaya:v:ramollir [lá:mrph:CAUS màgaya:v:rendre.mou [màgan:vq:mou ya:mrph:DEQU]]
+lámurti:v:inciter.à.la.révolte [lá:mrph:CAUS múrti:v:se.révolter] >> lámurti:v:inciter.à.la.révolte [lá:mrph:CAUS múruti:v:se.révolter]
+lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide] >> lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide]
+lánkolonya:n:nudité [lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR] >> lánkolonya:n:nudité [lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR]
+lánkolonya:v:vider [lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR] >> lánkolonya:v:vider [lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR]
+lásali:v:diriger.prière [lá:mrph:CAUS sáli:v:prier] >> lásali:v:diriger.prière [lá:mrph:CAUS séli:v:prier]
+látilennikiritigɛda:n:tribunal.correctionnel [látilen:v:redresser [lá:mrph:CAUS tílen:v:redresser] ni:mrph:NMLZ kíritigɛ:n:procès [kíri:n:jugement tìgɛ:v:couper] dá:n:bouche] >> látilennikiritigɛda:n:tribunal.correctionnel [látilen:v:redresser [lá:mrph:CAUS tílen:v:redresser] ni:mrph:NMLZ kíiritigɛ:n:procès [kíiri:n:jugement tìgɛ:v:couper] dá:n:bouche]
+látɔrɔ:v:faire.éclore [lá:mrph:CAUS tɔ́rɔ:v:cogner] >> látɔrɔ:v:faire.éclore [lá:mrph:CAUS tɔ́rɔ:v:éclore]
+láɲani:v:réduire.à.la.misère [lá:mrph:CAUS ɲáni:v:réduire.à.la.misère] >> láɲani:v:réduire.à.la.misère [lá:mrph:CAUS ɲáni:v:souffrir]
+láɲɛnajɛ:v:réjouir [lá:mrph:CAUS ɲɛ́najɛ:v:réjouir [ɲɛ́:n:oeil ná:mrph:CAUS jɛ́:v:blanchir]] >> láɲɛnajɛ:v:réjouir [lá:mrph:CAUS ɲɛ́najɛ:v:réjouir [ɲɛ́:n:oeil lá:mrph:CAUS jɛ́:v:blanchir]]
+láɲɛni:v:réduire.à.la.misère [lá:mrph:CAUS ɲɛ́ni:v:réduire.à.la.misère] >> láɲɛni:v:réduire.à.la.misère [lá:mrph:CAUS ɲáni:v:souffrir]
+màaya:v:rendre.mou [màa:vq:mou ya:mrph:DEQU] >> màaya:v:rendre.mou [màgan:vq:mou ya:mrph:DEQU]
+màájá:n:collier.odoriférant [màa:n:homme já:v:rendre.agréable] >> màájá:n:collier.odoriférant [màa:n:homme díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU]]
+màfiyɛn:v:dénigrer [mà:mrph:SUPER fíyɛn:vq:léger] >> màfiyɛn:v:dénigrer [mà:mrph:SUPER fɛ́gɛn:vq:léger]
+màfíyɛnya:v:dénigrer [màfiyɛn:v:dénigrer [mà:mrph:SUPER fíyɛn:vq:léger] ya:mrph:DEQU] >> màfíyɛnya:v:dénigrer [màfiyɛn:v:dénigrer [mà:mrph:SUPER fɛ́gɛn:vq:léger] ya:mrph:DEQU]
+màfíɲɛ:v:dénigrer [mà:mrph:SUPER fíɲɛ:vq:léger] >> màfíɲɛ:v:dénigrer [mà:mrph:SUPER fɛ́gɛn:vq:léger]
+màfúra:v:nettoyer [mà:mrph:SUPER fúra:v:balayer] >> màfúra:v:nettoyer [mà:mrph:SUPER fúran:v:balayer]
+màfyɛ́n:v:dénigrer [mà:mrph:SUPER fyɛ́n:vq:léger] >> màfyɛ́n:v:dénigrer [mà:mrph:SUPER fɛ́gɛn:vq:léger]
+màfyɛ́nya:v:dénigrer [màfyɛ́n:v:dénigrer [mà:mrph:SUPER fyɛ́n:vq:léger] ya:mrph:DEQU] >> màfyɛ́nya:v:dénigrer [màfyɛ́n:v:dénigrer [mà:mrph:SUPER fɛ́gɛn:vq:léger] ya:mrph:DEQU]
+màgaman:adj:mou [màga:vq:mou man:mrph:ADJ] >> màgaman:adj:mou [màgan:vq:mou man:mrph:ADJ]
+màgaya:v:rendre.mou [màga:vq:mou ya:mrph:DEQU] >> màgaya:v:rendre.mou [màgan:vq:mou ya:mrph:DEQU]
+màgɛlɛya:n:difficulté [mà:mrph:SUPER gɛ̀lɛya:n:dureté [gɛ̀lɛ:vq:dur ya:mrph:DEQU]] >> màgɛlɛya:n:difficulté [mà:mrph:SUPER gɛ̀lɛya:n:dureté [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+màgɛ̀lɛya:v:être.difficile [mà:mrph:SUPER gɛ̀lɛya:v:durcir [gɛ̀lɛ:vq:dur ya:mrph:DEQU]] >> màgɛ̀lɛya:v:être.difficile [mà:mrph:SUPER gɛ̀lɛya:v:durcir [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+màjigilenya:n:humilité [mà:mrph:SUPER jìgi:v:descendre len:mrph:PTCP.RES ya:mrph:ABSTR] >> màjigilenya:n:humilité [mà:mrph:SUPER jìgin:v:descendre len:mrph:PTCP.RES ya:mrph:ABSTR]
+màlogosimasin:n:batteuse.pour.le.riz [màlogosi:n:battage.du.riz [màlo:n:riz gòsi:v:battre] màsin:n:machine] >> màlogosimasin:n:batteuse.pour.le.riz [màlogosi:n:battage.du.riz [màlo:n:riz gòsi:v:battre] mànsin:n:machine]
+màntɔ:n:silence [màn:mrph:SUPER tɔ̀:v:bloquer] >> màntɔ:n:silence [màn:mrph:SUPER tɔ̀n:v:bloquer]
+màntɔ:v:faire.taire [màn:mrph:SUPER tɔ̀:v:bloquer] >> màntɔ:v:faire.taire [màn:mrph:SUPER tɔ̀n:v:bloquer]
+màrifabulu:n:canon.de.fusil [màrifa:n:fusil búlu:n:tuyau] >> màrifabulu:n:canon.de.fusil [màrifa:n:fusil búru:n:tuyau]
+màɲáka:v:se.rebiffer [mà:mrph:SUPER ɲáka:v:activer] >> màɲáka:v:se.rebiffer [mà:mrph:SUPER ɲága:v:activer]
+mùgukálakalalen:n:poisson.Synodontis.gobroni [mùgu:n:poisson.Synodontis.filamentosus kálakala:v:rayer len:mrph:PTCP.RES] >> mùgukálakalalen:n:poisson.Synodontis.gobroni [mùgu:n:poisson.Synodontis.filamentosus kálankalan:v:rayer len:mrph:PTCP.RES]
+mùsogana:n:vieille.fille [mùso:n:femme gána:adj:célibataire] >> mùsogana:n:vieille.fille [mùso:n:femme gánan:adj:célibataire]
+mùsoganaya:n:célibat [mùsogana:n:vieille.fille [mùso:n:femme gána:adj:célibataire] ya:mrph:ABSTR] >> mùsoganaya:n:célibat [mùsogana:n:vieille.fille [mùso:n:femme gánan:adj:célibataire] ya:mrph:ABSTR]
+nàakɔrɔladimi:n:douleur.pelvienne [nàakɔrɔla:n:bas-ventre [nàa:n:ventre kɔ́rɔ:n:dessous la:mrph:LOC] dími:n:souffrance] >> nàakɔrɔladimi:n:douleur.pelvienne [nàgakɔrɔla:n:bas-ventre [nàga:n:ventre kɔ́rɔ:n:dessous la:mrph:LOC] dími:n:souffrance]
+nàamunaminɛna:n:répondant.du.conteur [nàamù:intj:oui námìnɛ:v:maintenir [ná:mrph:CAUS mìnɛ:v:attraper] na:mrph:AG.PRM] >> nàamunaminɛna:n:répondant.du.conteur [nàamù:intj:oui námìnɛ:v:maintenir [lá:mrph:CAUS mìnɛ:v:attraper] na:mrph:AG.PRM]
+nàbin:n:faillite [ná:mrph:CAUS bìn:v:tomber \:mrph:NMLZ2] >> nàbin:n:faillite [lá:mrph:CAUS bìn:v:tomber \:mrph:NMLZ2]
+nàbɛn:n:préparatifs [ná:mrph:CAUS bɛ̀n:v:se.rencontrer \:mrph:NMLZ2] >> nàbɛn:n:préparatifs [lá:mrph:CAUS bɛ̀n:v:se.rencontrer \:mrph:NMLZ2]
+nàdege:n:imitation [ná:mrph:CAUS dège:v:enseigner \:mrph:NMLZ2] >> nàdege:n:imitation [lá:mrph:CAUS dège:v:enseigner \:mrph:NMLZ2]
+nàfili:n:erreur [ná:mrph:CAUS fìli:v:jeter \:mrph:NMLZ2] >> nàfili:n:erreur [lá:mrph:CAUS fìli:v:jeter \:mrph:NMLZ2]
+nàfiɲɛ:n:repos [ná:mrph:CAUS fíɲɛ:v:sécher \:mrph:NMLZ2] >> nàfiɲɛ:n:repos [lá:mrph:CAUS fíɲɛ:v:sécher \:mrph:NMLZ2]
+nàgosi:n:réprimande [ná:mrph:CAUS gòsi:v:battre \:mrph:NMLZ2] >> nàgosi:n:réprimande [lá:mrph:CAUS gòsi:v:battre \:mrph:NMLZ2]
+nàjigin:n:baissement [ná:mrph:CAUS jìgin:v:descendre \:mrph:NMLZ2] >> nàjigin:n:baissement [lá:mrph:CAUS jìgin:v:descendre \:mrph:NMLZ2]
+nàjɛ:n:réunion [ná:mrph:CAUS jɛ̀:v:assembler \:mrph:NMLZ2] >> nàjɛ:n:réunion [lá:mrph:CAUS jɛ̀:v:assembler \:mrph:NMLZ2]
+nàmalo:n:humiliation [ná:mrph:CAUS màlo:v:faire.honte \:mrph:NMLZ2] >> nàmalo:n:humiliation [lá:mrph:CAUS màlo:v:faire.honte \:mrph:NMLZ2]
+nàmara:n:surveillance [ná:mrph:CAUS màra:v:garder \:mrph:NMLZ2] >> nàmara:n:surveillance [lá:mrph:CAUS màra:v:garder \:mrph:NMLZ2]
+nàmin:n:abreuvement [ná:mrph:CAUS mìn:v:boire \:mrph:NMLZ2] >> nàmin:n:abreuvement [lá:mrph:CAUS mìn:v:boire \:mrph:NMLZ2]
+nàmɔ:n:éducation [ná:mrph:CAUS mɔ̀:v:mûrir \:mrph:NMLZ2] >> nàmɔ:n:éducation [lá:mrph:CAUS mɔ̀:v:mûrir \:mrph:NMLZ2]
+nàmɔnɛ:n:ressentiment [ná:mrph:CAUS mɔ́nɛ:v:se.défouler \:mrph:NMLZ2] >> nàmɔnɛ:n:ressentiment [lá:mrph:CAUS mɔ́nɛ:v:se.défouler \:mrph:NMLZ2]
+nànɔgɔ:n:dénigrement [ná:mrph:CAUS nɔ́gɔ:v:salir \:mrph:NMLZ2] >> nànɔgɔ:n:dénigrement [lá:mrph:CAUS nɔ́gɔ:v:salir \:mrph:NMLZ2]
+nàńkɔ̀rɔdén:n:bâtard [nà:v:venir ń:pers:1SG kɔ́:n:dos rɔ́:pp:IN dén:n:enfant] >> nàńkɔ̀rɔdén:n:bâtard [nà:v:venir ń:pers:1SG kɔ́:n:dos rɔ́:pp:IN dén:n:enfant nà:v:venir ń:pers:1SG kɔ́:n:dos lá:pp:à dén:n:enfant]
+nàseli:n:direction.de.prière [ná:mrph:CAUS séli:v:prier \:mrph:NMLZ2] >> nàseli:n:direction.de.prière [lá:mrph:CAUS séli:v:prier \:mrph:NMLZ2]
+nàsigi:n:fondation [ná:mrph:CAUS sìgi:v:asseoir \:mrph:NMLZ2] >> nàsigi:n:fondation [lá:mrph:CAUS sìgi:v:asseoir \:mrph:NMLZ2]
+nàsiran:n:crainte [ná:mrph:CAUS síran:v:craindre \:mrph:NMLZ2] >> nàsiran:n:crainte [lá:mrph:CAUS síran:v:craindre \:mrph:NMLZ2]
+nàtiɲɛ:n:gaspillage [ná:mrph:CAUS tíɲɛ:v:gâter \:mrph:NMLZ2] >> nàtiɲɛ:n:gaspillage [lá:mrph:CAUS tíɲɛ:v:gâter \:mrph:NMLZ2]
+nàtunun:n:disparition [ná:mrph:CAUS túnun:v:perdre \:mrph:NMLZ2] >> nàtunun:n:disparition [lá:mrph:CAUS túnun:v:perdre \:mrph:NMLZ2]
+nàtɔmɔ:n:sélection [ná:mrph:CAUS tɔ̀mɔ:v:ramasser \:mrph:NMLZ2] >> nàtɔmɔ:n:sélection [lá:mrph:CAUS tɔ̀mɔ:v:ramasser \:mrph:NMLZ2]
+nàwoloma:n:tri [ná:mrph:CAUS wóloma:v:trier \:mrph:NMLZ2] >> nàwoloma:n:tri [lá:mrph:CAUS wóloma:v:trier \:mrph:NMLZ2]
+nàɲini:n:recherche [ná:mrph:CAUS ɲíni:v:chercher \:mrph:NMLZ2] >> nàɲini:n:recherche [lá:mrph:CAUS ɲíni:v:chercher \:mrph:NMLZ2]
+nábaara:v:préparer [ná:mrph:CAUS báara:v:travailler] >> nábaara:v:préparer [lá:mrph:CAUS báara:v:travailler]
+nábalan:v:retarder [ná:mrph:CAUS bálan:v:s'accrocher] >> nábalan:v:retarder [lá:mrph:CAUS bálan:v:s'accrocher]
+nábalima:v:louer [ná:mrph:CAUS bálima:v:louer] >> nábalima:v:louer [lá:mrph:CAUS bálima:v:louer]
+nábalo:v:nourrir [ná:mrph:CAUS bálo:v:vivre] >> nábalo:v:nourrir [lá:mrph:CAUS bálo:v:vivre]
+nában:adj:dernier [ná:mrph:CAUS bán:v:terminer] >> nában:adj:dernier [lá:mrph:CAUS bán:v:terminer]
+nában:n:fin [ná:mrph:CAUS bán:v:terminer] >> nában:n:fin [lá:mrph:CAUS bán:v:terminer]
+nában:v:finir [ná:mrph:CAUS bán:v:terminer] >> nában:v:finir [lá:mrph:CAUS bán:v:terminer]
+nábanko:n:mort [nában:v:finir [ná:mrph:CAUS bán:v:terminer] kó:n:affaire] >> nábanko:n:mort [nában:v:finir [lá:mrph:CAUS bán:v:terminer] kó:n:affaire]
+nábatobaliya:n:inobservance [nábàto:v:respecter.les.règles [ná:mrph:CAUS bàto:v:adorer] bali:mrph:PTCP.PRIV ya:mrph:ABSTR] >> nábatobaliya:n:inobservance [lábàto:v:respecter [lá:mrph:CAUS bàto:v:adorer] bali:mrph:PTCP.PRIV ya:mrph:ABSTR]
+nábàna:v:rendre.malade [ná:mrph:CAUS bàna:v:tomber.malade] >> nábàna:v:rendre.malade [lá:mrph:CAUS bàna:v:tomber.malade]
+nábilali:n:permission [nábìla:v:laisser.partir [ná:mrph:CAUS bìla:v:mettre] li:mrph:NMLZ] >> nábilali:n:permission [nábìla:v:laisser.partir [lá:mrph:CAUS bìla:v:mettre] li:mrph:NMLZ]
+nábiri:v:abaisser [ná:mrph:CAUS bíri:v:courber] >> nábiri:v:abaisser [lá:mrph:CAUS bíri:v:courber]
+nábìla:v:laisser.partir [ná:mrph:CAUS bìla:v:mettre] >> nábìla:v:laisser.partir [lá:mrph:CAUS bìla:v:mettre]
+nábìn:v:faire.tomber [ná:mrph:CAUS bìn:v:tomber] >> nábìn:v:faire.tomber [lá:mrph:CAUS bìn:v:tomber]
+nábonyalan:n:loupe [nábònya:v:faire.grossir [ná:mrph:CAUS bònya:v:grossir [bòn:vq:grand ya:mrph:DEQU]] lan:mrph:INSTR] >> nábonyalan:n:loupe [nábònya:v:faire.grossir [lá:mrph:CAUS bònya:v:grossir [bòn:vq:grand ya:mrph:DEQU]] lan:mrph:INSTR]
+nábòli:v:faire.fuir [ná:mrph:CAUS bòli:v:courir] >> nábòli:v:faire.fuir [lá:mrph:CAUS bòli:v:courir]
+nábònya:v:faire.grossir [ná:mrph:CAUS bònya:v:grossir [bòn:vq:grand ya:mrph:DEQU]] >> nábònya:v:faire.grossir [lá:mrph:CAUS bònya:v:grossir [bòn:vq:grand ya:mrph:DEQU]]
+nábugun:v:faire.augmenter [ná:mrph:CAUS búgun:v:gonfler] >> nábugun:v:faire.augmenter [lá:mrph:CAUS búgun:v:gonfler]
+nábɔ:v:faire.sortir [ná:mrph:CAUS bɔ́:v:sortir] >> nábɔ:v:faire.sortir [lá:mrph:CAUS bɔ́:v:sortir]
+nábɔ̀ɔsi:v:ravir [ná:mrph:CAUS bɔ̀ɔsi:v:écorcher] >> nábɔ̀ɔsi:v:ravir [lá:mrph:CAUS bɔ̀ɔsi:v:écorcher]
+nábɛ̀n:v:préparer [ná:mrph:CAUS bɛ̀n:v:se.rencontrer] >> nábɛ̀n:v:préparer [lá:mrph:CAUS bɛ̀n:v:se.rencontrer]
+nácaya:v:multiplier [ná:mrph:CAUS cáya:v:multiplier [cá:vq:nombreux ya:mrph:DEQU]] >> nácaya:v:multiplier [lá:mrph:CAUS cáya:v:multiplier [cá:vq:nombreux ya:mrph:DEQU]]
+náci:v:envoyer [ná:mrph:CAUS cí:v:envoyer] >> náci:v:envoyer [lá:mrph:CAUS cí:v:envoyer]
+nácì:v:dégonfler [ná:mrph:CAUS cì:v:frapper] >> nácì:v:dégonfler [lá:mrph:CAUS cì:v:frapper]
+nácɛ̀:v:ramasser [ná:mrph:CAUS cɛ̀:v:ramasser] >> nácɛ̀:v:ramasser [lá:mrph:CAUS cɛ̀:v:ramasser]
+nácɛ̀ɲa:v:embellir [ná:mrph:CAUS cɛ̀ɲa:v:être.beau [cɛ̀:n:aspect ya:mrph:ABSTR]] >> nácɛ̀ɲa:v:embellir [lá:mrph:CAUS cɛ̀ɲa:v:être.beau [cɛ̀:n:aspect ya:mrph:ABSTR]]
+nácɛ̀ɲɛ:v:embellir [ná:mrph:CAUS cɛ̀ɲɛ:v:être.beau [cɛ̀:n:aspect ya:mrph:ABSTR]] >> nácɛ̀ɲɛ:v:embellir [lá:mrph:CAUS cɛ̀ɲɛ:v:être.beau [cɛ̀:n:aspect ya:mrph:ABSTR]]
+náda:v:faire.coucher [ná:mrph:CAUS dá:v:poser] >> náda:v:faire.coucher [lá:mrph:CAUS dá:v:poser]
+nádan:v:créer [ná:mrph:CAUS dán:v:créer] >> nádan:v:créer [lá:mrph:CAUS dán:v:créer]
+nádège:v:imiter [ná:mrph:CAUS dège:v:enseigner] >> nádège:v:imiter [lá:mrph:CAUS dège:v:enseigner]
+nádila:v:arranger [ná:mrph:CAUS díla:v:fabriquer] >> nádila:v:arranger [lá:mrph:CAUS díla:v:fabriquer]
+nádilan:v:arranger [ná:mrph:CAUS dílan:v:fabriquer] >> nádilan:v:arranger [lá:mrph:CAUS dílan:v:fabriquer]
+nádimi:v:mécontenter [ná:mrph:CAUS dími:v:faire.souffrir] >> nádimi:v:mécontenter [lá:mrph:CAUS dími:v:faire.souffrir]
+nádiya:v:faire.plaisir [ná:mrph:CAUS díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU]] >> nádiya:v:faire.plaisir [lá:mrph:CAUS díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU]]
+nádiyalifɛn:n:prix [nádiya:v:faire.plaisir [ná:mrph:CAUS díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU]] li:mrph:NMLZ fɛ́n:n:chose] >> nádiyalifɛn:n:prix [nádiya:v:faire.plaisir [lá:mrph:CAUS díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU]] li:mrph:NMLZ fɛ́n:n:chose]
+nádìbi:v:rendre.obscur [ná:mrph:CAUS dìbi:v:être.obscur] >> nádìbi:v:rendre.obscur [lá:mrph:CAUS dìbi:v:être.obscur]
+nádògo:v:cacher [ná:mrph:CAUS dògo:v:cacher] >> nádògo:v:cacher [lá:mrph:CAUS dògo:v:cacher]
+nádòn:v:faire.entrer [ná:mrph:CAUS dòn:v:entrer] >> nádòn:v:faire.entrer [lá:mrph:CAUS dòn:v:entrer]
+nádumuni:n:alimentation [ná:mrph:CAUS dúmuni:v:nourrir] >> nádumuni:n:alimentation [lá:mrph:CAUS dúmuni:v:nourrir]
+nádumuni:v:donner.à.manger [ná:mrph:CAUS dúmuni:v:nourrir] >> nádumuni:v:donner.à.manger [lá:mrph:CAUS dúmuni:v:nourrir]
+nádɔn:v:apprendre [ná:mrph:CAUS dɔ́n:v:connaître] >> nádɔn:v:apprendre [lá:mrph:CAUS dɔ́n:v:connaître]
+nádɔnniya:n:notification [ná:mrph:CAUS dɔ́n:v:connaître ni:mrph:NMLZ ya:mrph:ABSTR] >> nádɔnniya:n:notification [lá:mrph:CAUS dɔ́n:v:connaître ni:mrph:NMLZ ya:mrph:ABSTR]
+nádɔnniya:v:informer [ná:mrph:CAUS dɔ́n:v:connaître ni:mrph:NMLZ ya:mrph:ABSTR] >> nádɔnniya:v:informer [lá:mrph:CAUS dɔ́n:v:connaître ni:mrph:NMLZ ya:mrph:ABSTR]
+nádɔ̀n:v:faire.danser [ná:mrph:CAUS dɔ̀n:v:danser] >> nádɔ̀n:v:faire.danser [lá:mrph:CAUS dɔ̀n:v:danser]
+nádɛn:v:mettre.à.l'écart [ná:mrph:CAUS dɛ́n:v:mettre.à.l'écart] >> nádɛn:v:mettre.à.l'écart [lá:mrph:CAUS dɛ́n:v:mettre.à.l'écart]
+náfa:v:remplir [ná:mrph:CAUS fá:v:remplir] >> náfa:v:remplir [lá:mrph:CAUS fá:v:remplir]
+náfalen:v:faire.pousser [ná:mrph:CAUS fálen:v:germer] >> náfalen:v:faire.pousser [lá:mrph:CAUS fálen:v:germer]
+náfara:v:séparer [ná:mrph:CAUS fára:v:diviser] >> náfara:v:séparer [lá:mrph:CAUS fára:v:diviser]
+náfarinya:v:rendre.courageux [ná:mrph:CAUS fárinya:v:rendre.piquant [fárin:vq:ardent ya:mrph:DEQU]] >> náfarinya:v:rendre.courageux [lá:mrph:CAUS fárinya:v:rendre.piquant [fárin:vq:ardent ya:mrph:DEQU]]
+náfasalikɛla:n:défenseur [náfàsa:v:louer [ná:mrph:CAUS fàsa:v:maigrir] li:mrph:NMLZ kɛ́:v:faire la:mrph:AG.PRM] >> náfasalikɛla:n:défenseur [náfàsa:v:louer [lá:mrph:CAUS fàsa:v:maigrir] li:mrph:NMLZ kɛ́:v:faire la:mrph:AG.PRM]
+náfàsa:v:louer [ná:mrph:CAUS fàsa:v:maigrir] >> náfàsa:v:louer [lá:mrph:CAUS fàsa:v:maigrir]
+náfifa:v:éventer [ná:mrph:CAUS fìfa:v:éventer] >> náfifa:v:éventer [lá:mrph:CAUS fìfa:v:éventer]
+náfili:v:tromper [ná:mrph:CAUS fìli:v:jeter] >> náfili:v:tromper [lá:mrph:CAUS fìli:v:jeter]
+náfilibaatɔ:adj:triste [náfili:v:tromper [ná:mrph:CAUS fìli:v:jeter] baa:mrph:AG.OCC tɔ:mrph:ST] >> náfilibaatɔ:adj:triste [náfili:v:tromper [lá:mrph:CAUS fìli:v:jeter] baa:mrph:AG.OCC tɔ:mrph:ST]
+náfilibagatɔ:adj:triste [náfili:v:tromper [ná:mrph:CAUS fìli:v:jeter] baga:mrph:AG.OCC tɔ:mrph:ST] >> náfilibagatɔ:adj:triste [náfili:v:tromper [lá:mrph:CAUS fìli:v:jeter] baga:mrph:AG.OCC tɔ:mrph:ST]
+náfilɛ:v:examiner [ná:mrph:CAUS fílɛ:v:regarder] >> náfilɛ:v:examiner [lá:mrph:CAUS fílɛ:v:regarder]
+náfin:v:noircir [ná:mrph:CAUS fìn:v:noircir] >> náfin:v:noircir [lá:mrph:CAUS fìn:v:noircir]
+náfiɲɛ:v:se.reposer [ná:mrph:CAUS fíɲɛ:v:sécher] >> náfiɲɛ:v:se.reposer [lá:mrph:CAUS fíɲɛ:v:sécher]
+náfiɲɛbɔ́:v:se.reposer [ná:mrph:CAUS fíɲɛ:v:sécher bɔ́:v:sortir] >> náfiɲɛbɔ́:v:se.reposer [lá:mrph:CAUS fíɲɛ:v:sécher bɔ́:v:sortir]
+náfìli:v:abandonner [ná:mrph:CAUS fìli:v:jeter] >> náfìli:v:abandonner [lá:mrph:CAUS fìli:v:jeter]
+náfìsaya:v:rendre.meilleur [ná:mrph:CAUS fìsaya:v:améliorer [fìsa:vq:mieux ya:mrph:DEQU]] >> náfìsaya:v:rendre.meilleur [lá:mrph:CAUS fìsaya:v:améliorer [fìsa:vq:mieux ya:mrph:DEQU]]
+náfoni:v:délier [ná:mrph:CAUS fóni:v:détacher] >> náfoni:v:délier [lá:mrph:CAUS fóni:v:détacher]
+náfu:v:affaiblir [ná:mrph:CAUS fú:n:zéro] >> náfu:v:affaiblir [lá:mrph:CAUS fú:n:zéro]
+náfɔ:v:dire [ná:mrph:CAUS fɔ́:v:dire] >> náfɔ:v:dire [lá:mrph:CAUS fɔ́:v:dire]
+náfɔlɔ:v:débuter [ná:mrph:CAUS fɔ́lɔ:v:commencer.par] >> náfɔlɔ:v:débuter [lá:mrph:CAUS fɔ́lɔ:v:commencer.par]
+náfɛrɛ:v:élargir [ná:mrph:CAUS fɛ̀rɛ:v:aplatir] >> náfɛrɛ:v:élargir [lá:mrph:CAUS fɛ̀rɛ:v:aplatir]
+náfɛ̀nsɛn:v:étendre [ná:mrph:CAUS fɛ̀nsɛn:v:étendre] >> náfɛ̀nsɛn:v:étendre [lá:mrph:CAUS fɛ̀nsɛn:v:étendre]
+nágirin:v:faire.courir [ná:mrph:CAUS gírin:v:se.précipiter] >> nágirin:v:faire.courir [lá:mrph:CAUS gírin:v:se.précipiter]
+nágoya:v:rendre.déplaisant [ná:mrph:CAUS góya:v:rendre.mauvais [gó:vq:désagréable ya:mrph:DEQU]] >> nágoya:v:rendre.déplaisant [lá:mrph:CAUS góya:v:rendre.mauvais [gó:vq:désagréable ya:mrph:DEQU]]
+nágòsi:v:mépriser [ná:mrph:CAUS gòsi:v:battre] >> nágòsi:v:mépriser [lá:mrph:CAUS gòsi:v:battre]
+nágɔ̀si:v:mépriser [ná:mrph:CAUS gɔ̀si:v:battre] >> nágɔ̀si:v:mépriser [lá:mrph:CAUS gòsi:v:battre]
+nágɛ̀lɛya:v:durcir [ná:mrph:CAUS gɛ̀lɛya:v:durcir [gɛ̀lɛ:vq:dur ya:mrph:DEQU]] >> nágɛ̀lɛya:v:durcir [lá:mrph:CAUS gɛ̀lɛya:v:durcir [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+nágɛ̀rɛntɛ:v:resserrer [ná:mrph:CAUS gɛ̀rɛntɛ:v:serrer] >> nágɛ̀rɛntɛ:v:resserrer [lá:mrph:CAUS gɛ̀rɛntɛ:v:serrer]
+náhinɛ:v:avoir.pitié [ná:mrph:CAUS hínɛ:v:avoir.pitié] >> náhinɛ:v:avoir.pitié [lá:mrph:CAUS hínɛ:v:avoir.pitié]
+náhinɛ:v:plaire [ná:mrph:CAUS hínɛ:v:plaire] >> náhinɛ:v:plaire [lá:mrph:CAUS hínɛ:v:plaire]
+nájaabi:v:répondre [ná:mrph:CAUS jáabi:v:répondre] >> nájaabi:v:répondre [lá:mrph:CAUS jáabi:v:répondre]
+nájarabi:n:tentation [ná:mrph:CAUS jàrabi:v:se.passionner] >> nájarabi:n:tentation [lá:mrph:CAUS jàrabi:v:se.passionner]
+nájà:v:faire.sécher [ná:mrph:CAUS jà:v:sécher] >> nájà:v:faire.sécher [lá:mrph:CAUS jà:v:sécher]
+nájàmu:v:complimenter [ná:mrph:CAUS jàmu:v:louer] >> nájàmu:v:complimenter [lá:mrph:CAUS jàmu:v:louer]
+nájànya:v:allonger [ná:mrph:CAUS jànya:v:allonger [jàn:vq:long ya:mrph:DEQU]] >> nájànya:v:allonger [lá:mrph:CAUS jànya:v:allonger [jàn:vq:long ya:mrph:DEQU]]
+nájàrabi:v:rendre.éperdu.d'amour [ná:mrph:CAUS jàrabi:v:se.passionner] >> nájàrabi:v:rendre.éperdu.d'amour [lá:mrph:CAUS jàrabi:v:se.passionner]
+nájìgin:v:faire.descendre [ná:mrph:CAUS jìgin:v:descendre] >> nájìgin:v:faire.descendre [lá:mrph:CAUS jìgin:v:descendre]
+nájuguya:v:faire.empirer [ná:mrph:CAUS júguya:v:être.méchant [júgu:vq:méchant ya:mrph:DEQU]] >> nájuguya:v:faire.empirer [lá:mrph:CAUS júguya:v:être.méchant [júgu:vq:méchant ya:mrph:DEQU]]
+nájunjun:v:tapoter [ná:mrph:CAUS júnjun:v:secouer] >> nájunjun:v:tapoter [lá:mrph:CAUS júnjun:v:secouer]
+nájɔ̀:v:mettre.debout [ná:mrph:CAUS jɔ̀:v:dresser] >> nájɔ̀:v:mettre.debout [lá:mrph:CAUS jɔ̀:v:dresser]
+nájɛ:n:réunion [ná:mrph:CAUS jɛ̀:v:assembler] >> nájɛ:n:réunion [lá:mrph:CAUS jɛ̀:v:assembler]
+nájɛ:v:regarder [ná:mrph:CAUS jɛ́:v:blanchir] >> nájɛ:v:regarder [lá:mrph:CAUS jɛ́:v:blanchir]
+nájɛli:n:acte.de.regarder [nájɛ:v:regarder [ná:mrph:CAUS jɛ́:v:blanchir] li:mrph:NMLZ] >> nájɛli:n:acte.de.regarder [nájɛ:v:regarder [lá:mrph:CAUS jɛ́:v:blanchir] li:mrph:NMLZ]
+nájɛli:n:réunion [nájɛ̀:v:réunir [ná:mrph:CAUS jɛ̀:v:assembler] li:mrph:NMLZ] >> nájɛli:n:réunion [nájɛ̀:v:réunir [lá:mrph:CAUS jɛ̀:v:assembler] li:mrph:NMLZ]
+nájɛlikɛla:n:observateur [nájɛli:n:acte.de.regarder [nájɛ:v:regarder [ná:mrph:CAUS jɛ́:v:blanchir] li:mrph:NMLZ] kɛ́:v:faire la:mrph:AG.PRM] >> nájɛlikɛla:n:observateur [nájɛli:n:acte.de.regarder [nájɛ:v:regarder [lá:mrph:CAUS jɛ́:v:blanchir] li:mrph:NMLZ] kɛ́:v:faire la:mrph:AG.PRM]
+nájɛya:v:rendre.propre [ná:mrph:CAUS jɛ́ya:v:blanchir [jɛ́:vq:blanc ya:mrph:DEQU]] >> nájɛya:v:rendre.propre [lá:mrph:CAUS jɛ́ya:v:blanchir [jɛ́:vq:blanc ya:mrph:DEQU]]
+nájɛ̀:v:réunir [ná:mrph:CAUS jɛ̀:v:assembler] >> nájɛ̀:v:réunir [lá:mrph:CAUS jɛ̀:v:assembler]
+nájɛ̀ngɛn:v:faire.pencher [ná:mrph:CAUS jɛ̀ngɛn:v:incliner] >> nájɛ̀ngɛn:v:faire.pencher [lá:mrph:CAUS jɛ̀ngɛn:v:incliner]
+nájɛ̀rɛ:v:rassembler [ná:mrph:CAUS jɛ̀rɛ:v:réunir] >> nájɛ̀rɛ:v:rassembler [lá:mrph:CAUS jɛ̀rɛ:v:réunir]
+nákala:v:faire.coudre [ná:mrph:CAUS kála:v:coudre] >> nákala:v:faire.coudre [lá:mrph:CAUS kála:v:coudre]
+nákana:n:sécurité [ná:mrph:CAUS kána:v:protéger] >> nákana:n:sécurité [lá:mrph:CAUS kána:v:protéger]
+nákana:v:protéger [ná:mrph:CAUS kána:v:protéger] >> nákana:v:protéger [lá:mrph:CAUS kána:v:protéger]
+nákanabaliya:n:insécurité [nákana:v:protéger [ná:mrph:CAUS kána:v:protéger] bali:mrph:PTCP.PRIV ya:mrph:ABSTR] >> nákanabaliya:n:insécurité [nákana:v:protéger [lá:mrph:CAUS kána:v:protéger] bali:mrph:PTCP.PRIV ya:mrph:ABSTR]
+nákaran:v:veiller.sur [ná:mrph:CAUS káran:v:veiller] >> nákaran:v:veiller.sur [lá:mrph:CAUS káran:v:veiller]
+nákari:v:rendre.inefficace [ná:mrph:CAUS kári:v:casser] >> nákari:v:rendre.inefficace [lá:mrph:CAUS kári:v:casser]
+nákàlan:v:instruire [ná:mrph:CAUS kàlan:v:lire] >> nákàlan:v:instruire [lá:mrph:CAUS kàlan:v:lire]
+nákàsi:v:faire.pleurer [ná:mrph:CAUS kàsi:v:pleurer] >> nákàsi:v:faire.pleurer [lá:mrph:CAUS kàsi:v:pleurer]
+nákèguya:v:rendre.malin [ná:mrph:CAUS kèguya:v:rendre.malin [kègu:vq:malin ya:mrph:DEQU]] >> nákèguya:v:rendre.malin [lá:mrph:CAUS kèguya:v:rendre.malin [kègun:vq:malin ya:mrph:DEQU]]
+nákili:v:appeler [ná:mrph:CAUS kíli:v:appeler] >> nákili:v:appeler [lá:mrph:CAUS kíli:v:appeler]
+nákisi:v:sauver [ná:mrph:CAUS kísi:v:sauver] >> nákisi:v:sauver [lá:mrph:CAUS kísi:v:sauver]
+nákìrin:v:anesthésier [ná:mrph:CAUS kìrin:v:s'évanouir] >> nákìrin:v:anesthésier [lá:mrph:CAUS kìrin:v:s'évanouir]
+nákìsɛya:v:aguerrir [ná:mrph:CAUS kìsɛya:v:encourager [kìsɛ:vq:actif ya:mrph:DEQU]] >> nákìsɛya:v:aguerrir [lá:mrph:CAUS kìsɛya:v:encourager [kìsɛ:vq:actif ya:mrph:DEQU]]
+nákodɔn:v:avoir.des.nouvelles [ná:mrph:CAUS kódɔn:v:entendre.dire [kó:n:affaire dɔ́n:v:connaître]] >> nákodɔn:v:avoir.des.nouvelles [lá:mrph:CAUS kódɔn:v:entendre.dire [kó:n:affaire dɔ́n:v:connaître]]
+nákolo:v:éduquer [ná:mrph:CAUS kólo:v:éduquer] >> nákolo:v:éduquer [lá:mrph:CAUS kólo:v:éduquer]
+nákolon:v:éduquer [ná:mrph:CAUS kólon:v:éduquer] >> nákolon:v:éduquer [lá:mrph:CAUS kólon:v:éduquer]
+nákomɛn:v:entendre.parler [ná:mrph:CAUS kó:n:affaire mɛ́n:v:entendre] >> nákomɛn:v:entendre.parler [lá:mrph:CAUS kó:n:affaire mɛ́n:v:entendre]
+nákoron:v:coincer [ná:mrph:CAUS kóron:v:cerner] >> nákoron:v:coincer [lá:mrph:CAUS kóron:v:cerner]
+nákòori:v:entourer [ná:mrph:CAUS kòori:v:encercler] >> nákòori:v:entourer [lá:mrph:CAUS kòori:v:encercler]
+nákuma:v:faire.parler [ná:mrph:CAUS kúma:v:parler] >> nákuma:v:faire.parler [lá:mrph:CAUS kúma:v:parler]
+nákunu:v:réveiller [ná:mrph:CAUS kúnu:v:se.réveiller] >> nákunu:v:réveiller [lá:mrph:CAUS kúnu:v:se.réveiller]
+nákunun:v:réveiller [ná:mrph:CAUS kúnun:v:se.réveiller] >> nákunun:v:réveiller [lá:mrph:CAUS kúnun:v:se.réveiller]
+nákuraya:v:renouveler [ná:mrph:CAUS kúraya:v:renouveler [kúra:adj:nouveau ya:mrph:ABSTR]] >> nákuraya:v:renouveler [lá:mrph:CAUS kúraya:v:renouveler [kúra:adj:nouveau ya:mrph:ABSTR]]
+nákùmu:v:aigrir [ná:mrph:CAUS kùmu:v:aigrir] >> nákùmu:v:aigrir [lá:mrph:CAUS kùmu:v:aigrir]
+nákùnu:v:avaler [ná:mrph:CAUS kùnu:v:avaler] >> nákùnu:v:avaler [lá:mrph:CAUS kùnu:v:avaler]
+nákùnun:v:avaler [ná:mrph:CAUS kùnun:v:avaler] >> nákùnun:v:avaler [lá:mrph:CAUS kùnun:v:avaler]
+nákùru:v:plier [ná:mrph:CAUS kùru:v:plier] >> nákùru:v:plier [lá:mrph:CAUS kùru:v:plier]
+nákùru:v:éduquer [ná:mrph:CAUS kùru:v:plier] >> nákùru:v:éduquer [lá:mrph:CAUS kùru:v:plier]
+nákɔmayɛ̀lɛma:v:faire.se.séparer [ná:mrph:CAUS kɔ́mayɛ̀lɛma:v:se.tourner [kɔ́:n:dos màyɛ̀lɛma:v:changer [mà:mrph:SUPER yɛ̀lɛma:v:changer]]] >> nákɔmayɛ̀lɛma:v:faire.se.séparer [lá:mrph:CAUS kɔ́mayɛ̀lɛma:v:se.tourner [kɔ́:n:dos màyɛ̀lɛma:v:changer [mà:mrph:SUPER yɛ̀lɛma:v:changer]]]
+nákɔmi:v:faire.un.mouvement.de.va-et-vient [ná:mrph:CAUS kɔ́mi:v:branler] >> nákɔmi:v:faire.un.mouvement.de.va-et-vient [lá:mrph:CAUS kɔ́mi:v:branler]
+nákɔngɔ:v:affamer [ná:mrph:CAUS kɔ́ngɔ:v:affamer] >> nákɔngɔ:v:affamer [lá:mrph:CAUS kɔ́ngɔ:v:affamer]
+nákɔsègin:v:faire.revenir [ná:mrph:CAUS kɔ́sègin:v:revenir [kɔ́:n:dos sègin:v:revenir]] >> nákɔsègin:v:faire.revenir [lá:mrph:CAUS kɔ́sègin:v:revenir [kɔ́:n:dos sègin:v:revenir]]
+nákɔ̀lɔsi:v:veiller [ná:mrph:CAUS kɔ̀lɔsi:v:surveiller] >> nákɔ̀lɔsi:v:veiller [lá:mrph:CAUS kɔ̀lɔsi:v:surveiller]
+nákɔ́rɔtà:v:soulever [ná:mrph:CAUS kɔ́rɔtà:v:soulever [kɔ́rɔ:n:dessous tà:v:prendre]] >> nákɔ́rɔtà:v:soulever [lá:mrph:CAUS kɔ́rɔtà:v:soulever [kɔ́rɔ:n:dessous tà:v:prendre]]
+nákɛnyɛ:v:rendre.égal [ná:mrph:CAUS kɛ́nyɛ:v:égaliser] >> nákɛnyɛ:v:rendre.égal [lá:mrph:CAUS kɛ́nyɛ:v:égaliser]
+nákɛnɛ:v:élever [ná:mrph:CAUS kɛ́nɛ:vq:sain] >> nákɛnɛ:v:élever [lá:mrph:CAUS kɛ́nɛ:vq:sain]
+námadòn:v:faire.s'approcher [ná:mrph:CAUS màdòn:v:approcher [mà:mrph:SUPER dòn:v:entrer]] >> námadòn:v:faire.s'approcher [lá:mrph:CAUS màdòn:v:approcher [mà:mrph:SUPER dòn:v:entrer]]
+námana:v:allumer [ná:mrph:CAUS mána:v:allumer] >> námana:v:allumer [lá:mrph:CAUS mɛ́nɛ:v:allumer]
+námantɔ̀:v:faire.taire [ná:mrph:CAUS màntɔ:v:faire.taire [màn:mrph:SUPER tɔ̀:v:bloquer]] >> námantɔ̀:v:faire.taire [lá:mrph:CAUS màntɔ:v:faire.taire [màn:mrph:SUPER tɔ̀n:v:bloquer]]
+námàgaya:v:ramollir [ná:mrph:CAUS màgaya:v:rendre.mou [màga:vq:mou ya:mrph:DEQU]] >> námàgaya:v:ramollir [lá:mrph:CAUS màgaya:v:rendre.mou [màgan:vq:mou ya:mrph:DEQU]]
+námàlo:v:faire.honte [ná:mrph:CAUS màlo:v:faire.honte] >> námàlo:v:faire.honte [lá:mrph:CAUS màlo:v:faire.honte]
+námàloya:v:humilier [námàlo:v:faire.honte [ná:mrph:CAUS màlo:v:faire.honte] ya:mrph:ABSTR] >> námàloya:v:humilier [námàlo:v:faire.honte [lá:mrph:CAUS màlo:v:faire.honte] ya:mrph:ABSTR]
+námàra:v:garder [ná:mrph:CAUS màra:v:garder] >> námàra:v:garder [lá:mrph:CAUS màra:v:garder]
+námákùn:v:faire.taire [ná:mrph:CAUS màkùn:v:se.taire] >> námákùn:v:faire.taire [lá:mrph:CAUS màkùn:v:se.taire]
+námini:n:alentours [ná:mrph:CAUS míni:v:enrouler] >> námini:n:alentours [lá:mrph:CAUS míni:v:enrouler]
+námini:v:entourer [ná:mrph:CAUS míni:v:enrouler] >> námini:v:entourer [lá:mrph:CAUS míni:v:enrouler]
+náminimini:v:entourer [ná:mrph:CAUS mínimini:v:tourner] >> náminimini:v:entourer [lá:mrph:CAUS mínimini:v:tourner]
+námìn:v:faire.boire [ná:mrph:CAUS mìn:v:boire] >> námìn:v:faire.boire [lá:mrph:CAUS mìn:v:boire]
+námìnɛ:v:maintenir [ná:mrph:CAUS mìnɛ:v:attraper] >> námìnɛ:v:maintenir [lá:mrph:CAUS mìnɛ:v:attraper]
+námuguri:v:faire.danser [ná:mrph:CAUS múguri:v:remuer] >> námuguri:v:faire.danser [lá:mrph:CAUS múguri:v:remuer]
+námurti:v:inciter.à.la.révolte [ná:mrph:CAUS múrti:v:se.révolter] >> námurti:v:inciter.à.la.révolte [lá:mrph:CAUS múruti:v:se.révolter]
+námuruti:v:inciter.à.la.révolte [ná:mrph:CAUS múruti:v:se.révolter] >> námuruti:v:inciter.à.la.révolte [lá:mrph:CAUS múruti:v:se.révolter]
+námɔba:n:épouse.de.l'oncle.paternel [námɔ̀:v:faire.mûrir [ná:mrph:CAUS mɔ̀:v:mûrir] bá:n:mère] >> námɔba:n:épouse.de.l'oncle.paternel [námɔ̀:v:faire.mûrir [lá:mrph:CAUS mɔ̀:v:mûrir] bá:n:mère]
+námɔbaliya:n:mauvaise.éducation [námɔ̀:v:faire.mûrir [ná:mrph:CAUS mɔ̀:v:mûrir] bali:mrph:PTCP.PRIV ya:mrph:ABSTR] >> námɔbaliya:n:mauvaise.éducation [námɔ̀:v:faire.mûrir [lá:mrph:CAUS mɔ̀:v:mûrir] bali:mrph:PTCP.PRIV ya:mrph:ABSTR]
+námɔden:n:neveu [námɔ̀:v:faire.mûrir [ná:mrph:CAUS mɔ̀:v:mûrir] dén:n:enfant] >> námɔden:n:neveu [námɔ̀:v:faire.mûrir [lá:mrph:CAUS mɔ̀:v:mûrir] dén:n:enfant]
+námɔfa:n:oncle.paternel [námɔ̀:v:faire.mûrir [ná:mrph:CAUS mɔ̀:v:mûrir] fà:n:père] >> námɔfa:n:oncle.paternel [námɔ̀:v:faire.mûrir [lá:mrph:CAUS mɔ̀:v:mûrir] fà:n:père]
+námɔmasa:n:tuteur [námɔ̀:v:faire.mûrir [ná:mrph:CAUS mɔ̀:v:mûrir] màsa:n:roi] >> námɔmasa:n:tuteur [námɔ̀:v:faire.mûrir [lá:mrph:CAUS mɔ̀:v:mûrir] màsa:n:roi]
+námɔnɛ:v:humilier [ná:mrph:CAUS mɔ́nɛ:v:se.défouler] >> námɔnɛ:v:humilier [lá:mrph:CAUS mɔ́nɛ:v:se.défouler]
+námɔ̀:v:faire.mûrir [ná:mrph:CAUS mɔ̀:v:mûrir] >> námɔ̀:v:faire.mûrir [lá:mrph:CAUS mɔ̀:v:mûrir]
+námɛn:v:faire.durer [ná:mrph:CAUS mɛ́n:v:durer] >> námɛn:v:faire.durer [lá:mrph:CAUS mɛ́n:v:durer]
+námɛn:v:écouter [ná:mrph:CAUS mɛ́n:v:entendre] >> námɛn:v:écouter [lá:mrph:CAUS mɛ́n:v:entendre]
+námɛnbaa:n:auditeur [námɛn:v:écouter [ná:mrph:CAUS mɛ́n:v:entendre] baa:mrph:AG.OCC] >> námɛnbaa:n:auditeur [námɛn:v:écouter [lá:mrph:CAUS mɛ́n:v:entendre] baa:mrph:AG.OCC]
+námɛnbaga:n:auditeur [námɛn:v:écouter [ná:mrph:CAUS mɛ́n:v:entendre] baga:mrph:AG.OCC] >> námɛnbaga:n:auditeur [námɛn:v:écouter [lá:mrph:CAUS mɛ́n:v:entendre] baga:mrph:AG.OCC]
+námɛnɛ:v:allumer [ná:mrph:CAUS mɛ́nɛ:v:allumer] >> námɛnɛ:v:allumer [lá:mrph:CAUS mɛ́nɛ:v:allumer]
+námɛɛn:v:faire.durer [ná:mrph:CAUS mɛ́ɛn:v:durer] >> námɛɛn:v:faire.durer [lá:mrph:CAUS mɛ́ɛn:v:durer]
+nánalon:v:rendre.stupide [ná:mrph:CAUS nálon:v:abrutir] >> nánalon:v:rendre.stupide [lá:mrph:CAUS nálon:v:abrutir]
+nánàani:v:consoler [ná:mrph:CAUS nàani:v:cajoler] >> nánàani:v:consoler [lá:mrph:CAUS nàani:v:cajoler]
+nánàti:v:faire.venir [ná:mrph:CAUS nàti:v:faire.venir] >> nánàti:v:faire.venir [lá:mrph:CAUS nàti:v:faire.venir]
+nánbarakɛla:n:malhonnête [nánbara:n:fraude kɛ́:v:faire la:mrph:AG.PRM] >> nánbarakɛla:n:malhonnête [nánbara:n:fraude kɛ́:v:faire la:mrph:AG.PRM námara:n:fraude kɛ́:v:faire la:mrph:AG.PRM]
+nánisɔndiya:v:réjouir [ná:mrph:CAUS nísɔndiya:v:réjouir [nísɔn:n:humeur [ní:n:âme sɔ̀n:n:coeur] díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU]]] >> nánisɔndiya:v:réjouir [lá:mrph:CAUS nísɔndiya:v:réjouir [nísɔn:n:humeur [ní:n:âme sɔ̀n:n:coeur] díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU]]]
+nánkolon:adj:vide [nán:mrph:CAUS kólon:adj:vide] >> nánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide]
+nánkolonya:n:nudité [nánkolon:adj:vide [nán:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR] >> nánkolonya:n:nudité [lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR]
+nánkolonya:v:vider [nánkolon:adj:vide [nán:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR] >> nánkolonya:v:vider [lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR]
+nánùgu:v:faire.pousser [ná:mrph:CAUS nùgu:v:bourgeonner] >> nánùgu:v:faire.pousser [lá:mrph:CAUS nùgu:v:bourgeonner]
+nánɔ:v:lécher [ná:mrph:CAUS nɔ́:v:lécher] >> nánɔ:v:lécher [lá:mrph:CAUS nɔ́:v:lécher]
+nánɔgɔ:v:salir [ná:mrph:CAUS nɔ́gɔ:v:salir] >> nánɔgɔ:v:salir [lá:mrph:CAUS nɔ́gɔ:v:salir]
+nánɔn:v:lécher [ná:mrph:CAUS nɔ́n:v:lécher] >> nánɔn:v:lécher [lá:mrph:CAUS nɔ́n:v:lécher]
+nánɛgɛn:v:duper [ná:mrph:CAUS nɛ́gɛn:v:leurrer] >> nánɛgɛn:v:duper [lá:mrph:CAUS nɛ́gɛn:v:leurrer]
+nánɛnɛ:v:éprouver [ná:mrph:CAUS nɛ́nɛ:v:goûter] >> nánɛnɛ:v:éprouver [lá:mrph:CAUS nɛ́nɛ:v:goûter]
+nánɛ̀rɛmugu:v:rendre.jaune [ná:mrph:CAUS nɛ̀rɛ:n:nèrè.de.Gambie múgu:v:réduire.en.poudre] >> nánɛ̀rɛmugu:v:rendre.jaune [lá:mrph:CAUS nɛ̀rɛ:n:nèrè.de.Gambie múgu:v:réduire.en.poudre]
+nápan:v:faire.voler [ná:mrph:CAUS pán:v:sauter] >> nápan:v:faire.voler [lá:mrph:CAUS pán:v:sauter]
+nápoyi:v:faire.jaillir [ná:mrph:CAUS póyi:v:jaillir] >> nápoyi:v:faire.jaillir [lá:mrph:CAUS póyi:v:jaillir]
+násabali:v:calmer [ná:mrph:CAUS sábali:v:être.patient] >> násabali:v:calmer [lá:mrph:CAUS sábali:v:être.patient]
+násago:n:conservation [ná:mrph:CAUS] >> násago:n:conservation [lá:mrph:CAUS]
+násagon:n:conservation [ná:mrph:CAUS] >> násagon:n:conservation [lá:mrph:CAUS]
+násaha:v:relaxer [ná:mrph:CAUS sáha:v:se.reposer] >> násaha:v:relaxer [lá:mrph:CAUS sáha:v:se.reposer]
+násali:v:diriger.prière [ná:mrph:CAUS sáli:v:prier] >> násali:v:diriger.prière [lá:mrph:CAUS séli:v:prier]
+násama:v:étirer [ná:mrph:CAUS sàma:v:tirer.vers.soi] >> násama:v:étirer [lá:mrph:CAUS sàma:v:tirer.vers.soi]
+násaniya:v:nettoyer [ná:mrph:CAUS sániya:v:nettoyer [sáni:vq:propre ya:mrph:DEQU]] >> násaniya:v:nettoyer [lá:mrph:CAUS sániya:v:nettoyer [sáni:vq:propre ya:mrph:DEQU]]
+násà:v:faire.mourir [ná:mrph:CAUS sà:v:mourir] >> násà:v:faire.mourir [lá:mrph:CAUS sà:v:mourir]
+násàalo:v:consoler [ná:mrph:CAUS sàalo:v:masser] >> násàalo:v:consoler [lá:mrph:CAUS sàalo:v:masser]
+násàbati:v:faire.prospérer [ná:mrph:CAUS sàbati:v:prospérer] >> násàbati:v:faire.prospérer [lá:mrph:CAUS sàbati:v:prospérer]
+násàgo:v:garder [ná:mrph:CAUS] >> násàgo:v:garder [lá:mrph:CAUS]
+násàgon:v:garder [ná:mrph:CAUS] >> násàgon:v:garder [lá:mrph:CAUS]
+náse:v:transmettre [ná:mrph:CAUS sé:v:arriver] >> náse:v:transmettre [lá:mrph:CAUS sé:v:arriver]
+náseli:n:acheminement [ná:mrph:CAUS séli:n:action.d'arriver [sé:v:arriver li:mrph:NMLZ]] >> náseli:n:acheminement [lá:mrph:CAUS séli:n:action.d'arriver [sé:v:arriver li:mrph:NMLZ]]
+náseli:v:diriger.prière [ná:mrph:CAUS séli:v:prier] >> náseli:v:diriger.prière [lá:mrph:CAUS séli:v:prier]
+náselisɛbɛn:n:rapport [náse:v:transmettre [ná:mrph:CAUS sé:v:arriver] li:mrph:NMLZ sɛ́bɛn:n:écrit] >> náselisɛbɛn:n:rapport [náse:v:transmettre [lá:mrph:CAUS sé:v:arriver] li:mrph:NMLZ sɛ́bɛn:n:écrit]
+násègin:v:rendre [ná:mrph:CAUS sègin:v:revenir] >> násègin:v:rendre [lá:mrph:CAUS sègin:v:revenir]
+násiran:v:effrayer [ná:mrph:CAUS síran:v:craindre] >> násiran:v:effrayer [lá:mrph:CAUS síran:v:craindre]
+násìgi:v:faire.asseoir [ná:mrph:CAUS sìgi:v:asseoir] >> násìgi:v:faire.asseoir [lá:mrph:CAUS sìgi:v:asseoir]
+násu:v:inciter [ná:mrph:CAUS sú:v:tremper] >> násu:v:inciter [lá:mrph:CAUS sú:v:tremper]
+násuma:v:rafraîchir [ná:mrph:CAUS súma:v:rafraîchir] >> násuma:v:rafraîchir [lá:mrph:CAUS súma:v:rafraîchir]
+násumaya:v:rafraîchir [ná:mrph:CAUS súmaya:v:rafraîchir [súma:vq:frais ya:mrph:DEQU]] >> násumaya:v:rafraîchir [lá:mrph:CAUS súmaya:v:rafraîchir [súma:vq:frais ya:mrph:DEQU]]
+násùnɔgɔ:v:endormir [ná:mrph:CAUS sùnɔgɔ:v:dormir] >> násùnɔgɔ:v:endormir [lá:mrph:CAUS sùnɔgɔ:v:dormir]
+násùrunya:v:rendre.court [ná:mrph:CAUS sùrunya:v:raccourcir [sùrun:vq:court ya:mrph:DEQU]] >> násùrunya:v:rendre.court [lá:mrph:CAUS sùrunya:v:raccourcir [sùrun:vq:court ya:mrph:DEQU]]
+násɔ̀mi:v:avertir [ná:mrph:CAUS sɔ̀mi:v:soupçonner] >> násɔ̀mi:v:avertir [lá:mrph:CAUS sɔ̀mi:v:soupçonner]
+násɔ̀rɔ:v:avoir.le.temps.de [ná:mrph:CAUS sɔ̀rɔ:v:obtenir] >> násɔ̀rɔ:v:avoir.le.temps.de [lá:mrph:CAUS sɔ̀rɔ:v:obtenir]
+násɔ̀sɔ:v:critiquer [ná:mrph:CAUS sɔ̀sɔ:v:contredire] >> násɔ̀sɔ:v:critiquer [lá:mrph:CAUS sɔ̀sɔ:v:contredire]
+nátaa:v:faire.partir [ná:mrph:CAUS táa:v:aller] >> nátaa:v:faire.partir [lá:mrph:CAUS táa:v:aller]
+nátaama-táama:v:faire.marcher [ná:mrph:CAUS táama:v:marcher táama:v:marcher] >> nátaama-táama:v:faire.marcher [lá:mrph:CAUS táama:v:marcher táama:v:marcher]
+nátaama:v:faire.marcher [ná:mrph:CAUS táama:v:marcher] >> nátaama:v:faire.marcher [lá:mrph:CAUS táama:v:marcher]
+nátaga:v:faire.partir [ná:mrph:CAUS tága:v:aller] >> nátaga:v:faire.partir [lá:mrph:CAUS tága:v:aller]
+nátagama-tágama:v:faire.marcher [ná:mrph:CAUS tágama:v:marcher tágama:v:marcher] >> nátagama-tágama:v:faire.marcher [lá:mrph:CAUS tágama:v:marcher tágama:v:marcher]
+nátagama:v:faire.marcher [ná:mrph:CAUS tágama:v:marcher] >> nátagama:v:faire.marcher [lá:mrph:CAUS tágama:v:marcher]
+nátà:v:passer.par.dessus [ná:mrph:CAUS tà:v:prendre] >> nátà:v:passer.par.dessus [lá:mrph:CAUS tà:v:prendre]
+nátànga:v:protéger [ná:mrph:CAUS tànga:v:protéger] >> nátànga:v:protéger [lá:mrph:CAUS tànga:v:protéger]
+náteliya:v:accélérer [ná:mrph:CAUS téliya:v:accélérer [téli:vq:rapide ya:mrph:DEQU]] >> náteliya:v:accélérer [lá:mrph:CAUS téliya:v:accélérer [téli:vq:rapide ya:mrph:DEQU]]
+nátègele:v:faire.tenir.debout [ná:mrph:CAUS tègele:v:soutenir] >> nátègele:v:faire.tenir.debout [lá:mrph:CAUS tègele:v:soutenir]
+nátiimɛ:v:accomplir [ná:mrph:CAUS tíimɛ:v:accomplir] >> nátiimɛ:v:accomplir [lá:mrph:CAUS tíimɛ:v:accomplir]
+nátila:v:libérer [ná:mrph:CAUS tíla:v:diviser] >> nátila:v:libérer [lá:mrph:CAUS tíla:v:diviser]
+nátilen:v:redresser [ná:mrph:CAUS tílen:v:redresser] >> nátilen:v:redresser [lá:mrph:CAUS tílen:v:redresser]
+nátimiya:v:rendre.sucré [ná:mrph:CAUS tímiya:v:rendre.savoureux [tími:vq:savoureux ya:mrph:DEQU]] >> nátimiya:v:rendre.sucré [lá:mrph:CAUS tímiya:v:rendre.savoureux [tími:vq:savoureux ya:mrph:DEQU]]
+nátiɲɛ:v:gâter [ná:mrph:CAUS tíɲɛ:v:gâter] >> nátiɲɛ:v:gâter [lá:mrph:CAUS tíɲɛ:v:gâter]
+nátìbitaba:v:faire.tituber [ná:mrph:CAUS tìbitaba:v:être.chancelant] >> nátìbitaba:v:faire.tituber [lá:mrph:CAUS tìbitaba:v:être.chancelant]
+nátìgɛ:v:faire.passer [ná:mrph:CAUS tìgɛ:v:couper] >> nátìgɛ:v:faire.passer [lá:mrph:CAUS tìgɛ:v:couper]
+nátìson:v:faire.éternuer [ná:mrph:CAUS tìson:v:éternuer] >> nátìson:v:faire.éternuer [lá:mrph:CAUS tìso:v:éternuer]
+náto:v:causer.la.mort [ná:mrph:CAUS tó:v:rester] >> náto:v:causer.la.mort [lá:mrph:CAUS tó:v:rester]
+nátugu:v:obliger [ná:mrph:CAUS túgu:v:faire.exprès] >> nátugu:v:obliger [lá:mrph:CAUS túgu:v:faire.exprès]
+nátulon:v:amuser [ná:mrph:CAUS túlon:v:jouer] >> nátulon:v:amuser [lá:mrph:CAUS túlon:v:jouer]
+nátunun:v:égarer [ná:mrph:CAUS túnun:v:perdre] >> nátunun:v:égarer [lá:mrph:CAUS túnun:v:perdre]
+nátuubi:v:convertir [ná:mrph:CAUS túubi:v:convertir] >> nátuubi:v:convertir [lá:mrph:CAUS túubi:v:convertir]
+nátùlɔ:v:engraisser [ná:mrph:CAUS tùlɔ:v:engraisser] >> nátùlɔ:v:engraisser [lá:mrph:CAUS tùlɔ:v:engraisser]
+nátɔrɔ:v:faire.éclore [ná:mrph:CAUS tɔ́rɔ:v:cogner] >> nátɔrɔ:v:faire.éclore [lá:mrph:CAUS tɔ́rɔ:v:éclore]
+nátɔ̀lɔ:v:engraisser [ná:mrph:CAUS tɔ̀lɔ:v:engraisser] >> nátɔ̀lɔ:v:engraisser [lá:mrph:CAUS tɔ̀lɔ:v:engraisser]
+nátɔ̀mɔ:v:choisir [ná:mrph:CAUS tɔ̀mɔ:v:ramasser] >> nátɔ̀mɔ:v:choisir [lá:mrph:CAUS tɔ̀mɔ:v:ramasser]
+nátɔ̀n:v:bloquer [ná:mrph:CAUS tɔ̀n:v:bloquer] >> nátɔ̀n:v:bloquer [lá:mrph:CAUS tɔ̀n:v:bloquer]
+nátɛ̀gɛlɛ:v:faire.tenir.debout [ná:mrph:CAUS tɛ̀gɛlɛ:v:soutenir] >> nátɛ̀gɛlɛ:v:faire.tenir.debout [lá:mrph:CAUS tɛ̀gɛlɛ:v:soutenir]
+nátɛ̀mɛ:v:faire.passer [ná:mrph:CAUS tɛ̀mɛ:v:passer] >> nátɛ̀mɛ:v:faire.passer [lá:mrph:CAUS tɛ̀mɛ:v:passer]
+nátɛ̀mɛn:v:faire.passer [ná:mrph:CAUS tɛ̀mɛn:v:passer] >> nátɛ̀mɛn:v:faire.passer [lá:mrph:CAUS tɛ̀mɛn:v:passer]
+náwà:v:faire.partir [ná:mrph:CAUS wà:v:aller] >> náwà:v:faire.partir [lá:mrph:CAUS wà:v:aller]
+náwàra:v:élargir [ná:mrph:CAUS wàra:v:augmenter] >> náwàra:v:élargir [lá:mrph:CAUS wàra:v:augmenter]
+náwàsa:v:combler [ná:mrph:CAUS wàsa:v:satisfaire] >> náwàsa:v:combler [lá:mrph:CAUS wàsa:v:satisfaire]
+náwolo:v:faire.engendrer [ná:mrph:CAUS wólo:v:accoucher] >> náwolo:v:faire.engendrer [lá:mrph:CAUS wólo:v:accoucher]
+náwoloma:v:sélectionner [ná:mrph:CAUS wóloma:v:trier] >> náwoloma:v:sélectionner [lá:mrph:CAUS wóloma:v:trier]
+náwòyo:v:faire.couler [ná:mrph:CAUS wòyo:v:couler] >> náwòyo:v:faire.couler [lá:mrph:CAUS wòyo:v:couler]
+náwuli:v:faire.lever [ná:mrph:CAUS wúli:v:se.lever] >> náwuli:v:faire.lever [lá:mrph:CAUS wúli:v:se.lever]
+náyaala:n:fait.de.faire.bailler [ná:mrph:CAUS yáala:v:bailler] >> náyaala:n:fait.de.faire.bailler [lá:mrph:CAUS yáala:v:bailler]
+náyaala:v:faire.bailler [ná:mrph:CAUS yáala:v:bailler] >> náyaala:v:faire.bailler [lá:mrph:CAUS yáala:v:bailler]
+náyaala:v:promener [ná:mrph:CAUS yáala:v:errer] >> náyaala:v:promener [lá:mrph:CAUS yáala:v:errer]
+náyelenku:v:faire.briller [ná:mrph:CAUS yélenku:v:scintiller] >> náyelenku:v:faire.briller [lá:mrph:CAUS yélenku:v:scintiller]
+náyiriwa:v:faire.prospérer [ná:mrph:CAUS yíriwa:v:accroître] >> náyiriwa:v:faire.prospérer [lá:mrph:CAUS yíriwa:v:accroître]
+náyɛlɛ:v:faire.rire [ná:mrph:CAUS yɛ́lɛ:v:rire] >> náyɛlɛ:v:faire.rire [lá:mrph:CAUS yɛ́lɛ:v:rire]
+náyɛrɛyɛrɛ:v:faire.trembler [ná:mrph:CAUS yɛ́rɛyɛrɛ:v:trembler] >> náyɛrɛyɛrɛ:v:faire.trembler [lá:mrph:CAUS yɛ́rɛyɛrɛ:v:trembler]
+náyɛ̀lɛn:v:hausser [ná:mrph:CAUS yɛ̀lɛn:v:monter] >> náyɛ̀lɛn:v:hausser [lá:mrph:CAUS yɛ̀lɛn:v:monter]
+náɲaga:v:activer [ná:mrph:CAUS ɲága:v:activer] >> náɲaga:v:activer [lá:mrph:CAUS ɲága:v:activer]
+náɲagali:v:réjouir [ná:mrph:CAUS ɲágali:v:être.content] >> náɲagali:v:réjouir [lá:mrph:CAUS ɲágali:v:être.content]
+náɲani:v:réduire.à.la.misère [ná:mrph:CAUS ɲáni:v:réduire.à.la.misère] >> náɲani:v:réduire.à.la.misère [lá:mrph:CAUS ɲáni:v:souffrir]
+náɲàa:v:divertir [ná:mrph:CAUS ɲàa:v:se.réjouir] >> náɲàa:v:divertir [lá:mrph:CAUS ɲàa:v:se.réjouir]
+náɲàga:v:divertir [ná:mrph:CAUS ɲàga:v:se.réjouir] >> náɲàga:v:divertir [lá:mrph:CAUS ɲàga:v:se.réjouir]
+náɲini:v:chercher [ná:mrph:CAUS ɲíni:v:chercher] >> náɲini:v:chercher [lá:mrph:CAUS ɲíni:v:chercher]
+náɲìninka:v:interroger [ná:mrph:CAUS ɲìninka:v:interroger] >> náɲìninka:v:interroger [lá:mrph:CAUS ɲìninka:v:interroger]
+náɲìnɛ:v:faire.oublier [ná:mrph:CAUS ɲìnɛ:v:oublier] >> náɲìnɛ:v:faire.oublier [lá:mrph:CAUS ɲìnɛ:v:oublier]
+náɲugu:v:donner.la.nausée [ná:mrph:CAUS ɲúgu:v:avoir.la.nausée] >> náɲugu:v:donner.la.nausée [lá:mrph:CAUS ɲúgu:v:avoir.la.nausée]
+náɲɔn:v:respirer [ná:mrph:CAUS ɲɔ́n:v:respirer] >> náɲɔn:v:respirer [lá:mrph:CAUS ɲɔ́n:v:respirer]
+náɲɔ̀ngiri:v:faire.agenouiller [ná:mrph:CAUS ɲɔ̀ngiri:v:s'agenouiller] >> náɲɔ̀ngiri:v:faire.agenouiller [lá:mrph:CAUS ɲɔ̀ngiri:v:s'agenouiller]
+náɲɛbaga:n:bienfaiteur [náɲɛ̀:v:faire.réussir [ná:mrph:CAUS ɲɛ̀:v:réussir] baga:mrph:AG.OCC] >> náɲɛbaga:n:bienfaiteur [náɲɛ̀:v:faire.réussir [lá:mrph:CAUS ɲɛ̀:v:réussir] baga:mrph:AG.OCC]
+náɲɛnajɛ:v:réjouir [ná:mrph:CAUS ɲɛ́najɛ:v:réjouir [ɲɛ́:n:oeil ná:mrph:CAUS jɛ́:v:blanchir]] >> náɲɛnajɛ:v:réjouir [lá:mrph:CAUS ɲɛ́najɛ:v:réjouir [ɲɛ́:n:oeil lá:mrph:CAUS jɛ́:v:blanchir]]
+náɲɛnamaliya:n:dynamisation [ná:mrph:CAUS ɲɛ́nama:adj:vivant [ɲɛ́:n:oeil nama:mrph:STAT] li:mrph:NMLZ ya:mrph:ABSTR] >> náɲɛnamaliya:n:dynamisation [lá:mrph:CAUS ɲɛ́nama:adj:vivant [ɲɛ́:n:oeil nama:mrph:STAT] li:mrph:NMLZ ya:mrph:ABSTR]
+náɲɛnamaya:v:rénover [ná:mrph:CAUS ɲɛ́namaya:v:ranimer [ɲɛ́nama:adj:vivant [ɲɛ́:n:oeil nama:mrph:STAT] ya:mrph:ABSTR]] >> náɲɛnamaya:v:rénover [lá:mrph:CAUS ɲɛ́namaya:v:ranimer [ɲɛ́nama:adj:vivant [ɲɛ́:n:oeil nama:mrph:STAT] ya:mrph:ABSTR]]
+náɲɛni:v:réduire.à.la.misère [ná:mrph:CAUS ɲɛ́ni:v:réduire.à.la.misère] >> náɲɛni:v:réduire.à.la.misère [lá:mrph:CAUS ɲáni:v:souffrir]
+náɲɛ̀:v:faire.réussir [ná:mrph:CAUS ɲɛ̀:v:réussir] >> náɲɛ̀:v:faire.réussir [lá:mrph:CAUS ɲɛ̀:v:réussir]
+náɲɛ̀gɛn:v:peindre [ná:mrph:CAUS ɲɛ̀gɛn:v:dessiner] >> náɲɛ̀gɛn:v:peindre [lá:mrph:CAUS ɲɛ̀gɛn:v:dessiner]
+nìnnú:prn:DEM.PL [nìn:prn:ceci nu:mrph:PL2] >> nìnnú:prn:DEM.PL [nìn:dtm:DEM nu:mrph:PL2]
+nígɛlɛya:n:résistance [ní:n:âme gɛ̀lɛya:n:dureté [gɛ̀lɛ:vq:dur ya:mrph:DEQU]] >> nígɛlɛya:n:résistance [ní:n:âme gɛ̀lɛya:n:dureté [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+nínakili:n:respiration [ní:n:âme nákili:v:appeler [ná:mrph:CAUS kíli:v:appeler]] >> nínakili:n:respiration [ní:n:âme nákili:v:appeler [lá:mrph:CAUS kíli:v:appeler]]
+nínakili:v:respirer [ní:n:âme nákili:v:appeler [ná:mrph:CAUS kíli:v:appeler]] >> nínakili:v:respirer [ní:n:âme nákili:v:appeler [lá:mrph:CAUS kíli:v:appeler]]
+nínakilidegun:n:asthme [nínakili:n:respiration [ní:n:âme nákili:v:appeler [ná:mrph:CAUS kíli:v:appeler]] dègun:n:oppression] >> nínakilidegun:n:asthme [nínakili:n:respiration [ní:n:âme nákili:v:appeler [lá:mrph:CAUS kíli:v:appeler]] dègun:n:oppression]
+núbara:n:nez [nú:n:nez bàra:n:calebasse] >> núbara:n:nez [nún:n:nez bàra:n:calebasse]
+núkoto:n:chanfrein [nú:n:nez kòto:n:partie.basse.du.dos] >> núkoto:n:chanfrein [nún:n:nez kòto:n:partie.basse.du.dos]
+núnnabiri:n:cache-nez [nún:n:nez nábiri:v:abaisser [ná:mrph:CAUS bíri:v:courber]] >> núnnabiri:n:cache-nez [nún:n:nez nábiri:v:abaisser [lá:mrph:CAUS bíri:v:courber]]
+nwánanbabulu:n:plante.Ipomoea.aquatica [nwánan:n:mucilage [nwá:v:salir nan:mrph:INSTR] ba:mrph:AUGM búlu:n:feuille] >> nwánanbabulu:n:plante.Ipomoea.aquatica [nɔ́gɔlan:n:mucilage [nɔ́gɔ:v:salir lan:mrph:INSTR] ba:mrph:AUGM búlu:n:feuille]
+nwánankala:n:plante.Dioscorea.sp [nwánan:n:mucilage [nwá:v:salir nan:mrph:INSTR] kàla:n:tige] >> nwánankala:n:plante.Dioscorea.sp [nɔ́gɔlan:n:mucilage [nɔ́gɔ:v:salir lan:mrph:INSTR] kàla:n:tige]
+nɔ̀nkɔnɲa:n:coudée [nɔ̀nkɔn:n:coude ɲá:n:fois] >> nɔ̀nkɔnɲa:n:coudée [nɔ̀nkɔn:n:coude ɲɛ́:n:fois]
+ń-tìn-kà-dɔ́n:n:regret [ń:pers:1SG tìn:prt:PST kà:pm:INF dɔ́n:n:connaissance] >> ń-tìn-kà-dɔ́n:n:regret [ń:pers:1SG tùn:prt:PST kà:pm:INF dɔ́n:n:connaissance]
+pàaraɲa:n:enjambée [pàara:n:enjambée ɲá:n:fois] >> pàaraɲa:n:enjambée [pàara:n:enjambée ɲɛ́:n:fois]
+rɔ́gɔ̀si:v:mépriser [rɔ́:mrph:IN gɔ̀si:v:battre] >> rɔ́gɔ̀si:v:mépriser [rɔ́:mrph:IN gòsi:v:battre]
+rɔ́kolense:v:mélanger [rɔ́:mrph:IN kólensen:v:mélanger] >> rɔ́kolense:v:mélanger [rɔ́:mrph:IN kálanso:v:croiser]
+santimɛtɛrɛ:n:centimètre >> santimɛtɛrɛ:n:centimètre [santi:n:EMPR.centi mɛ́tɛrɛ:n:mètre]
+sànbonda:n:maison.mortuaire [sàn:n:message.de.deuil bón:n:case dá:n:bouche] >> sànbonda:n:maison.mortuaire [sànga:n:message.de.deuil bón:n:case dá:n:bouche]
+sànnaci:n:faire-part.de.décès [sàn:n:message.de.deuil ná:pp:à cí:n:commission] >> sànnaci:n:faire-part.de.décès [sànga:n:message.de.deuil ná:pp:à cí:n:commission]
+ságayaminabaga:n:preneur.de.dépôt [mìna:v:attraper baga:mrph:AG.OCC] >> ságayaminabaga:n:preneur.de.dépôt [mìnɛ:v:attraper baga:mrph:AG.OCC]
+sánuman:adj:sain [sánu:vq:propre man:mrph:ADJ] >> sánuman:adj:sain [sáni:vq:propre man:mrph:ADJ]
+sèginnkanni:n:répétition [sègi:v:revenir ń:pers:1SG kàn:pp:sur ni:mrph:NMLZ] >> sèginnkanni:n:répétition [sègin:v:revenir ń:pers:1SG kàn:pp:sur ni:mrph:NMLZ]
+sènkɔnin:n:orteil [sèn:n:jambe kɔnin:n:doigt] >> sènkɔnin:n:orteil [sèn:n:jambe nkɔni:n:doigt]
+sènkɔninkolo:n:métacarpe [sènkɔnin:n:orteil [sèn:n:jambe kɔnin:n:doigt] kólo:n:os] >> sènkɔninkolo:n:métacarpe [sènkɔnin:n:orteil [sèn:n:jambe nkɔni:n:doigt] kólo:n:os]
+sènkɔninkunba:n:gros.orteil [sènkɔnin:n:orteil [sèn:n:jambe kɔnin:n:doigt] kùnba:adj:gros] >> sènkɔninkunba:n:gros.orteil [sènkɔnin:n:orteil [sèn:n:jambe nkɔni:n:doigt] kùnba:adj:gros]
+sènnabɔ́:v:accompagner [sèn:n:jambe nábɔ:v:faire.sortir [ná:mrph:CAUS bɔ́:v:sortir]] >> sènnabɔ́:v:accompagner [sèn:n:jambe nábɔ:v:faire.sortir [lá:mrph:CAUS bɔ́:v:sortir]]
+sènnasìri:v:entraver.la.marche [sèn:n:jambe ná:mrph:CAUS sìri:v:lier] >> sènnasìri:v:entraver.la.marche [sèn:n:jambe lá:mrph:CAUS sìri:v:lier]
+shyɛ̀misɛn:n:poulette [shyɛ̀:n:poule mìsɛn:adj:petit] >> shyɛ̀misɛn:n:poulette [shɛ̀:n:poule mìsɛn:adj:petit]
+shɛ̀bunturun:n:poussin.1-15.jours [shɛ̀:n:poule] >> shɛ̀bunturun:n:poussin.1-15.jours [shɛ̀:n:poule búturu:n:poussin]
+shɛ̀kwànin:n:gros.ver.blanc [shɛ̀:n:poule kwà:n:sel nin:mrph:DIM] >> shɛ̀kwànin:n:gros.ver.blanc [shɛ̀:n:poule kɔ̀gɔ:n:sel nin:mrph:DIM]
+sìnɔgɔjɛgɛ:n:poisson.Parophiocephalus.obscurus [sìnɔgɔ:n:sommeil jɛ́gɛ:n:poisson] >> sìnɔgɔjɛgɛ:n:poisson.Parophiocephalus.obscurus [sùnɔgɔ:n:sommeil jɛ́gɛ:n:poisson]
+sílatunu:v:exterminer [sí:n:semence lá:mrph:CAUS túnu:v:perdre] >> sílatunu:v:exterminer [sí:n:semence lá:mrph:CAUS túnun:v:perdre]
+sínnaban:n:dernier.enfant [sín:n:sein nában:n:fin [ná:mrph:CAUS bán:v:terminer]] >> sínnaban:n:dernier.enfant [sín:n:sein nában:n:fin [lá:mrph:CAUS bán:v:terminer]]
+sítunu:v:exterminer [sí:n:semence túnu:v:perdre] >> sítunu:v:exterminer [sí:n:semence túnun:v:perdre]
+sònkalanku:n:angine [sònkalan:n:bâtonnet [kàla:n:tige] kú:n:queue] >> sònkalanku:n:angine [sònkala:n:mouvette [kàla:n:tige] kú:n:queue]
+súbagabana:n:ricin [súbaga:n:sorcier [sú:v:tremper baga:mrph:AG.OCC] bàna:n:fromager] >> súbagabana:n:ricin [súbaga:n:sorcier [sú:v:tremper baga:mrph:AG.OCC] bànan:n:fromager]
+súnnakari:n:repas.de.fin.de.jeûne [sún:n:jeûne nákari:v:rendre.inefficace [ná:mrph:CAUS kári:v:casser]] >> súnnakari:n:repas.de.fin.de.jeûne [sún:n:jeûne nákari:v:rendre.inefficace [lá:mrph:CAUS kári:v:casser]]
+súrafana:n:souper [sú:n:nuit rá:pp:à fàna:n:repas] >> súrafana:n:souper [sú:n:nuit lá:pp:à fàna:n:repas]
+syémaya:n:responsabilité.des.initiés [syéma:n:responsable.des.initiés ya:mrph:ABSTR] >> syémaya:n:responsabilité.des.initiés [nséma:n:mentor ya:mrph:ABSTR]
+syɛ̀tɛ̀nɛ:n:arbuste.Senna.singueana [syɛ̀:n:poule tɛ̀nɛ:n:tabou] >> syɛ̀tɛ̀nɛ:n:arbuste.Senna.singueana [shɛ̀:n:poule tɛ̀nɛ:n:tabou]
+sɔ̀nnabiri:n:diaphragme [sɔ̀n:n:coeur nábiri:v:abaisser [ná:mrph:CAUS bíri:v:courber]] >> sɔ̀nnabiri:n:diaphragme [sɔ̀n:n:coeur nábiri:v:abaisser [lá:mrph:CAUS bíri:v:courber]]
+sɔ̀nnasiran:v:effrayer [sɔ̀n:n:coeur násiran:v:effrayer [ná:mrph:CAUS síran:v:craindre]] >> sɔ̀nnasiran:v:effrayer [sɔ̀n:n:coeur násiran:v:effrayer [lá:mrph:CAUS síran:v:craindre]]
+sɔ̀nnaɲini:v:provoquer [sɔ̀n:n:coeur náɲini:v:chercher [ná:mrph:CAUS ɲíni:v:chercher]] >> sɔ̀nnaɲini:v:provoquer [sɔ̀n:n:coeur náɲini:v:chercher [lá:mrph:CAUS ɲíni:v:chercher]]
+sɛ̀bunturun:n:poussin.1-15.jours [sɛ̀:n:poule] >> sɛ̀bunturun:n:poussin.1-15.jours [sɛ̀:n:poule búturu:n:poussin]
+sɛ̀gɛnnabɔ́:v:se.reposer [sɛ̀gɛn:n:fatigue ná:mrph:CAUS bɔ́:v:sortir] >> sɛ̀gɛnnabɔ́:v:se.reposer [sɛ̀gɛn:n:fatigue lá:mrph:CAUS bɔ́:v:sortir]
+sɛ̀gɛnnafíyɛn:v:se.reposer [sɛ̀gɛn:n:fatigue náfiyɛn:v:se.reposer [ná:mrph:CAUS fíyɛn:v:sécher]] >> sɛ̀gɛnnafíyɛn:v:se.reposer [sɛ̀gɛn:n:fatigue láfiɲɛ:v:se.reposer [lá:mrph:CAUS fíɲɛ:v:sécher]]
+sɛ̀kwànin:n:gros.ver.blanc [sɛ̀:n:poule kwà:n:sel nin:mrph:DIM] >> sɛ̀kwànin:n:gros.ver.blanc [shɛ̀:n:poule kɔ̀gɔ:n:sel nin:mrph:DIM]
+sɛ̀kɔrɔ:n:grosse.poule.adulte [sɛ̀:n:poule kɔ̀rɔ:adj:vieux] >> sɛ̀kɔrɔ:n:grosse.poule.adulte [shɛ̀:n:poule kɔ̀rɔ:adj:vieux]
+sɛ̀minawara:n:chat.sauvage [sɛ̀:n:poule mìna:v:attraper wára:n:fauve] >> sɛ̀minawara:n:chat.sauvage [shɛ̀:n:poule mìnɛ:v:attraper wára:n:fauve]
+sɛ̀misɛn:n:poulette [sɛ̀:n:poule mìsɛn:adj:petit] >> sɛ̀misɛn:n:poulette [shɛ̀:n:poule mìsɛn:adj:petit]
+sɛ̀nɛkɛmasin:n:motoculteur [sɛ̀nɛ:n:culture kɛ́:v:faire màsin:n:machine] >> sɛ̀nɛkɛmasin:n:motoculteur [sɛ̀nɛ:n:culture kɛ́:v:faire mànsin:n:machine]
+sɛ́gɛlasɛri:n:bouillie.cuite.avec.de.potasse [sɛ́gɛ:n:salpêtre lá:pp:à sɛ̀ri:n:bouillie] >> sɛ́gɛlasɛri:n:bouillie.cuite.avec.de.potasse [sɛ́gɛ:n:salpêtre lá:pp:à sèri:n:bouillie]
+tàmana:n:tempes [tàma:n:tempe ná:pp:à] >> tàmana:n:tempes [tàman:n:tempe ná:pp:à]
+tákurun:n:bûche [tá:n:feu kùrun:n:boule] >> tákurun:n:bûche [tá:n:feu kùru:n:boule]
+táɲa:n:succès [tá:n:propriété ɲà:v:réussir] >> táɲa:n:succès [tá:n:propriété ɲɛ̀:v:réussir]
+tèregejigi:n:gros.lézard [tèrege:n:gros.margouillat.mâle jigi:adj:mâle] >> tèregejigi:n:gros.lézard [tèrege:n:margouillat.mâle jigi:adj:mâle]
+tìn-kà-dɔ́n:n:regret [tìn:prt:PST kà:pm:INF dɔ́n:v:connaître] >> tìn-kà-dɔ́n:n:regret [tùn:prt:PST kà:pm:INF dɔ́n:v:connaître]
+tìnkadɔn:n:regret [tìn:prt:PST kà:pm:INF dɔ́n:n:connaissance] >> tìnkadɔn:n:regret [tùn:prt:PST kà:pm:INF dɔ́n:n:connaissance]
+tìnnadɔn:n:regret [tìn:prt:PST nà:pm:CERT dɔ́n:n:connaissance] >> tìnnadɔn:n:regret [tùn:prt:PST nà:pm:CERT dɔ́n:n:connaissance]
+tílancɛ:n:moitié [tílan:v:diviser cɛ́:n:milieu] >> tílancɛ:n:moitié [tíla:v:diviser cɛ́:n:milieu]
+tímafatu:n:herbe.de.calfeutrage [tí:n:chaume mà:pp:ADR fá:v:remplir tú:n:touffe] >> tímafatu:n:herbe.de.calfeutrage [cí:n:chaume mà:pp:ADR fá:v:remplir tú:n:touffe]
+tònsobibaliya:n:rétention.placentaire [tònso:n:placenta bì:v:tomber bali:mrph:PTCP.PRIV ya:mrph:ABSTR] >> tònsobibaliya:n:rétention.placentaire [tònso:n:placenta bìn:v:tomber bali:mrph:PTCP.PRIV ya:mrph:ABSTR]
+tòpasasonkala:n:cuillère.en.bois [tò:n:“tô” pàsa:v:maigrir sònkala:n:bâtonnet [kàla:n:tige]] >> tòpasasonkala:n:cuillère.en.bois [tò:n:“tô” pàsa:v:maigrir sònkala:n:mouvette [kàla:n:tige]]
+tòsiradunbonsi:n:barbe.précoce [tòsira:n:reste.du.souper [tò:n:“tô” sì:v:passer.la.nuit ra:mrph:PFV.INTR] dún:v:manger bòn:n:menton sí:n:poil] >> tòsiradunbonsi:n:barbe.précoce [tòsira:n:reste.du.souper [tò:n:“tô” sì:v:passer.la.nuit ra:mrph:PFV.INTR] dún:v:manger bònbon:n:menton sí:n:poil]
+túlomagɛlɛya:n:entêtement [túlomagɛlɛ:adj:entêté [túlo:n:oreille ma:mrph:SUPER gɛ̀lɛ:adj:difficile] ya:mrph:ABSTR] >> túlomagɛlɛya:n:entêtement [túlomagɛlɛn:adj:entêté [túlo:n:oreille ma:mrph:SUPER gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+túlomagɛ̀lɛya:v:s'entêter [túlomagɛlɛ:adj:entêté [túlo:n:oreille ma:mrph:SUPER gɛ̀lɛ:adj:difficile] ya:mrph:ABSTR] >> túlomagɛ̀lɛya:v:s'entêter [túlomagɛlɛn:adj:entêté [túlo:n:oreille ma:mrph:SUPER gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+túlomajɔbali:ptcp:inattentif [túlomàjɔ:v:écouter [túlo:n:oreille màjɔ̀:v:mettre.droit [mà:mrph:SUPER jɔ̀:v:dresser]] bali:mrph:PTCP.PRIV] >> túlomajɔbali:ptcp:inattentif [túlomajɔ̀:v:écouter [túlo:n:oreille màjɔ̀:v:mettre.droit [mà:mrph:SUPER jɔ̀:v:dresser]] bali:mrph:PTCP.PRIV]
+túlomajɔbaliya:n:inattention [túlomajɔbali:ptcp:inattentif [túlomàjɔ:v:écouter [túlo:n:oreille màjɔ̀:v:mettre.droit [mà:mrph:SUPER jɔ̀:v:dresser]] bali:mrph:PTCP.PRIV] ya:mrph:ABSTR] >> túlomajɔbaliya:n:inattention [túlomajɔbali:ptcp:inattentif [túlomajɔ̀:v:écouter [túlo:n:oreille màjɔ̀:v:mettre.droit [mà:mrph:SUPER jɔ̀:v:dresser]] bali:mrph:PTCP.PRIV] ya:mrph:ABSTR]
+túrɔminajan:n:girafe [tú:n:touffe rɔ́:pp:IN mìna:n:guib.harnaché jàn:adj:long] >> túrɔminajan:n:girafe [tú:n:touffe rɔ́:pp:IN mìnan:n:guib.harnaché jàn:adj:long]
+twátiɲɛ:n:dénigrement [twá:n:nom tíɲɛ:v:gâter] >> twátiɲɛ:n:dénigrement [tɔ́gɔ:n:nom tíɲɛ:v:gâter]
+tɔ́gɔtigi:n:célèbre [tɔ́gɔ:n:nom tìgi:n:maître twá:n:nom tìgi:n:maître] >> tɔ́gɔtigi:n:célèbre [tɔ́gɔ:n:nom tìgi:n:maître]
+tɔ́rɔlan:v:couveuse [tɔ́rɔ:v:cogner lan:mrph:INSTR] >> tɔ́rɔlan:v:couveuse [tɔ́rɔ:v:éclore lan:mrph:INSTR]
+tɛ́gɛlankolon:adj:pauvre [tɛ́gɛ:n:paume lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide]] >> tɛ́gɛlankolon:adj:pauvre [tɛ́gɛ:n:paume lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide]]
+tɛ́gɛlankolon:n:pauvre [tɛ́gɛ:n:paume lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide]] >> tɛ́gɛlankolon:n:pauvre [tɛ́gɛ:n:paume lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide]]
+tɛ́gɛlankolonya:n:pauvreté [tɛ́gɛ:n:paume lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR] >> tɛ́gɛlankolonya:n:pauvreté [tɛ́gɛ:n:paume lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR]
+tɛ́gɛlankolonya:v:appauvrir [tɛ́gɛ:n:paume lánkolon:adj:vide [lán:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR] >> tɛ́gɛlankolonya:v:appauvrir [tɛ́gɛ:n:paume lánkolon:adj:vide [lá:mrph:CAUS kólon:adj:vide] ya:mrph:ABSTR]
+tɛ́gɛmagɛlɛya:n:avarice [tɛ́gɛma:n:main [tɛ́gɛ:n:paume ma:mrph:SUPER] gɛ̀lɛ:adj:difficile ya:mrph:ABSTR] >> tɛ́gɛmagɛlɛya:n:avarice [tɛ́gɛma:n:main [tɛ́gɛ:n:paume ma:mrph:SUPER] gɛ̀lɛya:n:dureté [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+tɛ́gɛmagɛlɛya:v:faire.l'avare [tɛ́gɛma:n:main [tɛ́gɛ:n:paume ma:mrph:SUPER] gɛ̀lɛ:adj:difficile ya:mrph:ABSTR] >> tɛ́gɛmagɛlɛya:v:faire.l'avare [tɛ́gɛma:n:main [tɛ́gɛ:n:paume ma:mrph:SUPER] gɛ̀lɛya:v:durcir [gɛ̀lɛn:vq:dur ya:mrph:DEQU]]
+wáradagwan:n:prunellier-liane [wára:n:fauve dá:n:bouche gwàn:v:chauffer] >> wáradagwan:n:prunellier-liane [wára:n:fauve dá:n:bouche gàn:v:chauffer]
+wíli-ká-bín:n:épilepsie [wíli:v:se.lever kà:pm:INF bìn:v:tomber] >> wíli-ká-bín:n:épilepsie [wúli:v:se.lever kà:pm:INF bìn:v:tomber]
+wónbadɛ:intj:oh.là.là [wó:prt:empathie ń:pers:1SG bá:n:mère dɛ́:prt:tiens] >> wónbadɛ:intj:oh.là.là [ó:prt:empathie ń:pers:1SG bá:n:mère dɛ́:prt:tiens]
+yɛ̀rɛkalanden:n:autodidacte [yɛ̀rɛkalan:n:autodidacte [yɛ̀rɛ̂:dtm:même kàlan:v:lire] dén:n:enfant] >> yɛ̀rɛkalanden:n:autodidacte [yɛ̀rɛkalan:n:autodidactisme [yɛ̀rɛ̂:dtm:même kàlan:v:lire] dén:n:enfant]
+yɛ̀rɛɲani:n:masochisme [yɛ̀rɛ̂:dtm:même ɲáni:v:réduire.à.la.misère] >> yɛ̀rɛɲani:n:masochisme [yɛ̀rɛ̂:dtm:même ɲáni:v:souffrir]
+yɛ̀rɛɲaninci:n:masochiste [yɛ̀rɛɲani:n:masochisme [yɛ̀rɛ̂:dtm:même ɲáni:v:réduire.à.la.misère] nci:mrph:AG.EX] >> yɛ̀rɛɲaninci:n:masochiste [yɛ̀rɛɲani:n:masochisme [yɛ̀rɛ̂:dtm:même ɲáni:v:souffrir] nci:mrph:AG.EX]
+yɛ̀rɛɲɛni:n:masochisme [yɛ̀rɛ̂:dtm:même ɲɛ́ni:v:réduire.à.la.misère] >> yɛ̀rɛɲɛni:n:masochisme [yɛ̀rɛ̂:dtm:même ɲáni:v:souffrir]
+yɛ̀rɛɲɛninci:n:masochiste [yɛ̀rɛɲɛni:n:masochisme [yɛ̀rɛ̂:dtm:même ɲɛ́ni:v:réduire.à.la.misère] nci:mrph:AG.EX] >> yɛ̀rɛɲɛninci:n:masochiste [yɛ̀rɛɲani:n:masochisme [yɛ̀rɛ̂:dtm:même ɲáni:v:souffrir] nci:mrph:AG.EX]
+ɲàda:n:moyen.de.réussir [ɲà:n:réussite dá:n:bouche] >> ɲàda:n:moyen.de.réussir [ɲɛ̀:n:réussite dá:n:bouche]
+ɲàmaa:n:amant [ɲà:n:réussite màa:n:homme] >> ɲàmaa:n:amant [ɲɛ̀:n:réussite màa:n:homme]
+ɲàmaaden:n:bâtard [ɲàmaa:n:amant [ɲà:n:réussite màa:n:homme] dén:n:enfant] >> ɲàmaaden:n:bâtard [ɲàmaa:n:amant [ɲɛ̀:n:réussite màa:n:homme] dén:n:enfant]
+ɲàmaakɛ:n:amant [ɲàmaa:n:amant [ɲà:n:réussite màa:n:homme] kɛ:adj:mâle] >> ɲàmaakɛ:n:amant [ɲàmaa:n:amant [ɲɛ̀:n:réussite màa:n:homme] kɛ:adj:mâle]
+ɲàmaamuso:n:amante [ɲàmaa:n:amant [ɲà:n:réussite màa:n:homme] mùso:adj:féminin] >> ɲàmaamuso:n:amante [ɲàmaa:n:amant [ɲɛ̀:n:réussite màa:n:homme] mùso:adj:féminin]
+ɲàmɔgɔ:n:amant [ɲà:n:réussite mɔ̀gɔ:n:homme] >> ɲàmɔgɔ:n:amant [ɲɛ̀:n:réussite mɔ̀gɔ:n:homme]
+ɲàmɔgɔden:n:bâtard [ɲàmɔgɔ:n:amant [ɲà:n:réussite mɔ̀gɔ:n:homme] dén:n:enfant] >> ɲàmɔgɔden:n:bâtard [ɲàmɔgɔ:n:amant [ɲɛ̀:n:réussite mɔ̀gɔ:n:homme] dén:n:enfant]
+ɲàmɔgɔkɛ:n:amant [ɲàmɔgɔ:n:amant [ɲà:n:réussite mɔ̀gɔ:n:homme] kɛ:adj:mâle] >> ɲàmɔgɔkɛ:n:amant [ɲàmɔgɔ:n:amant [ɲɛ̀:n:réussite mɔ̀gɔ:n:homme] kɛ:adj:mâle]
+ɲàmɔgɔmuso:n:amante [ɲàmɔgɔ:n:amant [ɲà:n:réussite mɔ̀gɔ:n:homme] mùso:adj:féminin] >> ɲàmɔgɔmuso:n:amante [ɲàmɔgɔ:n:amant [ɲɛ̀:n:réussite mɔ̀gɔ:n:homme] mùso:adj:féminin]
+ɲàntuma:conj:probablement [ɲà:n:réussite tùma:n:moment] >> ɲàntuma:conj:probablement [ɲɛ̀:n:réussite tùma:n:moment]
+ɲànyɛrɛla:n:vaniteux [ɲà:v:réussir ń:pers:1SG yɛ̀rɛ̂:dtm:même lá:pp:à] >> ɲànyɛrɛla:n:vaniteux [ɲɛ̀:n:réussite ń:pers:1SG yɛ̀rɛ̂:dtm:même lá:pp:à]
+ɲàtuma:conj:probablement [ɲà:n:réussite tùma:n:moment] >> ɲàtuma:conj:probablement [ɲɛ̀:n:réussite tùma:n:moment]
+ɲíntan:adj:édenté [ɲí:n:dent ntan:mrph:PRIV] >> ɲíntan:adj:édenté [ɲín:n:dent ntan:mrph:PRIV]
+ɲɔ́gɔnsɔsɔ:n:discussion [ɲɔ́gɔn:prn:RECP sɔ̀sɔ:v:contredire ɲwán:prn:RECP sɔ̀sɔ:v:contredire] >> ɲɔ́gɔnsɔsɔ:n:discussion [ɲɔ́gɔn:prn:RECP sɔ̀sɔ:v:contredire]
+ɲɛ́kilitara:n:xérophtalmie [ɲɛ́kili:n:globe.oculaire [ɲɛ́:n:oeil kíli:n:oeuf] tàra:n:chaleur] >> ɲɛ́kilitara:n:xérophtalmie [ɲɛ́kili:n:globe.oculaire [ɲɛ́:n:oeil kíli:n:oeuf] tára:n:chaleur]
+ɲɛ́kɔmibali:ptcp:effronté [ɲɛ́kɔmi:v:ciller [ɲɛ́:n:oeil kɔ́mi:v:branler] bali:mrph:PTCP.PRIV] >> ɲɛ́kɔmibali:ptcp:effronté [ɲɛ́:n:oeil kɔ́mi:v:branler bali:mrph:PTCP.PRIV]
+ɲɛ́kɛrɛn:n:regard.louche [ɲɛ́:n:oeil kɛ̀rɛn:n:côté] >> ɲɛ́kɛrɛn:n:regard.louche [ɲɛ́:n:oeil kɛ̀rɛ:n:côté]
+ɲɛ́nagɛlɛya:n:effronterie [ɲɛ́na:n:vue [ɲɛ́:n:oeil ná:pp:à] gɛ̀lɛ:vq:dur ya:mrph:DEQU] >> ɲɛ́nagɛlɛya:n:effronterie [ɲɛ́na:n:vue [ɲɛ́:n:oeil ná:pp:à] gɛ̀lɛn:vq:dur ya:mrph:DEQU]
+ɲɛ́nagɛ̀lɛya:v:rendre.obstiné [ɲɛ́na:n:vue [ɲɛ́:n:oeil ná:pp:à] gɛ̀lɛ:vq:dur ya:mrph:DEQU] >> ɲɛ́nagɛ̀lɛya:v:rendre.obstiné [ɲɛ́na:n:vue [ɲɛ́:n:oeil ná:pp:à] gɛ̀lɛn:vq:dur ya:mrph:DEQU]
+ɲɛ́najɛ:n:réjouissance [ɲɛ́:n:oeil ná:mrph:CAUS jɛ́:v:blanchir] >> ɲɛ́najɛ:n:réjouissance [ɲɛ́:n:oeil lá:mrph:CAUS jɛ́:v:blanchir]
+ɲɛ́najɛ:v:réjouir [ɲɛ́:n:oeil ná:mrph:CAUS jɛ́:v:blanchir] >> ɲɛ́najɛ:v:réjouir [ɲɛ́:n:oeil lá:mrph:CAUS jɛ́:v:blanchir]
+ɲɛ́najɛkɛla:n:animateur [ɲɛ́najɛ:n:réjouissance [ɲɛ́:n:oeil ná:mrph:CAUS jɛ́:v:blanchir] kɛ́:v:faire la:mrph:AG.PRM] >> ɲɛ́najɛkɛla:n:animateur [ɲɛ́najɛ:n:réjouissance [ɲɛ́:n:oeil lá:mrph:CAUS jɛ́:v:blanchir] kɛ́:v:faire la:mrph:AG.PRM]
+ɲɛ́najɛlan:n:ce.qui.rend.gai [ɲɛ́najɛ:v:réjouir [ɲɛ́:n:oeil ná:mrph:CAUS jɛ́:v:blanchir] lan:mrph:INSTR] >> ɲɛ́najɛlan:n:ce.qui.rend.gai [ɲɛ́najɛ:v:réjouir [ɲɛ́:n:oeil lá:mrph:CAUS jɛ́:v:blanchir] lan:mrph:INSTR]
+ɲɛ́nakala:v:regarder.partout [ɲɛ́:n:oeil ná:mrph:CAUS] >> ɲɛ́nakala:v:regarder.partout [ɲɛ́:n:oeil lá:mrph:CAUS]
+ɲɛ́natigɛ:n:grand [ɲɛ́:n:oeil ná:mrph:CAUS tìgɛ:v:couper] >> ɲɛ́natigɛ:n:grand [ɲɛ́:n:oeil lá:mrph:CAUS tìgɛ:v:couper]
+ɲɛ́natìgɛ:v:devenir.raisonnable [ɲɛ́:n:oeil ná:mrph:CAUS tìgɛ:v:couper] >> ɲɛ́natìgɛ:v:devenir.raisonnable [ɲɛ́:n:oeil lá:mrph:CAUS tìgɛ:v:couper]
+ɲɛ́ngo:adj:jaloux [ɲɛ́n:n:oeil gó:adj:désagréable] >> ɲɛ́ngo:adj:jaloux [ɲɛ́:n:oeil gó:adj:désagréable]
+ɲɛ́ngo:n:jaloux [ɲɛ́n:n:oeil gó:adj:désagréable] >> ɲɛ́ngo:n:jaloux [ɲɛ́:n:oeil gó:adj:désagréable]
+ɲɛ́ngonci:n:jaloux [ɲɛ́ngo:adj:jaloux [ɲɛ́n:n:oeil gó:adj:désagréable] nci:mrph:AG.EX] >> ɲɛ́ngonci:n:jaloux [ɲɛ́ngo:adj:jaloux [ɲɛ́:n:oeil gó:adj:désagréable] nci:mrph:AG.EX]
+ɲɛ́ngoya:n:jalousie [ɲɛ́ngo:adj:jaloux [ɲɛ́n:n:oeil gó:adj:désagréable] ya:mrph:ABSTR] >> ɲɛ́ngoya:n:jalousie [ɲɛ́ngo:adj:jaloux [ɲɛ́:n:oeil gó:adj:désagréable] ya:mrph:ABSTR]
+
+# changes in gloss :  81 
+
+Fɔ́nbà:n.prop:NOM.M >> Fɔ́nbà:n.prop:NOM.CL
+bánban:v:enfoncer >> bánban:v:renfoncer
+bè:n:porte-monnaie >> bè:n:étui
+bìlakola:n:mêle-tout [bìla:v:mettre kó:n:affaire lá:pp:à] >> bìlakola:n:importun [bìla:v:mettre kó:n:affaire lá:pp:à]
+bìlakorɔ:n:mêle-tout [bìla:v:mettre kó:n:affaire rɔ́:pp:IN] >> bìlakorɔ:n:importun [bìla:v:mettre kó:n:affaire rɔ́:pp:IN]
+bìlen:n:bataille >> bìlen:n:rougeur
+bòlifɛntigi:n:cycliste [bòlifɛn:n:véhicule [bòli:v:courir fɛ́n:n:chose] tìgi:n:maître] >> bòlifɛntigi:n:conducteur [bòlifɛn:n:véhicule [bòli:v:courir fɛ́n:n:chose] tìgi:n:maître]
+bòtontonkolo:n:coccyx [bòtonton:n:lombes [bò:n:excrément] kólo:n:os] >> bòtontonkolo:n:os.du.bassin [bòtonton:n:lombes [bò:n:excrément] kólo:n:os]
+bɛ̀lɛkisɛ:n:gravier [bɛ̀lɛ:n:gravier kìsɛ:n:grain] >> bɛ̀lɛkisɛ:n:petit.caillou [bɛ̀lɛ:n:gravier kìsɛ:n:grain]
+cɛ́fara:v:fendre.en.deux [cɛ́:n:milieu fára:v:diviser] >> cɛ́fara:v:brouiller [cɛ́:n:milieu fára:v:diviser]
+dàmanta:dtm:seulement >> dàmanta:dtm:seul
+dàmantan:dtm:seulement >> dàmantan:dtm:seul
+dàn:n:mal.de.Pott >> dàn:n:bosse
+dànmantan:dtm:seulement >> dànmantan:dtm:seul
+dáduman:adj:beau.parleur [dá:n:bouche dúman:adj:agréable [dí:vq:agréable man:mrph:ADJ]] >> dáduman:adj:aiguisé [dá:n:bouche dúman:adj:agréable [dí:vq:agréable man:mrph:ADJ]]
+dásìri:v:baillonner [dá:n:bouche sìri:v:lier] >> dásìri:v:bâillonner [dá:n:bouche sìri:v:lier]
+dónkibaru:n:avenir [dón:n:jour kìbaru:n:nouvelle] >> dónkibaru:n:information.du.jour [dón:n:jour kìbaru:n:nouvelle]
+dùsumandi:adj:bénin [dùsuman:n:humeur [dùsu:n:coeur man:mrph:SUPER] dí:vq:agréable] >> dùsumandi:adj:affable [dùsuman:n:humeur [dùsu:n:coeur man:mrph:SUPER] dí:vq:agréable]
+dùsumandi:n:bénin [dùsuman:n:humeur [dùsu:n:coeur man:mrph:SUPER] dí:vq:agréable] >> dùsumandi:n:affable [dùsuman:n:humeur [dùsu:n:coeur man:mrph:SUPER] dí:vq:agréable]
+dɔ́gɔden:n:chaland [dɔ́gɔ:n:marché dén:n:enfant] >> dɔ́gɔden:n:participant.au.marché [dɔ́gɔ:n:marché dén:n:enfant]
+féwu:adv:complètement >> féwu:adv:absolument
+fìnsan:v:cuire.à.l'eau >> fìnsan:v:cuire.au.bain-marie
+fìsinka:v:cuire.à.l'eau >> fìsinka:v:cuire.au.bain-marie
+fírinkan:n:catastrophe [fíri:v:renverser ń:pers:1SG kàn:pp:sur] >> fírinkan:n:invasion [fíri:v:renverser ń:pers:1SG kàn:pp:sur]
+fíyewu:adv:complètement >> fíyewu:adv:absolument
+fòolo:n:goître >> fòolo:n:goitre
+fóronto:v:craquer >> fóronto:v:
+fùfu:n:plat.de.pâte.d'igname >> fùfu:n:purée.d'ignames
+fúruu:adv:complètement >> fúruu:adv:longtemps
+fyéwu:adv:complètement >> fyéwu:adv:absolument
+fɛ́gɛnya:n:affaiblissement [fɛ́gɛn:vq:léger ya:mrph:DEQU] >> fɛ́gɛnya:n:légèreté [fɛ́gɛn:vq:léger ya:mrph:DEQU]
+fɛ́gɛnya:v:affaiblir [fɛ́gɛn:vq:léger ya:mrph:DEQU] >> fɛ́gɛnya:v:alléger [fɛ́gɛn:vq:léger ya:mrph:DEQU]
+jàhadi:n:grand.malheur >> jàhadi:n:calamité
+jìhadi:n:grand.malheur >> jìhadi:n:calamité
+jónjon:v:gambader >> jónjon:v:chalouper
+kàarɔgɛlɛya:n:intransigeance [kàarɔgɛlɛn:adj:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR] >> kàarɔgɛlɛya:n:entêtement [kàarɔgɛlɛn:adj:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+kàkɔrɔ:adv:autrefois >> kàkɔrɔ:adv:déjà
+kàrɔgɛlɛya:n:intransigeance [kàrɔgɛlɛn:adj:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR] >> kàrɔgɛlɛya:n:entêtement [kàrɔgɛlɛn:adj:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+káako:n:huître >> káako:n:grosse.coquille
+kèlenya:n:unité [kélen:num:un ya:mrph:ABSTR] >> kèlenya:n:solitude [kélen:num:un ya:mrph:ABSTR]
+kòro:n:arbre.Vitex >> kòro:n:prunier.noir
+kùmukɛlɛlan:n:antacide [kùmu:n:substance.aigre kɛ̀lɛ:v:combattre lan:mrph:INSTR] >> kùmukɛlɛlan:n:antiacide [kùmu:n:substance.aigre kɛ̀lɛ:v:combattre lan:mrph:INSTR]
+kɔ́rɔfɔ:n:parole [kɔ́rɔ:n:dessous fɔ́:n:action.de.dire] >> kɔ́rɔfɔ:n:discussion [kɔ́rɔ:n:dessous fɔ́:n:action.de.dire]
+kɛ̀lɛbolo:n:colonne.de.militaires [kɛ̀lɛ:n:querelle bólo:n:branche] >> kɛ̀lɛbolo:n:armée [kɛ̀lɛ:n:querelle bólo:n:branche]
+lábàli:v:confondre [lá:mrph:CAUS bàli:v:empêcher] >> lábàli:v:empêcher [lá:mrph:CAUS bàli:v:empêcher]
+lábàto:v:respecter.les.règles [lá:mrph:CAUS bàto:v:adorer] >> lábàto:v:respecter [lá:mrph:CAUS bàto:v:adorer]
+lábùrun:v:détourner [lá:mrph:CAUS bùrun:v:tomber] >> lábùrun:v:perdre [lá:mrph:CAUS bùrun:v:tomber]
+láfàamuya:v:comprendre [lá:mrph:CAUS fàamuya:v:comprendre [fàamu:v:comprendre ya:mrph:ABSTR]] >> láfàamuya:v:faire.comprendre [lá:mrph:CAUS fàamuya:v:comprendre [fàamu:v:comprendre ya:mrph:ABSTR]]
+màadunna:n:cannibalisme [màa:n:homme dún:v:manger na:mrph:AG.PRM] >> màadunna:n:cannibale [màa:n:homme dún:v:manger na:mrph:AG.PRM]
+màgannaya:n:condition.de.servante [màganna:n:bon.travailleur [màgan:v:faire.effort [mà:mrph:SUPER gàn:v:chauffer] na:mrph:AG.PRM] ya:mrph:ABSTR] >> màgannaya:n:condition.de.serviteur [màganna:n:bon.travailleur [màgan:v:faire.effort [mà:mrph:SUPER gàn:v:chauffer] na:mrph:AG.PRM] ya:mrph:ABSTR]
+màsalenfiyen:n:aveugle [fíyen:n:aveugle] >> màsalenfiyen:n:cécité.des.rivières [fíyen:n:aveugle]
+mùsobakɔrɔ:n:jeune.femme [mùso:n:femme ba:mrph:AUGM kɔrɔ:adj:mâle.adulte] >> mùsobakɔrɔ:n:femme.d'âge.moyen [mùso:n:femme ba:mrph:AUGM kɔrɔ:adj:mâle.adulte]
+mɔ̀gɔdunna:n:cannibalisme [mɔ̀gɔ:n:homme dún:v:manger na:mrph:AG.PRM] >> mɔ̀gɔdunna:n:cannibale [mɔ̀gɔ:n:homme dún:v:manger na:mrph:AG.PRM]
+náamu:n:consécration >> náamu:n:institution
+náamu:n:consécration >> náamu:n:turban
+ncɔ́lɔ:n:baillon.des.veaux >> ncɔ́lɔ:n:bâillon.des.veaux
+nènaa:n:pancréas >> nènaa:n:rate
+nìnaa:n:pancréas >> nìnaa:n:rate
+nkàlontigiya:v:convaincre.de.mensonge [nkàlon:n:mensonge tìgi:n:maître ya:mrph:ABSTR] >> nkàlontigiya:v:démentir [nkàlon:n:mensonge tìgi:n:maître ya:mrph:ABSTR]
+nséma:n:responsable.des.initiés >> nséma:n:mentor
+nsɛ́ɛma:n:responsable.des.initiés >> nsɛ́ɛma:n:mentor
+nɔ̀bìla:v:abandonner.chemin [nɔ̀:n:trace bìla:v:mettre] >> nɔ̀bìla:v:cesser.de.poursuivre [nɔ̀:n:trace bìla:v:mettre]
+pásipasi:adv:blanc.immaculé >> pásipasi:adv:très.blanc
+sánkalima:v:frapper >> sánkalima:v:frapper.fort
+séma:n:responsable.des.initiés >> séma:n:mentor
+sénu:adj:saint >> sénu:adj:propre
+shyéma:n:responsable.des.initiés >> shyéma:n:mentor
+sònkala:n:bâtonnet [kàla:n:tige] >> sònkala:n:mouvette [kàla:n:tige]
+syéma:n:responsable.des.initiés >> syéma:n:mentor
+sɛ́ɛmɛ:n:responsable.des.initiés >> sɛ́ɛmɛ:n:mentor
+tánpɔ:v:conger >> tánpɔ:v:cogner
+tèrege:n:gros.margouillat.mâle >> tèrege:n:margouillat.mâle
+tèregwe:n:gros.margouillat.mâle >> tèregwe:n:margouillat.mâle
+tɔ́rɔ:v:cogner >> tɔ́rɔ:v:éclore
+wélewele:adv:très.claire >> wélewele:adv:très.blanc
+wélewele:n:moucheron >> wélewele:n:moucheron.mellifère
+wólowolo:n:moucheron >> wólowolo:n:moucheron.mellifère
+yɛ̀rɛkalan:n:autodidacte [yɛ̀rɛ̂:dtm:même kàlan:v:lire] >> yɛ̀rɛkalan:n:autodidactisme [yɛ̀rɛ̂:dtm:même kàlan:v:lire]
+ɲɛ́madògo:v:se.cacher [ɲɛ́:n:oeil mà:pp:ADR dògo:v:cacher] >> ɲɛ́madògo:v:dissimuler [ɲɛ́:n:oeil mà:pp:ADR dògo:v:cacher]
+ɲɛ́piripiri:n:paupière.circulaire [ɲɛ́:n:oeil píripiri:v:agiter] >> ɲɛ́piripiri:n:paupière [ɲɛ́:n:oeil píripiri:v:agiter]
+ɲɛ́ŋunu:n:détournement.des.yeux [ɲɛ́:n:oeil] >> ɲɛ́ŋunu:n:regard.de.travers [ɲɛ́:n:oeil]
+
+# changes in gloss and mm :  12 
+
+fòoloma:adj:goîtreux [fòolo:n:goître ma:mrph:COM] >> fòoloma:adj:goitreux [fòolo:n:goitre ma:mrph:COM]
+fòolotigi:n:goîtreux [fòolo:n:goître tìgi:n:maître] >> fòolotigi:n:goitreux [fòolo:n:goitre tìgi:n:maître]
+fòolotɔ:adj:goîtreux [fòolo:n:goître tɔ:mrph:ST] >> fòolotɔ:adj:goitreux [fòolo:n:goitre tɔ:mrph:ST]
+kànagɛlɛya:n:intransigeance [kànagɛlɛn:adj:intransigeant [kàna:n:caractère gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR] >> kànagɛlɛya:n:entêtement [kàanagɛlɛn:n:intransigeant [kàana:n:caractère gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+láwɛ̀rɛ:v:élargir [lá:mrph:CAUS] >> láwɛ̀rɛ:v:entr'ouvrir [lá:mrph:CAUS wɛ̀rɛ:v:entr'ouvrir]
+nábàli:v:confondre [ná:mrph:CAUS bàli:v:empêcher] >> nábàli:v:empêcher [lá:mrph:CAUS bàli:v:empêcher]
+nábàto:v:respecter.les.règles [ná:mrph:CAUS bàto:v:adorer] >> nábàto:v:respecter [lá:mrph:CAUS bàto:v:adorer]
+nábùrun:v:détourner [ná:mrph:CAUS bùrun:v:tomber] >> nábùrun:v:perdre [lá:mrph:CAUS bùrun:v:tomber]
+náfàamuya:v:comprendre [ná:mrph:CAUS fàamuya:v:comprendre [fàamu:v:comprendre ya:mrph:ABSTR]] >> náfàamuya:v:faire.comprendre [lá:mrph:CAUS fàamuya:v:comprendre [fàamu:v:comprendre ya:mrph:ABSTR]]
+náwɛ̀rɛ:v:élargir [ná:mrph:CAUS] >> náwɛ̀rɛ:v:entr'ouvrir [lá:mrph:CAUS wɛ̀rɛ:v:entr'ouvrir]
+sábulasa:n:qui.fait.échouer.intriques [sábu:n:cause lá:mrph:CAUS sà:v:mourir] >> sábulasa:n:qui.fait.échouer.intrigues [sábu:n:cause lásà:v:faire.mourir [lá:mrph:CAUS sà:v:mourir]]
+tómoya:v:détruire [tómo:n:ruines ya:mrph:ABSTR] >> tómoya:v:tomber.en.ruine [tómon:n:ruines ya:mrph:ABSTR]
+
+# New words :  696  ? Check with last paragraph (words having disappeared)
+
+#- - - extra caution with homonyms ! ex: new: dákojugu "contrefait" // added to existing: dákojugu "mauvais coucheur" 
+
+Agibu:n.prop: >> Agibu:n.prop:NOM.M
+Anshtayn:n.prop: >> Anshtayn:n.prop:NOM.ETRG
+Anshtaynn:n.prop: >> Anshtaynn:n.prop:NOM.ETRG
+Ángola:n.prop: >> Ángola:n.prop:TOP
+Áyishàta:n.prop: >> Áyishàta:n.prop:NOM.F
+Béyɛnideya:n.prop: >> Béyɛnideya:n.prop:ABR
+Bisawo:n.prop: >> Bisawo:n.prop:TOP
+Boke:n.prop: >> Boke:n.prop:TOP
+Boliwi:n.prop: >> Boliwi:n.prop:TOP
+Buligari:n.prop: >> Buligari:n.prop:TOP
+Burugu:n.prop: >> Burugu:n.prop:TOP
+Buwala:n.prop: >> Buwala:n.prop:TOP
+Bùgu:n.prop: >> Bùgu:n.prop:NOM.MF
+Búlugari:n.prop: >> Búlugari:n.prop:TOP
+Bɔrɔn:n.prop: >> Bɔrɔn:n.prop:TOP
+# avoid - ambiguous ( 2 ) :  Bɔ̀rɔ:n.prop: >> Bɔ̀rɔ:n.prop:TOP
+Bɛrilɛn:n.prop: >> Bɛrilɛn:n.prop:TOP
+Daban:n.prop: >> Daban:n.prop:TOP
+Dangasa:n.prop: >> Dangasa:n.prop:TOP
+Daɲɔgɔ:n.prop: >> Daɲɔgɔ:n.prop:NOM.CL
+Daɲɔkɔ:n.prop: >> Daɲɔkɔ:n.prop:NOM.CL
+Facanna:n.prop: >> Facanna:n.prop:TOP
+Gànkura:n.prop: >> Gànkura:n.prop:NOM.F
+Gànse:n.prop: >> Gànse:n.prop:NOM.F
+Gáwo:n.prop: >> Gáwo:n.prop:TOP
+Gwànkura:n.prop: >> Gwànkura:n.prop:NOM.F
+Gwànse:n.prop: >> Gwànse:n.prop:NOM.F
+Hámdàlayi:n.prop: >> Hámdàlayi:n.prop:TOP
+Hámudàlay:n.prop: >> Hámudàlay:n.prop:TOP
+Háshìm:n.prop: >> Háshìm:n.prop:NOM.M
+Jakuruna:n.prop: >> Jakuruna:n.prop:TOP
+Joron:n.prop: >> Joron:n.prop:TOP
+# avoid - ambiguous ( 2 ) :  Jumazana:n.prop: >> Jumazana:n.prop:TOP
+KAFO:n.prop: >> KAFO:n.prop:ABR
+Kamatɛ:n.prop: >> Kamatɛ:n.prop:NOM.CL
+Karadige:n.prop: >> Karadige:n.prop:NOM.M
+Kaso:n.prop: >> Kaso:n.prop:TOP
+Kasun:n.prop: >> Kasun:n.prop:NOM.M
+# avoid - ambiguous ( 2 ) :  Ke-Masina:n.prop: >> Ke-Masina:n.prop:TOP
+Keleyadugu:n.prop: >> Keleyadugu:n.prop:TOP
+Kɔna:n.prop: >> Kɔna:n.prop:TOP
+Kɔ̀mɔtɛnɛ:n.prop: >> Kɔ̀mɔtɛnɛ:n.prop:NOM.F
+Kɔ̀nse:n.prop: >> Kɔ̀nse:n.prop:NOM.F
+# avoid - ambiguous ( 3 ) :  Kɔ́ndɛ:n.prop: >> Kɔ́ndɛ:n.prop:NOM.CL
+Labe:n: >> Labe:n:TOP
+Loyila:n.prop: >> Loyila:n.prop:TOP
+Mamaribugu:n.prop: >> Mamaribugu:n.prop:TOP
+Manjana:n.prop: >> Manjana:n.prop:TOP
+Masantola:n.prop: >> Masantola:n.prop:TOP
+Nikaraguwa:n.prop: >> Nikaraguwa:n.prop:TOP
+Nsìrakɔrɔ:n.prop: >> Nsìrakɔrɔ:n.prop:TOP
+Nɛrɛkɔrɔ:n.prop: >> Nɛrɛkɔrɔ:n.prop:TOP
+Peugeot:n: >> Peugeot:n:Peugeot
+Rashɛl:n.prop: >> Rashɛl:n.prop:NOM.ETRG
+# avoid - ambiguous ( 2 ) :  Sanzana:n.prop: >> Sanzana:n.prop:TOP
+Sedeyawo:n.prop: >> Sedeyawo:n.prop:ABR
+# avoid - ambiguous ( 2 ) :  Sema:n.prop: >> Sema:n.prop:ABR
+Sharl:n.prop: >> Sharl:n.prop:NOM.ETRG
+Shàaka:n.prop: >> Shàaka:n.prop:NOM.M
+Shili:n.prop: >> Shili:n.prop:TOP
+Sìrakɔrɔ:n.prop: >> Sìrakɔrɔ:n.prop:TOP
+Soninna:n.prop: >> Soninna:n.prop:TOP
+Soɲɛbugu:n.prop: >> Soɲɛbugu:n.prop:TOP
+Syɛkina:n.prop: >> Syɛkina:n.prop:NOM.M
+Sɛkɛna:n.prop: >> Sɛkɛna:n.prop:NOM.M
+Talibe:n.prop: >> Talibe:n.prop:NOM.M
+Tamashɛki:n: >> Tamashɛki:n:Bella
+Tokiyo:n.prop: >> Tokiyo:n.prop:TOP
+Tukururu:n.prop: >> Tukururu:n.prop:TOP
+Waro:n.prop: >> Waro:n.prop:TOP
+Wɔlɔnin:n.prop: >> Wɔlɔnin:n.prop:TOP
+Yelekebugu:n.prop: >> Yelekebugu:n.prop:TOP
+Yokohama:n.prop: >> Yokohama:n.prop:TOP
+analozi:n: >> analozi:n:analogie
+anofɛli:n: >> anofɛli:n:anophèle
+antiretorowirali:n: >> antiretorowirali:n:antirétroviraux
+arasidi:n: >> arasidi:n:arachide
+aritisiti:n: >> aritisiti:n:artiste
+arw:n: >> arw:n:antirétroviraux
+àran:n: >> àran:n:rang
+ápoloɲɛdimi:n: >> ápoloɲɛdimi:n:conjonctivite [ápolo:n:conjonctivite ɲɛ́:n:oeil dími:n:souffrance]
+árabacanjo:n: >> árabacanjo:n:milieu.de.nuit
+árabakonjo:n: >> árabakonjo:n:milieu.de.nuit
+árabakɔnjo:n: >> árabakɔnjo:n:milieu.de.nuit
+áyɛriwe:n: >> áyɛriwe:n:antirétroviral
+base:n: >> base:n:bâchée.automobile
+bashe:n: >> bashe:n:bâchée.automobile
+bàabaali:n: >> bàabaali:n:menace
+bàabaali:v: >> bàabaali:v:menacer
+bàjanbila:n: >> bàjanbila:n:vagabondage [bàjan:n:grande.chèvre.du.Sahel [bà:n:chèvre jàn:adj:long] bìla:v:mettre]
+bàkɔrɔnbonbonsi:n: >> bàkɔrɔnbonbonsi:n:plante.Chloris.breviseta [bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte] bònbonsi:n:barbe [bònbon:n:menton sí:n:poil]]
+bàkɔrɔnfɔrɔkili:n: >> bàkɔrɔnfɔrɔkili:n:plante.Oxystelma.bournouense [bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte] fɔ́rɔ:n:membre.viril kíli:n:oeuf]
+bàkɔrɔnku:n: >> bàkɔrɔnku:n:queue.de.bouc [bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte] kú:n:queue]
+bàkɔrɔnnin:n: >> bàkɔrɔnnin:n:bouc [bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte] nin:mrph:DIM]
+bàlon:n: >> bàlon:n:ballon
+bàlɔn:n: >> bàlɔn:n:ballon
+bànabaaatɔlama:adj: >> bànabaaatɔlama:adj:infirme [bànabagatɔ:adj:malade [bàna:n:maladie baga:mrph:AG.OCC tɔ:mrph:ST] lama:mrph:STAT]
+bànabagatɔlama:adj: >> bànabagatɔlama:adj:infirme [bànabagatɔ:adj:malade [bàna:n:maladie baga:mrph:AG.OCC tɔ:mrph:ST] lama:mrph:STAT]
+bàrada:n: >> bàrada:n:théière [bàra:n:calebasse dàa:n:canari]
+bàradaa:n: >> bàradaa:n:théière [bàra:n:calebasse dàa:n:canari]
+bàtubaa:n: >> bàtubaa:n:adepte [bàto:v:adorer baga:mrph:AG.OCC]
+báa-baa-baa:intj: >> báa-baa-baa:intj:bah!
+# avoid - ambiguous ( 2 ) :  báki:n: >> báki:n:bac.bateau
+# avoid - ambiguous ( 2 ) :  báki:n: >> báki:n:baccalauréat
+bákurubasanna:n: >> bákurubasanna:n:abonné [bàkurubasàn:v:acheter.en.gros [bákuru:n:tout [bá:n:base kùru:n:boule] ba:mrph:AUGM sàn:v:acheter] na:mrph:AG.PRM]
+bálandiya:n: >> bálandiya:n:amour.filial [fà:n:père landi:adj:qui.aime ya:mrph:ABSTR]
+bámugu:n: >> bámugu:n:partie.bouffante [bá:n:base múgu:n:poudre]
+# avoid - ambiguous ( 2 ) :  bándi:n: >> bándi:n:bande.tissu
+báse:adj: >> báse:adj:bâché
+báse:n: >> báse:n:bâchée.automobile
+báshe:adj: >> báshe:adj:bâché
+báshe:n: >> báshe:n:bâchée.automobile
+bátaraden:n: >> bátaraden:n:vaurien [bátara:n:inutilité dén:n:enfant]
+bátarafɛn:n: >> bátarafɛn:n:bagatelle [bátara:n:inutilité fɛ́n:n:chose]
+bátarako:n: >> bátarako:n:affaire.insignifiante [bátara:n:inutilité kó:n:affaire]
+bátaramɔgɔ:n: >> bátaramɔgɔ:n:vaurien [bátara:n:inutilité mɔ̀gɔ:n:homme]
+báyàa:n: >> báyàa:n:chose.publique
+bázi:n: >> bázi:n:base
+# avoid - ambiguous ( 2 ) :  báɲuwari:n: >> báɲuwari:n:grande.bassine
+bérelajɔ:n: >> bérelajɔ:n:bâtonnier.des.griots [bére:n:bâton lá:pp:à jɔ̀:v:dresser]
+bìlabaga:n: >> bìlabaga:n:accompagnateur [bìla:v:mettre baga:mrph:AG.OCC]
+# avoid - ambiguous ( 3 ) :  bílen:n: >> bílen:n:gardénia
+bíliwu:onomat: >> bíliwu:onomat:brusquement
+bòlibaganci:n: >> bòlibaganci:n:déserteur [bòli:v:courir baga:mrph:AG.OCC nci:mrph:AG.EX]
+bólokanbila:n: >> bólokanbila:n:responsabilité [bólo:n:bras kán:n:cou bìla:v:mettre]
+bólolamaa:n: >> bólolamaa:n:personne.dépendante [bólo:n:bras la:mrph:LOC màa:n:homme]
+bólomada:n: >> bólomada:n:appui [bólo:n:bras màdá:v:incliner [mà:mrph:SUPER dá:v:poser]]
+bólomadɔgɔya:n: >> bólomadɔgɔya:n:pauvreté [bólomadɔgɔ:n:pauvre [bólo:n:bras ma:mrph:SUPER dɔ́gɔ:vq:étroit] ya:mrph:ABSTR]
+# avoid - ambiguous ( 2 ) :  bólomajugu:adj: >> bólomajugu:adj:mauvais.travailleur [bólo:n:bras ma:mrph:SUPER júgu:adj:méchant]
+# avoid - ambiguous ( 2 ) :  bólomajugu:n: >> bólomajugu:n:mauvais.travailleur [bólo:n:bras ma:mrph:SUPER júgu:adj:méchant]
+bólonkɔnicɛmancɛ:n: >> bólonkɔnicɛmancɛ:n:médius [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] cɛ́mancɛ:n:milieu]
+bólonkɔniden:n: >> bólonkɔniden:n:doigt [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] dén:n:enfant]
+bólonkɔnidimi:n: >> bólonkɔnidimi:n:panaris [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] dími:n:souffrance]
+bólonkɔnijan:n: >> bólonkɔnijan:n:médius [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] jàn:adj:long]
+bólonkɔnikolo:n: >> bólonkɔnikolo:n:phalange [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] kólo:n:os]
+bólonkɔnikunba:n: >> bólonkɔnikunba:n:pouce [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] kùnba:vq:gros]
+bólonkɔninanɛgɛ:n: >> bólonkɔninanɛgɛ:n:bague [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] ná:pp:à nɛ̀gɛ:n:fer]
+bólonkɔninɛgɛ:n: >> bólonkɔninɛgɛ:n:bague [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] nɛ̀gɛ:n:fer]
+bólonkɔnisinnaban:n: >> bólonkɔnisinnaban:n:auriculaire [bólonkɔni:n:doigt [bólo:n:bras nkɔni:n:doigt] sínnaban:n:dernier.enfant [sín:n:sein nában:n:fin [lá:mrph:CAUS bán:v:terminer]]]
+bórobara:adv: >> bórobara:adv:à.profusion
+buge:n: >> buge:n:boubou.sp.
+buruuu:intj: >> buruuu:intj:pouah
+burɛburɛ:n: >> burɛburɛ:n:trot
+bùnunbunun:v: >> bùnunbunun:v:cuire.sous.la.cendre
+búntènî-ká-sò:n: >> búntènî-ká-sò:n:forficule [búntèni:n:scorpion.jaunâtre ka:pp:POSS sò:n:cheval]
+búranburan:v: >> búranburan:v:trotter.bruyamment
+búrufiyɛla:n: >> búrufiyɛla:n:joueur.de.trompe [búru:n:trompette fíyɛ:v:souffler la:mrph:AG.PRM]
+búurufeereyɔrɔ:n: >> búurufeereyɔrɔ:n:boulangerie [búuru:n:pain fèere:v:vendre yɔ́rɔ:n:lieu]
+búurugosila:n: >> búurugosila:n:boulanger [búuru:n:pain gòsi:v:battre la:mrph:AG.PRM]
+búurugosiyɔrɔ:n: >> búurugosiyɔrɔ:n:boulangerie [búuru:n:pain gòsi:v:battre yɔ́rɔ:n:lieu]
+búwatimɛli:n: >> búwatimɛli:n:boîte.mail
+búwɛɛ:intj: >> búwɛɛ:intj:ah.non
+bɔ̀bɔshɛ:n: >> bɔ̀bɔshɛ:n:poule.des.Bobos [bɔ̀bɔ:n:Bobo shɛ̀:n:poule]
+bɔ̀bɔsɛ:n: >> bɔ̀bɔsɛ:n:poule.des.Bobos [bɔ̀bɔ:n:Bobo shɛ̀:n:poule]
+bɔ́gɔnjɛ:n: >> bɔ́gɔnjɛ:n:kaolin [bɔ́gɔ:n:argile jɛ́:adj:blanc]
+bɔ́lɔlɔ:n: >> bɔ́lɔlɔ:n:internet
+bɔ́mu:n: >> bɔ́mu:n:bombe
+bɛ́tayɛ̀:n: >> bɛ́tayɛ̀:n:fin.de.matinée
+canaan:onomat: >> canaan:onomat:immobile.éperdu
+càngani:v: >> càngani:v:pencher
+cànkani:v: >> cànkani:v:pencher
+cáaceli:n: >> cáaceli:n:chanfrein.blanc
+cáceli:n: >> cáceli:n:chanfrein.blanc
+cáli:adv: >> cáli:adv:précisement
+cás:adv: >> cás:adv:arrêt.brusque
+# avoid - ambiguous ( 2 ) :  céwu:adv: >> céwu:adv:complètement
+cíɲɛ:v: >> cíɲɛ:v:gâter
+còngancongan:n: >> còngancongan:n:abandon
+còngocanga:n: >> còngocanga:n:abandon
+còrondo:n: >> còrondo:n:noeud.coulant
+còrondo:v: >> còrondo:v:serrer.fortement
+cúnkan:n: >> cúnkan:n:événement.imprévu [cún:v:se.laisser.tomber kàn:pp:sur]
+cɔ̀ncɔrɔn:v: >> cɔ̀ncɔrɔn:v:réduire.à.néant
+cɔ̀rɔntɔ:n: >> cɔ̀rɔntɔ:n:noeud.coulant
+cɔ́kɔli:n: >> cɔ́kɔli:n:caravane
+cɔ́li:adv: >> cɔ́li:adv:brusquement
+cɛ̀bilenkɛ:n: >> cɛ̀bilenkɛ:n:danseur.masqué.du.Bɛlɛdugu [cɛ̀:n:mâle bìlen:adj:rouge cɛ̀:n:mâle]
+cɛ̀gananfuralan:n: >> cɛ̀gananfuralan:n:plante.Sida.acuta [cɛ̀ganan:n:célibataire [cɛ̀:n:mâle gánan:adj:célibataire] fúran:v:balayer lan:mrph:INSTR]
+cɛ̀ncɛnkungo:n: >> cɛ̀ncɛnkungo:n:désert [cɛ̀ncɛn:n:sable kúngo:n:brousse]
+cɛ̀ɛrɛ:n: >> cɛ̀ɛrɛ:n:corbeille
+cɛ́fɛrɛn:v: >> cɛ́fɛrɛn:v:fendre.en.deux [cɛ́:n:milieu pɛ́rɛn:v:fendre]
+cɛ́mabɔ:v: >> cɛ́mabɔ:v:décentraliser [cɛ́:n:milieu màbɔ́:v:éloigner [mà:mrph:SUPER bɔ́:v:sortir]]
+cɛ́ncɛncɛn:adv: >> cɛ́ncɛncɛn:adv:provoquant
+daragi:n: >> daragi:n:drague
+dàanajugu:n: >> dàanajugu:n:égoïste [dàanɛ:n:comportement júgu:adj:méchant]
+dáfiyɛ:v: >> dáfiyɛ:v:dire.le.secret [dá:n:bouche fíyɛ:v:souffler]
+dáfìla:adj: >> dáfìla:adj:à.double.tranchant [dá:n:bouche fìla:num:deux]
+dáforon:n: >> dáforon:n:ourlet [dá:n:bouche fòron:v:aspirer]
+dágabɔndala:n: >> dágabɔndala:n:libération.d'une.contrainte [dága:v:assiéger bɔ́:v:sortir ń:pers:1SG dála:pp:auprès [dá:n:bouche lá:pp:à]]
+dágosi:n: >> dágosi:n:grandeur.d'un.travail [dá:n:bouche gòsi:v:battre]
+dákalan:v: >> dákalan:v:achever [dá:n:bouche kála:v:coudre]
+dákawuliteri:n: >> dákawuliteri:n:ami.intime [dákawuli:n:ami.intime [dá:v:poser kà:pm:INF wúli:v:se.lever] téri:n:ami]
+dákɔbɛ:n: >> dákɔbɛ:n:bouche.sans.dents [dá:n:bouche]
+# avoid - ambiguous ( 4 ) :  dán:n: >> dán:n:création
+dátunun:v: >> dátunun:v:mourir [dá:n:bouche túnun:v:perdre]
+dekodɛri:n: >> dekodɛri:n:décodeur
+dèpitebulon:n: >> dèpitebulon:n:chambre.des.députés [dèpite:n:député bùlon:n:antichambre]
+dénkelenfili:adj: >> dénkelenfili:adj:tireur.d'élite [dén:n:enfant kélen:num:un fìli:v:jeter]
+dénkelenfili:n: >> dénkelenfili:n:tireur.d'élite [dén:n:enfant kélen:num:un fìli:v:jeter]
+dénnaminɛden:n: >> dénnaminɛden:n:fillette-bonne.d'enfant [dén:n:enfant lámìnɛ:v:maintenir [lá:mrph:CAUS mìnɛ:v:attraper] dén:n:enfant]
+désantaralize:v: >> désantaralize:v:décentraliser
+dipɔlɔmu:n: >> dipɔlɔmu:n:diplôme
+diyosɛzi:n: >> diyosɛzi:n:diocèse
+díyabagatɔ:adj: >> díyabagatɔ:adj:lambin [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] baga:mrph:AG.OCC tɔ:mrph:ST]
+díyanyebaga:n: >> díyanyebaga:n:bien-aimé [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] ń:pers:1SG yé:pp:PP baga:mrph:AG.OCC]
+díyanyebagatɔ:n: >> díyanyebagatɔ:n:de.bon.coeur [díya:v:rendre.agréable [dí:vq:agréable ya:mrph:DEQU] ń:pers:1SG yé:pp:PP baga:mrph:AG.OCC tɔ:mrph:ST]
+dònonbugun:n: >> dònonbugun:n:poulet [dònon:n:coq bùgun:v:se.blottir]
+dònonkɔrɔ:n: >> dònonkɔrɔ:n:coq.adulte [dònon:n:coq kɔrɔ:adj:mâle.adulte]
+dònontùlu:n: >> dònontùlu:n:plante.Gloriosa.superba [dònon:n:coq tùlu:n:huppe]
+dònonwalan:n: >> dònonwalan:n:jeune.poulet [dònon:n:coq wálan:adj:moyen]
+dònshɛ:n: >> dònshɛ:n:poule.du.sacrifice [dòn:v:entrer shɛ̀:n:poule]
+dònsɛ:n: >> dònsɛ:n:poule.du.sacrifice [dòn:v:entrer shɛ̀:n:poule]
+dógodogoɲɛ:n: >> dógodogoɲɛ:n:recoin [dógodogo:n:coin ɲɛ́:n:oeil]
+dùgamasa:n: >> dùgamasa:n:percnoptère.brun [dùga:n:vautour màsa:n:roi]
+dùgamàsakɔrɔ:n: >> dùgamàsakɔrɔ:n:percnoptère.brun [dùga:n:vautour màsa:n:roi kɔ̀rɔ:adj:vieux]
+dùgumadanganin:n: >> dùgumadanganin:n:annone [dùgu:n:terre mà:pp:ADR dàgan:n:arbre.Afzelia.africana nin:mrph:DIM]
+dùlɔ:n: >> dùlɔ:n:bière.de.mil
+dùndare:n: >> dùndare:n:infatué
+dúdàdu:n: >> dúdàdu:n:connaissance.supérieure
+dúfan:v: >> dúfan:v:éteindre
+dúlen:v: >> dúlen:v:faire.de.l'ombre
+dúnufɔla:n: >> dúnufɔla:n:joueur.de.tambour [dùnun:n:tambour fɔ́:v:dire la:mrph:AG.PRM]
+dɔ́gɔjɔla:n: >> dɔ́gɔjɔla:n:participant.au.marché [dɔ́gɔ:n:marché jɔ̀:v:dresser la:mrph:AG.PRM]
+dɔ́mɛɛ:onomat: >> dɔ́mɛɛ:onomat:pouf
+dɛbɛdɛbɛnin:n: >> dɛbɛdɛbɛnin:n:tremblement.léger
+egilisi:n: >> egilisi:n:église
+emetɛri:n: >> emetɛri:n:émetteur
+ereterete:n: >> ereterete:n:retraité
+ereterete:v: >> ereterete:v:prendre.sa.retraite
+ewoliyɛni:adj: >> ewoliyɛni:adj:éolien
+ewɛki:n: >> ewɛki:n:évêque
+fàana:v: >> fàana:v:découvrir
+fàdenya:v: >> fàdenya:v:rivaliser [fàden:n:frère.consanguin [fà:n:père dén:n:enfant] ya:mrph:ABSTR]
+fàgabaa:n: >> fàgabaa:n:assassin [fàga:v:tuer baga:mrph:AG.OCC]
+# avoid - ambiguous ( 2 ) :  fàgali:n: >> fàgali:n:forgeage [fàga:v:forger li:mrph:NMLZ]
+fàlefale:v: >> fàlefale:v:tirer.par.la.main
+fàninncinin:n: >> fàninncinin:n:petit.frère.du.père [fà:n:père nin:mrph:DIM ncínin:adj:petit]
+fàraɲɔgɔnma:n: >> fàraɲɔgɔnma:n:compagnon [fàra:n:ajout ɲɔ̀gɔn:n:pareil ma:mrph:RECP.PRN]
+fàsa-ń-sèn-ná:n: >> fàsa-ń-sèn-ná:n:marasme [fàsa:v:maigrir ń:pers:1SG sèn:n:jambe ná:pp:à]
+fábagatɔ:adj: >> fábagatɔ:adj:gavé [fá:v:remplir baga:mrph:AG.OCC tɔ:mrph:ST]
+fákubagatɔ:n: >> fákubagatɔ:n:sot [fáku:v:corrompre baga:mrph:AG.OCC tɔ:mrph:ST]
+fáraa:v: >> fáraa:v:terrasser
+fìlefiyɛla:n: >> fìlefiyɛla:n:flûtiste [fìle:n:flûte fíyɛ:v:souffler la:mrph:AG.PRM]
+fìnsan:n: >> fìnsan:n:mets.de.mil
+fìɲɛntan:adj: >> fìɲɛntan:adj:sans.défaut [fìɲɛ:n:défaut.physique ntan:mrph:PRIV]
+fílanɲɔgɔn:n: >> fílanɲɔgɔn:n:camarade.d’âge [fílan:n:camarade.d’âge ɲɔ̀gɔn:n:pareil]
+fílɛlan:n: >> fílɛlan:n:instrument.d'observation [fílɛ:v:regarder lan:mrph:INSTR]
+fírina:n: >> fírina:n:catastrophe
+fose:n: >> fose:n:fossé
+fòromaɲan:n: >> fòromaɲan:n:champ.en.jachère [fòro:n:champ máɲan:n:jachère]
+fúlori:adv: >> fúlori:adv:d'un.trait
+fúnankɛya:n: >> fúnankɛya:n:jeunesse [fúnankɛ:n:jeune ya:mrph:ABSTR]
+fúntan:v: >> fúntan:v:sortir.brusquement
+fúnunfùnun:v: >> fúnunfùnun:v:tourbillonner
+fúruru:adv: >> fúruru:adv:longtemps
+fɔ́lɔ:prt: >> fɔ́lɔ:prt:d'abord
+# avoid - ambiguous ( 2 ) :  fɔ́n:n: >> fɔ́n:n:cicatrice
+# avoid - ambiguous ( 2 ) :  fɛ̀rɛn:n: >> fɛ̀rɛn:n:frein
+fɛ́gɛnman:adj: >> fɛ́gɛnman:adj:léger [fɛ́gɛn:vq:léger man:mrph:ADJ]
+fɛ́rɛn:v: >> fɛ́rɛn:v:fendre
+# avoid - ambiguous ( 3 ) :  gàngan:n: >> gàngan:n:écurie
+gàwale:n: >> gàwale:n:lance
+gàwulen:n: >> gàwulen:n:lance
+gàwɔli:n: >> gàwɔli:n:lance
+gánanya:n: >> gánanya:n:célibat [gánan:adj:célibataire ya:mrph:ABSTR]
+gángedimi:n: >> gángedimi:n:règles.douloureuses [gánke:n:utérus dími:n:souffrance]
+gángekɔnɔdimi:n: >> gángekɔnɔdimi:n:règles.douloureuses [gánke:n:utérus kɔ́nɔ:n:ventre dími:n:souffrance]
+gánni:adv: >> gánni:adv:autrefois
+gilisemi:n: >> gilisemi:n:glicémie
+gilɛri:n: >> gilɛri:n:glaires
+gírindi:n: >> gírindi:n:éructation
+gírindi:v: >> gírindi:v:roter
+gòlojuru:n: >> gòlojuru:n:courroie [gòlo:n:peau jùru:n:corde]
+gòsilan:n: >> gòsilan:n:marteau [gòsi:v:battre lan:mrph:INSTR]
+gódon:v: >> gódon:v:exciter
+gójogojo:adj: >> gójogojo:adj:robuste
+gójogojo:adv: >> gójogojo:adv:bien.portant
+# avoid - ambiguous ( 2 ) :  gwáala:n: >> gwáala:n:coquille.de.fileuse
+gɛ̀nɛnkala:n: >> gɛ̀nɛnkala:n:tibia [gɛ̀lɛn:n:tibia kàla:n:tige]
+gɛ́ngɛnbaga:n: >> gɛ́ngɛnbaga:n:pasteur [gɛ́ngɛn:v:faire.paître [gɛ́n:v:chasser gɛ́n:v:chasser] baga:mrph:AG.OCC]
+gɛ́rɛ:v: >> gɛ́rɛ:v:teindre.en.ocre
+hàradanɛ:n: >> hàradanɛ:n:Harratine
+háati:intj: >> háati:intj:assurément
+háatɛ:intj: >> háatɛ:intj:assurément
+hákɛlama:adj: >> hákɛlama:adj:mésuré [hákɛ:n:mesure lama:mrph:STAT]
+háradanɛ:n: >> háradanɛ:n:Harratine
+hìnhìn:v: >> hìnhìn:v:hennir
+jàasajáasa:adv: >> jàasajáasa:adv:à.grands.pas
+# avoid - ambiguous ( 2 ) :  jàgo:v: >> jàgo:v:orner
+jàgonci:n: >> jàgonci:n:prétentieux [jàgo:v:orner nci:mrph:AG.EX]
+jàgotigi:n: >> jàgotigi:n:prétentieux [jàgo:v:orner tìgi:n:maître]
+jàkumaji:n: >> jàkumaji:n:sauce [jàkuma:n:chat jí:n:eau]
+jàlakibagatɔ:adj: >> jàlakibagatɔ:adj:accusé [jàlaki:v:donner.tort baa:mrph:AG.OCC tɔ:mrph:ST]
+jàlakibagatɔ:n: >> jàlakibagatɔ:n:accusé [jàlaki:v:donner.tort baa:mrph:AG.OCC tɔ:mrph:ST]
+jàrabànkɔrɔ:n: >> jàrabànkɔrɔ:n:bouc [jàra:n:lion bàkɔrɔn:n:bouc [bà:n:chèvre kɔrɔn:adj:mâle.adulte]]
+jásojaso:onomat: >> jásojaso:onomat:catalop-catalop
+jìro:n: >> jìro:n:arbre.Securidaca.longipedunculata
+jímasonya:v: >> jímasonya:v:liquéfier [jí:n:eau sònya:v:dérober [sòn:n:voleur ya:mrph:ABSTR]]
+jírɔshɛ:n: >> jírɔshɛ:n:poule.d'eau [jí:n:eau rɔ́:pp:IN shɛ̀:n:poule]
+jísamamansin:n: >> jísamamansin:n:moto-pompe [jí:n:eau sàma:v:tirer.vers.soi mànsin:n:machine]
+jítɔ:n: >> jítɔ:n:poltron [jí:n:eau tɔ:mrph:ST]
+jíya:n: >> jíya:n:état.liquide [jí:n:eau ya:mrph:ABSTR]
+jíya:v: >> jíya:v:liquéfier [jí:n:eau ya:mrph:ABSTR]
+jòlidɛsɛntumu:n: >> jòlidɛsɛntumu:n:schistosome [jòlidɛsɛ:n:anémie [jòli:n:sang dɛ́sɛ:n:manque] ntùmu:n:ver]
+jónjon:adv: >> jónjon:adv:vite
+jùkunanmugu:n: >> jùkunanmugu:n:fesses [jùkunan:n:fesse [jù:n:derrière kúnan:n:plat.en.bois] múgu:n:poudre]
+jùkunantulo:n: >> jùkunantulo:n:une.fesse [jùkunan:n:fesse [jù:n:derrière kúnan:n:plat.en.bois] túlo:n:oreille]
+jɔ̀rɔntɔ:n: >> jɔ̀rɔntɔ:n:noeud.coulant
+jɔ̀rɔntɔ:v: >> jɔ̀rɔntɔ:v:serrer.fortement
+jɔ̀silan:n: >> jɔ̀silan:n:torchon [jɔ̀ɔsi:v:essuyer lan:mrph:INSTR]
+jɔ̀ɔshi:v: >> jɔ̀ɔshi:v:essuyer
+jɛ̀lankunandi:n: >> jɛ̀lankunandi:n:myrrhier.trèfle [jɛ̀:n:porc lá:pp:à nkùna:n:prunier.cornu]
+jɛ̀lankùnan:n: >> jɛ̀lankùnan:n:myrrhier.trèfle [jɛ̀:n:porc lá:pp:à nkùna:n:prunier.cornu]
+jɛ̀nkùnan:n: >> jɛ̀nkùnan:n:myrrhier.trèfle [jɛ̀:n:porc nkùna:n:prunier.cornu]
+jɛ́duuru:n: >> jɛ́duuru:n:chanfrein.pattes.blancs
+jɛ́gɛmɔnna:n: >> jɛ́gɛmɔnna:n:pêcheur [jɛ́gɛ:n:poisson mɔ́n:v:pêcher na:mrph:AG.PRM]
+kabane:n: >> kabane:n:lasso
+kabanɛ:n: >> kabanɛ:n:lasso
+kalandiriye:n: >> kalandiriye:n:calendrier
+karinɛ:n: >> karinɛ:n:carnet
+kàanagɛlɛn:n: >> kàanagɛlɛn:n:intransigeant [kàana:n:caractère gɛ̀lɛn:adj:difficile]
+kàanagɛlɛya:v: >> kàanagɛlɛya:v:endurcir [kàanagɛlɛn:n:intransigeant [kàana:n:caractère gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+kàarɔgɛlɛn:adj: >> kàarɔgɛlɛn:adj:intransigeant [gɛ̀lɛn:adj:difficile]
+kàarɔgɛlɛnya:v: >> kàarɔgɛlɛnya:v:endurcir [kàarɔgɛlɛn:adj:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+kàarɔgɛlɛya:v: >> kàarɔgɛlɛya:v:endurcir [kàarɔgɛlɛn:adj:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+kàbakuru:n: >> kàbakuru:n:nuage [kàba:n:ciel kùru:n:boule]
+kàbán:prt: >> kàbán:prt:déjà [kà:pm:INF bán:v:terminer]
+kàbíni:conj: >> kàbíni:conj:depuis [kàbí:conj:depuis ní:conj:si]
+kàbíni:prep: >> kàbíni:prep:depuis [kàbí:prep:depuis ní:conj:si]
+kàlekale:n: >> kàlekale:n:escalier
+kàlikali:n: >> kàlikali:n:escalier
+kàmankɔrɔbɔ:n: >> kàmankɔrɔbɔ:n:bourgeon.axillaire [kàman:n:épaule kɔ́rɔ:n:dessous bɔ́:n:sortie]
+kàmankɔrɔla:n: >> kàmankɔrɔla:n:aisselle [kàman:n:épaule kɔ́rɔ:n:dessous la:mrph:LOC]
+kàmankɔrɔsi:n: >> kàmankɔrɔsi:n:poils.de.l'aisselle [kàman:n:épaule kɔ́rɔ:n:dessous sí:n:poil]
+kàmankɔrɔsɔgɔ:v: >> kàmankɔrɔsɔgɔ:v:prendre.un.raccourci [kàman:n:épaule kɔ́rɔ:n:dessous sɔ̀gɔ:v:percer]
+kàmankɔrɔsɔgɔsira:n: >> kàmankɔrɔsɔgɔsira:n:raccourci [kàmankɔrɔsɔgɔ:v:prendre.un.raccourci [kàman:n:épaule kɔ́rɔ:n:dessous sɔ̀gɔ:v:percer] síra:n:chemin]
+kàmankɔrɔwo:n: >> kàmankɔrɔwo:n:creux.d'aisselle [kàman:n:épaule kɔ́rɔ:n:dessous wò:n:trou]
+kàmansi:n: >> kàmansi:n:plume.des.ailes [kàman:n:épaule sí:n:poil]
+kànagɛlɛn:n: >> kànagɛlɛn:n:intransigeant [kàana:n:caractère gɛ̀lɛn:adj:difficile]
+kànagɛlɛya:v: >> kànagɛlɛya:v:endurcir [kàanagɛlɛn:n:intransigeant [kàana:n:caractère gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+kàntiga:n: >> kàntiga:n:arachide [tìga:n:arachide]
+kànucɛ:n: >> kànucɛ:n:amant [kànu:n:amour cɛ̀:n:mâle]
+kànukɛ:n: >> kànukɛ:n:amant [kànu:n:amour cɛ̀:n:mâle]
+kàrɔgɛlɛn:adj: >> kàrɔgɛlɛn:adj:intransigeant [gɛ̀lɛn:adj:difficile]
+kàrɔgɛlɛnya:v: >> kàrɔgɛlɛnya:v:endurcir [kàarɔgɛlɛn:n:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+kàrɔgɛlɛya:v: >> kàrɔgɛlɛya:v:endurcir [kàrɔgɛlɛn:adj:intransigeant [gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+káaratu:intj: >> káaratu:intj:dur!
+kábalan:n: >> kábalan:n:interjection [kába:v:s'étonner lan:mrph:INSTR]
+kálabaganciya:n: >> kálabaganciya:n:obstination.forcenée [kálabaanci:n:entêté [baga:mrph:AG.OCC nci:mrph:AG.EX] ya:mrph:ABSTR]
+kámikami:v: >> kámikami:v:clignoter
+kánnakɔnɔn:n: >> kánnakɔnɔn:n:collier.de.perles [kán:n:cou ná:pp:à kɔ́nɔn:n:perle]
+káraa:adv: >> káraa:adv:fermement
+kárabatikarabati:onomat: >> kárabatikarabati:onomat:cataclop
+káraratu:intj: >> káraratu:intj:dur!
+kásike:n: >> kásike:n:casque
+kásiki:n: >> kásiki:n:casque
+kátawu:adv: >> kátawu:adv:violemment
+káɲiikaɲiikaɲii:n: >> káɲiikaɲiikaɲii:n:nuque.raide
+kèkerikee:onomat: >> kèkerikee:onomat:cocorico
+kèlennan:adj: >> kèlennan:adj:unième [kélen:num:un nan:mrph:ORD]
+kèlennin:dtm: >> kèlennin:dtm:seul [kélen:num:un nin:mrph:DIM]
+kèsen:v: >> kèsen:v:salir
+kìbarulasela:n: >> kìbarulasela:n:qui.annonce.les.nouvelles [kìbaru:n:nouvelle láse:v:transmettre [lá:mrph:CAUS sé:v:arriver] la:mrph:AG.PRM]
+kíiritigɛɲɔgɔn:n: >> kíiritigɛɲɔgɔn:n:partie.adverse [kíiritigɛ:v:juger [kíiri:n:jugement tìgɛ:v:couper] ɲɔgɔn:mrph:RECP]
+kíiriɲɔgɔn:n: >> kíiriɲɔgɔn:n:partie.adverse [kíiri:v:attaquer.en.justice ɲɔgɔn:mrph:RECP]
+kílikili:adv: >> kílikili:adv:complètement
+kíninbolo:n: >> kíninbolo:n:main.droite [kínin:n:droite bólo:n:bras]
+kíninfɛla:n: >> kíninfɛla:n:la.droite [kínin:n:droite fɛ̀:pp:par la:mrph:LOC]
+kíninma:adj: >> kíninma:adj:droitier [kínin:n:droite ma:mrph:COM]
+kíninma:n: >> kíninma:n:droitier [kínin:n:droite ma:mrph:COM]
+kíninyanfan:n: >> kíninyanfan:n:le.côté.droit [kínin:n:droite yàn:n:cet.endroit fàn:n:côté]
+kísa:n: >> kísa:n:récit
+kolonyalisimu:n: >> kolonyalisimu:n:colonialisme
+kolɛkitɛri:n: >> kolɛkitɛri:n:collecteur
+komisiyɔn:n: >> komisiyɔn:n:commission
+kòlonshɛ:n: >> kòlonshɛ:n:poule.noire.et.blanche [shɛ̀:n:poule]
+kòlonsɛ:n: >> kòlonsɛ:n:poule.noire.et.blanche [shɛ̀:n:poule]
+kònan:adj: >> kònan:adj:sans.enfant
+kòorikɔnɔci:n: >> kòorikɔnɔci:n:diamètre [kòori:n:cercle kɔ́nɔ:n:ventre cì:v:frapper]
+kójùgu:adv: >> kójùgu:adv:trop [kó:n:affaire júgu:adj:méchant]
+kókɔrɔ:n: >> kókɔrɔ:n:tradition [kó:n:affaire kɔ̀rɔ:adj:vieux]
+kólonnenya:n: >> kólonnenya:n:docilité [kólon:v:éduquer len:mrph:PTCP.RES ya:mrph:ABSTR]
+kósɛ̀bɛ:adv: >> kósɛ̀bɛ:adv:très.bien [kó:n:affaire sɛ̀bɛ:adj:sérieux]
+kóɲùman:adv: >> kóɲùman:adv:bien [kó:n:affaire ɲùman:adj:bon [man:mrph:ADJ]]
+kusunwu:adv: >> kusunwu:adv:calmement.pencher
+kùnfɛjate:n: >> kùnfɛjate:n:calcul.mental [kùn:n:tête fɛ̀:pp:par jàte:n:compte]
+kùnmìnɛ:v: >> kùnmìnɛ:v:convenir
+kùnnafonisira:n: >> kùnnafonisira:n:canal.d'information [kùnnafoni:n:information [kùn:n:tête ná:pp:à fóni:v:détacher] síra:n:chemin]
+kúnanfaa:n: >> kúnanfaa:n:récipient.en.bois [kúnan:n:plat.en.bois fága:n:grande.jarre]
+kúngodònon:n: >> kúngodònon:n:huppe [kúngo:n:brousse dònon:n:coq]
+kúnunbagatɔ:adj: >> kúnunbagatɔ:adj:veilleur [kúnun:v:se.réveiller baga:mrph:AG.OCC tɔ:mrph:ST]
+kúnunbagatɔ:n: >> kúnunbagatɔ:n:veilleur [kúnun:v:se.réveiller baga:mrph:AG.OCC tɔ:mrph:ST]
+kúrr:adv: >> kúrr:adv:très.chaud
+kómando:n: >> kómando:n:commando
+kɔ̀na:adj: >> kɔ̀na:adj:sans.enfant
+kɔ̀ngɔli:n: >> kɔ̀ngɔli:n:doigt.recourbé
+kɔ̀nkajiginni:n: >> kɔ̀nkajiginni:n:accouchement.prématuré [kɔ̀n:v:devancer kà:pm:INF jìgin:v:descendre ni:mrph:NMLZ]
+kɔ̀nkɔli:n: >> kɔ̀nkɔli:n:guillemet
+kɔ̀nɔkulu:n: >> kɔ̀nɔkulu:n:volée.d’oiseaux [kɔ̀nɔ:n:oiseau kúlu:n:bande]
+kɔ̀nɔninshɔ:n: >> kɔ̀nɔninshɔ:n:plante.Cassia.mimosoides [kɔ̀nɔ:n:oiseau nin:mrph:DIM shɔ̀:n:haricot]
+kɔ̀nɔninsɔ:n: >> kɔ̀nɔninsɔ:n:plante.Cassia.mimosoides [kɔ̀nɔ:n:oiseau nin:mrph:DIM sɔ̀:n:haricot]
+kɔ̀nɔsògo:n: >> kɔ̀nɔsògo:n:autruche
+kɔ̀rɔtɔ:n: >> kɔ̀rɔtɔ:n:arbre.Acacia.ataxacanta
+kɔ̀shɛ̀nin:n: >> kɔ̀shɛ̀nin:n:poule.d'eau [kɔ̀:n:marigot shɛ̀:n:poule nin:mrph:DIM]
+kɔ̀sɛ̀nin:n: >> kɔ̀sɛ̀nin:n:poule.d'eau [kɔ̀:n:marigot shɛ̀:n:poule nin:mrph:DIM]
+kɔ́li:n: >> kɔ́li:n:colle
+kɔ́niyabaga:n: >> kɔ́niyabaga:n:jaloux [kɔ́niya:v:envier baga:mrph:AG.OCC]
+# avoid - ambiguous ( 2 ) :  kɔ́nɔnanjɛ:adj: >> kɔ́nɔnanjɛ:adj:sympatique [kɔ́nɔ:n:ventre nan:mrph:à jɛ́:vq:blanc]
+kɔ́rɔbɔ:n: >> kɔ́rɔbɔ:n:perle.fine
+kɔ́rɔbɔcelu:n: >> kɔ́rɔbɔcelu:n:pierre.d'anneau [kɔ́rɔbɔ:n:perle.fine cèlu:n:filet.d'emballage]
+kɔ́rɔɲɔn:n: >> kɔ́rɔɲɔn:n:pause [kɔ́:n:dos rɔ́:mrph:IN ɲɔ́n:v:respirer]
+kɛrɛtu:intj: >> kɛrɛtu:intj:droit
+kɛ́ɛlɛ:n: >> kɛ́ɛlɛ:n:poisson.Chrysichtys.sp
+kɛ́ɛrɛ:n: >> kɛ́ɛrɛ:n:poisson.Chrysichtys.sp
+lagobata-logobata-logobata:n: >> lagobata-logobata-logobata:n:démarche.molle
+làyi:n: >> làyi:n:ail
+lábange:v: >> lábange:v:faire.naître [lá:mrph:CAUS bánge:v:naître]
+# avoid - ambiguous ( 2 ) :  lábe:n: >> lábe:n:abbé
+# avoid - ambiguous ( 2 ) :  lábe:n: >> lábe:n:caste.sculpteurs
+láfasalitɔn:n: >> láfasalitɔn:n:syndicat [láfàsa:v:louer [lá:mrph:CAUS fàsa:v:maigrir] li:mrph:NMLZ tɔ́n:n:société]
+lákɛ:v: >> lákɛ:v:traiter [lá:mrph:CAUS kɛ́:v:faire]
+látìso:v: >> látìso:v:faire.éternuer [lá:mrph:CAUS tìso:v:éternuer]
+látununbali:ptcp: >> látununbali:ptcp:immortel [látunun:v:égarer [lá:mrph:CAUS túnun:v:perdre] bali:mrph:PTCP.PRIV]
+léngelenge:adv: >> léngelenge:adv:très.haut
+lìmaana:n: >> lìmaana:n:confiance
+# avoid - ambiguous ( 2 ) :  lòtɛli:n: >> lòtɛli:n:hôtel
+lègelege:v: >> lègelege:v:chatouiller
+# avoid - ambiguous ( 2 ) :  lɔ́gɔ:n: >> lɔ́gɔ:n:désir
+matɔrɔnin:n: >> matɔrɔnin:n:matrone
+màfɔ́:v: >> màfɔ́:v:médire [mà:mrph:SUPER fɔ́:v:dire]
+màganya:v: >> màganya:v:rendre.mou [màgan:vq:mou ya:mrph:DEQU]
+màlogosimansin:n: >> màlogosimansin:n:batteuse.pour.le.riz [màlogosi:n:battage.du.riz [màlo:n:riz gòsi:v:battre] mànsin:n:machine]
+màlokanmansin:n: >> màlokanmansin:n:faucheuse.à.riz [màlokan:n:fauchage.du.riz [màlo:n:riz kàn:v:couper] mànsin:n:machine]
+màsakɛya:n: >> màsakɛya:n:royauté [màsakɛ:n:roi [màsa:n:roi kɛ:adj:mâle] ya:mrph:ABSTR]
+màyoro-mayoro:n: >> màyoro-mayoro:n:démarche.suggestive
+màɲabaga:n: >> màɲabaga:n:surveillante
+# avoid - ambiguous ( 2 ) :  màɲamaga:n: >> màɲamaga:n:surveillante
+# avoid - ambiguous ( 2 ) :  màɲimagan:n: >> màɲimagan:n:surveillante
+màɲɔbaga:n: >> màɲɔbaga:n:surveillante
+# avoid - ambiguous ( 2 ) :  màɲɔmaga:n: >> màɲɔmaga:n:surveillante
+mèreturu:n: >> mèreturu:n:toupet [tùru:n:huppe]
+misɔn:n: >> misɔn:n:mission.catholique
+mìsikiinɛ:adj: >> mìsikiinɛ:adj:pauvre
+míseli:n: >> míseli:n:aiguille
+monopozi:n: >> monopozi:n:ménopause
+mùsoganan:n: >> mùsoganan:n:vieille.fille [mùso:n:femme gánan:adj:célibataire]
+múnanfagi:adj: >> múnanfagi:adj:rapporteur
+múɲɛ:v: >> múɲɛ:v:sourire
+# avoid - ambiguous ( 3 ) :  mɔ́n:v: >> mɔ́n:v:mettre.en.boule
+mɛlahɔrɔnkɔnɔn:n: >> mɛlahɔrɔnkɔnɔn:n:perles.de.corail
+nàasi:v: >> nàasi:v:ruiner
+nàgakɔrɔladimi:n: >> nàgakɔrɔladimi:n:douleur.pelvienne [nàgakɔrɔla:n:bas-ventre [nàga:n:ventre kɔ́rɔ:n:dessous la:mrph:LOC] dími:n:souffrance]
+nànasumalen:adv.p: >> nànasumalen:adv.p:sans.effort [nàna:n:don.gratuit súma:v:rafraîchir len:mrph:PTCP.RES]
+nànkan:n: >> nànkan:n:destinée [nà:n:venue ń:pers:1SG kán:n:cou]
+nábange:v: >> nábange:v:faire.naître [lá:mrph:CAUS bánge:v:naître]
+# avoid - ambiguous ( 2 ) :  násɔnali:adj: >> násɔnali:adj:national
+nátununbali:ptcp: >> nátununbali:ptcp:immortel [nátunun:v:égarer [lá:mrph:CAUS túnun:v:perdre] bali:mrph:PTCP.PRIV]
+ncányii:adv: >> ncányii:adv:adroitement
+ncɔ̀rɔntɔ:n: >> ncɔ̀rɔntɔ:n:noeud.coulant
+# avoid - ambiguous ( 2 ) :  ncɔ̀rɔntɔ:v: >> ncɔ̀rɔntɔ:v:serrer.fortement
+# avoid - ambiguous ( 2 ) :  ncɔ́n:v: >> ncɔ́n:v:couvrir.de.chaume
+ngálama:v: >> ngálama:v:prendre.couleur.ocre
+ngòyangoya:v: >> ngòyangoya:v:se.décolorer
+ngólomù:n: >> ngólomù:n:cheval.alezan
+ngóoro:n: >> ngóoro:n:bouton.palatal
+ngɔ̀sigila:n: >> ngɔ̀sigila:n:devin [ngɔ̀:n:fève sìgi:v:asseoir la:mrph:AG.PRM]
+nílaban:v: >> nílaban:v:exténuer [ní:n:âme lában:v:finir [lá:mrph:CAUS bán:v:terminer]]
+nínaban:v: >> nínaban:v:exténuer [ní:n:âme lában:v:finir [lá:mrph:CAUS bán:v:terminer]]
+# avoid - ambiguous ( 2 ) :  nkànfɛlɛ:n: >> nkànfɛlɛ:n:dermatose
+nkàntìgɛ:n: >> nkàntìgɛ:n:arachide [tìga:n:arachide]
+nkáana:n: >> nkáana:n:iguane.d'eau
+nkána:n: >> nkána:n:iguane.d'eau
+nkòlomu:n: >> nkòlomu:n:cheval.alezan
+nkúrashɛ:n: >> nkúrashɛ:n:poule.féconde [nkúra:n:fourmi.rouge shɛ̀:n:poule]
+nkúrasɛ:n: >> nkúrasɛ:n:poule.féconde [nkúra:n:fourmi.rouge shɛ̀:n:poule]
+nkɔ̀rɔsɛn:n: >> nkɔ̀rɔsɛn:n:bilharziose [sɛ́n:v:gratter]
+npáraki:adv: >> npáraki:adv:à.foison
+ntányin:adv: >> ntányin:adv:intense.long
+ntènkisɛdablen:n: >> ntènkisɛdablen:n:érythrine [ntèn:n:palmier.à.huile kìsɛ:n:grain dá:n:bouche bìlen:adj:rouge]
+ntèringɛ:n: >> ntèringɛ:n:margouillat.mâle
+ntílakasaa:adv: >> ntílakasaa:adv:jambes.écartées
+ntòrifunu:n: >> ntòrifunu:n:oedème.généralisé [ntòri:n:crapaud fúnu:n:gonflement]
+ntòrigan:n: >> ntòrigan:n:gombo.sp [ntòri:n:crapaud gán:n:gombo]
+ntóri:adv: >> ntóri:adv:très.proche
+ntɛ̀nmasá:intj: >> ntɛ̀nmasá:intj:devinette
+númanbolo:n: >> númanbolo:n:main.gauche [núman:n:côté.gauche bólo:n:bras]
+númanfɛla:n: >> númanfɛla:n:la.gauche [núman:n:côté.gauche fɛ̀:pp:par la:mrph:LOC]
+númanfɛlaka:n: >> númanfɛlaka:n:femme [númanfɛla:n:la.gauche [núman:n:côté.gauche fɛ̀:pp:par la:mrph:LOC] ka:mrph:GENT]
+númankuru:n: >> númankuru:n:main.gauche [núman:n:côté.gauche kùru:n:boule]
+númankuruma:adj: >> númankuruma:adj:gaucher [númankuru:n:main.gauche [núman:n:côté.gauche kùru:n:boule] ma:mrph:COM]
+númankuruma:n: >> númankuruma:n:gaucher [númankuru:n:main.gauche [núman:n:côté.gauche kùru:n:boule] ma:mrph:COM]
+núnbo:n: >> núnbo:n:morve.séchée [nún:n:nez bò:n:excrément]
+núncɛlan:n: >> núncɛlan:n:mouchoir [nún:n:nez cɛ̀:v:ramasser lan:mrph:INSTR]
+núndalasi:n: >> núndalasi:n:moustache [nún:n:nez dá:n:bouche la:mrph:LOC sí:n:poil]
+núnfile:n: >> núnfile:n:narine [nún:n:nez fìle:n:flûte]
+núnfiyɛlan:n: >> núnfiyɛlan:n:mouchoir [nún:n:nez fíyɛ:v:souffler lan:mrph:INSTR]
+núnkoto:n: >> núnkoto:n:chanfrein [nún:n:nez kòto:n:partie.basse.du.dos]
+# avoid - ambiguous ( 3 ) :  núnkurun:n: >> núnkurun:n:mangue.de.forme.trapue [nún:n:nez kùrun:adj:court]
+# avoid - ambiguous ( 3 ) :  núnkurun:n: >> núnkurun:n:petit.mil.tardif [nún:n:nez kùrun:adj:court]
+núnsɔgɔtɔ:adj: >> núnsɔgɔtɔ:adj:balourd [nún:n:nez sɔ̀gɔ:v:percer tɔ:mrph:ST]
+núntoto:n: >> núntoto:n:chanfrein [nún:n:nez]
+nɔ̀bila:n: >> nɔ̀bila:n:avertissement [nɔ̀:n:trace bìla:v:mettre]
+nɔ̀dugu:n: >> nɔ̀dugu:n:canton [nɔ̀:n:trace dùgu:n:terre]
+nɔ̀fɛmaa:n: >> nɔ̀fɛmaa:n:dépendant [nɔ̀fɛ̀:pp:derrière [nɔ̀:n:trace fɛ̀:pp:par] mɔ̀gɔ:n:homme]
+nɔ̀fɛmɔgɔ:n: >> nɔ̀fɛmɔgɔ:n:dépendant [nɔ̀fɛ̀:pp:derrière [nɔ̀:n:trace fɛ̀:pp:par] mɔ̀gɔ:n:homme]
+nɔ̀gòsi:v: >> nɔ̀gòsi:v:compenser [nɔ̀:n:trace gòsi:v:battre]
+nɔ̀kandugu:n: >> nɔ̀kandugu:n:canton [nɔ̀:n:trace kàn:pp:sur dùgu:n:terre]
+nɔ̀rɔgòsi:v: >> nɔ̀rɔgòsi:v:détériorer [nɔ̀:n:trace rɔ́:mrph:IN gòsi:v:battre]
+nɔ̀siwulu:n: >> nɔ̀siwulu:n:cynhyène [nɔ̀nsi:n:cynhyène wùlu:n:chien]
+nɔ́ni:v: >> nɔ́ni:v:délayer
+nɛ̀nkisɛ:n: >> nɛ̀nkisɛ:n:langue [nɛ̀n:n:langue kìsɛ:n:grain]
+nɛ̀nkɔrɔji:n: >> nɛ̀nkɔrɔji:n:salive [nɛ̀n:n:langue kɔ́rɔ:pp:sous jí:n:eau]
+nɛ̀nnɔrɔ:n: >> nɛ̀nnɔrɔ:n:langue.collée [nɛ̀n:n:langue nɔ́rɔ:v:coller]
+owili:n: >> owili:n:ovule
+owɛri:n: >> owɛri:n:ovaire
+paruwasi:n: >> paruwasi:n:paroisse
+pàari:n: >> pàari:n:enjambée
+pejatiri:n: >> pejatiri:n:pédiatre
+pepiɲɛri:n: >> pepiɲɛri:n:pépinière
+píyan:adv: >> píyan:adv:sans.ambages
+pɔritigɛ:adj: >> pɔritigɛ:adj:portugais
+pɔritigɛ:n: >> pɔritigɛ:n:portugais
+pɔrɔtigɛ:adj: >> pɔrɔtigɛ:adj:portugais
+pɔrɔtigɛ:n: >> pɔrɔtigɛ:n:portugais
+pɔrɔtugɛ:adj: >> pɔrɔtugɛ:adj:portugais
+pɔrɔtugɛ:n: >> pɔrɔtugɛ:n:portugais
+pɛrɛ:n: >> pɛrɛ:n:père.religieux
+pɛ́ngili:n: >> pɛ́ngili:n:épingle
+sàafurùlayì:intj: >> sàafurùlayì:intj:pardon
+sàafurǔláyi:intj: >> sàafurǔláyi:intj:pardon
+sàfurùlayì:intj: >> sàfurùlayì:intj:pardon
+sàkɛnɛshɔ:n: >> sàkɛnɛshɔ:n:haricot.sp [sàkɛ̀nɛ:n:lézard.sp shɔ̀:n:haricot]
+sàkɛnɛsɔ:n: >> sàkɛnɛsɔ:n:haricot.sp [sàkɛ̀nɛ:n:lézard.sp shɔ̀:n:haricot]
+sàlongòni:n: >> sàlongòni:n:oiseau.anhinga.d'Afrique
+sàmiyɛdonda:n: >> sàmiyɛdonda:n:début.d’hivernage [sàmiyɛ:n:hivernage dòn:v:entrer dá:n:jour]
+sàmiɲɛdonda:n: >> sàmiɲɛdonda:n:début.d’hivernage [sàmiyɛ:n:hivernage dòn:v:entrer dá:n:jour]
+sánburuyɛri:n: >> sánburuyɛri:n:chambre.à.aire
+sánburuyɛrɛ:n: >> sánburuyɛrɛ:n:chambre.à.aire
+sáncaari:n: >> sáncaari:n:centiare
+sáncari:n: >> sáncari:n:centiare
+sánfɛ̀:adv: >> sánfɛ̀:adv:en.haut [sán:n:ciel fɛ̀:pp:par]
+sántilitiri:n: >> sántilitiri:n:centilitre
+sánufagala:n: >> sánufagala:n:orfèvre [sánu:n:or fàga:v:tuer la:mrph:AG.PRM]
+sárase:v: >> sárase:v:charger
+seropozitifu:n: >> seropozitifu:n:séropositif
+sènninfìla:n: >> sènninfìla:n:bipède [sèn:n:jambe nin:mrph:DIM fìla:num:deux]
+sènnkɔnikunba:n: >> sènnkɔnikunba:n:gros.orteil [sènkɔnin:n:orteil [sèn:n:jambe nkɔni:n:doigt] kùnba:adj:gros]
+sènpara:n: >> sènpara:n:enjambée [sèn:n:jambe]
+séeginnan:adj: >> séeginnan:adj:huitième [séegin:num:huit nan:mrph:ORD]
+# avoid - ambiguous ( 2 ) :  sénu:vq: >> sénu:vq:propre
+# avoid - ambiguous ( 2 ) :  sénuya:n: >> sénuya:n:propreté [sáni:vq:propre ya:mrph:DEQU]
+# avoid - ambiguous ( 2 ) :  sénuya:v: >> sénuya:v:nettoyer [sáni:vq:propre ya:mrph:DEQU]
+sézariyɛni:n: >> sézariyɛni:n:césarienne
+shɔ̀bayogolon:n: >> shɔ̀bayogolon:n:gros.haricot [shɔ̀:n:haricot ba:mrph:AUGM yógolon:v:soulever]
+shɔ̀kala:n: >> shɔ̀kala:n:fane.de.haricot [shɔ̀:n:haricot kàla:n:tige]
+shɔ̀len:n: >> shɔ̀len:n:haricot.hâtif [shɔ̀:n:haricot len:mrph:DIM]
+shɔ̀lɔ:n: >> shɔ̀lɔ:n:calebasse.percée
+shɔ̀nɔ:n: >> shɔ̀nɔ:n:poinçon
+shɛ̀kasidonon:n: >> shɛ̀kasidonon:n:coq.qui.chante [shɛ̀:n:poule kàsi:v:pleurer dònon:n:coq]
+shɛ̀minɛwara:n: >> shɛ̀minɛwara:n:chat.sauvage [shɛ̀:n:poule mìnɛ:v:attraper wára:n:fauve]
+shɛ̀nɔrɔnan:n: >> shɛ̀nɔrɔnan:n:herbe.Setaria.verticillata [shɛ̀:n:poule nɔ́rɔ:v:coller nan:mrph:INSTR]
+shɛ̀sulu:n: >> shɛ̀sulu:n:poulailler [shɛ̀:n:poule sùlu:n:poulailler]
+shɛ̀walan:n: >> shɛ̀walan:n:poulette [shɛ̀:n:poule wálan:adj:moyen]
+shɛ̀ɲimi:n: >> shɛ̀ɲimi:n:pou.de.poule [shɛ̀:n:poule ɲími:n:pou.de.tête]
+sipɛrmatozoyidi:n: >> sipɛrmatozoyidi:n:spermatozoïde
+síbɛn:n: >> síbɛn:n:épi.de.cheval [sí:n:poil bɛ̀n:n:accord]
+sígibanfula:n: >> sígibanfula:n:chapeau.de.chasseur [sígi:n:duel bànfula:n:bonnet]
+sígikulusi:n: >> sígikulusi:n:pantalon.de.chasseur [sígi:n:duel kùlusi:n:pantalon]
+sígisigibaatɔ:n: >> sígisigibaatɔ:n:bègue [sígisigi:v:bégayer baa:mrph:AG.OCC tɔ:mrph:ST]
+sígisigibagatɔ:n: >> sígisigibagatɔ:n:bègue [sígisigi:v:bégayer baga:mrph:AG.OCC tɔ:mrph:ST]
+sínnunkisɛ:n: >> sínnunkisɛ:n:pis [sín:n:sein nún:n:nez kìsɛ:n:grain]
+síntin:v: >> síntin:v:fonder
+sítan:n: >> sítan:n:enfant.béni [sí:n:semence tán:num:dix]
+# avoid - ambiguous ( 2 ) :  sítunun:v: >> sítunun:v:exterminer [sí:n:semence túnun:v:perdre]
+sòjari:n: >> sòjari:n:grand.fusil
+sònkalaku:n: >> sònkalaku:n:angine [sònkala:n:mouvette [kàla:n:tige] kú:n:queue]
+sònyɛlikɛla:n: >> sònyɛlikɛla:n:voleur [sònyɛ:v:dérober [sòn:n:voleur ya:mrph:ABSTR] li:mrph:NMLZ kɛ́:v:faire la:mrph:AG.PRM]
+sònyɛnikɛla:n: >> sònyɛnikɛla:n:voleur [sònyɛ:v:dérober [sòn:n:voleur ya:mrph:ABSTR] ni:mrph:NMLZ kɛ́:v:faire la:mrph:AG.PRM]
+sòrondo:n: >> sòrondo:n:noeud.coulant
+sòrondo:v: >> sòrondo:v:serrer.fortement
+suduya:n: >> suduya:n:maillot.de.corps
+# avoid - ambiguous ( 2 ) :  sùnɔgɔbaatɔ:adj: >> sùnɔgɔbaatɔ:adj:dormeur [sùnɔgɔ:v:dormir baa:mrph:AG.OCC tɔ:mrph:ST]
+súfalen:n: >> súfalen:n:truquage.de.tours.de.nuits [sú:n:nuit fàlen:n:échange]
+súfu:n: >> súfu:n:soufi
+sáriziye:v: >> sáriziye:v:charger
+sáriziyɛri:n: >> sáriziyɛri:n:chargeur
+sɔ̀manjɛ:n: >> sɔ̀manjɛ:n:mets.de.haricots [shɔ̀:n:haricot]
+sɔ̀nima:adj: >> sɔ̀nima:adj:ongulé [sɔ̀ni:n:ongle ma:mrph:COM]
+sɛnkisankati:n: >> sɛnkisankati:n:Peugeot-504
+sɛrɛbɛti:n: >> sɛrɛbɛti:n:serviette
+sɛ̀gɛnnafíɲɛ:v: >> sɛ̀gɛnnafíɲɛ:v:se.reposer [sɛ̀gɛn:n:fatigue láfiɲɛ:v:se.reposer [lá:mrph:CAUS fíɲɛ:v:sécher]]
+sɛ̀kasidonon:n: >> sɛ̀kasidonon:n:coq.qui.chante [sɛ̀:n:poule kàsi:v:pleurer dònon:n:coq]
+sɛ̀nɔrɔnan:n: >> sɛ̀nɔrɔnan:n:herbe.Setaria.verticillata [sɛ̀:n:poule nɔ́rɔ:v:coller nan:mrph:INSTR]
+sɛ̀nɛkɛmansin:n: >> sɛ̀nɛkɛmansin:n:motoculteur [sɛ̀nɛ:n:culture kɛ́:v:faire mànsin:n:machine]
+sɛ̀sulu:n: >> sɛ̀sulu:n:poulailler [sɛ̀:n:poule sùlu:n:poulailler]
+sɛ̀walan:n: >> sɛ̀walan:n:poulette [sɛ̀:n:poule wálan:adj:moyen]
+sɛ̀ɲimi:n: >> sɛ̀ɲimi:n:pou.de.poule [sɛ̀:n:poule ɲími:n:pou.de.tête]
+sɛ́gɛlaseri:n: >> sɛ́gɛlaseri:n:bouillie.cuite.avec.de.potasse [sɛ́gɛ:n:salpêtre lá:pp:à sèri:n:bouillie]
+# avoid - ambiguous ( 2 ) :  sɛ́n:v: >> sɛ́n:v:gratter
+tàbiya:n: >> tàbiya:n:valeurs
+tàyoro-mayoro:n: >> tàyoro-mayoro:n:démarche.suggestive
+táasotaaso:onomat: >> táasotaaso:onomat:cataclop-cataclop
+táayali:n: >> táayali:n:fusil.sorte
+táfiyɛ:n: >> táfiyɛ:n:éventail [tá:n:feu fíyɛ:v:souffler]
+táfiyɛlan:n: >> táfiyɛlan:n:éventail [táfiyɛ:n:éventail [tá:n:feu fíyɛ:v:souffler] lan:mrph:INSTR]
+tákuru:n: >> tákuru:n:bûche [tá:n:feu kùru:n:boule]
+tálibe:n: >> tálibe:n:disciple
+tányiii:adv: >> tányiii:adv:intense.long
+táraaa:adv: >> táraaa:adv:longuement
+tásumafaala:n: >> tásumafaala:n:pompier [tásuma:n:feu [tá:n:feu súma:n:odeur] fàa:v:tuer la:mrph:AG.PRM]
+tèlewizɔn:n: >> tèlewizɔn:n:télévision
+téentashɛ:n: >> téentashɛ:n:poule.à.aigrette [téenta:n:ombrette shɛ̀:n:poule]
+téentasɛ:n: >> téentasɛ:n:poule.à.aigrette [téenta:n:ombrette sɛ̀:n:poule]
+tílakakɛɲɛ:n: >> tílakakɛɲɛ:n:milieu [tíla:v:diviser kà:pm:INF kɛ́nyɛ:v:égaliser]
+# avoid - ambiguous ( 2 ) :  tímin:v: >> tímin:v:devenir.facile
+# avoid - ambiguous ( 2 ) :  tímin:v: >> tímin:v:s'appliquer
+tímin:vq: >> tímin:vq:savoureux
+tómonya:n: >> tómonya:n:ruine [tómon:n:ruines ya:mrph:ABSTR]
+tómonya:v: >> tómonya:v:tomber.en.ruine [tómon:n:ruines ya:mrph:ABSTR]
+tómoya:n: >> tómoya:n:ruine [tómon:n:ruines ya:mrph:ABSTR]
+tónbɔ:v: >> tónbɔ:v:décharger [ntón:n:noeud.coulant bɔ́:v:sortir]
+tóntoli:adj: >> tóntoli:adj:enflé
+tóntoli:v: >> tóntoli:v:rebondir
+tóntolijoli:n: >> tóntolijoli:n:teinture.d’iode
+tusɛɛ:onomat: >> tusɛɛ:onomat:dents.cachées
+tùn-nà-dɔ́n:n: >> tùn-nà-dɔ́n:n:regret [tùn:prt:PST nà:pm:CERT dɔ́n:v:connaître]
+tùrukuturuku:v: >> tùrukuturuku:v:frotter
+túshɛ̀nin:n: >> túshɛ̀nin:n:poule.de.rochers [tú:n:touffe shɛ̀:n:poule nin:mrph:DIM]
+túsɛ̀nin:n: >> túsɛ̀nin:n:poule.de.rochers [tú:n:touffe shɛ̀:n:poule nin:mrph:DIM]
+tɛ́nkun:v: >> tɛ́nkun:v:être.contigu
+tɛ́rɛnkunkolo:n: >> tɛ́rɛnkunkolo:n:locomotive [tɛ́rɛn:n:train kùn:n:tête kólo:n:os]
+umɛn:n: >> umɛn:n:hymen
+un:intj: >> un:intj:attention!
+uterisi:n: >> uterisi:n:utérus
+wati:n: >> wati:n:watt
+wazɛn:n: >> wazɛn:n:vagin
+wàlan:v: >> wàlan:v:déborder
+wàyeya:n: >> wàyeya:n:boucherie [wàye:n:boucher ya:mrph:ABSTR]
+wábawu:onomat: >> wábawu:onomat:avec.fracas
+we:prt: >> we:prt:oh
+wéeleweele:n: >> wéeleweele:n:annonce.publique
+wéeleweleeda:v: >> wéeleweleeda:v:annoncer.publiquement [wéeleweele:n:annonce.publique dá:v:poser]
+wideyo:n: >> wideyo:n:vidéo
+wowowowo:adv: >> wowowowo:adv:en.masse
+wòlojuru:n: >> wòlojuru:n:courroie [wòlo:n:peau jùru:n:corde]
+wùrusilanden:n: >> wùrusilanden:n:tige.égreneuse [wùrusilan:n:égreneuse [wùrusi:v:égrener lan:mrph:INSTR] dén:n:enfant]
+wúladapɛtɛnin:n: >> wúladapɛtɛnin:n:coucher.du.soleil [wúla:n:soir dá:n:bouche nin:mrph:DIM]
+wúruuu:adv: >> wúruuu:adv:longuement
+# avoid - ambiguous ( 2 ) :  wúyo:intj: >> wúyo:intj:hélas
+# avoid - ambiguous ( 2 ) :  yawuru:n: >> yawuru:n:yaourt
+yàafabaga:n: >> yàafabaga:n:clément [yàafa:v:pardonner baga:mrph:AG.OCC]
+yàya-yaya:n: >> yàya-yaya:n:caracolade
+yàyayaya:n: >> yàyayaya:n:caracolade
+yáyiiyayiiyayii:adv: >> yáyiiyayiiyayii:adv:vite.joyeusement
+yelenwun:onomat: >> yelenwun:onomat:nuit.avancée
+yìrinti:v: >> yìrinti:v:dégringoler
+yɔ̀ɔliyɔɔli:v: >> yɔ̀ɔliyɔɔli:v:marcher.à.petits.pas
+yɔ̀ɔlɔyɔɔlɔ:v: >> yɔ̀ɔlɔyɔɔlɔ:v:marcher.à.petits.pas
+yɛ̀rɛkalanna:n: >> yɛ̀rɛkalanna:n:autodidacte [yɛ̀rɛ̂:dtm:même kàlan:v:lire na:mrph:AG.PRM]
+yɛ̀rɛmakasi:n: >> yɛ̀rɛmakasi:n:lamentation [yɛ̀rɛ̂:dtm:même màkàsi:v:plaindre [mà:mrph:SUPER kàsi:v:pleurer]]
+yɛ́gɛyɛgɛ:adv: >> yɛ́gɛyɛgɛ:adv:secouant
+yɛ́rɛrɛ:adv: >> yɛ́rɛrɛ:adv:doucement
+# avoid - ambiguous ( 2 ) :  zándaramu:n: >> zándaramu:n:gendarme
+zɛ̀gɛlɛn:n: >> zɛ̀gɛlɛn:n:ver.de.Guinée
+zɛ́duuru:n: >> zɛ́duuru:n:chanfrein.pattes.blancs
+ŋàga:n: >> ŋàga:n:chacal.doré
+ŋànaɲini:n: >> ŋànaɲini:n:compétition [ŋàna:n:champion ɲíni:v:chercher]
+ŋámaŋama:adv: >> ŋámaŋama:adv:très.chaud
+ŋìiniŋɔɔnɔ:n: >> ŋìiniŋɔɔnɔ:n:son.agonisant
+ŋùnafagi:adj: >> ŋùnafagi:adj:rapporteur
+ŋùnanfaki:adj: >> ŋùnanfaki:adj:rapporteur
+Ɲɔ̀miriyanbugu:n.prop: >> Ɲɔ̀miriyanbugu:n.prop:TOP
+ɔpu:intj: >> ɔpu:intj:hop
+ɛlɛɛ:intj: >> ɛlɛɛ:intj:eh.bien
+ɲàmankolon:n: >> ɲàmankolon:n:vaurien [ɲàman:n:ordure kólon:adj:usagé]
+ɲàmankɛminɛn:n: >> ɲàmankɛminɛn:n:poubelle [ɲàman:n:ordure kɛ́:v:faire mìnɛn:n:outils]
+ɲàmanminɛn:n: >> ɲàmanminɛn:n:poubelle [ɲàman:n:ordure mìnɛn:n:outils]
+ɲàmannataa:n: >> ɲàmannataa:n:excrément [ɲàman:n:ordure lá:pp:à táa:v:aller]
+ɲága:n: >> ɲága:n:bourse
+ɲán:v: >> ɲán:v:effrayer
+ɲánfɛn:n: >> ɲánfɛn:n:chose.effrayante [ɲán:v:effrayer fɛ́n:n:chose]
+ɲìgisaɲigisa:n: >> ɲìgisaɲigisa:n:démarche.nonchalante
+ɲìnannama:adj: >> ɲìnannama:adj:pour.ce.qui.est.de.cette.année [ɲìnan:n:cette.année nama:mrph:STAT]
+ɲìnsɔn:n: >> ɲìnsɔn:n:cadeau.important [ɲìn:n:ami sɔ́n:v:gratifier]
+ɲígila:n: >> ɲígila:n:compassion
+ɲígilagɛlɛn:adj: >> ɲígilagɛlɛn:adj:résolu [ɲígila:n:compassion gɛ̀lɛn:adj:difficile]
+ɲígilagɛlɛn:n: >> ɲígilagɛlɛn:n:résolu [ɲígila:n:compassion gɛ̀lɛn:adj:difficile]
+ɲígilagɛlɛya:n: >> ɲígilagɛlɛya:n:cruauté [ɲígilagɛlɛn:adj:résolu [ɲígila:n:compassion gɛ̀lɛn:adj:difficile] ya:mrph:ABSTR]
+ɲùmanna:n: >> ɲùmanna:n:avis [na:mrph:MNT1]
+ɲɔri-ɲɔri-ɲɔrinin:n: >> ɲɔri-ɲɔri-ɲɔrinin:n:petit.trot
+# avoid - ambiguous ( 2 ) :  ɲɛ̀ci:n: >> ɲɛ̀ci:n:fonction [ɲɛ̀:n:réussite cí:n:commission]
+ɲɛ́ci:n: >> ɲɛ́ci:n:déchirure [ɲɛ́:n:oeil cì:v:frapper]
+ɲɛ́firi:n: >> ɲɛ́firi:n:paupière [ɲɛ́:n:oeil]
+ɲɛ́ngoya:v: >> ɲɛ́ngoya:v:jalouser [ɲɛ́ngo:adj:jaloux [ɲɛ́:n:oeil gó:adj:désagréable] ya:mrph:ABSTR]
+ɲɛ́yɛlɛshɛ:n: >> ɲɛ́yɛlɛshɛ:n:poule.pour.l'initiation [ɲɛ́yɛ̀lɛ:v:initier [ɲɛ́:n:oeil yɛ̀lɛ:v:ouvrir] shɛ̀:n:poule]
+ɲɛ́yɛlɛsɛ:n: >> ɲɛ́yɛlɛsɛ:n:poule.pour.l'initiation [ɲɛ́yɛ̀lɛ:v:initier [ɲɛ́:n:oeil yɛ̀lɛ:v:ouvrir] sɛ̀:n:poule]
+
