@@ -123,7 +123,7 @@ class ParallelCorpusTestCase(unittest.TestCase):
 
     def parse_txt(self, filename):
         """Locate sentence tags in a bam/fra.txt file"""
-        sent_re = '(?P<starttag><s[ ]+n="(?P<id>[0-9]+)"\s*>)(.|\n(?!<s n=))*(?P<endtag></s>)'
+        sent_re = r'(?P<starttag><s[ ]+n="(?P<id>[0-9]+)"\s*>)(.|\n(?!<s n=))*(?P<endtag></s>)'
         infile = self.locate_file(filename)
         with open(infile, 'r') as txtfile:
             out = []
@@ -309,7 +309,7 @@ class ParallelCorpusTestCase(unittest.TestCase):
         self.assertTrue(list(self.corbamafara) == list(self.corfarabama), msg="ERROR: sequences of files are not aligned in corbamafara/corfarabama")
 
     def test_bam_fra2_filelists_aligned(self):
-        """Test that files go in the same order in corbamafara.vert and corfarabama.vert"""
+        """Test that files go in the same order in corbamafara.vert and corfarabama-ajuste.vert"""
         cbf = [f for f in list(self.corbamafara) if f in list(self.corfarabama_ajuste)]
         self.assertTrue(cbf == list(self.corfarabama_ajuste), msg="ERROR: sequences of files are not aligned in corbamafara/corfarabama-ajuste")
 
