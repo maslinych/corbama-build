@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-from __future__ import print_function
 import argparse
 import sys
 
@@ -10,19 +9,19 @@ def read_prls(filelist):
     ainc, binc = (-1, -1)
     amax, bmax = (0, 0)
     for f in filelist:
-        print(u"<doc={}>".format(f).encode('utf8'))
-        with open(f, 'r+') as prl:
+        print(u"<doc={}>".format(f))
+        with open(f, 'r') as prl:
             ainc = ainc + amax + 1
             binc = binc + bmax + 1
-            amax, bmax = (0, 0)
+            amax, bmax = (-1, -1)
             for line in prl:
-                pair = line.decode('utf-8-sig').strip().split('\t')
+                pair = line.strip().split('\t')
                 a, b = map(parse_align, pair)
                 amax, bmax = map(max, zip((amax, bmax), map(get_last, (a, b))))
                 astr = increment_align(a, ainc)
                 bstr = increment_align(b, binc)
                 yield (astr, bstr)
-                
+
 
 def parse_align(afield):
     try:
@@ -33,7 +32,7 @@ def parse_align(afield):
             numrange = [int(i) for i in afield.split(':')]
             return ('range', numrange)
         except ValueError:
-            sys.stderr.write(u"Malformed line: '{}', I'll skip it\n".format(afield).encode('utf-8'))
+            sys.stderr.write(u"Malformed line: '{}', I'll skip it\n".format(afield))
             return ('strange', afield)
 
 
@@ -66,7 +65,7 @@ def main():
     args = parse_arguments()
 
     for source, target in read_prls(args.infiles):
-        print('{0}\t{1}'.format(source, target).encode('utf-8'))
+        print('{0}\t{1}'.format(source, target))
 
 
 if __name__ == '__main__':

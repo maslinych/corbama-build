@@ -6,7 +6,7 @@ SRC=$(ROOT)/corbama
 vpath %.txt $(SRC)
 vpath %.html $(SRC)
 vpath %.dabased $(SRC)
-vpath %.prl $(SRC)
+vpath %.bam-fra.prl $(SRC)
 #
 # SETUP CREDENTIALS
 HOST=corpora
@@ -18,21 +18,23 @@ TESTPORT=8098
 PRODPORT=8099
 BUILT=built
 # UTILS
-#BAMADABA=$(ROOT)/bamadaba
-BAMADABA=$(ROOT)/corbama-build-dic
+BAMADABA=$(ROOT)/bamadaba
+#BAMADABA=$(ROOT)/corbama-build-dic
 PYTHON=PYTHONPATH=$(DABA) python
 PARSER=mparser -s apostrophe
-#daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
-daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba-disamb-syn.txt
+daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba.txt
+#daba2vert=$(PYTHON) $(DABA)/ad-hoc/daba2vert.py -v $(BAMADABA)/bamadaba-disamb-syn.txt
 #daba2align=mparser -N -f sentlist
 #daba2align=$(PYTHON) $(DABA)/ad-hoc/daba2align.py
 daba2align=daba2align
+daba2conllu=python scripts/daba2conllu.py
 #dabased=$(PYTHON) $(DABA)/dabased.py -v
 dabased=dabased -v
-# REPL=python ../repl/repl.py
+REPL=python ../repl/repl.py3
 # REPL=../repl/nuitka/repl.bin  - as of june 2021,python3 version is faster than nuitka c-compiled version by 10%
 # jan 2023 : latest version of repl is repl/repl.py3
-REPL=python3 ../repl3/repl.py3
+# REPL=python3 ../repl3/repl.py3
+repldeps=../repl/repl.py3 ../repl/REPL-STANDARD.txt
 RSYNC=rsync -avP --stats -e ssh
 gitsrc=git --git-dir=$(SRC)/.git/
 makelexicon=$(PYTHON) $(DABA)/ad-hoc/tt-make-lexicon.py
@@ -50,8 +52,9 @@ dabafiles := $(addprefix $(DABA),grammar.py formats.py mparser.py newmorph.py)
 # SOURCE FILELISTS
 gitfiles := $(shell $(gitsrc) ls-files)
 auxtxtfiles := freqlist.txt
-frafiles := $(filter %.fra.txt %.fra2.txt %.bam.txt, $(gitfiles))
-txtfiles := $(filter-out $(auxtxtfiles) $(frafiles),$(filter %.txt,$(gitfiles)))
+frafiles := $(filter %.fra.txt, $(gitfiles))
+bamtxtfiles := $(filter %.bam.txt, $(gitfiles))
+txtfiles := $(filter-out $(auxtxtfiles) $(frafiles) $(bamtxtfiles),$(filter %.txt,$(gitfiles)))
 htmlfiles := $(filter-out %.pars.html %.dis.html,$(filter %.html,$(gitfiles)))
 dishtmlfiles := $(filter %.dis.html,$(gitfiles))
 srchtmlfiles := $(filter-out $(dishtmlfiles:.dis.html=.html) $(dishtmlfiles:.dis.html=.old.html),$(htmlfiles))
@@ -65,17 +68,35 @@ netfiles := $(patsubst %.html,%,$(dishtmlfiles))
 brutfiles := $(netfiles) $(patsubst %.html,%,$(replfiles))
 # Parallel corpus
 prlfiles := $(filter %.bam-fra.prl,$(gitfiles))
-alignedbam = $(patsubst %.bam-fra.prl,%.non-tonal.vert,$(prlfiles))
-alignedfra = $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
-netfiles-fullpath := $(realpath $(patsubst %,$(SRC)/%.html,$(netfiles)))
+prlajuste-fra := $(filter %.fra2.txt,$(gitfiles))
+prlajuste-prl := $(patsubst %.fra2.txt,%.bam-fra2.prl,$(prlajuste-fra))
+ajustebam := $(patsubst %.fra2.txt,%.non-tonal.vert,$(prlajuste-fra))
+ajustefra := $(patsubst %.fra2.txt,%.fra2.vert,$(prlajuste-fra))
+alignedbam := $(patsubst %.bam-fra.prl,%.non-tonal.vert,$(prlfiles))
+alignedfra := $(patsubst %.bam-fra.prl,%.fra.vert,$(prlfiles))
+nonajustebam := $(filter-out $(prlajuste-prl),$(prlfiles:.bam-fra.prl=.bam-fra2.prl))
+corbamafara-files := $(alignedbam) $(filter-out $(alignedbam),$(ajustebam))
+corfarabama-files := $(alignedfra) $(filter-out $(alignedfra:.fra.vert=.fra2.vert),$(ajustefra))
+corfarabama-ajuste-files := $(ajustefra)
+corfarabama-prl := $(prlfiles) $(filter-out $(prlfiles:.bam-fra.prl=.bam-fra2.prl),$(prlajuste-prl))
+corfarabama-ajuste-prl := $(prlajuste-prl) $(nonajustebam)
+#prlfiles-full := $(prlajuste-prl) $(prlfiles)
+#prlfiles-ajuste := $(prlajuste-prl) $(patsubst %.bam-fra.prl,%.bam-fra2.prl,$(prlfiles))
+#netfiles-fullpath := $(realpath $(patsubst %,$(SRC)/%.html,$(netfiles)))
 # Lemmatizer files
 tkzfiles := $(addsuffix .tkz,$(basename $(parsefiles) $(parseoldfiles)))
+tokenfiles := $(tkzfiles:.tkz=.tokens)
+# Parallel files for testing alignment
+export bamtxtsources := $(corbamafara-files:.non-tonal.vert=.bam.txt)
+export fratxtsources := $(corfarabama-files:.vert=.txt)
+export fra2txtsources := $(corfarabama-ajuste-files:.vert=.txt)
 
 
 ## Corpora — main part
 corpbasename := corbama
 corpsite := corbama
 corpora := corbama-net-non-tonal corbama-net-tonal corbama-brut 
+corpora-prl := corbamafara corfarabama corfarabama-ajuste
 corpora-vert := $(addsuffix .vert, $(corpora))
 compiled := $(patsubst %,export/data/%/word.lex,$(corpora))
 ## Remote corpus installation data
@@ -83,14 +104,15 @@ corpsite-corbama := corbama
 corpora-corbama := corbama-net-non-tonal corbama-net-tonal corbama-brut
 ## Parallel subcorpus
 corpsite-corbama-prl := corbama
-corpora-corbama-prl := corbamafara corfarabama
+corpora-corbama-prl := corbamafara corfarabama corfarabama-ajuste
 
 
 include remote.mk
-include tests.mk
+include docker.mk
+#include tests.mk
 
 
-.PRECIOUS: $(parshtmlfiles) %.repl.html
+.PRECIOUS: $(parshtmlfiles) $(bamtxtfiles) %.repl.html
 
 .PHONY: %.list
 
@@ -103,6 +125,12 @@ print-%:
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
 
 %.pars.non-tonal.vert: %.pars.html
+	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
+
+%.bam.non-tonal.vert: %.pars.html
+	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
+
+%.non-tonal.vert: %.pars.html
 	$(daba2vert) "$<" --unique --convert --polisemy > "$@"
 
 %.pars.nul.vert: %.pars.html
@@ -119,7 +147,7 @@ print-%:
 
 
 %.dis.lemma.vert: %.dis.html %.dis.dbs
-	$(daba2vert) "$<" --unique --convert --canonical --conll --senttag "SENT" > "$@"
+	$(daba2vert) "$<" --tonal --unique --convert --canonical --senttag "SENT" --conll > "$@"
 
 %.dis.conll: %.dis.html %.dis.dbs
 	$(daba2vert) "$<" --unique --convert --canonical --conll --senttag "SENT" | \
@@ -129,10 +157,13 @@ print-%:
 	$(daba2vert) "$<" --unique --convert --canonical --conll --senttag "SENT" --tonal | \
 	awk -F"\t" -v OFS="\t" '/^<doc/ {print "#" " " $$0; next} /^</ && $$2 != "SENT" {next} {print $$1, $$3, $$2}' > "$@"
 
+%.dis.tonal.conllu: %.dis.html %.dis.dbs
+	$(daba2conllu) "$<" > "$@"
+
 %.dis.bam.txt: %.dis.html
 	$(daba2align) "$<" "$@"
 
-%.pars.bam.txt: %.pars.html
+%.pars.bam.txt: %.ppars.html
 	$(daba2align) "$<" "$@"
 
 %.vert: config/%
@@ -150,6 +181,9 @@ print-%:
 
 %.pars.html: %.txt $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
+
+%.ppars.html: %.bam.txt $(dictionaries) $(grammar) $(dabafiles)
+	$(PARSER) -i "$<" -o "$@" --sentlist
 
 %.old.tkz: %.old.txt
 	$(PARSER) -N -s bamlatinold -c -f "tokens" -i "$<" -o "$@"
@@ -169,6 +203,9 @@ print-%:
 %.old.tkz: %.old.html
 	$(PARSER) -N -s bamlatinold -c -f "tokens" -i "$<" -o "$@"
 
+%.tokens: %.tkz
+	cat $< | sed '1a\\n' | gawk 'BEGIN{RS=""} {for (i=1;i<=NF;i++) {printf "%s ", $$i}; printf "\n" }' > $@
+
 %.dis.pars.html: %.dis.html $(dictionaries) $(grammar) $(dabafiles) 
 	$(PARSER) -i "$<" -o "$@"
 
@@ -178,32 +215,43 @@ print-%:
 %.dis.pars.tonal.vert: %.dis.pars.html 
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
 
-%.repl.html: %.pars.html
+%.repl.html: %.pars.html $(repldeps)
 	$(REPL) "$*"
 
-%.old.repl.html: %.old.pars.html
+%.old.repl.html: %.old.pars.html $(repldeps)
 	$(REPL) "$*.old"
 
-%.repl.tonal.vert: %.dis.repl.html
+%.repl.tonal.vert: %.dis.repl.html $(repldeps)
 	$(daba2vert) "$<" --tonal --unique --convert --polisemy > "$@"
 
-%.repl.non-tonal.vert: %.old.repl.html
+%.repl.non-tonal.vert: %.old.repl.html $(repldeps)
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
-%.repl.non-tonal.vert: %.repl.html
+%.repl.non-tonal.vert: %.repl.html $(repldeps)
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
-%.repl.non-tonal.vert: %.dis.pars.html
+%.repl.non-tonal.vert: %.dis.pars.html $(repldeps)
 	$(daba2vert) "$<" --unique --convert --polisemy --debugfields > "$@"
 
 %.repl.diff: %.repl.non-tonal.vert %.dis.non-tonal.vert
 	diff -u $^ | python scripts/repldiff.py > "$@"
 
 %.fra.vert: %.fra.txt
-	cat $< | scripts/melt_it.sh > $@
+	python scripts/spacy-lemmatize-fr.py $< $@
+
+%.fra.vert: %.dis.fra.txt
+	python scripts/spacy-lemmatize-fr.py $< $@
+
+%.fra2.vert: %.fra2.txt
+	python scripts/spacy-lemmatize-fr.py $< $@
+
+%.bam-fra2.prl: %.fra2.txt
+	last=$$(sed -n 's,<s n="\([0-9]\+\).*,\1,p' $< | tail -1) ; echo "0:$$last	0:$$last" > $@
+
+%.bam-fra2.prl: %.bam.txt
+	last=$$(sed -n 's,<s n="\([0-9]\+\).*,\1,p' $< | tail -1) ; echo "0,$$last	-1" > $@
 
 %.dis.dbs: %.dis.html $(dabasedfiles)
-	touch $@
 	export lastcommit=$$($(gitsrc) log -n1 --pretty="%H" -- "$(<:$(SRC)/%=%)") ; \
 	for f in $(dabasedfiles); do \
 		export dabasedsha=$$(sha1sum $$f | cut -f1 -d" ") ; \
@@ -219,13 +267,14 @@ print-%:
 		echo "Already applied:" $< $$f ;\
 		test -z "$$applyed" && $(dabased) -s $$f $< && echo $$f $$dabasedsha $$lastcommit >> $@ ;\
 		done ; exit 0 
+	touch $@
 
 all: compile
 
 parse: $(parshtmlfiles)
 
-resources: $(dictionaries) $(grammar) $(dabafiles) 
-	rm -f run/* 
+resources: $(dictionaries) $(grammar) $(dabafiles)
+	rm -f run/*
 	$(PARSER) -n -g $(grammar) $(addprefix -d ,$(dictionaries))
 	touch $@
 
@@ -258,26 +307,45 @@ corbama-net-tonal.conll: $(addsuffix .tonal.conll,$(netfiles))
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 	@true
 
-corbama-brut.tkz: $(tkzfiles)
+corbama-net-tonal.lemma.vert: $(addsuffix .lemma.vert,$(netfiles)) 
+	cat $(sort $^) > $@
+
+corbama-net-tonal.conllu: $(addsuffix .tonal.conllu,$(netfiles)) 
+	cat $(sort $^) > $@
+
+corbama-brut.tokenized: $(tokenfiles)
 	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
 
-corbamafara.vert: $(alignedbam)
-	rm -f $@
-	echo "$(sort $^)" | tr ' ' '\n' | while read f ; do cat "$$f" >> $@ ; done
+corbamafara.vert: $(corbamafara-files)
+	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
+	sed -i '/<s>/N;s,<s>\s*\n</s>,<s>\n.\t.\t.\t.\t.\t.\t.\t.\t.\n</s>,' $@
+	@true
 
-corfarabama.vert: $(alignedfra)
-	rm -f $@
-	$(foreach f,$^,echo '<doc id="$(notdir $(f))">' >> $@ ; cat $(f) >> $@ ; echo "</doc>" >> $@ ;) 
+corfarabama.vert: $(corfarabama-files)
+	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
+	sed -i '/^<s /N;s,^<s\([^>]\+>\)\s*\n</s>,<s\1\n.\t.\t.\t.\t.\n</s>,' $@
+	@true
 
-corbama-bam-fra.prl: $(prlfiles)
-	python scripts/catprl.py $(sort $(prlfiles:%=$(SRC)/%)) > $@
+corfarabama-ajuste.vert: $(corfarabama-ajuste-files)
+	$(file >$@) $(foreach O,$(sort $^),$(file >>$@,$(file <$O)))
+	sed -i '/^<s /N;s,^<s\([^>]\+>\)\s*\n</s>,<s\1\n.\t.\t.\t.\t.\n</s>,' $@
+	@true
+
+corbama-bam-fra.prl: $(corfarabama-prl)
+	python scripts/catprl.py $(patsubst %.bam-fra.prl,$(SRC)/%.bam-fra.prl,$(sort $(corfarabama-prl))) > $@
 
 corbama-fra-bam.prl: corbama-bam-fra.prl
-	awk 'BEGIN{FS="\t";OFS="\t"}{print $$2, $$1}' corbama-bam-fra.prl > $@
+	awk 'BEGIN{FS="\t";OFS="\t"}{print $$2, $$1}' $< > $@
+
+corbama-bam-fra2.prl: $(corfarabama-ajuste-prl)
+	python scripts/catprl.py $(sort $^) > $@
+
+corbama-fra2-bam.prl: corbama-bam-fra2.prl
+	awk 'BEGIN{FS="\t";OFS="\t"}{print $$2, $$1}' $< > $@
 
 compile: $(corpora-vert)
 
-compile-prl: corbamafara.vert corfarabama.vert corbama-bam-fra.prl corbama-fra-bam.prl $(corpora-corbama-prl:%=export/data/%/word.lex) mkalign
+compile-prl: corbamafara.vert corfarabama.vert corfarabama-ajuste.vert corbama-bam-fra.prl corbama-fra-bam.prl corbama-bam-fra2.prl corbama-fra2-bam.prl
 
 reparse-net: $(addsuffix .pars.html,$(netfiles))
 
@@ -373,6 +441,12 @@ clean-duplicates:
 
 clean-pars:
 	find -name \*.pars.html -exec rm -f {} \;
+
+test: $(bamtxtfiles)
+	$(MAKE) -C tests
+
+test-parallel: $(bamtxtsources) $(fratxtsources) $(fra2txtsources) corbamafara.vert corfarabama.vert corfarabama-ajuste.vert corbama-bam-fra.prl corbama-bam-fra2.prl 
+	$(MAKE) -C tests 
 
 
 net-subparts:

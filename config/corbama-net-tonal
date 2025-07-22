@@ -2,7 +2,7 @@ PATH "/var/lib/manatee/data/corbama-net-tonal"
 VERTICAL "/var/lib/manatee/vert/corbama-net-tonal.vert"
 ENCODING "utf-8"
 LOCALE "bm_ML"
-LANGUAGE "Bambara"
+LANGUAGE "Corpus Bambara de Référence, désambigusé tonal"
 MAINTAINER "Kirill Maslinsky"
 INFO "Corpus Bambara de Reference (disambiguated subcorpus)"
 INFOHREF "http://cormand.huma-num.fr/"
@@ -55,6 +55,7 @@ STRUCTURE doc {
     ATTRIBUTE text_title
 }
 
+SIMPLEQUERY '[word="%s" | lemma="%s" | gloss="%s"]'
 STRUCTURE p
 STRUCTURE s 
 SHORTREF "=doc.id"

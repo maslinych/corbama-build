@@ -1,7 +1,7 @@
-PATH "./export/data/corbamafara"
-VERTICAL "./export/vert/corbamafara.vert"
+PATH "/var/lib/manatee/data/corbamafara"
+VERTICAL "/var/lib/manatee/vert/corbamafara.vert"
 ENCODING "utf-8"
-LANGUAGE "Bambara"
+LANGUAGE "Corpus parallèle bambara-français"
 LOCALE "bm_ML"
 MAINTAINER "Kirill Maslinsky"
 INFO "Corpus Bambara de Reference (parallel Bambara-French subcorpus, Bambara part)"
@@ -49,7 +49,6 @@ ATTRIBUTE tagstring {
 
 STRUCTURE doc {
     ATTRIBUTE id
-    ATTRIBUTE wordcount
 	ATTRIBUTE text_genre {
         MULTIVALUE yes
         MULTISEP ";"
@@ -72,8 +71,9 @@ STRUCTURE s
 SHORTREF "=doc.id,#"
 MAXCONTEXT 100
 MAXDETAIL 200
+SIMPLEQUERY '[word="%s" | lemma="%s" | gloss="%s"]'
 
 ALIGNSTRUCT "s"
-ALIGNED "corfarabama"
-ALIGNDEF "../corbama-fra-bam.prl"
+ALIGNED "corfarabama,corfarabama-ajuste"
+ALIGNDEF "/var/lib/manatee/vert/corbama-bam-fra.prl,/var/lib/manatee/vert/corbama-bam-fra2.prl"
 
