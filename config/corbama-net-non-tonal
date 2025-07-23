@@ -1,7 +1,7 @@
 PATH "/var/lib/manatee/data/corbama-net-non-tonal"
 VERTICAL "/var/lib/manatee/vert/corbama-net-non-tonal.vert"
 ENCODING "utf-8"
-LANGUAGE "Corpus Bambara de Référence, désambiguisé"
+LANGUAGE "Corpus Bambara de Référence, désambiguïsé"
 LOCALE "bm_ML"
 MAINTAINER "Kirill Maslinsky"
 INFO "Corpus Bambara de Reference (disambiguated subcorpus)"
